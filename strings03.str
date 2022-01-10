@@ -291,8 +291,10 @@ ABENTEURER AUSWÄHLEN
 Spieler %d
 <SYS_ACCEPT/> Starten
 Zurück <SYS_BACK/>
+<LOG_ACTION/> Mit Bots starten
 <SYS_SPECIAL/> Mit Bots starten
 SCHNELLAUSWAHL
+<LOG_ROPE/> Schnellauswahl
 <SYS_SPECIAL2/> Schnellauswahl
 <LOG_START/> drücken, um das Optionsmenü aufzurufen und dein Steuerungsschema zu ändern.
 Die Wände bewegen sich ...

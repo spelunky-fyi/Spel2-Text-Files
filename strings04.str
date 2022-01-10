@@ -291,8 +291,10 @@ ESCOGE AVENTURERO
 Jugador %d
 <SYS_ACCEPT/> Comenzar
 Volver <SYS_BACK/>
+<LOG_ACTION/> Comenzar con bots
 <SYS_SPECIAL/> Comenzar con bots
 SELECCIÓN RÁPIDA
+<LOG_ROPE/> Selección rápida
 <SYS_SPECIAL2/> Selección rápida
 Pulsa <LOG_START/> para acceder al menú Opciones y cambiar los controles.
 Las paredes se mueven...

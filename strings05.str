@@ -291,8 +291,10 @@ SELECCIONA AVENTURERO
 Jugador %d
 <SYS_ACCEPT/> Comenzar
 Regresar <SYS_BACK/>
+<LOG_ACTION/> Comenzar con bots
 <SYS_SPECIAL/> Comenzar con bots
 SELECCIÓN RÁPIDA
+<LOG_ROPE/> Selección Rápida
 <SYS_SPECIAL2/> Selección Rápida
 Presiona <LOG_START/> para ingresar al Menú de Opciones y cambiar tu esquema de control.
 Las paredes están cambiando...

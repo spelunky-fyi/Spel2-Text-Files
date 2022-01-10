@@ -291,8 +291,10 @@ SCEGLI IL TUO PERSONAGGIO
 Giocatore %d
 <SYS_ACCEPT/> Avvia
 Indietro <SYS_BACK/>
+<LOG_ACTION/> Inizia coi bot
 <SYS_SPECIAL/> Inizia coi bot
 SCELTA RAPIDA
+<LOG_ROPE/> Scelta rapida
 <SYS_SPECIAL2/> Scelta rapida
 Premi <LOG_START/> per accedere al menu Opzioni e modificare lo schema dei controlli.
 Le pareti si muovono...

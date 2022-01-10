@@ -291,8 +291,10 @@ TRIA L'AVENTURER
 Jugador %d
 <SYS_ACCEPT/> Començar
 Enrere <SYS_BACK/>
+<LOG_ACTION/> Començar amb bots
 <SYS_SPECIAL/> Començar amb bots
 SELECCIÓ RÀPIDA
+<LOG_ROPE/> Selecció ràpida
 <SYS_SPECIAL2/> Selecció ràpida
 Prem <LOG_START/> per accedir al menú Opcions i canviar la configuració dels controls.
 Les parets estan canviant...

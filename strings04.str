@@ -95,14 +95,18 @@ Partida con semilla
 Haz una partida donde la aleatoriedad será siempre la misma.
 ¡Juega al modo aventura para desbloquear las partidas con semilla!
 ¡Partidas con semilla desbloqueadas!
-Desafío diario
-Prueba el desafío de hoy. ¡Solo tendrás una oportunidad!
-Ya has intentado superar el desafío de hoy. ¡Inténtalo de nuevo mañana!
 Arena
 Lucha contra tus amigos o contra bots en esta arena letal.
 ########################################
 ## ONLINE OPTIONS                     ##
 ########################################
+Aventura online
+Empieza una aventura con amigos o con jugadores desconocidos.
+Desafío diario
+Prueba el desafío de hoy. ¡Solo tendrás una oportunidad!
+Ya has intentado superar el desafío de hoy. ¡Inténtalo de nuevo mañana!
+Arena personalizada
+Lucha con amigos online usando tus propios ajustes.
 Invitar
 <SYS_ACCEPT/> Listo
 <SYS_SPECIAL3/> Código
@@ -153,6 +157,7 @@ Reducir los efectos visuales puede mejorar el rendimiento.
 Alto
 Normal
 Bajo
+Overscan
 SONIDO
 Volumen de los efectos
 Ajusta el volumen de los efectos de sonido.
@@ -2324,7 +2329,7 @@ Mejor tiempo: %ls
 ########################################
 Denunciar
 Describe contenidos inapropiados o conductas ofensivas.
-Ver tarjeta de jugador
+<SYS_ACCEPT/> Ver tarjeta de jugador
 Comentarios
 Describe los errores que encuentres al jugar a Spelunky 2 o cualquier sugerencia.
 Para garantizar la integridad y autenticidad de la partida, se van a publicar datos. Si deseas solicitar su supresión, ponte en contacto con privacy@blitworks.com.

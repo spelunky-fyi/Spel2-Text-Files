@@ -95,14 +95,18 @@ Partie avec graine
 Faites une descente où les aspects aléatoires seront toujours les mêmes.
 Jouez en mode aventure pour débloquer les parties avec graine !
 Parties avec graine débloquées !
-Défi quotidien
-Essayez-vous au défi quotidien. Une seule tentative par jour !
-Vous avez déjà effectué le défi quotidien. Réessayez demain !
 Arène
 Affrontez vos amis ou des bots dans l'arène redoutable.
 ########################################
 ## ONLINE OPTIONS                     ##
 ########################################
+Aventure en ligne
+Commencer l'aventure avec des amis ou d'autres joueurs.
+Défi quotidien
+Essayez-vous au défi quotidien. Une seule tentative par jour !
+Vous avez déjà effectué le défi quotidien. Réessayez demain !
+Arène personnalisée
+Affrontez vos amis en ligne avec vos propres paramètres.
 Inviter
 <SYS_ACCEPT/> Prêt
 <SYS_SPECIAL3/> Code
@@ -153,6 +157,7 @@ Des effets visuels moins élevés pourront améliorer les performances.
 Haut
 Normal
 Bas
+Surbalayage
 AUDIO
 Volume des effets
 Définit le volume des effets sonores.
@@ -1143,7 +1148,7 @@ chauve-souris
 Le temps passe vite ! Je n'ai pas écrit dans ce journal depuis 15 ans ! Il s'est passé tant de choses depuis que je me suis échappé de la caverne d'Olmec avec son trésor.
 Tina et moi sommes désormais parents ! Notre fille s'appelle Ana. C'est une forte tête... et une exploratrice-née !
 Quand Ana eu 5 ans, j'ai commencé à faire des rêves étranges : je regardais la pleine lune par la fenêtre et j'y voyais le visage d'Olmec. J'ai essayé de les ignorer.
-Après tout, nous avons tous vu Olmec sombrer dans le lac de lave... \n\nNous n'avons pas rêvé !
+Après tout, nous avons tous vu Olmec sombrer dans le lac de lave...\n\nNous n'avons pas rêvé !
 Mais, la curiosité fut la plus forte. Avec l'aide de Colin, Tina et moi avons construit un vaisseau spatial capable de nous emmener sur la Lune.
 Ana veut nous accompagner, mais c'est un peu trop dangereux pour elle et je pense qu'elle devrait rester et terminer son année d'études. En plus, nous devrions être de retour en un rien de temps ! Nous nous faisons sûrement des idées...
 Les adieux furent difficiles.\n\nUne partie de moi aimerait qu'Ana soit avec nous... elle adore l'espace et nous lui avons toujours montré chaque nouveau dispositif du vaisseau. Au moins, elle a Monty pour lui tenir compagnie.
@@ -2324,7 +2329,7 @@ Meilleur temps : %ls
 ########################################
 Signaler
 Décrire le contenu inapproprié ou le comportement déplacé.
-Afficher la carte du joueur
+<SYS_ACCEPT/> Afficher la carte du joueur
 Remarque
 Décrire le bug ou la suggestion vis-à-vis de Spelunky 2 ?
 Les données permettant de garantir l'intégrité et l'authenticité de la partie seront rendues publiques, contactez privacy@blitworks.com pour les demandes de retrait.

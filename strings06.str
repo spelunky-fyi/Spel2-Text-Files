@@ -95,14 +95,18 @@ Partida amb llavor
 Fes una partida en què l'arbitrarietat serà sempre la mateixa.
 Juga al mode aventura per desbloquejar les partides amb llavor!
 Partides amb llavor desbloquejades!
-Repte diari
-Prova el repte d'avui. Només tens una oportunitat!
-Ja has provat el repte d'avui. Torna-ho a provar demà!
 Arena
 Enfronta't a amics o bots a l'Arena.
 ########################################
 ## ONLINE OPTIONS                     ##
 ########################################
+Aventura online
+Comença una aventura amb amics o jugadors desconeguts.
+Repte diari
+Prova el repte d'avui. Només tens una oportunitat!
+Ja has provat el repte d'avui. Torna-ho a provar demà!
+Arena a mida
+Lluita amb amics online fent servir els teus propis ajustaments.
 Convidar
 <SYS_ACCEPT/> Preparat
 <SYS_SPECIAL3/> Codi
@@ -153,6 +157,7 @@ Reduir els efectes visuals pot millorar el rendiment.
 Alt
 Normal
 Baix
+Overscan
 ÀUDIO
 Volum dels efectes
 Ajusta el volum dels efectes de so.
@@ -2324,7 +2329,7 @@ Millor temps: %ls
 ########################################
 Denúncia
 Descriu el contingut inapropiat o el comportament ofensiu.
-Mostra targeta de jugador
+<SYS_ACCEPT/> Mostra targeta de jugador
 Comentaris
 Descriu el problema o el suggeriment que voldries fer sobre Spelunky 2.
 Les dades per garantir la integritat i l'autenticitat de la partida seran públiques, escriu a privacy@blitworks.com per demanar-ne l'eliminació.

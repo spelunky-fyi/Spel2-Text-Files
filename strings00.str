@@ -95,14 +95,18 @@ Seeded Run
 Do a run where the randomness is tied to a set seed.
 Play Adventure Mode to unlock Seeded Runs!
 Seeded Runs unlocked!
-Daily Challenge
-Try today's daily challenge. You only get one shot!
-You've already attempted today's challenge. Try again tomorrow!
 Arena
 Battle against friends or bots in the deadly Arena.
 ########################################
 ## ONLINE OPTIONS                     ##
 ########################################
+Adventure Online
+Start an Adventure with friends or random players.
+Daily Challenge
+Try today's daily challenge. You only get one shot!
+You've already attempted today's challenge. Try again tomorrow!
+Custom Arena
+Battle friends online using your own custom settings.
 Invite
 <SYS_ACCEPT/> Ready
 <SYS_SPECIAL3/> Code
@@ -153,6 +157,7 @@ Lower VFX may improve performance.
 High
 Normal
 Low
+Overscan
 AUDIO
 SFX Volume
 Set the volume of sound effects.
@@ -2324,7 +2329,7 @@ Fastest Time: %ls
 ########################################
 Report
 Describe the inappropiate content or offensive behaviour.
-Show Gamercard
+<SYS_ACCEPT/> Show Gamercard
 Feedback
 Describe the bug or suggestion you have encountered while playing Spelunky 2
 Data to ensure integrity and authenticity of the run will be made public, contact privacy@blitworks.com for removal requests.

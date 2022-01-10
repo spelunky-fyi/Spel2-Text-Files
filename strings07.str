@@ -95,14 +95,18 @@ Partida com Semente
 Realize uma partida onde a aleatoriedade é sempre a mesma.
 Jogue o Modo Aventura para desbloquear as Partidas com Semente!
 Partidas com semente desbloqueadas!
-Desafio Diário
-Tente concluir o desafio diário de hoje. Você só tem uma chance!
-Você já tentou concluir o desafio de hoje. Tente de novo amanhã!
 Arena
 Lute contra amigos ou bots na Arena mortal.
 ########################################
 ## ONLINE OPTIONS                     ##
 ########################################
+Aventura Online
+Começa uma Aventura com amigos ou jogadores aleatórios.
+Desafio Diário
+Tente concluir o desafio diário de hoje. Você só tem uma chance!
+Você já tentou concluir o desafio de hoje. Tente de novo amanhã!
+Arena Personalizada
+Lute com amigos online usando as tuas próprias configurações.
 Convidar
 <SYS_ACCEPT/> Pronto
 <SYS_SPECIAL3/> Código
@@ -153,6 +157,7 @@ Diminuir os efeitos visuais poderia melhorar o desempenho.
 Alto
 Normal
 Baixo
+Overscan
 ÁUDIO
 Volume - SFX
 Defina o volume dos efeitos sonoros.
@@ -2324,7 +2329,7 @@ Tempo mais rápido: %ls
 ########################################
 Reportar
 Descreva o conteúdo inapropriado ou comportamento ofensivo.
-Ver cartão de jogador
+<SYS_ACCEPT/> Ver cartão de jogador
 Feedback
 Descreva o bug ou sugestão que você encontrou enquanto jogava Spelunky 2
 Dados que garantem a integridade e a autenticidade da partida serão públicos, entre em contato com privacy@blitworks.com para solicitações de remoção.

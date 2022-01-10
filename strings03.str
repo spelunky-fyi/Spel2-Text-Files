@@ -95,14 +95,18 @@ Setzplatz-Durchgang
 Mache einen Durchgang, bei dem die Zufälligkeit immer gleich bleibt.
 Spiele den Abenteuermodus, um Durchgänge mit Setzplätzen freizuschalten!
 Durchgänge mit Setzplätzen freigeschaltet!
-Tägliche Herausforderung
-Probiere die heutige tägliche Herausforderung. Du hast nur einen Versuch!
-Du hast die heutige Herausforderung bereits probiert. Versuche es morgen wieder!
 Arena
 Kämpfe in der tödlichen Arena gegen Freunde oder Bots.
 ########################################
 ## ONLINE OPTIONS                     ##
 ########################################
+Abenteuer Online
+Starte ein Abenteuer mit Freunden oder zufälligen Spielern.
+Tägliche Herausforderung
+Probiere die heutige tägliche Herausforderung. Du hast nur einen Versuch!
+Du hast die heutige Herausforderung bereits probiert. Versuche es morgen wieder!
+Benutzerdefinierte Arena
+Kämpfe mit deinen eigenen Einstellungen online gegen Freunde.
 Einladen
 <SYS_ACCEPT/> Bereit
 <SYS_SPECIAL3/> Code
@@ -153,6 +157,7 @@ Weniger visuelle Effekte können die Leistung verbessern.
 Hoch
 Normal
 Wenig
+Overscan
 AUDIO
 SFX-Lautstärke
 Lege die Lautstärke der Soundeffekte fest.
@@ -2324,7 +2329,7 @@ Schnellste Zeit: %ls
 ########################################
 Melden
 Beschreibe den unangemessenen Inhalt oder das beleidigende Verhalten.
-Spielerkarte anzeigen
+<SYS_ACCEPT/> Spielerkarte anzeigen
 Feedback
 Beschreibe den Fehler, der beim Spielen von Spelunky 2 aufgetreten ist, oder mache einen Vorschlag.
 Daten zur Sicherstellung der Integrität und Authentizität des Laufs werden öffentlich gemacht, kontaktiere privacy@blitworks.com für Löschungsanfragen.

@@ -95,14 +95,18 @@ Partita con seme
 Affronta una discesa in cui la casualità è sempre la stessa.
 Affronta la modalità Avventura per sbloccare le partite con seme!
 Partite con seme sbloccate!
-Sfida giornaliera
-Mettiti alla prova con la Sfida Giornaliera di oggi. Hai a disposizione un solo tentativo!
-Hai già affrontato la Sfida Giornaliera di oggi. Riprova domani!
 Arena
 Affronta gli amici o i bot nell'Arena.
 ########################################
 ## ONLINE OPTIONS                     ##
 ########################################
+Avventura Online
+Inizia un'avventura con amici o sconosciuti.
+Sfida giornaliera
+Mettiti alla prova con la Sfida Giornaliera di oggi. Hai a disposizione un solo tentativo!
+Hai già affrontato la Sfida Giornaliera di oggi. Riprova domani!
+Arena Personalizzata
+Sfida i tuoi amici online con le tue regole personalizzate.
 Invito
 <SYS_ACCEPT/> Pronti!
 <SYS_SPECIAL3/> Codice
@@ -153,6 +157,7 @@ Ridurre gli effetti grafici puó migliorare le prestazioni.
 Alto
 Normale
 Basso
+Overscan
 AUDIO
 Volume effetti
 Imposta il volume degli effetti audio.
@@ -2324,7 +2329,7 @@ Miglior tempo: %ls
 ########################################
 Segnala
 Descrivi i contenuti inappropriati o il comportamento offensivo.
-Mostra scheda giocatore
+<SYS_ACCEPT/> Mostra scheda giocatore
 Feedback
 Descrivi i tuoi suggerimenti o il bug che hai riscontrato mentre giocavi a Spelunky 2.
 I dati per garantire l'integrità e l'autenticità della partita saranno resi pubblici. Per eventuali richieste di rimozione, contattare privacy@blitworks.com.

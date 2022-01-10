@@ -139,7 +139,7 @@ Janela
 Brilho
 Defina o brilho da tela.
 Resplendores brilhantes
-Ativa ou desativa os resplendores brilhantes
+Defina a intensidade dos efeitos do flash brilhantes.
 Ativados
 Desativados
 Efeitos visuais
@@ -249,6 +249,8 @@ Bem curto
 Curto
 Médio
 Longo
+Opacidade
+Ajusta a opacidade dos diálogos.
 Texto descritivo de teste\nEsse é o texto de subdescrição
 Sensações do nível
 Alterne se as sensações do nível são exibidas.
@@ -2266,6 +2268,7 @@ Ali
 Bob
 Cosmo
 Darwin
+Ear
 Earl
 Frank
 Garth

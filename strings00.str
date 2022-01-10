@@ -139,7 +139,7 @@ Windowed
 Brightness
 Set the screen brightness.
 Bright Flashes
-Toggle bright flashes on and off. 
+Set the intensity of bright flash effects.
 On
 Off
 Visual Effects
@@ -249,6 +249,8 @@ Very Short
 Short
 Medium
 Long
+Text Box Opacity
+Set the opacity of text boxes.
 Testing description text\nThis is the subdescription text
 Level Feelings
 Toggle whether level feelings are displayed.
@@ -2266,6 +2268,7 @@ Ali
 Bob
 Cosmo
 Darwin
+Ear
 Earl
 Frank
 Garth

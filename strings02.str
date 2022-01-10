@@ -139,7 +139,7 @@ Finestra
 Luminosità
 Imposta la luminosità dello schermo.
 Luci lampeggianti
-Attiva/disattiva luci lampeggianti
+Imposta l'intensità delle luci lampeggianti.
 Attivi
 Disattivi
 Effetti grafici
@@ -249,6 +249,8 @@ Molto breve
 Breve
 Media
 Lunga
+Opacità
+Imposta l'opacità dei dialoghi.
 Prova testo descrittivo\nQuesto è il testo della descrizione secondaria
 Sensazioni livelli
 Visualizza/nascondi le sensazioni dei livelli
@@ -1716,7 +1718,7 @@ Hai vinto!
 Hai vinto un premio!
 Fermo, ladro!
 Teppista!
-baro!
+Baro!
 Wow, ti piace spendere! Mi ricorderò di te!
 # Buying an idol from the player:
 Sarò felice di togliertelo dalle mani!
@@ -2266,6 +2268,7 @@ Ali
 Bob
 Cosmo
 Darwin
+Ear
 Earl
 Frank
 Garth

@@ -139,7 +139,7 @@ Ventana
 Brillo
 Ajusta el brillo de la pantalla.
 Destellos brillantes
-Activa o desactiva los destellos brillantes.
+Ajusta la intensidad de los destellos brillantes.
 Activados
 Desactivados
 Efectos visuales
@@ -249,6 +249,8 @@ Muy breve
 Breve
 Normal
 Larga
+Opacidad
+Ajusta la opacidad de los diálogos.
 Prueba de texto descriptivo\nEste es el texto descriptivo secundario
 Sensaciones del nivel
 Indica si quieres que aparezcan o no sensaciones en los niveles.
@@ -2266,6 +2268,7 @@ Ali
 Bob
 Cosmo
 Darwin
+Ear
 Earl
 Frank
 Garth

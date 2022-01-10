@@ -139,7 +139,7 @@ Fenêtré
 Luminosité
 Définit la luminosité de l'écran.
 Flashs Lumineux
-Active/désactive les flashs lumineux.
+Définit l'intensité des effets de lumière.
 Activé
 Désactivé
 Effets visuels
@@ -242,13 +242,15 @@ Icônes des boutons
 Employer les icônes des boutons d'une plate-forme particulière.
 DIALOGUES
 Taille du texte
-Définit les dimensions du texte des dialogues
+Définit les dimensions du texte des dialogues.
 Durée
 Définit la durée pendant laquelle le texte des dialogues est affiché.
 Très courte
 Courte
 Moyenne
 Longue
+Opacité
+Définit l'opacité des dialogues.
 Test du texte de description\nVoici le texte de description
 Intuition du niveau
 Active/désactive l'affichage de l'intuition du niveau.
@@ -2266,6 +2268,7 @@ Ali
 Bob
 Cosmo
 Darwin
+Ear
 Earl
 Frank
 Garth

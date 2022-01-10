@@ -139,7 +139,7 @@ Ventana
 Brillo
 Establece el brillo de la pantalla.
 Destellos Brillantes
-Activa o desactiva los destellos brillantes.
+Establece la intensidad de los destellos brillantes.
 Activados
 Desactivados
 Efectos Visuales
@@ -249,6 +249,8 @@ Muy corto
 Corto
 Medio
 Prolongado
+Opacidad
+Establece la opacidad de los diálogos.
 Probando texto de descripción\nEste es el texto de subdescripción
 Sensaciones del Nivel
 Alterna si se muestran o no las sensaciones del nivel.
@@ -1089,7 +1091,7 @@ SIGO CAYENDO
 Aún no he llegado al fondo...
 ### Bad teleport
 ########################################
-PERDIDO
+FALLO
 ¡Me teletransporté a una pared!
 ### Poison
 ########################################
@@ -1097,7 +1099,7 @@ ENVENENADO
 Ay, mis entrañas...
 ### Alien
 ########################################
-INVESTIGADO
+ABDUCIDO
 Un extraterrestre me golpeó un poco fuerte.
 ### Alien Queen
 ########################################
@@ -1333,7 +1335,7 @@ GOLPEADO
 Un hombre tiki me golpeó hasta morir.
 ### UFO
 ########################################
-INVESTIGADO
+ABDUCIDO
 Un OVNI me mató.
 ### Vampire
 ########################################
@@ -2120,7 +2122,7 @@ Vaya. ¡¿Guy Spelunky?! Sabes que soy tu más grande admirador, ¿verdad?
 ########################################
 ¡Ey, cariño! ¿Necesitas un bocadillo?
 No puedo evitar preocuparme de que Ana esté aquí...
-¡Realmente eres linda... de alguna manera!
+¡Realmente eres lindo... de alguna manera!
 ¡Margaret, tu mamá me contó mucho sobre tus aventuras!
 ########################################
 #### Airyn to others
@@ -2155,7 +2157,7 @@ Nunca había conocido antes a un hombre dorado.
 #### Guy to others
 ########################################
 ¡Estoy tan orgulloso de ti, chico!
-¡Eso es raro!
+¡Esto es raro!
 Es difícil creer que todos estemos aquí juntos, Manny.
 ¡Hola, corazón! Qué loca es la vida, ¿verdad?
 Gracias por ayudar a Ana a llegar a salvo a la Luna. ¡Te debemos una!
@@ -2266,6 +2268,7 @@ Ali
 Bob
 Cosmo
 Darwin
+Ear
 Earl
 Frank
 Garth

@@ -139,7 +139,7 @@ Finestra
 Brillantor
 Ajusta la brillantor de la pantalla.
 Flaixos brillants
-Activa o desactiva els flaixos brillants.
+Ajusta la intensitat dels flaixos brillants.
 Activats
 Desactivats
 Efectes visuals
@@ -249,6 +249,8 @@ Molt curt
 Curt
 Mig
 Llarg
+Opacitat
+Ajusta la opacitat dels diàlegs.
 Prova del text de la descripció\nAquest és el text de la descripció secundària
 Sensacions del nivell
 Mostra o oculta les sensacions del nivell.
@@ -2266,6 +2268,7 @@ Ali
 Bob
 Cosmo
 Darwin
+Ear
 Earl
 Frank
 Garth

@@ -414,6 +414,16 @@ x1.25
 x1.50
 x1.75
 x2.00
+Whip Damage
+Set how much damage the whip does.
+0
+1
+2
+3
+4
+5
+10
+99
 Mount
 Choose whether players begin each round mounted.
 None
@@ -592,6 +602,7 @@ Killed By
 N/A
 You got the Journal!
 Journal Entry Added
+<LOG_SELECT/> Close Journal
 ########################################
 ## JOURNAL - PLACES                   ##
 ########################################

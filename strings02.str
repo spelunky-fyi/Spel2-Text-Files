@@ -414,6 +414,16 @@ x1.25
 x1.50
 x1.75
 x2.00
+Danno frusta
+Imposta il danno provocato dalla frusta
+0
+1
+2
+3
+4
+5
+10
+99
 Cavalcatura
 Scegli se i giocatori iniziano ogni round in sella.
 No
@@ -592,6 +602,7 @@ Morti
 N/D
 Hai il diario!
 Voce del diario aggiunta
+<LOG_SELECT/> Chiudi diario
 ########################################
 ## JOURNAL - PLACES                   ##
 ########################################

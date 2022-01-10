@@ -414,6 +414,16 @@ x1.25
 x1.50
 x1.75
 x2.00
+Dany del fuet
+Estableix la quantitat de dany que fa el fuet.
+0
+1
+2
+3
+4
+5
+10
+99
 Muntura
 Tria si els jugadors comencen cada ronda muntats.
 Cap
@@ -592,6 +602,7 @@ Eliminat per
 ND
 Tens el diari!
 S'ha afegit l'entrada al diari
+<LOG_SELECT/> Tancar Diari
 ########################################
 ## JOURNAL - PLACES                   ##
 ########################################

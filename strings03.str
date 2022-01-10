@@ -414,6 +414,16 @@ x1.25
 x1.50
 x1.75
 x2.00
+Peitschenschaden
+Lege fest, wie viel Schaden die Peitsche anrichtet.
+0
+1
+2
+3
+4
+5
+10
+99
 Reittier
 Wähle aus, ob Spieler jede Runde auf einem Reittier beginnen.
 Keine
@@ -592,6 +602,7 @@ Getötet durch
 N/A
 Du hast das Tagebuch erhalten!
 Tagebuch-Eintrag hinzugefügt
+<LOG_SELECT/> Schließen
 ########################################
 ## JOURNAL - PLACES                   ##
 ########################################

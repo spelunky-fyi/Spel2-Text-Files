@@ -414,6 +414,16 @@ x1.25
 x1.50
 x1.75
 x2.00
+Dégâts du fouet
+Régler les dégâts infligés par le fouet.
+0
+1
+2
+3
+4
+5
+10
+99
 Monture
 Définit si les joueurs commencent sur des montures.
 Aucun
@@ -592,6 +602,7 @@ Mort(s) causée(s)
 N/A
 Vous avez obtenu le journal !
 Notation ajoutée au journal
+<LOG_SELECT/> Fermer le journal
 ########################################
 ## JOURNAL - PLACES                   ##
 ########################################

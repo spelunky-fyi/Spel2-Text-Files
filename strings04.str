@@ -414,6 +414,16 @@ x1.25
 x1.50
 x1.75
 x2.00
+Daño del látigo
+Establece cuánto daño hace el látigo.
+0
+1
+2
+3
+4
+5
+10
+99
 Montura
 Indica si quieres que los jugadores empiecen cada ronda con una montura o no.
 No
@@ -592,6 +602,7 @@ Abatido por
 N/C
 ¡Tienes el diario!
 Entrada añadida al diario
+<LOG_SELECT/> Cerrar Diario
 ########################################
 ## JOURNAL - PLACES                   ##
 ########################################

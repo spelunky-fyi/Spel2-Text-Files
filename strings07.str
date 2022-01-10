@@ -414,6 +414,16 @@ x1.25
 x1.50
 x1.75
 x2.00
+Dano de chicote
+Defina quanto dano o chicote causa.
+0
+1
+2
+3
+4
+5
+10
+99
 Montaria
 Escolha se os jogadores começam com montarias.
 Nenhuma
@@ -592,6 +602,7 @@ Morto por
 N/A
 Você obteve o Diário!
 Registro adicionado ao diário
+<LOG_SELECT/> Fechar Diário
 ########################################
 ## JOURNAL - PLACES                   ##
 ########################################

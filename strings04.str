@@ -8,6 +8,7 @@ No
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
+<SYS_ACCEPT/> Aceptar
 <LOG_ACCEPT/> Continuar
 Continuar
 Cancelar
@@ -99,8 +100,11 @@ Lucha contra tus amigos o contra bots en esta arena letal.
 ########################################
 Invitar
 <SYS_ACCEPT/> Listo
-Pulsa <SYS_SPECIAL2/> para invitar
+<SYS_SPECIAL3/> Código
+<SYS_SPECIAL2/> Invitar                <SYS_SPECIAL3/> Código
 <SYS_SPECIAL/> Buscar
+Introducir código
+Tu código:
 ########################################
 ## OPTIONS                            ##
 ########################################
@@ -304,6 +308,7 @@ Cross-Play
 ## ENTER SEED SCREEN                  ##
 ########################################
 Introducir semilla
+<SYS_ACCEPT/> Seleccionar    <SYS_SPECIAL/> Eliminar
 <SYS_ACCEPT/> Seleccionar    <SYS_SPECIAL/> Eliminar    <SYS_SPECIAL2/> Aleatorio
 Semilla: %08X
 ########################################

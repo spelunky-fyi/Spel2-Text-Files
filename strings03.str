@@ -8,6 +8,7 @@ Nein
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
+<SYS_ACCEPT/> OK
 <LOG_ACCEPT/> Fortfahren
 Fortfahren
 Abbrechen
@@ -99,8 +100,11 @@ Kämpfe in der tödlichen Arena gegen Freunde oder Bots.
 ########################################
 Einladen
 <SYS_ACCEPT/> Bereit
-Drücke <SYS_SPECIAL2/> zum Einladen
+<SYS_SPECIAL3/> Code
+<SYS_SPECIAL2/> Einladen                <SYS_SPECIAL3/> Code
 <SYS_SPECIAL/> Suchen
+Code eingeben
+Dein Code:
 ########################################
 ## OPTIONS                            ##
 ########################################
@@ -304,6 +308,7 @@ Crossplay
 ## ENTER SEED SCREEN                  ##
 ########################################
 Setzplatz eingeben
+<SYS_ACCEPT/> Auswählen    <SYS_SPECIAL/> Löschen
 <SYS_ACCEPT/> Auswählen    <SYS_SPECIAL/> Löschen    <SYS_SPECIAL2/> Zufällig
 Setzplatz: %08X
 ########################################

@@ -8,6 +8,7 @@ No
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
+<SYS_ACCEPT/> OK
 <LOG_ACCEPT/> Continua
 Continua
 Annulla
@@ -99,8 +100,11 @@ Affronta gli amici o i bot nell'Arena.
 ########################################
 Invita
 <SYS_ACCEPT/> Pronti!
-Premi <SYS_SPECIAL2/> per invitare
-<SYS_SPECIAL/> Cercare
+<SYS_SPECIAL3/> Codice
+<SYS_SPECIAL2/> Invita                <SYS_SPECIAL3/> Codice
+<SYS_SPECIAL/> Cerca
+Inserisci il codice
+Il tuo codice:
 ########################################
 ## OPTIONS                            ##
 ########################################
@@ -304,6 +308,7 @@ Cross-play
 ## ENTER SEED SCREEN                  ##
 ########################################
 Introdurre seme
+<SYS_ACCEPT/> Seleziona    <SYS_SPECIAL/> Cancella
 <SYS_ACCEPT/> Seleziona    <SYS_SPECIAL/> Cancella    <SYS_SPECIAL2/> Casuale
 Seme: %08X
 ########################################

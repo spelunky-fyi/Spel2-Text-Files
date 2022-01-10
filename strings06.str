@@ -8,6 +8,7 @@ No
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
+<SYS_ACCEPT/> Acceptar
 <LOG_ACCEPT/> Continua
 Continua
 Cancel·la
@@ -99,8 +100,11 @@ Enfronta't a amics o bots a l'Arena.
 ########################################
 Convidar
 <SYS_ACCEPT/> Preparat
-Prem <SYS_SPECIAL2/> per convidar
+<SYS_SPECIAL3/> Codi
+<SYS_SPECIAL2/> Convidar                <SYS_SPECIAL3/> Codi
 <SYS_SPECIAL/> Cercar
+Introduir codi
+El teu codi:
 ########################################
 ## OPTIONS                            ##
 ########################################
@@ -304,6 +308,7 @@ Cross-Play
 ## ENTER SEED SCREEN                  ##
 ########################################
 Introduir llavor
+<SYS_ACCEPT/> Seleccionar    <SYS_SPECIAL/> Suprimir
 <SYS_ACCEPT/> Seleccionar    <SYS_SPECIAL/> Suprimir    <SYS_SPECIAL2/> Aleatori
 Llavor: %08X
 ########################################

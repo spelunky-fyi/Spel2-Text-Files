@@ -8,6 +8,7 @@ Não
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
+<SYS_ACCEPT/> OK
 <LOG_ACCEPT/> Continuar
 Continuar
 Cancelar
@@ -99,8 +100,11 @@ Lute contra amigos ou bots na Arena mortal.
 ########################################
 Convidar
 <SYS_ACCEPT/> Pronto
-Pressione <SYS_SPECIAL2/> para convidar
+<SYS_SPECIAL3/> Código
+<SYS_SPECIAL2/> Convidar                <SYS_SPECIAL3/> Código
 <SYS_SPECIAL/> Buscar
+Coloque o código
+Seu código:
 ########################################
 ## OPTIONS                            ##
 ########################################
@@ -304,6 +308,7 @@ Cross-Play
 ## ENTER SEED SCREEN                  ##
 ########################################
 Inserir Semente
+<SYS_ACCEPT/> Selecionar    <SYS_SPECIAL/> Apagar
 <SYS_ACCEPT/> Selecionar    <SYS_SPECIAL/> Apagar    <SYS_SPECIAL2/> Aleatório
 Semente: %08X
 ########################################

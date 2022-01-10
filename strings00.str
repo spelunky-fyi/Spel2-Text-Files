@@ -8,6 +8,7 @@ No
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
+<SYS_ACCEPT/> OK
 <LOG_ACCEPT/> Continue
 Continue
 Cancel
@@ -99,8 +100,11 @@ Battle against friends or bots in the deadly Arena.
 ########################################
 Invite
 <SYS_ACCEPT/> Ready
-Press <SYS_SPECIAL2/> to invite
+<SYS_SPECIAL3/> Code
+<SYS_SPECIAL2/> Invite                <SYS_SPECIAL3/> Code
 <SYS_SPECIAL/> Search
+Enter Code
+Your Code:
 ########################################
 ## OPTIONS                            ##
 ########################################
@@ -304,6 +308,7 @@ Cross-Play
 ## ENTER SEED SCREEN                  ##
 ########################################
 Enter Seed
+<SYS_ACCEPT/> Select    <SYS_SPECIAL/> Delete
 <SYS_ACCEPT/> Select    <SYS_SPECIAL/> Delete    <SYS_SPECIAL2/> Random
 Seed: %08X
 ########################################

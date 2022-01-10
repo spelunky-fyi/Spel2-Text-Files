@@ -8,6 +8,7 @@ Non
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
+<SYS_ACCEPT/> OK
 <LOG_ACCEPT/> Continuer
 Continuer
 Annuler
@@ -98,9 +99,12 @@ Affrontez vos amis ou des bots dans l'arène redoutable.
 ## ONLINE OPTIONS                     ##
 ########################################
 Inviter
-<SYS_ACCEPT/> prêt
-Appuyez sur <SYS_SPECIAL2/> pour inviter
+<SYS_ACCEPT/> Prêt
+<SYS_SPECIAL3/> Code
+<SYS_SPECIAL2/> Inviter                <SYS_SPECIAL3/> Code
 <SYS_SPECIAL/> Chercher
+Saisir le code
+Votre code :
 ########################################
 ## OPTIONS                            ##
 ########################################
@@ -304,6 +308,7 @@ Cross-Play
 ## ENTER SEED SCREEN                  ##
 ########################################
 Indiquer la graine
+<SYS_ACCEPT/> Sélectionner    <SYS_SPECIAL/> Supprimer
 <SYS_ACCEPT/> Sélectionner    <SYS_SPECIAL/> Supprimer    <SYS_SPECIAL2/> Aléatoire
 Graine : %08X
 ########################################
@@ -1069,31 +1074,31 @@ LONGUE CHUTE
 Je me suis brisé tous les os de mon corps.
 ### Pit
 ########################################
-TOMBÉE ÉTERNELLEMENT
+TOMBÉ ÉTERNELLEMENT
 Je n'ai pas encore touché le fond...
 ### Bad teleport
 ########################################
 RATÉ
-Je me suis téléportée droit dans un mur !
+Je me suis téléporté droit dans un mur !
 ### Poison
 ########################################
-EMPOISONÉE
+EMPOISONNÉ
 Oh, j'ai très mal au ventre...
 ### Alien
 ########################################
-SONDÉE
-Un extraterrestre m'a percutée un peu trop fort.
+SONDÉ
+Un extraterrestre m'a percuté un peu trop fort.
 ### Alien Queen
 ########################################
-LOBOTOMISÉE
+LOBOTOMISÉ
 La reine des extraterrestres m'a grillé la cervelle.
 ### Ammit
 ########################################
-DÉVORÉE
+DÉVORÉ
 Une Âmmout m'a fait mourir une deuxième fois.
 ### Anubis
 ########################################
-PURIFIÉE
+PURIFIÉ
 Anubis a arraché mon âme de sa prison de chair.
 ### Anubis 2
 ########################################
@@ -1101,15 +1106,15 @@ VENGEANCE
 Anubis a pris grand plaisir à m'effacer de l'au-delà.
 ### Apep
 ########################################
-ENGLOUTIE
+ENGLOUTI
 Le dieu serpent a fait de mon âme son quatre-heures.
 ### Bat
 ########################################
-MORDUE
-J'ai été grignotée à mort par une chauve-souris.
+MORDU
+J'ai été grignoté à mort par une chauve-souris.
 ### Bee
 ########################################
-PIQUÉE
+PIQUÉ
 Je dois être allergique aux abeilles...
 ### Cat Mummy
 ########################################
@@ -1117,139 +1122,139 @@ VILAIN MINET !
 Une chat-momie ne me portait pas dans son coeur.
 ### Caveman
 ########################################
-TABASSÉE
-Un homme des cavernes m'a battue à mort.
+TABASSÉ
+Un homme des cavernes m'a battu à mort.
 ### Caveman boss
 ########################################
-TABASSÉE
+TABASSÉ
 Porte-Épics m'a montré toute l'étendue de sa force primitive !
 ### Cobra
 ########################################
-MORDUE
+MORDU
 J'ai succombé au venin d'un cobra.
 ### Crab man
 ########################################
-PINCÉE
+PINCÉ
 Je n'ai pas réussi à percer la carapace d'un homme-crabe.
 ### Crocman
 ########################################
-DÉVORÉE
-Une homme-croco m'a croquée.
+DÉVORÉ
+Un homme-croco m'a croqué.
 ### Female Jiang-shi
 ########################################
-SAVATÉE
+SAVATÉ
 Une assassine jiangshi m'a brisé la nuque.
 ### Firebug
 ########################################
-BRÛLÉE
-Un pyréoptère m'a grillée vive.
+BRÛLÉ
+Un pyréoptère m'a grillé vif.
 ### Fire Frog
 ########################################
-APPLATIE
-Une pyrogrenouille m'a aplatie comme un nénuphar.
+APLATI
+Une pyrogrenouille m'a aplati comme un nénuphar.
 ### Fish
 ########################################
-APPÂTÉE
+APPÂTÉ
 Tel est pris qui croyait prendre...
 ### Frog
 ########################################
-APPLATIE
-Une grenouille m'a aplatie comme un nénuphar.
+APLATI
+Une grenouille m'a aplati comme un nénuphar.
 ### Ghost
 ########################################
-HANTÉE
+HANTÉ
 Où suis-je ? Je ne sens plus mon corps...
 ### Giant Clam
 ########################################
-APPÂTÉE
-Une palourde géante m'a écrasée.
+APPÂTÉ
+Une palourde géante m'a écrasé.
 ### Giant Fish
 ########################################
-ENGLOUTIE
+ENGLOUTI
 Le grand cétacéphale est temporairement rassasié.
 ### Giant Fly
 ########################################
 BEURK !
-Une mouche géante m'a dégoûtée... à mort !
+Une mouche géante m'a dégoûté... à mort !
 ### Giant Frog
 ########################################
-MORTE
-Une grenouille géante m'a trouvée agaçante.
+MORT
+Une grenouille géante m'a trouvé agaçant.
 ### Giant Spider
 ########################################
-MORDUE
-Une araignée géante m'a prise pour proie.
+MORDU
+Une araignée géante m'a pris pour proie.
 ### Grub
 ########################################
-INFESTÉE
+INFESTÉ
 Je sens toujours son grouillement sur ma peau ! BEURK !
 ### Hang Spdier
 ########################################
-MORDUE
+MORDU
 Une morsure d'araignée a eu raison de moi.
 ### Hermit Crab
 ########################################
-MORTE
+MORT
 Ce bernard-l'ermite était un pince-sans-rire.
 ### Horned Lizard
 ########################################
-MORTE
-Un lézard à cornes m'a achevée.
+MORT
+Un lézard à cornes m'a achevé.
 ### Hundun
 ########################################
 CHAOS ÉTERNEL
 J'ai succombé au rêve de Hundun.
 ### Imp
 ########################################
-MORTE
-Un diablotin m'a achevée.
+MORT
+Un diablotin m'a achevé.
 ### Jiang-shi
 ########################################
-SAVATÉE
+SAVATÉ
 Un jiangshi m'a sauté dessus.
 ### Lamassu
 ########################################
-PIÉTINÉE
+PIÉTINÉ
 Un lamassu a fait des claquettes sur ma carcasse.
 ### Lavamander
 ########################################
-CUITE
+CUIT
 J'ai servi de repas à une lavamandre.
 ### Magma man
 ########################################
-BRÛLÉE
+BRÛLÉ
 Un magman m'a fait fondre.
 ### Mantrap
 ########################################
-ENGLOUTIE
-J'ai été digérée par une anthrodionée.
+ENGLOUTI
+J'ai été digéré par une anthrodionée.
 ### Mega Jellyfish
 ########################################
-MÉDUSÉE
-Une méduse céleste m'a convertie en pure énergie.
+MÉDUSÉ
+Une méduse céleste m'a converti en pure énergie.
 ### Merchant
 ########################################
 VENGEANCE DE TUN
 Je n'aurais pas dû la mettre en rogne !
 ### Mole
 ########################################
-MORTE
+MORT
 Une taupe a creusé un tunnel à travers moi.
 ### Mosquito
 ########################################
-MORDUE
+MORDU
 Un moustique a aspiré jusqu'à la dernière goutte de mon sang.
 ### Mummy
 ########################################
-MORTE
+MORT
 J'ai fait les frais de la rancune millénaire d'un seigneur des tombeaux.
 ### Necromancer
 ########################################
-NÉCROMANCÉE
+NÉCROMANCÉ
 Je ne suis désormais plus qu'une marionnette de nécromancien.
 ### Octopush
 ########################################
-MORTE
+MORT
 Une pieuvre m'a donné huit raisons de me sentir mal.
 ### Olmec
 ########################################
@@ -1257,51 +1262,51 @@ MALÉDICTION D'OLMEC
 Olmec m'a montré qui était le boss.
 ### Olmite
 ########################################
-MORTE
+MORT
 Un olmite s'est montré bien plus cérébral que moi.
 ### Osiris
 ########################################
-JUGÉE
-Osiris m'a jugée indigne de le rejoindre dans l'au-delà.
+JUGÉ
+Osiris m'a jugé indigne de le rejoindre dans l'au-delà.
 ### Proto shopkeeper
 ########################################
-MORDILLÉE
+MORDILLÉ
 Ce proto-marchand est tout de même parvenu à me tuer !
 ### Queen Bee
 ########################################
-PIQUÉE
-Une reine des abeilles m'a condamnée à mort.
+PIQUÉ
+Une reine des abeilles m'a condamné à mort.
 ### Robot
 ########################################
-MORTE
+MORT
 Un robot a mis fin à mes jours sans la moindre émotion.
 ### Rockdog
 ########################################
-MORDUE
+MORDU
 Un rochet a visé ma jugulaire.
 ### Scorpion
 ########################################
-PIQUÉE
-Un scorpion m'a piquée à mort.
+PIQUÉ
+Un scorpion m'a piqué à mort.
 ### Shopkeeper
 ########################################
-TABASSÉE
+TABASSÉ
 Je n'aurais peut-être pas dû énerver ce marchand...
 ### Skeleton
 ########################################
-LACÉRÉE
-Un squelette m'a mise en pièces.
+LACÉRÉ
+Un squelette m'a mis en pièces.
 ### Snake
 ########################################
-MORDUE
-Un serpent m'a mordue.
+MORDU
+Un serpent m'a mordu.
 ### Sorceress
 ########################################
-ENSORCELÉE
-Une sorcière m'a terrassée avec un puissant sort.
+ENSORCELÉ
+Une sorcière m'a terrassé avec un puissant sort.
 ### Spider
 ########################################
-MORDUE
+MORDU
 Une morsure d'araignée a eu raison de moi.
 ### Tadpole
 ########################################
@@ -1309,35 +1314,35 @@ TÊTARD
 Il avait l'air si inoffensif... jusqu'à ce qu'il me zigouille !
 ### Tiamat
 ########################################
-REJETÉE
+REJETÉ
 Je n'ai pas su satisfaire les attentes de la Déesse-Mère.
 ### Tikiman
 ########################################
-TABASSÉE
-Un homme-tiki m'a battue à mort.
+TABASSÉ
+Un homme-tiki m'a battu à mort.
 ### UFO
 ########################################
-SONDÉE
-Un ovni m'a désintégrée.
+SONDÉ
+Un ovni m'a désintégré.
 ### Vampire
 ########################################
-MORDUE
+MORDU
 Mon humanité me quitte à cause de la morsure d'un vampire...
 ### Vlad
 ########################################
-MORDUE
+MORDU
 Mon humanité me quitte à cause de la morsure de Vlad...
 ### Witch Doctor
 ########################################
-MORTE
-Une homme-sorcier m'a liquidée.
+MORT
+Un homme-sorcier m'a liquidé.
 ### Witch Doctor Skull
 ########################################
-MORTE
+MORT
 J'ai succombé à la malédiction d'un homme-sorcier.
 ### Yeti
 ########################################
-MORTE
+MORT
 Un yéti s'est servi de moi comme d'un jouet.
 ### Yeti King
 ########################################
@@ -1349,103 +1354,103 @@ VIVE LA REINE !
 Je sers désormais d'écharpe à la reine yéti.
 ### Arrow
 ########################################
-TRANSPERCÉE
+TRANSPERCÉ
 Une flèche m'a perforé un organe vital.
 ### Big spear trap
 ########################################
-EMPALÉE
-Une lance géante m'a embrochée.
+EMPALÉ
+Une lance géante m'a embroché.
 ### Boulder
 ########################################
-ÉCRASÉE
+ÉCRASÉ
 Pierre qui roule amasse les aventuriers.
 ### Crush trap
 ########################################
-ÉCRASÉE
-Un piège écrasant m'a aplatie comme une crêpe.
+ÉCRASÉ
+Un piège écrasant m'a aplati comme une crêpe.
 ### Drill
 ########################################
-ÉCRASÉE
-J'ai été écrabouillée par la foreuse géante.
+ÉCRASÉ
+J'ai été écrabouillé par la foreuse géante.
 ### Elevator
 ########################################
-ÉCRASÉE
+ÉCRASÉ
 J'aurais dû faire attention où je mettais la tête !
 ### Explosion
 ########################################
-EXPLOSÉE
-Une explosion m'a soufflée au loin.
+EXPLOSÉ
+Une explosion m'a soufflé au loin.
 ### Laser trap
 ########################################
-FOUDROYÉE
-Un piège à laser m'a surprise.
+FOUDROYÉ
+Un piège à laser m'a surpris.
 ### Lava
 ########################################
-CARBONISÉE
-La lave m'a rendue grillée et bien croustillante.
+CARBONISÉ
+La lave m'a rendu grillé et bien croustillant.
 ### Lion trap
 ########################################
-PLANTÉE
-Un piège à lion m'a transpercée.
+PLANTÉ
+Un piège à lion m'a transpercé.
 ### Platform
 ########################################
-ÉCRASÉE
-J'ai été réduite en purée par une corniche instable.
+ÉCRASÉ
+J'ai été réduit en purée par une corniche instable.
 ### Powderkeg
 ########################################
-EXPLOSÉE
-Un tonneau de poudre m'a déchiquetée façon puzzle.
+EXPLOSÉ
+Un tonneau de poudre m'a déchiqueté façon puzzle.
 ### Pushblock
 ########################################
-ÉCRASÉE
-J'ai été aplatie par la chute d'un bloc de pierre.
+ÉCRASÉ
+J'ai été aplati par la chute d'un bloc de pierre.
 ### Sacrifice
 ########################################
-SACRIFIÉE
-J'ai été sacrifiée à Kali.
+SACRIFIÉ
+J'ai été sacrifié à Kali.
 ### Skull drop
 ########################################
 COUP DE BOULE
 Curieusement, mon crâne a été fendu par l'un de ses congénères.
 ### Sliding wall
 ########################################
-ÉCRASÉE
+ÉCRASÉ
 J'aurais dû faire attention où je mettais la tête !
 ### Bear trap
 ########################################
-HAPPÉE
-J'ai été piégée dans la gueule de la mort.
+HAPPÉ
+J'ai été piégé dans la gueule de la mort.
 ### Spark trap
 ########################################
-ÉLECTROCUTÉE
+ÉLECTROCUTÉ
 Un piège électrique m'a fait dresser les cheveux sur la tête.
 ### Spear trap
 ########################################
-PLANTÉE
-Un piège à épieu m'a embrochée.
+PLANTÉ
+Un piège à épieu m'a embroché.
 ### Spikeball
 ########################################
-ÉCRASÉE
-J'ai été écrabouillée par un boulet clouté.
+ÉCRASÉ
+J'ai été écrabouillé par un boulet clouté.
 ### Spikes
 ########################################
-EMPALÉE
-Je suis tombée sur des piques.
+EMPALÉ
+Je suis tombé sur des piques.
 ### Thorn vine
 ########################################
-CREVÉE
+CREVÉ
 Des épines acérées m'ont fait saigner à mort.
 ### Totem trap
 ########################################
-PILONNÉE
-Un piège à totem m'a laminée.
+PILONNÉ
+Un piège à totem m'a laminé.
 ### Wooden Log Trap
 ########################################
-ÉCRASÉE
+ÉCRASÉ
 J'ai été victime de ma propre avidité...
 ### Default
 ########################################
-MORTE
+MORT
 J'ai subi une fin prématurée.
 ### 3rd Run
 ########################################
@@ -1453,7 +1458,7 @@ HUM...
 Ça pourrait s'avérer plus difficile que prévu !
 ### 10th Run
 ########################################
-ET ENCORE MORTE !
+ET ENCORE MORT !
 Le bon côté, c'est que j'en apprends un peu plus à chaque fois !
 ### 100th Run
 ########################################
@@ -1462,7 +1467,7 @@ Quelle persistance admirable ! Je sais que je vais finir par y arriver !
 ### Furthest Run
 ########################################
 PROGRESSION
-Je ne suis jamais arrivée aussi loin !
+Je ne suis jamais arrivé aussi loin !
 ### High Score Run
 ########################################
 MEILLEUR SCORE
@@ -1473,8 +1478,8 @@ J'Y ÉTAIS PRESQUE
 J'étais à deux doigts d'atteindre la zone suivante... Peut-être la prochaine fois !
 ### CoG
 ########################################
-GILDED
-It's the most exquisite tomb in the Universe...
+DORÉ
+C'est la tombe la plus exquise de tout l'univers...
 ### Eggplant World
 ########################################
 LA VIE EN VIOLET
@@ -1485,7 +1490,7 @@ HUM...
 Ce n'est pas grave ! Il nous faut juste plus d'entraînement !
 ### Co-op 1-4 / 2-4 / 4-4
 ########################################
-NOUS Y ÉTIONS PRESQUE
+J'Y ÉTAIS PRESQUE
 Nous étions à deux doigts d'atteindre la zone suivante... Peut-être la prochaine fois !
 ### Co-op Area < 5
 ########################################
@@ -1497,7 +1502,7 @@ SUPER TRAVAIL D'ÉQUIPE
 Nous n'avons pas réussi, mais nous avons de quoi être fiers.
 ### Co-op 6-4
 ########################################
-NOUS Y ÉTIONS PRESQUE
+J'Y ÉTAIS PRESQUE
 Tiamat nous a vaincus ! Mais nous gagnerons la prochaine fois !
 ### Co-op Area < 7-4
 ########################################
@@ -1505,7 +1510,7 @@ INCROYABLE TRAVAIL D'ÉQUIPE
 On travaille ensemble comme si nos esprits étaient reliés !
 ### Co-op 7-4
 ########################################
-NOUS Y ÉTIONS PRESQUE
+J'Y ÉTAIS PRESQUE
 Le chaos a eu raison de nous. Mais ça valait le coup.
 ### Co-op Area > 7-4
 ########################################

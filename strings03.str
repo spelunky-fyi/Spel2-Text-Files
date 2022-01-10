@@ -199,6 +199,10 @@ Aus
 Wenig
 Mittel
 Hoch
+Helles Blitzlicht
+Helles Blitzlicht ein- und ausschalten.
+Ein
+Aus
 Sofortiger Neustart
 Eine Sofortiger-Neustart-Option zum Pause-Menü hinzufügen.
 Keine
@@ -1696,6 +1700,7 @@ Du gewinnst.
 Du gewinnst einen Preis!
 Halt, Dieb!
 Vandale!
+Cheater!
 Wow, du hast aber die Spendierhosen an! Ich werde dich nicht vergessen!
 # Buying an idol from the player:
 Ich nehme dir das gerne ab!
@@ -1801,6 +1806,7 @@ Ich spüre Gefahr jenseits dieser Tür.
 #### Thief
 ########################################
 Du bist gut ... aber bist du gut genug, um Madame Tusk zu bestehlen?
+Großer Bruder! Ich hätte nie gedacht, dich als Dieb zu erwischen...
 Schade. Ich war zuerst hier.
 Ich bin beeindruckt! Suche mich im Palast de Plaisir auf, wenn du wirklich reich werden willst ...
 Wenn du an den Lasern vorbeikommst, teile ich mit dir den Schatz.
@@ -1858,6 +1864,7 @@ Du hast mich nicht enttäuscht ... bis zum nächsten Mal ...
 ########################################
 Jeder König und jede Königin wird eines Tages ihre Krone verlieren ...
 Iss dein Gemüse!
+Ah, du bist hier, um die Sache zu beenden!
 Hier liegt die Kaiserin. Möge sie endlich Ruhe finden.
 ########################################
 ## BASE CAMP SHORTCUTS                ##

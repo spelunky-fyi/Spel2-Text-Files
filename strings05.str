@@ -199,6 +199,10 @@ Desactivado
 Bajo
 Medio
 Alto
+Destellos Brillantes
+Activa o desactiva los destellos brillantes.
+Activados
+Desactivados
 Reinicio Instantáneo
 Añade una opción de Reinicio Instantáneo al Menú de Pausa.
 Ninguno
@@ -1696,6 +1700,7 @@ Perdiste.
 ¡Ganaste un premio!
 ¡Detente, ladrón!
 ¡Vándalo!
+¡Tramposo!
 ¡Vaya, gastas en grande! ¡Te recordaré!
 # Buying an idol from the player:
 ¡Me alegra quitarte eso de tus manos!
@@ -1801,6 +1806,7 @@ Presiento peligro más allá de esa puerta.
 #### Thief
 ########################################
 Eres bueno... ¿pero eres lo suficientemente bueno para robarle a Madame Tusk?
+¡Hermano mayor! Nunca pensé que te atraparía robando...
 Qué mal. Yo llegué aquí primero.
 ¡Qué impresionante! Reúnete conmigo en el Palacio del Placer si realmente deseas hacerte rico...
 Si logras pasar los láseres, dividiré el tesoro contigo.
@@ -1856,8 +1862,9 @@ No me decepcionaste... hasta la próxima...
 ########################################
 #### Yama
 ########################################
-Tarde o temprano, todo rey o reina perderá su corona...
+Tarde o temprano, todo rey y reina perderá su corona...
 ¡Come tus verduras!
+¡Ah! ¡Has venido a terminar el trabajo!
 Aquí yace la Emperatriz. Que finalmente encuentre la paz.
 ########################################
 ## BASE CAMP SHORTCUTS                ##

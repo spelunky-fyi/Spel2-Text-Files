@@ -199,6 +199,10 @@ Désactivé
 Bas
 Moyen
 Haut
+Flashs Lumineux
+Active/désactive les flashs lumineux.
+Activé
+Désactivé
 Redémarrage instantané
 Ajoute une option Redémarrage instantané au menu de pause.
 Aucun
@@ -1696,6 +1700,7 @@ Gagné !
 Vous avez gagné un lot !
 Halte ! Au voleur !
 Vandale !
+Tricheur !
 Vous ne regardez pas à la dépense ! Je ne suis pas près de vous oublier !
 # Buying an idol from the player:
 C'est un plaisir de vous débarrasser de ça !
@@ -1801,6 +1806,7 @@ Je sens qu'un danger nous guette derrière cette porte.
 #### Thief
 ########################################
 Pas mal... mais serez-vous à la hauteur pour voler Madame Tusk ?
+Grand frère ! Je n'aurais jamais pensé que tu volerais...
 Dommage. J'étais ici en premier.
 Impressionnant ! Retrouvez-moi au Palais des plaisirs, si vous voulez vraiment devenir riche...
 Si vous franchissez les lasers, je partagerai le trésor avec vous.
@@ -1858,6 +1864,7 @@ Ce n'est pas si grave... À la prochaine...
 ########################################
 Tout souverain finit par perdre sa couronne...
 Mangez vos légumes !
+Ah, tu es venue finir le travail !
 Ici repose l'impératrice. Puisse-t-elle enfin trouver la paix.
 ########################################
 ## BASE CAMP SHORTCUTS                ##

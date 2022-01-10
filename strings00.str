@@ -125,7 +125,7 @@ Large
 GRAPHICS
 Resolution
 Set the resolution.
-Resolution scale
+Resolution Scale
 Change the internal resolution of the game.
 Display Mode
 Set the display mode.
@@ -199,6 +199,10 @@ Off
 Low
 Medium
 High
+Bright Flashes
+Toggle bright flashes on and off. 
+On
+Off
 Instant Restart
 Add an Instant Restart option to the Pause Menu.
 None
@@ -1696,6 +1700,7 @@ You win!
 You win a prize!
 Stop, thief!
 Vandal!
+Cheater!
 Wow, big spender! I'll remember you!
 # Buying an idol from the player:
 I'm happy to take that off your hands!
@@ -1801,6 +1806,7 @@ I sense danger beyond that door.
 #### Thief
 ########################################
 You're good... but are you good enough to steal from Madame Tusk?
+Big brother! I never thought I'd catch you thieving...
 Too bad. I got here first.
 I'm impressed! Meet me at the Palace of Pleasure if you really want to get rich...
 If you get past the lasers, I'll split the treasure with you.
@@ -1856,8 +1862,9 @@ You didn't disappoint me... until next time...
 ########################################
 #### Yama
 ########################################
-Every king or queen will someday lose their crown...
+Every king and queen will someday lose their crown...
 Eat your vegetables!
+Ah, you came to finish the job!
 Here lies the Empress. May she finally find peace.
 ########################################
 ## BASE CAMP SHORTCUTS                ##

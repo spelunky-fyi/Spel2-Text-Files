@@ -199,6 +199,10 @@ Des.
 Baixo
 Médio
 Alto
+Resplendores brilhantes
+Ativa ou desativa os resplendores brilhantes
+Ativados
+Desativados
 Reinício instantâneo
 Adicione a opção Reinício instantâneo no menu Pausa.
 Nenhum
@@ -1696,6 +1700,7 @@ Você ganhou!
 Você ganhou um prêmio!
 Pare, ladrão!
 Vândalo!
+Trapaceiro!
 Nossa, que gastadora! Vou lembrar de você!
 # Buying an idol from the player:
 Fico feliz de te ajudar com essa!
@@ -1801,6 +1806,7 @@ Sinto perigo além daquela porta.
 #### Thief
 ########################################
 Você é boa... mas é boa o suficiente para roubar da Madame Tusk?
+Irmao mais velho! Nunca pensei que te pegaria roubando...
 Que pena. Cheguei primeiro.
 Impressionante! Me encontre no Palácio do Prazer se realmente quiser ficar rica...
 Se passar pelos lasers, eu divido o tesouro com você.
@@ -1856,8 +1862,9 @@ Você não me decepcionou... até a próxima...
 ########################################
 #### Yama
 ########################################
-Todo rei ou rainha um dia perde a coroa...
+Todo rei e rainha um dia perde a coroa...
 Coma vegetais!
+Ah! Você veio para terminar o trabalho!
 Aqui jaz a Imperatriz. Que ela finalmente descanse em paz.
 ########################################
 ## BASE CAMP SHORTCUTS                ##

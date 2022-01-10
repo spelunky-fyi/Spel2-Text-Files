@@ -199,6 +199,10 @@ Disattivo
 Basso
 Medio
 Alto
+Luci lampeggianti
+Attiva/disattiva luci lampeggianti
+Attivi
+Disattivi
 Riavvio immediato
 Aggiungi l'opzione Riavvio immediato al menu Pausa.
 Nessuno
@@ -1696,6 +1700,7 @@ Hai vinto!
 Hai vinto un premio!
 Fermo, ladro!
 Teppista!
+baro!
 Wow, ti piace spendere! Mi ricorderò di te!
 # Buying an idol from the player:
 Sarò felice di togliertelo dalle mani!
@@ -1801,6 +1806,7 @@ Sento del pericolo dietro quella porta.
 #### Thief
 ########################################
 Te la cavi... ma sarai in grado di derubare Madame Tusk?
+Fratellone! Non avrei mai immaginato di beccarti rubando...
 Peccato, sono arrivata prima io.
 Notevole! Se vuoi davvero arricchirti, vediamoci al Palazzo dei Piaceri.
 Se riesci a superare i laser, divido il tesoro con te.
@@ -1858,6 +1864,7 @@ Non mi hai delusa... Alla prossima.
 ########################################
 Prima o poi, ogni re e regina perde la corona.
 Mangia le verdure!
+Ah! Sei venuto per finire il lavoretto!
 Qui giace l'imperatrice. Che possa finalmente trovare pace.
 ########################################
 ## BASE CAMP SHORTCUTS                ##

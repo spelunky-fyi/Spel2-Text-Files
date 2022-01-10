@@ -199,6 +199,10 @@ Desactivado
 Bajo
 Medio
 Alto
+Destellos brillantes
+Activa o desactiva los destellos brillantes.
+Activados
+Desactivados
 Reinicio instantáneo
 Añade una opción de reinicio instantáneo al menú de pausa.
 Ninguno
@@ -1696,6 +1700,7 @@ Has perdido.
 ¡Te llevas un premio!
 Alto, ¡que me roban!
 ¡Vándalo!
+¡Tramposo!
 ¡Hala, cuánto te has gastado! ¡Me acordaré de ti!
 # Buying an idol from the player:
 ¡Un placer quitarte eso de las manos!
@@ -1801,6 +1806,7 @@ Percibo peligro al otro lado de esa puerta.
 #### Thief
 ########################################
 Veo que controlas... pero ¿controlas lo suficiente como para robarle a madame Tusk?
+¡Hermano mayor! Nunca pensé que te pilaría robando...
 Lástima. Yo he llegado primero.
 ¡Me has impresionado! Si quieres nadar en dinero, ven a verme al Palacio del Placer...
 Si consigues cruzar esos láseres, te daré la mitad del tesoro.
@@ -1858,6 +1864,7 @@ No me has decepcionado... Hasta la próxima...
 ########################################
 Todos los reyes y las reinas están destinados a perder su corona algún día...
 ¡Cómete las verduras!
+¡Ah! ¡Has venido a rematar la faena!
 Aquí yace la emperatriz. Que por fin encuentre la paz.
 ########################################
 ## BASE CAMP SHORTCUTS                ##

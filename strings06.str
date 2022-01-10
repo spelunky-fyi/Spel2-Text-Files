@@ -199,6 +199,10 @@ Desactivat
 Baix
 Mitjà
 Alt
+Flaixos brillants
+Activa o desactiva els flaixos brillants.
+Activats
+Desactivats
 Reinici instantani
 Afegeix l'opció de Reinici instantani al menú de pausa.
 Cap
@@ -1696,6 +1700,7 @@ Has guanyat!
 Has guanyat un premi!
 Alto, lladre!
 Vàndal!
+Trampós!
 Ostres, t'agrada gastar! Me'n recordaré de tu!
 # Buying an idol from the player:
 Un plaer treure't això de les mans!
@@ -1801,6 +1806,7 @@ Noto perill darrere d'aquella porta.
 #### Thief
 ########################################
 Ho fas bé... Però tan bé com per robar a Madame Tusk?
+Germà gran! Mai hauria pensat que t'enxamparia robant...
 Una llàstima. Jo vaig arribar primer.
 M'has impressionat. Vine'm a veure al Palau del plaer si realment vols ser rica...
 Si passes els làsers, repartiré el tresor amb tu.
@@ -1858,6 +1864,7 @@ No m'has decebut... Fins la propera...
 ########################################
 Tots els reis i les reines acaben perdent la corona...
 Menja't la verdura!
+Ah! Has tornat per rematar la feina!
 Aquí dorm l'emperadriu. Descansi en pau.
 ########################################
 ## BASE CAMP SHORTCUTS                ##

@@ -454,8 +454,8 @@ cc00000000
 
 \!flip
 \!dual
-00001ccccc 1111cccccc
-000001c00c cccccc000c
+00000ccccc 1111cccccc
+000011c00c cccccc000c
 00000000Dc cyycc000Dc
 000001cccc 000yc0cccc
 00cc0011c1 0000y0yyyy

@@ -8,7 +8,7 @@ No
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
-<LOG_JUMP/> Continua
+<LOG_ACCEPT/> Continua
 Continua
 Cancel·la
 Reiniciar
@@ -263,8 +263,15 @@ Reiniciar diari
 Reiniciar dreceres
 Reiniciar personatges desbloquejats
 Reiniciar perfil del jugador
-Reiniciar els temps
+Reiniciar els temps i les victòries
 Reiniciar tota la partida
+Això reiniciarà totes les entrades del diari excepte les dels personatges desbloquejats.
+Això reiniciarà totes les dreceres.
+Això reiniciarà tots els personatges desbloquejats i s'esborraran les seves entrades al diari.
+Això reiniciarà el perfil del jugador.
+Això reiniciarà el temps mig, el millor temps i les victòries del perfil del jugador.
+Això reiniciarà tota la teva partida.
+El Campament podria veure's afectat.
 Estàs segur? Aquesta acció no es pot desfer.
 #### Credits
 ########################################
@@ -494,7 +501,7 @@ PASSIONS
 SELECCIÓ D'ARENA
 Tria l'arena següent per competir-hi!
 Torn del jugador %d
-<LOG_JUMP/> Lluita!
+<LOG_ACCEPT/> Lluita!
 OBJECTES DE L'ARENA
 Objecte de nivell
 Potenciador
@@ -514,7 +521,7 @@ Especial
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
-<LOG_JUMP/> ACCEPTAR
+<LOG_ACCEPT/> ACCEPTAR
 PREPARAT!
 GUANYA EL JUGADOR 1!
 GUANYA EL JUGADOR 2!
@@ -525,12 +532,12 @@ GUANYA L'EQUIP 2!
 GUANYA L'EQUIP 3!
 GUANYA L'EQUIP 4!
 EMPAT!
-<LOG_JUMP/> Següent!
+<LOG_ACCEPT/> Següent!
 ########################################
 ## TEAM SELECTION                     ##
 ########################################
 SELECCIÓ D'EQUIPS
-<LOG_JUMP/> Començar
+<LOG_ACCEPT/> Començar
 ########################################
 ## PRE-MATCH HYPE                     ##
 ########################################
@@ -556,9 +563,9 @@ Torna a l'inici
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
-El comandament del jugador %d s'ha desconnectat. Torna a connectar el comandament o connecta'n un de nou i prem <LOG_JUMP/> per continuar.
-<LOG_BOMB/> Torna a la pantalla principal
-<LOG_BOMB/> Torna al menú principal
+El comandament del jugador %d s'ha desconnectat. Torna a connectar el comandament o connecta'n un de nou i prem <LOG_ACCEPT/> per continuar.
+<LOG_CANCEL/> Torna a la pantalla principal
+<LOG_CANCEL/> Torna al menú principal
 ########################################
 ## JOURNAL MENU                       ##
 ########################################
@@ -2229,4 +2236,67 @@ Aquest tauler de classificació no està disponible en aquests moments, torna m�
 ########################################
 Puntuació final:
 Temps total:
+########################################
+#### Shopkeepers' names
+########################################
+Ali
+Bob
+Cosmo
+Darwin
+Ear
+Frank
+Garth
+Hakim
+Iggy
+Ivan
+Jimbo
+Kinni
+Lou
+Micky
+Nacho
+Omar
+Pancho
+Quincy
+Ron
+Sparky
+Tarn
+Ulf
+Vern
+Wang
+Willy
+Xander
+Yoshi
+Ziggy
+########################################
+#### Hired hands' names
+########################################
+Atlas
+Barca
+Clovis
+Dunder
+Eirik
+Fink
+Grom
+Ham
+Ivan
+Javi
+Kevin
+Lurch
+Manfred
+Nurdle
+Onyx
+Pork
+Quincy
+Raster
+Steve
+Thundar
+Ug
+Voxel
+Wolf
+Xorn
+Yor
+Zorgoth
+########################################
+#### Others
+########################################
 The demo has ended.\nThanks for playing!

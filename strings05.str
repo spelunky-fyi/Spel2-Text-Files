@@ -8,7 +8,7 @@ No
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
-<LOG_JUMP/> Continuar
+<LOG_ACCEPT/> Continuar
 Continuar
 Cancelar
 Resetear
@@ -263,8 +263,15 @@ Resetear diario
 Resetear atajos
 Resetear personajes desbloqueados
 Resetear perfil del jugador
-Resetear tiempos
+Resetear tiempos y victorias
 Resetear toda la partida
+Esto reseteará todas las entradas del diario excepto las de los personajes desbloqueados.
+Esto reseteará todos los atajos.
+Esto bloqueará los personajes desbloqueados y borrará sus entradas del diario.
+Esto reseteará el perfil del jugador.
+Esto reseteará el tiempo promedio, el mejor tiempo y las victorias del perfil del jugador.
+Esto reseteará toda tu partida.
+El Campamento podría verse afectado.
 ¿Estás seguro? Esta acción no puede deshacerse.
 #### Credits
 ########################################
@@ -494,7 +501,7 @@ PASIONES
 SELECCIONAR ARENA
 ¡Selecciona la siguiente arena para competir!
 Turno del Jugador %d
-<LOG_JUMP/> ¡A Pelear!
+<LOG_ACCEPT/> ¡A Pelear!
 OBJETOS EN LA ARENA
 Objeto de Nivel
 Potenciador
@@ -514,7 +521,7 @@ Especial
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
-<LOG_JUMP/> ACEPTAR
+<LOG_ACCEPT/> ACEPTAR
 ¡LISTO!
 ¡EL JUGADOR 1 GANA!
 ¡EL JUGADOR 2 GANA!
@@ -525,12 +532,12 @@ Especial
 ¡EL EQUIPO 3 GANA!
 ¡EL EQUIPO 4 GANA!
 ¡EMPATE!
-<LOG_JUMP/> ¡Siguiente!
+<LOG_ACCEPT/> ¡Siguiente!
 ########################################
 ## TEAM SELECTION                     ##
 ########################################
 SELECCIONA EQUIPOS
-<LOG_JUMP/> Comenzar
+<LOG_ACCEPT/> Comenzar
 ########################################
 ## PRE-MATCH HYPE                     ##
 ########################################
@@ -556,9 +563,9 @@ Salir al Título
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
-El mando del jugador %d se ha desconectado. Vuelve a conectar el mando o conecta uno nuevo y presiona <LOG_JUMP/> para continuar.
-<LOG_BOMB/> Regresar a la pantalla del título
-<LOG_BOMB/> Regresar al menú principal
+El mando del jugador %d se ha desconectado. Vuelve a conectar el mando o conecta uno nuevo y presiona <LOG_ACCEPT/> para continuar.
+<LOG_CANCEL/> Regresar a la pantalla del título
+<LOG_CANCEL/> Regresar al menú principal
 ########################################
 ## JOURNAL MENU                       ##
 ########################################
@@ -2229,4 +2236,67 @@ Este mercador no está disponible actualmente, regresa más tarde.
 ########################################
 Puntuación Final:
 Tiempo Total:
+########################################
+#### Shopkeepers' names
+########################################
+Ali
+Bob
+Cosmo
+Darwin
+Ear
+Frank
+Garth
+Hakim
+Iggy
+Ivan
+Jimbo
+Kinni
+Lou
+Micky
+Nacho
+Omar
+Pancho
+Quincy
+Ron
+Sparky
+Tarn
+Ulf
+Vern
+Wang
+Willy
+Xander
+Yoshi
+Ziggy
+########################################
+#### Hired hands' names
+########################################
+Atlas
+Barca
+Clovis
+Dunder
+Eirik
+Fink
+Grom
+Ham
+Ivan
+Javi
+Kevin
+Lurch
+Manfred
+Nurdle
+Onyx
+Pork
+Quincy
+Raster
+Steve
+Thundar
+Ug
+Voxel
+Wolf
+Xorn
+Yor
+Zorgoth
+########################################
+#### Others
+########################################
 The demo has ended.\nThanks for playing!

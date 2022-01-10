@@ -8,7 +8,7 @@ Non
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
-<LOG_JUMP/> Continuer
+<LOG_ACCEPT/> Continuer
 Continuer
 Annuler
 Réinitialiser
@@ -263,8 +263,15 @@ Réinitialiser le journal
 Réinitialiser les raccourcis
 Réinitialiser les personnages débloqués
 Réinitialiser le profil de joueur
-Réinitialiser les temps
+Réinitialiser les temps et les victoires
 Réinitialiser toutes les données sauvegardées
+Cela réinitialisera toutes les notations du journal excepté les personnages débloqués.
+Cela réinitialisera tous les raccourcis.
+Cela verrouillera tous les personnages débloqués et supprimera leurs notations du journal.
+Cela réinitialisera le profil du joueur.
+Cela réinitialisera le temps moyen, le meilleur temps ainsi que les victoires dans le profil du joueur.
+Cela réinitialisera toutes les données sauvegardées.
+Le foyer au camp peut également être affecté.
 Êtes-vous sûr(e) ? Cette action est irréversible.
 #### Credits
 ########################################
@@ -494,7 +501,7 @@ PASSIONS
 CHOIX DE L'ARÈNE
 Choisissez la prochaine arène dans laquelle s'affronter !
 Tour du joueur %d
-<LOG_JUMP/> C'est parti !
+<LOG_ACCEPT/> C'est parti !
 OBJETS DE L'ARÈNE
 Objet de niveau
 Power-Up
@@ -514,7 +521,7 @@ Spécial
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
-<LOG_JUMP/> OK
+<LOG_ACCEPT/> OK
 PRÊT !
 VICTOIRE DU JOUEUR 1 !
 VICTOIRE DU JOUEUR 2 !
@@ -525,12 +532,12 @@ VICTOIRE DE L'ÉQUIPE 2 !
 VICTOIRE DE L'ÉQUIPE 3 !
 VICTOIRE DE L'ÉQUIPE 4 !
 MATCH NUL !
-<LOG_JUMP/> Suivant !
+<LOG_ACCEPT/> Suivant !
 ########################################
 ## TEAM SELECTION                     ##
 ########################################
 CHOISISSEZ VOTRE ÉQUIPE
-<LOG_JUMP/> Commencer
+<LOG_ACCEPT/> Commencer
 ########################################
 ## PRE-MATCH HYPE                     ##
 ########################################
@@ -556,9 +563,9 @@ Quitter vers l'écran titre
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
-La manette du joueur %d est déconnectée. Reconnectez-la ou connectez-en une nouvelle et appuyez sur <LOG_JUMP/> pour continuer.
-<LOG_BOMB/> Retour à l'écran titre
-<LOG_BOMB/> Retour au menu principal
+La manette du joueur %d est déconnectée. Reconnectez-la ou connectez-en une nouvelle et appuyez sur <LOG_ACCEPT/> pour continuer.
+<LOG_CANCEL/> Retour à l'écran titre
+<LOG_CANCEL/> Retour au menu principal
 ########################################
 ## JOURNAL MENU                       ##
 ########################################
@@ -2229,4 +2236,67 @@ Ce classement n'est pas disponible actuellement, veuillez revenir plus tard.
 ########################################
 Score final :
 Temps total :
+########################################
+#### Shopkeepers' names
+########################################
+Ali
+Bob
+Cosmo
+Darwin
+Ear
+Frank
+Garth
+Hakim
+Iggy
+Ivan
+Jimbo
+Kinni
+Lou
+Micky
+Nacho
+Omar
+Pancho
+Quincy
+Ron
+Sparky
+Tarn
+Ulf
+Vern
+Wang
+Willy
+Xander
+Yoshi
+Ziggy
+########################################
+#### Hired hands' names
+########################################
+Atlas
+Barca
+Clovis
+Dunder
+Eirik
+Fink
+Grom
+Ham
+Ivan
+Javi
+Kevin
+Lurch
+Manfred
+Nurdle
+Onyx
+Pork
+Quincy
+Raster
+Steve
+Thundar
+Ug
+Voxel
+Wolf
+Xorn
+Yor
+Zorgoth
+########################################
+#### Others
+########################################
 The demo has ended.\nThanks for playing!

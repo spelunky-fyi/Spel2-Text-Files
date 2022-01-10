@@ -8,7 +8,7 @@ Não
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
-<LOG_JUMP/> Continuar
+<LOG_ACCEPT/> Continuar
 Continuar
 Cancelar
 Reiniciar
@@ -263,8 +263,15 @@ Reiniciar Diário
 Resetar Atalhos
 Redefinir Personagens Desbloqueados
 Redefinir Perfil do Jogador
-Reiniciar Tempos
+Reiniciar Tempos e Vitórias
 Reiniciar Todos os Dados Salvos
+Isso irá resetar todas as entradas de diário, exceto para os personagens desbloqueados.
+Isso irá resetar todos os atalhos.
+Isso bloqueará todos os personagens desbloqueados e removerá suas entradas de diário.
+Isso resetará o perfil do jogador.
+Isso zera o tempo médio, o melhor tempo e as vitórias no perfil do jogador.
+Isso resetará todos os dados salvos.
+O Acampamento Base também pode ser afetado.
 Você tem certeza? Esta ação não pode ser desfeita.
 #### Credits
 ########################################
@@ -494,7 +501,7 @@ PAIXÕES
 SELEÇÃO DE ARENA
 Escolha a próxima arena para competir!
 É a vez de %d
-<LOG_JUMP/> Lute!
+<LOG_ACCEPT/> Lute!
 ITENS DA ARENA
 Objeto do nível
 Reforço
@@ -514,7 +521,7 @@ Especial
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
-<LOG_JUMP/> OK
+<LOG_ACCEPT/> OK
 PRONTO!
 VITÓRIA DO JOGADOR 1!
 VITÓRIA DO JOGADOR 2!
@@ -525,12 +532,12 @@ VITÓRIA DA EQUIPE 2!
 VITÓRIA DA EQUIPE 3!
 VITÓRIA DA EQUIPE 4!
 EMPATE!
-<LOG_JUMP/> Próxima!
+<LOG_ACCEPT/> Próxima!
 ########################################
 ## TEAM SELECTION                     ##
 ########################################
 ESCOLHA AS EQUIPES
-<LOG_JUMP/> Iniciar
+<LOG_ACCEPT/> Iniciar
 ########################################
 ## PRE-MATCH HYPE                     ##
 ########################################
@@ -556,9 +563,9 @@ Sair para o título
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
-O controle do jogador %d foi desconectado. Reconecte-o ou conecte um novo e pressione <LOG_JUMP/> para continuar.
-<LOG_BOMB/> Voltar à tela de título
-<LOG_BOMB/> Voltar ao menu principal
+O controle do jogador %d foi desconectado. Reconecte-o ou conecte um novo e pressione <LOG_ACCEPT/> para continuar.
+<LOG_CANCEL/> Voltar à tela de título
+<LOG_CANCEL/> Voltar ao menu principal
 ########################################
 ## JOURNAL MENU                       ##
 ########################################
@@ -1019,7 +1026,7 @@ A menor pressão fará essas poderosas mandíbulas de aço se fecharem e causare
 # "Aspirant" definition: a person who has ambitions to achieve something
 ########################################
 Um servo %ls de %ls marcado por %ls deverá abrir a porta para o Aspirante.
-tantã
+rachado
 simples
 sorridente
 alto
@@ -2229,4 +2236,67 @@ Este placar de líderes não está disponível no momento, tente novamente mais 
 ########################################
 Pontuação final:
 Tempo total:
+########################################
+#### Shopkeepers' names
+########################################
+Ali
+Bob
+Cosmo
+Darwin
+Ear
+Frank
+Garth
+Hakim
+Iggy
+Ivan
+Jimbo
+Kinni
+Lou
+Micky
+Nacho
+Omar
+Pancho
+Quincy
+Ron
+Sparky
+Tarn
+Ulf
+Vern
+Wang
+Willy
+Xander
+Yoshi
+Ziggy
+########################################
+#### Hired hands' names
+########################################
+Atlas
+Barca
+Clovis
+Dunder
+Eirik
+Fink
+Grom
+Ham
+Ivan
+Javi
+Kevin
+Lurch
+Manfred
+Nurdle
+Onyx
+Pork
+Quincy
+Raster
+Steve
+Thundar
+Ug
+Voxel
+Wolf
+Xorn
+Yor
+Zorgoth
+########################################
+#### Others
+########################################
 The demo has ended.\nThanks for playing!

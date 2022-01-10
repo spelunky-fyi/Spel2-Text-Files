@@ -8,7 +8,7 @@ Nein
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
-<LOG_JUMP/> Fortfahren
+<LOG_ACCEPT/> Fortfahren
 Fortfahren
 Abbrechen
 Zurücksetzen
@@ -263,8 +263,15 @@ Tagebuch zurücksetzen
 Shortcuts zurücksetzen
 Freigeschaltete Charaktere zurücksetzen
 Spielerprofil zurücksetzen
-Zeiten zurücksetzen
+Zeiten und Siege zurücksetzen
 Alle gespeicherten Daten zurücksetzen
+Hierdurch werden alle Tagebuch-Einträge zurückgesetzt, mit Ausnahme von freigeschalteten Charakteren.
+Hierdurch werden alle Abkürzungen zurückgesetzt.
+Hierdurch werden alle freigeschalteten Charaktere gesperrt und ihre Tagebuch-Einträge entfernt.
+Hierdurch wird das Spielerprofil zurückgesetzt.
+Hierdurch werden durchschnittliche Zeit, beste Zeit und Siege im Spielerprofil zurückgesetzt.
+Hierdurch werden alle gespeicherten Daten zurückgesetzt.
+Das Basislager könnte ebenfalls beeinträchtigt werden.
 Bist du sicher? Dieser Vorgang kann nicht rückgängig gemacht werden.
 #### Credits
 ########################################
@@ -494,7 +501,7 @@ PASSIONEN
 ARENA-AUSWAHL
 Wähle die nächste Arena, in der du antrittst!
 Zug von Spieler %d
-<LOG_JUMP/> Kämpfen!
+<LOG_ACCEPT/> Kämpfen!
 ARENAGEGENSTÄNDE
 Level-Ziel
 Power-up
@@ -514,7 +521,7 @@ Spezial
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
-<LOG_JUMP/> OK
+<LOG_ACCEPT/> OK
 BEREIT!
 SPIELER 1 GEWINNT!
 SPIELER 2 GEWINNT!
@@ -525,12 +532,12 @@ TEAM 2 GEWINNT!
 TEAM 3 GEWINNT!
 TEAM 4 GEWINNT!
 UNENTSCHIEDENES SPIEL!
-<LOG_JUMP/> Weiter!
+<LOG_ACCEPT/> Weiter!
 ########################################
 ## TEAM SELECTION                     ##
 ########################################
 TEAMS AUSWÄHLEN
-<LOG_JUMP/> Starten
+<LOG_ACCEPT/> Starten
 ########################################
 ## PRE-MATCH HYPE                     ##
 ########################################
@@ -556,9 +563,9 @@ Beenden und zu Titelbildschirm
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
-Controller für Spieler %d wurde getrennt. Verbinde den Controller erneut oder verbinde einen neuen und drücke <LOG_JUMP/> zum Fortfahren.
-<LOG_BOMB/> Zum Titelbildschirm zurückkehren
-<LOG_BOMB/> Zum Hauptmenü zurückkehren
+Controller für Spieler %d wurde getrennt. Verbinde den Controller erneut oder verbinde einen neuen und drücke <LOG_ACCEPT/> zum Fortfahren.
+<LOG_CANCEL/> Zum Titelbildschirm zurückkehren
+<LOG_CANCEL/> Zum Hauptmenü zurückkehren
 ########################################
 ## JOURNAL MENU                       ##
 ########################################
@@ -2229,4 +2236,67 @@ Die Bestenliste ist derzeit nicht aktiviert, bitte schaue später noch einmal vo
 ########################################
 Finale Punktzahl:
 Gesamtzeit:
+########################################
+#### Shopkeepers' names
+########################################
+Ali
+Bob
+Cosmo
+Darwin
+Ear
+Frank
+Garth
+Hakim
+Iggy
+Ivan
+Jimbo
+Kinni
+Lou
+Micky
+Nacho
+Omar
+Pancho
+Quincy
+Ron
+Sparky
+Tarn
+Ulf
+Vern
+Wang
+Willy
+Xander
+Yoshi
+Ziggy
+########################################
+#### Hired hands' names
+########################################
+Atlas
+Barca
+Clovis
+Dunder
+Eirik
+Fink
+Grom
+Ham
+Ivan
+Javi
+Kevin
+Lurch
+Manfred
+Nurdle
+Onyx
+Pork
+Quincy
+Raster
+Steve
+Thundar
+Ug
+Voxel
+Wolf
+Xorn
+Yor
+Zorgoth
+########################################
+#### Others
+########################################
 The demo has ended.\nThanks for playing!

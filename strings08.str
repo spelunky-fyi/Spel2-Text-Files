@@ -263,15 +263,8 @@ Reset Journal
 Reset Shortcuts
 Reset Unlocked Characters
 Reset Player Profile
-Reset Times and Wins
+Reset Times
 Reset All Save Data
-This will reset all journal entries except for any unlocked characters.
-This will reset all shortcuts.
-This will lock all unlocked characters and remove their journal entries.
-This will reset the player profile.
-This will reset average time, best time, and wins in the player profile.
-This will reset all save data.
-Base Camp may also be affected.
 Are you sure? This action can't be undone.
 #### Credits
 ########################################
@@ -728,7 +721,7 @@ A mighty demigod created by the Olmites to help them guard Neo Babylon.
 OLMITE
 Tiamat's secondborn. An inquisitive race that excels at creation.
 TIAMAT
-The Queen of the World. Though myth and legend have separated her from her descendants, some still hear her call...
+The Queen of the World. Though myth and legend have separated her from her descendents, some still hear her call...
 FROG
 Over the aeons, these bloated amphibians have overrun the Sunken City.
 FIRE FROG
@@ -772,7 +765,7 @@ These mighty titans roam the vast waters of the Cosmic Ocean, leaving behind the
 CAVE TURKEY
 A large, meaty bird, best known for its fleshy wattle, also known as a snood.
 ROCK DOG
-The skin of this fire-breathing canine is protected by rock-hard plates, hence the name.
+The skin of this fire-breathing canine is protected by a rock-hard plates, hence the name.
 AXOLOTL
 The Empress encountered these curious creatures during her travels and brought some back as pets. They quickly escaped!
 QILIN
@@ -1581,51 +1574,51 @@ That's All For Now,
 ########################################
 ## Shop                               ##
 ########################################
-Buy %ls
+%lsを買う
 Hire %ls
 # Shop item names
-Rope Pile
-Bomb Bag
-Bomb Box
-Spectacles
-Climbing Gloves
-Pitcher's Mitt
-Spring Shoes
-Spike Shoes
-Paste
-Compass
-Parachute
-Hedjet
-Skeleton Key
-Royal Jelly
-Jetpack
-Cape
-Telepack
-Hoverpack
-Powerpack
-Webgun
-Shotgun
-Freeze Ray
-Crossbow
-Camera
-Teleporter
-Mattock
-Boomerang
-Machete
-Plasma Cannon
-Metal Shield
-Turkey
-Rock Dog
-Axolotl
-Monty
-Percy
-Poochi
-Present
-Skull
-Rock
-Pot
-Arrow
-Turkey
+ロープの束
+爆弾袋
+爆弾ボックス
+メガネ
+クライミンググローブ
+ピッチャーミット
+バネブーツ
+スパイクブーツ
+のり
+コンパス
+パラシュート
+ヘジェト
+骨のカギ
+ロイヤルゼリー
+ジェットパック
+マント
+テレパック
+ホバーパック
+パワーパック
+ウェブガン
+ショットガン
+フリーズ光線
+クロスボウ
+カメラ
+テレポーター
+ツルハシ
+ブーメラン
+マチェーテ
+プラズマ砲
+鋼鉄の盾
+ターキー
+ガンセキイヌ
+ウーパールーパー
+モンティー
+パーシー
+プーチ
+プレゼント
+スカル
+石
+壺
+矢
+ターキー
 ########################################
 ## HUD                                ##
 ########################################
@@ -1652,9 +1645,9 @@ Kali enjoys a good mystery!
 #### General
 ########################################
 The scepter fits, but nothing is happening!
-A terrible chill runs up your spine!
+突然、キョーレツな悪寒が背筋に走った！
 You feel protected!
-Thanks for getting me out of there!
+助けてくれてありがとう！
 ########################################
 #### Feelings
 ########################################
@@ -1675,18 +1668,18 @@ You feel forgiven.
 ########################################
 #### Shopkeeper
 ########################################
-Welcome to %ls's %ls!
+%lsの%lsへようこそ！
 Welcome, Your Highness! Do you see anything of interest?
 # The following line is meant to be slightly mocking:
 Oh, hello, Your Majesty! See anything you like, heh heh?
 I'm completely sold out!
-General Store
-Clothing Shop
-Weapon Shop
-Specialty Shop
-Hired Hands Shop
-Pets Shop
-Dice House
+なんでもショップ
+装備品ショップ
+武器ショップ
+スペシャルショップ
+下僕紹介所
+ペットショップ
+サイコロカジノ
 Play Dice
 The Dice House is closed! I'm out of items!
 You bet $%d! Now roll the dice!
@@ -1737,7 +1730,7 @@ Ooooooga... OOH! OOH!
 ########################################
 #### Yang
 ########################################
-I'm looking for turkeys... wanna help?
+おいら、ターキーを探してるんだ。手伝ってくれないかい？
 Thank you!
 Wow, thanks! Please help yourself to my treasure.
 I will avenge my feathered friends!
@@ -2024,7 +2017,7 @@ Ah, you're so SHINY!!!
 ########################################
 #### Colin to others
 ########################################
-You did a good job with that space ship!
+キミの宇宙船、なかなかいい仕上がりじゃないか！
 I'm glad you and Ana are finally reunited!
 Ana's a real natural at this stuff... you should be proud!
 Pilot, you must tell me more about how your UFO works.
@@ -2236,67 +2229,4 @@ This leaderboard is currently unavailable, please come back later.
 ########################################
 Final Score:
 Total Time:
-########################################
-#### Shopkeepers' names
-########################################
-Ali
-Bob
-Cosmo
-Darwin
-Ear
-Frank
-Garth
-Hakim
-Iggy
-Ivan
-Jimbo
-Kinni
-Lou
-Micky
-Nacho
-Omar
-Pancho
-Quincy
-Ron
-Sparky
-Tarn
-Ulf
-Vern
-Wang
-Willy
-Xander
-Yoshi
-Ziggy
-########################################
-#### Hired hands' names
-########################################
-Atlas
-Barca
-Clovis
-Dunder
-Eirik
-Fink
-Grom
-Ham
-Ivan
-Javi
-Kevin
-Lurch
-Manfred
-Nurdle
-Onyx
-Pork
-Quincy
-Raster
-Steve
-Thundar
-Ug
-Voxel
-Wolf
-Xorn
-Yor
-Zorgoth
-########################################
-#### Others
-########################################
 The demo has ended.\nThanks for playing!

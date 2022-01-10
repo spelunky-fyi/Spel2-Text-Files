@@ -11,6 +11,7 @@ No
 <LOG_JUMP/> Continue
 Continue
 Cancel
+Reset
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -108,6 +109,7 @@ Controls
 Gameplay
 HUD and Text
 Language
+Data Management
 Credits
 #### Shared values
 ########################################
@@ -255,6 +257,15 @@ Toggle whether ghost warnings are displayed.
 New Language
 Set the language.
 <SYS_ACCEPT/> Apply Language
+#### Data Management
+########################################
+Reset Journal
+Reset Shortcuts
+Reset Unlocked Characters
+Reset Player Profile
+Reset Times
+Reset All Save Data
+Are you sure? This action can't be undone.
 #### Credits
 ########################################
 <SYS_ACCEPT/> Fast Forward
@@ -1053,6 +1064,10 @@ I haven't reached the bottom yet...
 ########################################
 MISSED
 I teleported right into a wall!
+### Poison
+########################################
+POISONED
+Ooh, my insides hurt...
 ### Alien
 ########################################
 PROBED

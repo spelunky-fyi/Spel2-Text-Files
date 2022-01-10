@@ -11,6 +11,7 @@ Nein
 <LOG_JUMP/> Fortfahren
 Fortfahren
 Abbrechen
+Zurücksetzen
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -108,6 +109,7 @@ Steuerung
 Gameplay
 HUD und Text
 Sprache
+Datenverwaltung
 Mitwirkende
 #### Shared values
 ########################################
@@ -255,6 +257,15 @@ Schalte um, ob Gespenster-Warnungen angezeigt werden oder nicht.
 Neue Sprache
 Lege die Sprache fest.
 <SYS_ACCEPT/> Sprache anwenden
+#### Data Management
+########################################
+Tagebuch zurücksetzen
+Shortcuts zurücksetzen
+Freigeschaltete Charaktere zurücksetzen
+Spielerprofil zurücksetzen
+Zeiten zurücksetzen
+Alle gespeicherten Daten zurücksetzen
+Bist du sicher? Dieser Vorgang kann nicht rückgängig gemacht werden.
 #### Credits
 ########################################
 <SYS_ACCEPT/> Vorspulen
@@ -1053,6 +1064,10 @@ Ich habe den Boden noch nicht erreicht ...
 ########################################
 VERFEHLT
 Ich bin direkt in eine Wand teleportiert!
+### Poison
+########################################
+VERGIFTET
+Oh, mir tut alles weh ...
 ### Alien
 ########################################
 ERFORSCHT

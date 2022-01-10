@@ -11,6 +11,7 @@ No
 <LOG_JUMP/> Continua
 Continua
 Cancel·la
+Reiniciar
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -108,6 +109,7 @@ Controls
 Jugabilitat
 Indicador en pantalla i text
 Idioma
+Gestió de dades
 Crèdits
 #### Shared values
 ########################################
@@ -255,6 +257,15 @@ Mostra o oculta els avisos dels fantasmes.
 Nou idioma
 Configura l'idioma.
 <SYS_ACCEPT/> Aplicar l'idioma
+#### Data Management
+########################################
+Reiniciar diari
+Reiniciar dreceres
+Reiniciar personatges desbloquejats
+Reiniciar perfil del jugador
+Reiniciar els temps
+Reiniciar tota la partida
+Estàs segur? Aquesta acció no es pot desfer.
 #### Credits
 ########################################
 <SYS_ACCEPT/> Avançament ràpid
@@ -1053,6 +1064,10 @@ Encara no he arribat al final...
 ########################################
 EQUIVOCACIÓ
 Em vaig teletransportar just en una paret!
+### Poison
+########################################
+ENVERINAT
+Ai, les meves entranyes...
 ### Alien
 ########################################
 SONDAT

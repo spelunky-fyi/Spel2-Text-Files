@@ -11,6 +11,7 @@ No
 <LOG_JUMP/> Continuar
 Continuar
 Cancelar
+Resetear
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -108,6 +109,7 @@ Controles
 Juego
 HUD y Texto
 Idioma
+Gestión de datos
 Créditos
 #### Shared values
 ########################################
@@ -255,6 +257,15 @@ Alterna si se muestran o no las advertencias de los fantasmas.
 Nuevo Idioma
 Establece el idioma.
 <SYS_ACCEPT/> Aplicar Idioma
+#### Data Management
+########################################
+Resetear diario
+Resetear atajos
+Resetear personajes desbloqueados
+Resetear perfil del jugador
+Resetear tiempos
+Resetear toda la partida
+¿Estás seguro? Esta acción no puede deshacerse.
 #### Credits
 ########################################
 <SYS_ACCEPT/> Adelantar
@@ -1053,6 +1064,10 @@ Aún no he llegado al fondo...
 ########################################
 PERDIDO
 ¡Me teletransporté a una pared!
+### Poison
+########################################
+ENVENENADO
+Ay, mis entrañas...
 ### Alien
 ########################################
 INVESTIGADO

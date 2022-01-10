@@ -134,6 +134,10 @@ Finestra sense vora
 Finestra
 Brillantor
 Ajusta la brillantor de la pantalla.
+Flaixos brillants
+Activa o desactiva els flaixos brillants.
+Activats
+Desactivats
 Efectes visuals
 Reduir els efectes visuals pot millorar el rendiment.
 Alt
@@ -199,10 +203,6 @@ Desactivat
 Baix
 Mitjà
 Alt
-Flaixos brillants
-Activa o desactiva els flaixos brillants.
-Activats
-Desactivats
 Reinici instantani
 Afegeix l'opció de Reinici instantani al menú de pausa.
 Cap
@@ -2250,7 +2250,7 @@ Ali
 Bob
 Cosmo
 Darwin
-Ear
+Earl
 Frank
 Garth
 Hakim

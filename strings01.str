@@ -134,6 +134,10 @@ Fenêtré sans bordure
 Fenêtré
 Luminosité
 Définit la luminosité de l'écran.
+Flashs Lumineux
+Active/désactive les flashs lumineux.
+Activé
+Désactivé
 Effets visuels
 Des effets visuels moins élevés pourront améliorer les performances.
 Haut
@@ -199,10 +203,6 @@ Désactivé
 Bas
 Moyen
 Haut
-Flashs Lumineux
-Active/désactive les flashs lumineux.
-Activé
-Désactivé
 Redémarrage instantané
 Ajoute une option Redémarrage instantané au menu de pause.
 Aucun
@@ -2250,7 +2250,7 @@ Ali
 Bob
 Cosmo
 Darwin
-Ear
+Earl
 Frank
 Garth
 Hakim

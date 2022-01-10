@@ -134,6 +134,10 @@ Ventana sin bordes
 Ventana
 Brillo
 Ajusta el brillo de la pantalla.
+Destellos brillantes
+Activa o desactiva los destellos brillantes.
+Activados
+Desactivados
 Efectos visuales
 Reducir los efectos visuales puede mejorar el rendimiento.
 Alto
@@ -199,10 +203,6 @@ Desactivado
 Bajo
 Medio
 Alto
-Destellos brillantes
-Activa o desactiva los destellos brillantes.
-Activados
-Desactivados
 Reinicio instantáneo
 Añade una opción de reinicio instantáneo al menú de pausa.
 Ninguno
@@ -2250,7 +2250,7 @@ Ali
 Bob
 Cosmo
 Darwin
-Ear
+Earl
 Frank
 Garth
 Hakim

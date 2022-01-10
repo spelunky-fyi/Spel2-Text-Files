@@ -134,6 +134,10 @@ Borderless Windowed
 Windowed
 Brightness
 Set the screen brightness.
+Bright Flashes
+Toggle bright flashes on and off. 
+On
+Off
 Visual Effects
 Lower VFX may improve performance.
 High
@@ -199,10 +203,6 @@ Off
 Low
 Medium
 High
-Bright Flashes
-Toggle bright flashes on and off. 
-On
-Off
 Instant Restart
 Add an Instant Restart option to the Pause Menu.
 None
@@ -2250,7 +2250,7 @@ Ali
 Bob
 Cosmo
 Darwin
-Ear
+Earl
 Frank
 Garth
 Hakim

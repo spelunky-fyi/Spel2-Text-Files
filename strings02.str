@@ -134,6 +134,10 @@ Finestra senza bordi
 Finestra
 Luminosità
 Imposta la luminosità dello schermo.
+Luci lampeggianti
+Attiva/disattiva luci lampeggianti
+Attivi
+Disattivi
 Effetti grafici
 Ridurre gli effetti grafici puó migliorare le prestazioni.
 Alto
@@ -199,10 +203,6 @@ Disattivo
 Basso
 Medio
 Alto
-Luci lampeggianti
-Attiva/disattiva luci lampeggianti
-Attivi
-Disattivi
 Riavvio immediato
 Aggiungi l'opzione Riavvio immediato al menu Pausa.
 Nessuno
@@ -2250,7 +2250,7 @@ Ali
 Bob
 Cosmo
 Darwin
-Ear
+Earl
 Frank
 Garth
 Hakim

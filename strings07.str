@@ -134,6 +134,10 @@ Janela sem bordas
 Janela
 Brilho
 Defina o brilho da tela.
+Resplendores brilhantes
+Ativa ou desativa os resplendores brilhantes
+Ativados
+Desativados
 Efeitos visuais
 Diminuir os efeitos visuais poderia melhorar o desempenho.
 Alto
@@ -199,10 +203,6 @@ Des.
 Baixo
 Médio
 Alto
-Resplendores brilhantes
-Ativa ou desativa os resplendores brilhantes
-Ativados
-Desativados
 Reinício instantâneo
 Adicione a opção Reinício instantâneo no menu Pausa.
 Nenhum
@@ -2250,7 +2250,7 @@ Ali
 Bob
 Cosmo
 Darwin
-Ear
+Earl
 Frank
 Garth
 Hakim

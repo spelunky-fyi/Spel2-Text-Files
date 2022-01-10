@@ -134,6 +134,10 @@ Rahmenloser Fenstermodus
 Fenstermodus
 Helligkeit
 Lege die Helligkeit fest.
+Helles Blitzlicht
+Helles Blitzlicht ein- und ausschalten.
+Ein
+Aus
 Visuelle Effekte
 Weniger visuelle Effekte können die Leistung verbessern.
 Hoch
@@ -199,10 +203,6 @@ Aus
 Wenig
 Mittel
 Hoch
-Helles Blitzlicht
-Helles Blitzlicht ein- und ausschalten.
-Ein
-Aus
 Sofortiger Neustart
 Eine Sofortiger-Neustart-Option zum Pause-Menü hinzufügen.
 Keine
@@ -2250,7 +2250,7 @@ Ali
 Bob
 Cosmo
 Darwin
-Ear
+Earl
 Frank
 Garth
 Hakim

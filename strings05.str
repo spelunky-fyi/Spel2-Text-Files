@@ -305,6 +305,7 @@ Filtro
 General
 Amigos
 Cross-Play
+Número de Jugadores
 <SYS_SPECIAL2/> Yo
 ########################################
 ## ENTER SEED SCREEN                  ##
@@ -320,8 +321,8 @@ SELECCIONA AVENTURERO
 Jugador %d
 <SYS_ACCEPT/> Comenzar
 Regresar <SYS_BACK/>
-<LOG_ACTION/> Comenzar con bots
-<SYS_SPECIAL/> Comenzar con bots
+<LOG_ACTION/> Comenzar con Bots
+<SYS_SPECIAL/> Comenzar con Bots
 SELECCIÓN RÁPIDA
 <LOG_ROPE/> Selección Rápida
 <SYS_SPECIAL2/> Selección Rápida

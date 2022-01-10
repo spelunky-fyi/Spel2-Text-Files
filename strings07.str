@@ -56,13 +56,13 @@ E senti uma onda de calma passando sobre mim.
 ## PAUSE MENU                         ##
 ########################################
 PAUSADO
-Continuar jogo
-Reiniciar tutorial
-Terminar aventura
-Reinício instantâneo
+Continuar Jogo
+Reiniciar Tutorial
+Terminar Aventura
+Reinício Instantâneo
 Opções
-Menu principal
-Sair do jogo
+Menu Principal
+Sair do Jogo
 Tem certeza que quer reiniciar o tutorial?
 Tem certeza que quer terminar a aventura? Todo o progresso não salvo será perdido.
 Tem certeza que quer reiniciar? Todo o progresso não salvo será perdido.
@@ -79,16 +79,16 @@ Jogar
 Online
 Opções
 Rankings
-Perfil do jogador
-Sair do jogo
+Perfil do Jogador
+Sair do Jogo
 ########################################
 ## PLAY OPTIONS                       ##
 ########################################
 Aventura
 Embarque na missão principal. Sozinho ou com amigos!
-Partida com semente
+Partida com Semente
 Realize uma partida onde a aleatoriedade é sempre a mesma.
-Jogue o Modo Aventura para desbloquear as Partidas com semente!
+Jogue o Modo Aventura para desbloquear as Partidas com Semente!
 Partidas com semente desbloqueadas!
 Desafio Diário
 Tente concluir o desafio diário de hoje. Você só tem uma chance!
@@ -103,15 +103,15 @@ Convidar
 <SYS_SPECIAL3/> Código
 <SYS_SPECIAL2/> Convidar                <SYS_SPECIAL3/> Código
 <SYS_SPECIAL/> Buscar
-Coloque o código
-Seu código:
+Coloque o Código
+Seu Código:
 ########################################
 ## OPTIONS                            ##
 ########################################
-Gráficos e áudio
+Gráficos e Áudio
 Controles
 Jogabilidade
-HUD e texto
+HUD e Texto
 Idioma
 Gerenciar Dados
 Créditos
@@ -122,27 +122,27 @@ Lig.
 Pequeno
 Médio
 Grande
-<SYS_SPECIAL/> Redefinir para padrão
+<SYS_SPECIAL/> Redefinir para Padrão
 <SYS_ACCEPT/> Aplicar
 #### GFX and Audio options
 ########################################
 GRÁFICOS
 Resolução
 Defina a resolução.
-Dimensionamento de resolução
+Dimensionamento de Resolução
 Modifique a resolução interna do jogo
-Modo de exibição
+Modo de Exibição
 Defina o modo de exibição.
-Tela cheia
-Janela sem bordas
+Tela Cheia
+Janela sem Bordas
 Janela
 Brilho
 Defina o brilho da tela.
-Resplendores brilhantes
+Resplendores Brilhantes
 Defina a intensidade dos efeitos do flash brilhantes.
 Ativados
 Desativados
-Efeitos visuais
+Efeitos Visuais
 Diminuir os efeitos visuais poderia melhorar o desempenho.
 Alto
 Normal
@@ -156,9 +156,9 @@ Volume Geral
 Defina o volume geral.
 #### Controls
 ########################################
-Configuração do teclado
-Configuração do controle
-Jogador atual
+Configuração do Teclado
+Configuração do Controle
+Jogador Atual
 Configuração dos controles do jogador atual.
 Jogador %d
 Cima
@@ -170,18 +170,18 @@ Atacar
 Bomba
 Corda
 Pausa
-Usar porta/Comprar
+Usar Porta/Comprar
 Andar/Correr (Segurar)
-Padrão de movimento
+Padrão de Movimento
 Alterne correr ou andar por padrão.
 Andar
 Correr
-Controle direito
+Controle Direito
 Alterne o movimento para o controle direito.
 Vibração
 Defina o modo de vibração do controle.
-<SYS_ACCEPT/> Alterar tecla
-<SYS_ACCEPT/> Alterar botão
+<SYS_ACCEPT/> Alterar Tecla
+<SYS_ACCEPT/> Alterar Botão
 Pressione o botão que quer usar para %ls
 Tecla já em uso! Se continuar, a tecla não será configurada para o jogador %d.
 Sem configuração de tecla para o jogador %d
@@ -191,82 +191,82 @@ Jogador %d tem ações não configuradas. Tem certeza que quer sair?
 ONLINE
 Cross-Play
 Ativa a opção de jogar com jogadores que estão usando outras plataformas.
-Atraso de entrada
+Atraso de Entrada
 Atrasa a entrada de controles no jogo para reduzir glitches visuais.
-Atraso de saída
+Atraso de Saída
 Atrasa a exibição das ações de outros jogadores para reduzir glitches visuais.
 Pseudonimização
 Utiliza pseudônimos para jogadores de fontes de terceiros.
 #### Gameplay
 ########################################
-Estilo do animal de estimação
+Estilo do Animal de Estimação
 Defina qual animal de estimação aparece em cada nível.
-Vibração da tela
+Vibração da Tela
 Defina a vibração da tela.
 Des.
 Baixo
 Médio
 Alto
-Reinício instantâneo
-Adicione a opção Reinício instantâneo no menu Pausa.
+Reinício Instantâneo
+Adicione a opção Reinício Instantâneo no Menu Pausa.
 Nenhum
 Confirmar
-Não confirmar
+Não Confirmar
 #### Display
 ########################################
 HUD
 Visibilidade do HUD
 Defina a visibilidade do HUD.
-Ajuste automático
+Ajuste Automático
 Opaco
 Transparente
 Invisível
 Tamanho do HUD
 Defina o tamanho do HUD.
-Cronômetro do nível
+Cronômetro do Nível
 Defina a exibição do cronômetro do nível.
-Só cronômetro do nível
+Só Cronômetro do Nível
 Nível/Total
 Des.
-Detalhe do cronômetro
+Detalhe do Cronômetro
 Defina o detalhamento do cronômetro do nível.
 Segundos
 Milissegundos
-Número do nível
+Número do Nível
 Alterne para exibição do número do nível.
 Ícone de Comerciante Nervoso
 Alterne para exibir um ícone quando os comerciantes estão bravos.
-Prompts de botão
+Prompts de Botão
 Escolha se mostrar ou não prompts de botão.
-Ícones de botões
+Ícones de Botões
 Força os ícones dos botões para uma plataforma específica.
 DIÁLOGOS
-Tamanho do diálogo
+Tamanho do Diálogo
 Defina o tamanho dos diálogos.
 Duração
 Defina o tempo de exibição dos diálogos na tela.
-Bem curto
+Bem Curto
 Curto
 Médio
 Longo
 Opacidade
 Ajusta a opacidade dos diálogos.
 Texto descritivo de teste\nEsse é o texto de subdescrição
-Sensações do nível
+Sensações do Nível
 Alterne se as sensações do nível são exibidas.
-Texto de diálogo
+Texto de Diálogo
 Alterne para exibir o texto de diálogo.
 Texto - Kali
 Alterne para exibir as mensagens de Kali.
 Texto - Fantasma
 Alterne para exibir os avisos de fantasmas.
 <SYS_SPECIAL2/> Prévia do HUD
-<SYS_SPECIAL2/> Prévia dos diálogos
+<SYS_SPECIAL2/> Prévia dos Diálogos
 #### Language
 ########################################
-Novo idioma
+Novo Idioma
 Defina o idioma.
-<SYS_ACCEPT/> Aplicar idioma
+<SYS_ACCEPT/> Aplicar Idioma
 #### Data Management
 ########################################
 Reiniciar Diário
@@ -289,13 +289,13 @@ Você tem certeza? Esta ação não pode ser desfeita.
 ########################################
 #### LEADERBOARDS
 ########################################
-Melhores partidas
+Melhores Partidas
 Profundidade
-Melhores tempos
+Melhores Tempos
 Normal
 Difícil
 Especial
-Melhores partidas diárias
+Melhores Partidas Diárias
 Classif.
 Jogador
 Nível
@@ -305,6 +305,7 @@ Filtro
 Geral
 Amigos
 Cross-Play
+Quantidade de Jogadores
 <SYS_SPECIAL2/> Eu
 ########################################
 ## ENTER SEED SCREEN                  ##
@@ -320,11 +321,11 @@ ESCOLHER AVENTUREIRO
 Jogador %d
 <SYS_ACCEPT/> Iniciar
 Voltar <SYS_BACK/>
-<LOG_ACTION/> Iniciar com bots
-<SYS_SPECIAL/> Iniciar com bots
+<LOG_ACTION/> Iniciar com Bots
+<SYS_SPECIAL/> Iniciar com Bots
 SELEÇÃO RÁPIDA
-<LOG_ROPE/> Seleção rápida
-<SYS_SPECIAL2/> Seleção rápida
+<LOG_ROPE/> Seleção Rápida
+<SYS_SPECIAL2/> Seleção Rápida
 Pressione <LOG_START/> para acessar o Menu de Opções e altere seu esquema de controles.
 As paredes estão se movendo...
 ########################################
@@ -336,9 +337,9 @@ Regras
 Formato
 Escolha o formato para jogar.
 Mata-mata
-Segure o ídolo
+Segure o Ídolo
 Mata-mata: a última pessoa viva vence.
-Segure o ídolo: Segure pelo máximo de tempo possível.
+Segure o Ídolo: Segure pelo máximo de tempo possível.
 Conjunto de Regras
 Escolha o conjunto de regras para jogar.
 Casual
@@ -376,18 +377,18 @@ Defina quanto tempo dura cada rodada.
 9:30
 10:00
 Infinito
-Fim do tempo
+Fim do Tempo
 Defina o que acontece quando o tempo do cronômetro acaba.
-Rodada termina
-Névoa mortal
-Explosão alienígena
-Bombas livres
+Rodada Termina
+Névoa Mortal
+Explosão Alienígena
+Bombas Livres
 Aleatório
 Vitórias
 Defina quantas vitórias determinam o vencedor.
 Vidas
 Defina quantas vidas cada jogador tem por rodada.
-Tempo de vitória
+Tempo de Vitória
 Defina quantos segundos segurando o ídolo dão a vitória.
 10
 20
@@ -405,7 +406,7 @@ Bombas
 Defina com quantas bombas cada jogador inicia.
 Cordas
 Defina com quantas cordas cada jogador inicia.
-Tempo de atordoamento
+Tempo de Atordoamento
 Defina por quanto tempo os jogadores ficam atordoados.
 x0.00
 x0.25
@@ -416,7 +417,7 @@ x1.25
 x1.50
 x1.75
 x2.00
-Dano de chicote
+Dano de Chicote
 Defina quanto dano o chicote causa.
 0
 1
@@ -436,17 +437,17 @@ Aleatório
 Seleção de Arena
 Escolha como as arenas são selecionadas entre as rodadas.
 Trocando de Turno
-Perdedor escolhe
-Nível aleatório
+Perdedor Escolhe
+Nível Aleatório
 Arenas
 Escolha quais arenas estão disponíveis para serem jogadas.
-Chance de nível escuro
+Chance de Nível Escuro
 Defina a chance de uma rodada começar no escuro.
 Nenhuma
 10%
 50%
 Sempre
-Frequência de caixas
+Frequência de Caixas
 Defina a frequência do aparecimento de caixas na arena.
 Nenhuma
 Baixo
@@ -470,7 +471,7 @@ Ative ou desative arenas grandes.
 Tamanho: %ls
 Pequeno
 Grande
-- Arena bloqueada -
+- Arena Bloqueada -
 Cavernas
 Selva
 Volcana
@@ -524,11 +525,11 @@ Escolha a próxima arena para competir!
 É a vez de %d
 <LOG_ACCEPT/> Lute!
 ITENS DA ARENA
-Objeto do nível
+Objeto do Nível
 Reforço
-Item em posse
+Item em Posse
 Equipamento
-Equipamento das costas
+Equipamento das Costas
 Especial
 <SYS_ACCEPT/> Ative ou desative todos os itens.
 <SYS_ACCEPT/> Ative e desative objetos de nível.
@@ -576,11 +577,11 @@ Pressione <LOG_JUMP/> para ir ao próximo nível
 ########################################
 ## GAME OVER                          ##
 ########################################
-Reinício rápido
-Trocar de personagem
+Reinício Rápido
+Trocar de Personagem
 Acampamento
 Semente Nova
-Sair para o título
+Sair para o Título
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
@@ -600,10 +601,10 @@ História
 Registro %d
 Derrotados
 Mortos
-Morto por
+Morto Por
 N/A
 Você obteve o Diário!
-Registro adicionado ao diário
+Registro Adicionado ao Diário
 <LOG_SELECT/> Fechar Diário
 ########################################
 ## JOURNAL - PLACES                   ##
@@ -1080,7 +1081,7 @@ Desfrute de espeleologia!
 ########################################
 ## GAME OVER - DEATHS                 ##
 ########################################
-Acabou a partida
+Acabou a Partida
 ### Fall damage
 ########################################
 QUEDA LONGA
@@ -1532,19 +1533,19 @@ Estamos ligados aos Cosmos!
 ########################################
 ## GAME OVER - PROFILE                ##
 ########################################
-Perfil de jogador
+Perfil de Jogador
 Jogos
 Vitórias
 Mortes
-% de vitórias:
-Pontuação média:
-Melhor pontuação:
-Nível mais profundo:
-Nível mais mortal:
-Tempo médio:
-Melhor tempo:
-Último jogo
-As estatísticas do perfil do jogador são obtidas do Modo Aventura e do Desafio Diário durante o jogo de jogador único.
+% de Vitórias:
+Pontuação Média:
+Melhor Pontuação:
+Nível mais Profundo:
+Nível mais Mortal:
+Tempo Médio:
+Melhor Tempo:
+Último Jogo
+As estatísticas do Perfil do Jogador são obtidas do Modo Aventura e do Desafio Diário durante o jogo de jogador único.
 ########################################
 ## GAME OVER - RUN RECAP              ##
 ########################################
@@ -1580,25 +1581,25 @@ Para minha surpresa, derrotei Hundun e escapei para a superfície.
 Minha habilidade, conhecimento e coragem permitiram eu me fundir ao Cosmos.
 Acabei morrendo no nível %d-%d (%ls).
 Acabei morrendo no nível %d-%d.
-Até a próxima!
+Até a Próxima!
 Falou!
-Tenho tantas perguntas...
+Tenho Tantas Perguntas...
 Legal...
-Pensamento positivo!
+Pensamento Positivo!
 Hmmm...
-Até minha força acabar,
-Baixando dados...
+Até Minha Força Acabar,
+Baixando Dados...
 Tchau!
-Que saudades da minha pá!
-Quero muito tentar de novo!
-Até a próxima!
+Que Saudades da Minha Pá!
+Quero Muito Tentar de Novo!
+Até a Próxima!
 Abraços,
-Aprendendo sempre,
-Obrigado por ouvir!
+Aprendendo Sempre,
+Obrigado por Ouvir!
 Desligando,
 Cordialmente,
-Cordiais saudações,
-Isso é tudo,
+Cordiais Saudações,
+Isso é Tudo,
 ...
 ########################################
 ## Shop                               ##
@@ -1606,20 +1607,20 @@ Isso é tudo,
 Comprar %ls
 Contratar %ls
 # Shop item names
-Pilha de cordas
+Pilha de Cordas
 Saco-bomba
 Caixa-bomba
 Óculos
-Luvas de escalada
-Luva de pitcher
-Sapatos de mola
-Sapatos de pontas
+Luvas de Escalada
+Luva de Pitcher
+Sapatos de Mola
+Sapatos de Pontas
 Pasta
 Bússola
 Paraquedas
 Hedjet
-Chave mestra
-Geleia real
+Chave Mestra
+Geleia Real
 Jetpack
 Capa
 Telepack
@@ -1627,15 +1628,15 @@ Hoverpack
 Powerpack
 Teiador
 Escopeta
-Raio congelante
+Raio Congelante
 Besta
 Câmera
 Teletransportador
 Picareta
 Bumerangue
 Facão
-Canhão de plasma
-Escudo de metal
+Canhão de Plasma
+Escudo de Metal
 Peru
 Cão-pedra
 Axolote
@@ -1709,7 +1710,7 @@ Loja de Especialidades
 Loja de Mercenários
 Loja de Animais de Estimação
 Casa dos Dados
-Jogar dados
+Jogar Dados
 A Casa dos Dados está fechada! Estou sem itens!
 Você apostou $%d! Agora jogue os dados!
 Você tirou um %d!
@@ -1731,7 +1732,7 @@ Que você sobreviva ao Caos um pouco mais.
 Boas-vindas ao Desafio da Lua, Renascido.
 Boas-vindas ao Desafio da Estrela, Renascido.
 Um aviso, Renascido... o Desafio do Sol pode custar sua vida.
-Iniciar desafio
+Iniciar Desafio
 Passe pela porta para iniciar o desafio.
 %d...
 Começa o desafio!
@@ -2259,8 +2260,8 @@ Este placar de líderes não está disponível no momento, tente novamente mais 
 ########################################
 #### Ending
 ########################################
-Pontuação final:
-Tempo total:
+Pontuação Final:
+Tempo Total:
 ########################################
 #### Shopkeepers' names
 ########################################

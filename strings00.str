@@ -234,11 +234,11 @@ Seconds
 Milliseconds
 Level Number
 Toggle if the level number is displayed.
-Angry Shopkeeper icon
+Angry Shopkeeper Icon
 Toggle whether an icon is displayed when shopkeepers are angry.
 Button Prompts
 Choose whether or not to display button prompts.
-Button icons
+Button Icons
 Force button icons to a particular platform.
 TEXT BOXES
 Text Box Size
@@ -305,6 +305,7 @@ Filter
 Overall
 Friends
 Cross-Play
+Total Players
 <SYS_SPECIAL2/> Me
 ########################################
 ## ENTER SEED SCREEN                  ##
@@ -320,8 +321,8 @@ CHOOSE ADVENTURER
 Player %d
 <SYS_ACCEPT/> Start
 Back <SYS_BACK/>
-<LOG_ACTION/> Start with bots
-<SYS_SPECIAL/> Start with bots
+<LOG_ACTION/> Start with Bots
+<SYS_SPECIAL/> Start with Bots
 QUICK SELECT
 <LOG_ROPE/> Quick Select
 <SYS_SPECIAL2/> Quick Select

@@ -1,342 +1,411 @@
 # This is a comment! Anything after a # does not appear in the game!
-Yes
-No
+Да
+Нет
 <SYS_ACCEPT/>
 <SYS_BACK/>
+<LOG_BOMB/>
 <SYS_SPECIAL/>
 <SYS_SPECIAL2/>
 <SYS_SPECIAL3/>
 <SYS_LEFT/>
 <SYS_RIGHT/>
-<LOG_ACCEPT/> Continue
-Continue
-Cancel
-Reset
+<SYS_ACCEPT/> ОК
+<LOG_ACCEPT/> Продолжить
+Продолжить
+Отмена
+Сброс
+Выкл.
+Вкл.
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
 ########################################
 # Line 1
 ########################################
-Still dizzy from my arrival,
-Putting the faded photo in my pocket,
-Pushing aside my fears,
-After going over my plan one last time,
-My heart pounding in my chest,
-With my memories of Earth already fading,
-With my mind already made up,
-Uncertain whether I was ready,
-With Fortune smiling down on me,
+Не успев отойти после прибытия,
+Положив выцветшее фото в карман,
+Прогнав прочь свои страхи,
+Пересмотрев свой план в последний раз,
+Послушав, как сердце колошматит в груди,
+Вспомнив о далёкой и такой родной Земле,
+Уже задавшись целью,
+Усомнившись в своей готовности,
+Поймав улыбающуюся мне удачу,
 ########################################
 # Line 2
 ########################################
-I gripped the rope tightly,
-I took a deep breath,
-I pulled out my torch,
-I called out to Monty,
-I took one last look at the stars,
-I thought of Mom and Dad,
-I whispered something now forgotten,
-I closed my eyes,
-I gave thanks to my ancestors,
+я крепко схватила веревку.
+я глубоко вздохнула.
+я вынула фонарик.
+я позвала Монти.
+я последний раз взглянула на звёзды.
+я подумала о маме и папе.
+я прошептала что-то такое, о чем уже и не помню.
+я закрыла глаза.
+я поблагодарила своих предков.
 ########################################
 # Line 3
 ########################################
-And descended into the darkness.
-And wondered if I'd ever see them again.
-And felt a cold chill rising from below.
-And ventured into the unknown.
-And felt excited for the upcoming adventure.
-And vowed to return alive.
-And then swore I heard voices coming from below.
-And that's when it all started.
-And felt a wave of calm wash over me.
+И спустилась во тьму.
+И подумала, что вдруг больше их никогда не увижу.
+И почувствовала, как меня пробирает холод, идущий откуда-то снизу.
+И пустилась в неизвестное.
+И захотела отправиться в предстоящее приключение.
+И пообещала себе вернуться живой.
+И готова поклясться, что услышала голоса, исходящие откуда-то снизу.
+И понеслось.
+И на меня вдруг нахлынула волна спокойствия.
 ########################################
 ## PAUSE MENU                         ##
 ########################################
-PAUSED
-Resume Game
-Restart Tutorial
-End Adventure
-Instant Restart
-Options
-Main Menu
-Exit Game
-Are you sure you want to restart the tutorial?
-Are you sure you want to end the adventure? All unsaved progress will be lost.
-Are you sure you want to restart? All unsaved progress will be lost.
-Are you sure you want to exit to the Main Menu? All unsaved progress will be lost.
-Are you sure you want to exit the game? All unsaved progress will be lost.
-Level
-Money
-Time
-Press <SYS_ACCEPT/> to Begin
+ПАУЗА
+Продолжить игру
+Перезапустить обучение
+Завершить приключение
+Завершить матч
+Мгновенный перезапуск
+Параметры
+Главное меню
+Выйти из игры
+Точно хочешь перезапустить обучение?
+Точно хочешь завершить приключение? Всё, что не сохранено, будет потеряно.
+Точно хочешь завершить матч?
+Точно хочешь перезапустить? Всё, что не сохранено, будет потеряно.
+Точно хочешь выйти в главное меню? Всё, что не сохранено, будет потеряно.
+Точно хочешь выйти из игры? Всё, что не сохранено, будет потеряно.
+Уровень
+Деньги
+Время
+Нажми <SYS_ACCEPT/>, чтобы начать
 ########################################
 ## MAIN OPTIONS                       ##
 ########################################
-Play
-Online
-Options
-Leaderboards
-Player Profile
-Quit Game
+Играть
+По сети
+Параметры
+Список лидеров
+Профиль игрока
+Выйти из игры
 ########################################
 ## PLAY OPTIONS                       ##
 ########################################
-Adventure
-Embark on the main quest. Go alone or with friends!
-Seeded Run
-Do a run where the randomness is tied to a set seed.
-Play Adventure Mode to unlock Seeded Runs!
-Seeded Runs unlocked!
-Daily Challenge
-Try today's daily challenge. You only get one shot!
-You've already attempted today's challenge. Try again tomorrow!
-Arena
-Battle against friends or bots in the deadly Arena.
+Приключение
+Отправляйся на главное задание в одиночку или с друзьями!
+Кодовый забег
+Пройди забег, где игровые элементы определяются заданным кодом.
+Сыграй в режиме приключения, чтобы открыть кодовые забеги!
+Кодовые забеги открыты!
+Испытание дня
+Попробуй силы в сегодняшнем испытании. У тебя лишь одна попытка!
+Сегодняшняя попытка уже сделана. Возвращайся завтра!
+Арена
+Сражайся с друзьями или ботами на смертельной арене.
 ########################################
 ## ONLINE OPTIONS                     ##
 ########################################
-Invite
-<SYS_ACCEPT/> Ready
-Press <SYS_SPECIAL2/> to invite
-<SYS_SPECIAL/> Search
+Пригласить
+<SYS_ACCEPT/> Готово
+<SYS_SPECIAL3/> Код
+<SYS_SPECIAL2/> Пригласить                <SYS_SPECIAL3/> Код
+<SYS_SPECIAL/> Поиск
+Введи код
+Твой код:
 ########################################
 ## OPTIONS                            ##
 ########################################
-Graphics and Audio
-Controls
-Gameplay
-HUD and Text
-Language
-Data Management
-Credits
+Графика и звук
+Управление
+Игровой процесс
+Значки и текст
+Язык
+Перенос прогресса
+Управление данными
+Авторы
 #### Shared values
 ########################################
-Off
-On
-Small
-Medium
-Large
-<SYS_SPECIAL/> Reset to Defaults
-<SYS_ACCEPT/> Apply
+Выкл.
+Вкл.
+Маленький
+Средний
+Большой
+<SYS_SPECIAL/> Вернуть настройки по умолчанию
+<SYS_ACCEPT/> Применить
 #### GFX and Audio options
 ########################################
-GRAPHICS
-Resolution
-Set the resolution.
-Resolution scale
-Change the internal resolution of the game.
-Display Mode
-Set the display mode.
-Fullscreen
-Borderless Windowed
-Windowed
-Brightness
-Set the screen brightness.
-Visual Effects
-Lower VFX may improve performance.
-High
-Normal
-Low
-AUDIO
-SFX Volume
-Set the volume of sound effects.
-Music Volume
-Set the music volume.
-Master Volume
-Set the master volume.
+ГРАФИКА
+Разрешение
+Задай разрешение.
+Шкала разрешения
+Измени внутреннее разрешение игры.
+Режим отображения
+Задай режим отображения.
+Во весь экран
+Окно без границ
+Режим окна
+Яркость
+Задай яркость экрана.
+Световые вспышки
+Задай интенсивность ярких вспышек.
+Вкл.
+Выкл.
+Визуальные эффекты
+Чем ниже, тем лучше производительность.
+Высокие
+Нормальные
+Низкие
+ЗВУК
+Громкость звуковых эффектов
+Задай громкость звуковых эффектов.
+Громкость музыки
+Задай громкость музыки.
+Основной звук
+Задай громкость основного звука.
 #### Controls
 ########################################
-Keyboard Config
-Controller Config
-Current Player
-The current player whose controls we're configuring.
-Player %d
-Up
-Down
-Left
-Right
-Jump
-Attack
-Bomb
-Rope
-Pause
-Use Door/Buy
-Walk/Run (Hold)
-Movement Default
-Toggle running or walking by default.
-Walk
-Run
-Right Stick
-Toggle the right stick for movement.
-Vibration
-Set the controller vibration mode.
-<SYS_ACCEPT/> Change Key
-<SYS_ACCEPT/> Change Button
-Press the button you'd like to use for %ls
-This key is already in use! If you continue, this key will be unset for player %d.
-Unset key for player %d
-Player %d has some unset actions. Are you sure you want to leave?
+Конфигурация клавиатуры
+Конфигурация контроллеров
+Конфигурация контроллеров
+Текущий игрок
+Игрок, управление которого сейчас настраивается.
+Игрок %d
+Вверх
+Вниз
+Влево
+Вправо
+Прыжок
+Атака
+Бомба
+Веревка
+Пауза
+Использовать дверь / купить
+Идти / бежать (удерживай)
+Перемещение по умолчанию
+Переключай бег или ходьбу по умолчанию.
+Идти
+Бежать
+Правый джойстик
+Для перемещения переключай правый джойстик.
+Правый мини-джойстик
+Для перемещения переключай правый мини-джойстик.
+Вибрация
+Задай режим вибрации контроллер.
+Вибрация
+Задай режим вибрации контроллера.
+<SYS_ACCEPT/> Сменить клавишу
+<SYS_ACCEPT/> Сменить кнопку
+<SYS_ACCEPT/> Сменить кнопку
+<SYS_ACCEPT/> Сменить кнопку
+<SYS_ACCEPT/> Сменить кнопку
+Нажми кнопку, которой будет включаться команда «%ls»
+Нажми кнопку, которой будет включаться команда «%ls»
+Нажми кнопку, которой будет включаться команда «%ls»
+Эта клавиша уже используется! Если продолжишь, то будет снято назначение у игрока %d.
+Снять назначение клавиши для игрока %d
+Не всё задано для игрока %d. Точно хочешь выйти?
 #### Online
 ########################################
-ONLINE
-Cross-Play
-Enables playing with players using other platforms.
-Input Delay
-Delays game control input to reduce visual glitches.
-Output Delay
-Delays displaying other players' actions to reduce visual glitches.
-Pseudonymization
-Use pseudonyms for players from third-party sources.
+ПО СЕТИ
+Игра на разных платформах
+Позволяет играть с игроками, использующими другие платформы.
+Задержка ввода
+Задерживает ввод управления, чтобы сократить визуальные сбои.
+Задержка вывода
+Задерживает отображение действий других игроков, чтобы сократить визуальные сбои.
+Псевдонимизация
+Используй псевдонимы для игроков из сторонних источников.
+#### Cross-Progress
+########################################
+Перенос прогресса
+Включи перенос прогресса на другие платформы.
+Автосинхронизация
+Синхронизируй прогресс с другими устройствами автоматически.
+Запрос кода синхронизации
+Запроси код, чтобы перенести прогресс на другую платформу.
+Ввод кода синхронизации
+Введи код с другой платформы, чтобы перенести свой прогресс.
+Синхронизировать прогресс 
+Скачивай, объединяй и загружай свой прогресс.
+Код синхронизации:
+Запрос кода
+Синхронизация
 #### Gameplay
 ########################################
-Pet Style
-Set which pet appears in each level.
-Screen Shake
-Set how much screen shake there is.
-Off
-Low
-Medium
-High
-Instant Restart
-Add an Instant Restart option to the Pause Menu.
-None
-Confirm
-Don't Confirm
+Стиль питомца
+Укажи, какие питомцы будут появляться на каждом уровне.
+Тряска экрана
+Задай, насколько сильно будет трястись экран.
+Выкл.
+Слабо
+Средне
+Сильно
+Мгновенный перезапуск
+Добавь мгновенный перезапуск в меню паузы.
+Нет
+С подтверждением
+Без подтверждения
 #### Display
 ########################################
-HUD
-HUD Visibility
-Set the HUD visibility.
-Auto-Adjust
-Opaque
-Transparent
-Invisible
-HUD Size
-Set the size of the HUD.
-Level Timer
-Set how the level timer is displayed.
-Level Timer Only
-Level/Total
-Off
-Timer Detail
-Set how detailed the level timer is.
-Seconds
-Milliseconds
-Level Number
-Toggle if the level number is displayed.
-Angry Shopkeeper icon
-Toggle whether an icon is displayed when shopkeepers are angry.
-Button Prompts
-Choose whether or not to display button prompts.
-Button icons
-Force button icons to a particular platform.
-TEXT BOXES
-Text Box Size
-Set the size of text boxes.
-Text Box Duration
-Set how long a text box is displayed on screen.
-Very Short
-Short
-Medium
-Long
-Testing description text\nThis is the subdescription text
-Level Feelings
-Toggle whether level feelings are displayed.
-Dialogue Text
-Toggle whether dialogue text is displayed.
-Kali Text
-Toggle whether Kali's messages are displayed.
-Ghost Text
-Toggle whether ghost warnings are displayed.
-<SYS_SPECIAL2/> Preview HUD
-<SYS_SPECIAL2/> Preview Text Box
+Значки
+Видимость значков
+Задай видимость значков.
+Автоподстройка
+Непрозрачные
+Прозрачные
+Невидимость
+Размер значков
+Задай размер значков.
+Таймер уровня
+Задай, как будет отображаться таймер уровня.
+Только таймер уровня
+Уровень / всё время
+Выкл.
+Точность таймера
+Задай, насколько точным будет таймер уровня.
+Секунды
+Миллисекунды
+Номер уровня
+Укажи, будет ли отображаться номер уровня.
+Значок рассерженного лавочника
+Укажи, будет ли отображаться значок, когда лавочник злится.
+Подсказки кнопок
+Выбери, будут ли отображаться подсказки кнопок.
+Подсказки кнопок
+Выбери, будут ли отображаться подсказки кнопок.
+Подсказки кнопок
+Выбери, будут ли отображаться подсказки кнопок.
+Значки кнопок
+Назначь значки кнопок определенной платформе.
+Уведомления о подвигах
+Отображать уведомления о подвигах или нет.
+ТЕКСТ
+Размер текста
+Задай размер текста
+Длительность показа
+Укажи длительность отображения текста на экране.
+Очень малая
+Малая
+Средняя
+Большая
+Непрозрачность текста
+Задай непрозрачность текста.
+Проверка текста описания\nЭто текст дополнительного описания
+Примечательные особенности
+Укажи, будут ли для уровней добавляться примечательные особенности.
+Текст диалогов
+Укажи, будет ли отображаться текст диалогов.
+Текст Кали
+Укажи, будут ли отображаться сообщения Кали.
+Текст Призрака
+Укажи, будут ли отображаться предупреждения Призрака.
+<SYS_SPECIAL2/> Предпросмотр значков
+<SYS_SPECIAL2/> Предпросмотр текста
 #### Language
 ########################################
-New Language
-Set the language.
-<SYS_ACCEPT/> Apply Language
+Новый язык
+Задай язык.
+<SYS_ACCEPT/> Применить язык
 #### Data Management
 ########################################
-Reset Journal
-Reset Shortcuts
-Reset Unlocked Characters
-Reset Player Profile
-Reset Times
-Reset All Save Data
-Are you sure? This action can't be undone.
+Сбросить журнал
+Сбросить кратчайшие пути
+Сбросить разблокированных персонажей
+Сбросить профиль игрока
+Сбросить победы и время
+Сбросить все сохранения
+Будут сброшены все записи журнала, кроме разблокированных персонажей.
+Будут сброшены все кратчайшие пути.
+Будут заблокированы все доступные персонажи и удалены их записи журналов.
+Будет сброшен профиль игрока.
+В профиле игрока будут сброшено среднее время, лучшее время и победы.
+Будут сброшены все сохранения.
+Это может повлиять и на базовый лагерь.
+Точно? Это действие нельзя будет отменить.
 #### Credits
 ########################################
-<SYS_ACCEPT/> Fast Forward
+<SYS_ACCEPT/> Быстрая перемотка
 ########################################
 #### LEADERBOARDS
 ########################################
-Top Runs
-Depth
-Fastest Times
-Normal
-Hard
-Special
-Top Daily Runs
-Rank
-Player
-Level
-Score
-Time
-Filter
-Overall
-Friends
-Cross-Play
-<SYS_SPECIAL2/> Me
+Лучшие забеги
+Глубина
+Самое быстрое время
+Обычные
+Сложные
+Особые
+Лучшие забеги дня
+Ранг
+Игрок
+Уровень
+Счет
+Время
+Фильтр
+Все
+Друзья
+Платформы
+Всего игроков
+<SYS_SPECIAL2/> Я
+Смотреть повтор
+<SYS_ACCEPT/> Смотреть повтор
+<SYS_ACCEPT> Контекстное меню
 ########################################
 ## ENTER SEED SCREEN                  ##
 ########################################
-Enter Seed
-<SYS_ACCEPT/> Select    <SYS_SPECIAL/> Delete    <SYS_SPECIAL2/> Random
-Seed: %08X
+Введи код
+<SYS_ACCEPT/> Выбрать    <SYS_SPECIAL/> Удалить
+<SYS_ACCEPT/> Выбрать    <SYS_SPECIAL/> Удалить    <SYS_SPECIAL2/> Случайно
+Код: %08X
 ########################################
 ## CHARACTER SELECTION SCREEN         ##
 ########################################
-CHOOSE ADVENTURER
-Player %d
-<SYS_ACCEPT/> Start
-Back <SYS_BACK/>
-<LOG_ACTION/> Start with bots
-<SYS_SPECIAL/> Start with bots
-QUICK SELECT
-<LOG_ROPE/> Quick Select
-<SYS_SPECIAL2/> Quick Select
-Press <LOG_START/> to access the Options Menu and change your control scheme.
-The walls are shifting...
+ВЫБЕРИ ПУТЕШЕСТВЕННИКА
+Игрок %d
+<SYS_ACCEPT/> Начать
+Назад <SYS_BACK/>
+<LOG_ACTION/> Добавить бота
+<SYS_SPECIAL/> Добавить бота
+<LOG_BOMB/> Убрать бота
+<SYS_BACK/> Убрать бота
+<LOG_SPECIAL/> Сменить бота
+<SYS_SPECIAL3/> Сменить бота
+Расслабон
+Нормальные
+Ярость
+Черепаха
+Тактик
+Случай
+БЫСТРЫЙ ВЫБОР
+<LOG_ROPE/> Быстрый выбор
+<SYS_SPECIAL2/> Быстрый выбор
+Нажми <LOG_START/>, чтобы перейти в меню параметров и сменить схему управления.
+Стены раздвигаются...
 ########################################
 ## ARENA                              ##
 ########################################
-ARENA
-Press <LOG_JUMP/> to revive!
-Rules
-Format
-Choose which format to play with.
-Deathmatch
-Hold the Idol
-Deathmatch: Last person standing.
-Hold the Idol: Hold it as long as possible.
-Ruleset
-Choose which ruleset to play with.
-Casual
-Tournament
-Joust
-Frantic
-Custom <SYS_ACCEPT_SECONDARY/>
-Favorite
-Casual: An easy-going ruleset with items.
-Tournament: Fast-paced, itemless rules.
-Joust: Start with a mount and a sword.
-Frantic: Bombs everywhere!
-Custom: A unique ruleset.
-Favorite: Your own house rules.
-Timer
-Set how long each round lasts.
+АРЕНА
+Нажми <LOG_JUMP/>, чтобы возродиться!
+Правила
+Формат
+Выбери формат игры.
+Смертельная схватка
+Удержание идола
+Смертельная схватка: игра до последнего героя.
+Удерживай идола как можно дольше.
+Набор правил
+Выбери, с каким набором правил хочешь играть.
+Обычный
+Турнир
+Поединок
+Ярость
+Уникум <SYS_ACCEPT_SECONDARY/>
+Избранный
+Обычный: набор незатейливых правил с предметами.
+Турнир: динамичные правила без всяких предметов.
+Поединок: начни со скакуна и меча.
+Ярость: всюду бомбы!
+Уникум: неповторимый набор правил.
+Избранный: собственные правила.
+Таймер
+Задай длительность каждого раунда.
 0:30
 1:00
 1:30
@@ -357,20 +426,21 @@ Set how long each round lasts.
 9:00
 9:30
 10:00
-Infinite
-Timer Ending
-Set what happens when the timer ends.
-Round Ends
-Death Mist
-Alien Blast
-Loose Bombs
-Random
-Wins
-Set how many wins are required to decide the victor.
-Lives
-Set how many lives each player has per round.
-Time to Win
-Set how many seconds you have to hold the idol to win.
+Бесконечно
+Окончание таймера
+Выбери, что произойдет, когда истечет время.
+Окончание раунда
+Смертельная дымка
+Инопланетный взрыв
+Падающие бомбы
+Призрак
+Случайный исход
+Победы
+Укажи, сколько побед требуется для выявления победителя.
+Жизни
+Укажи, сколько жизней может быть у каждого игрока за раунд.
+Время для победы
+Укажи, сколько секунд нужно удерживать идола для победы.
 10
 20
 30
@@ -381,1611 +451,1648 @@ Set how many seconds you have to hold the idol to win.
 80
 90
 99
-Health
-Set how much health each player starts with.
-Bombs
-Set how many bombs each player starts with.
-Ropes
-Set how many ropes each player starts with.
-Stun Time
-Set how long players are stunned for.
-x0.00
-x0.25
-x0.50
-x0.75
-x1.00
-x1.25
-x1.50
-x1.75
-x2.00
-Mount
-Choose whether players begin each round mounted.
-None
-Turkey
-Rock Dog
-Axolotl
-Random
-Arena Select
-Choose how arenas are selected between rounds.
-Take Turns
-Loser Picks
-Random Level
-Arenas
-Choose which arenas are available to play in.
-Dark Level Chance
-Set the chance a round begins dark.
-None
+Здоровье
+Укажи, сколько здоровья в начале у каждого игрока.
+Бомбы
+Укажи, сколько бомб в начале у каждого игрока.
+Веревки
+Укажи, сколько веревок в начале у каждого игрока.
+Время оглушения
+Укажи, насколько оглушаются игроки.
+x0,00
+x0,25
+x0,50
+x0,75
+x1,00
+x1,25
+x1,50
+x1,75
+x2,00
+Урон от кнута
+Задай, какой урон будет наноситься кнутом.
+0
+1
+2
+3
+4
+5
+10
+99
+Последний призрак
+Будет ли появляться призрак игрока после потери последней жизни.
+Выкл.
+Вкл.
+Восстановление дыхания
+Задай восстановление для дыхания призрака или отключи его.
+Нет
+0.25
+0.5
+0.75
+1.0
+1.25
+1.5
+1.75
+2.0
+Откл. дыхание
+Скакун
+Выбери, будут ли игроки начинать каждый раунд на ездовом животном.
+Нет
+Индюшка
+Камнепёс
+Аксолотль
+Случайно
+Кандалы
+Будут ли игроки появляться с кандалами.
+Выкл.
+Вкл.
+Выбор арены
+Укажи, как арены будут выбираться между раундами.
+По очереди
+Проигравший
+Случайный уровень
+Арены
+Выбери, какие арены будут доступны для игры.
+Темный уровень
+Укажи, с какой вероятностью раунд станет тёмным.
+Нет
 10%
 50%
-Always
-Crate Frequency
-Set how frequently crates appear in the arena.
-None
-Low
-Medium
-High
-Items
-Choose which items are available in crates and which you start holding.
+Всегда
+Ящики
+Укажи, как часто на арене будут появляться ящики.
+Нет
+Мало
+Средне
+Много
+Очень высокая
+Предметы
+Выбери, какие предметы будут доступны в ящиках, и с какими ты начинаешь игру.
 <SYS_ACCEPT_SECONDARY/>
-<SYS_START/> Next
-Off
-ALL
-NONE
-ARENA STAGES
-Enable or disable a stage for selection between rounds.
-SMALL
-BIG
-Disable all arenas. (At least one arena must be enabled to play.)
-Enable all arenas.
-Toggle small arenas on/off.
-Toggle big arenas on/off.
-Size: %ls
-Small
-Big
-- Locked Arena -
-Dwelling
-Jungle
-Volcana
-Tide Pool
-Temple of Anubis
-Ice Caves
-Neo Babylon
-Sunken City
-BONEYARD
-LADDERS
-THE BOSS ROOM
-THE DIG
-APARTMENTS
-VINES
-RUINS
-NO ROOTS
-TOWER TO HEAVEN
-PRICKLY
-TREADMILL
-PRECARIOUS
-SMELTER
-SCRAPYARD
-CHAINED
-CLAM BAKE
-BARRIER REEF
-POLE DANCE
-TWO HOUSES
-EIGHT TREASURES
-ROUNDABOUT
-PYRAMID
-BURIAL CHAMBER
-GRINDER
-SAND PIT
-ICE BOX
-BOUNCE HOUSE
-SPRUNG
-THE PLATFORM
-FORGOTTEN GOD
-ZAP CAGE
-FUNGAL
-HOLY MOUNTAIN
-NEON CITY
-POWER PLANT
-SCAR TISSUE
-INDIGESTION
-TEMPLE OF FROG
-PIPE DREAM
-PASSIONS
-ARENA SELECT
-Choose the next arena to compete in!
-Player %d's Turn
-<LOG_ACCEPT/> Fight!
-ARENA ITEMS
-Level Feature
-Power-Up
-Held Item
-Equipment
-Backwear
-Special
-<SYS_ACCEPT/> Toggle all items on/off.
-<SYS_ACCEPT/> Toggle level features on/off.
-<SYS_ACCEPT/> Toggle power-ups on/off.
-<SYS_ACCEPT/> Toggle weapons on/off.
-<SYS_ACCEPT/> Toggle equipment on/off.
-<SYS_ACCEPT/> Toggle backwear on/off.
-<SYS_ACCEPT/> Toggle special items on/off.
-<SYS_ACCEPT/> Toggle this item on/off.
-<SYS_ACCEPT/> Enable this item as a starting item or simply toggle it on/off.
+<SYS_START/> Далее
+Выкл.
+ВСЕ
+НЕТ
+ЭТАПЫ АРЕНЫ
+Включай или отключай этап для выбора между раундами.
+МАЛЫЕ
+БОЛЬШИЕ
+Отключи все арены. (Для игры должна быть включена хотя бы одна арена.)
+Включи все арены.
+Вкл/выкл малые арены.
+Вкл/выкл большие арены.
+Размеры: %ls
+Малые
+Большие
+- Заблокированная арена -
+Жилище
+Джунгли
+Волкана
+Заводь
+Храм Анубиса
+Ледяные пещеры
+Ново-Вавилон
+Затонувший город
+СВАЛКА
+ЛЕСТНИЦЫ
+ЗАЛ БОССА
+РАСКОПКИ
+АПАРТАМЕНТЫ
+ЛИАНЫ
+РУИНЫ
+КОРЕНЬЯ
+БАШНЯ В РАЙ
+КОЛЮЧКА
+БЕГОВАЯ ДОРОЖКА
+ШАТКО-ВАЛКО
+ПЛАВИЛЬНЯ
+ПОМОЙКА
+ЦЕПИ
+ПИКНИК
+БАРЬЕРНЫЙ РИФ
+ТАНЕЦ НА ПИЛОНЕ
+ДВА ДОМА
+ВОСЕМЬ СОКРОВИЩ
+КОЛЬЦО
+ПИРАМИДА
+ГРОБНИЦА
+КРЕМЕНЬ
+КАРЬЕР
+ХОЛОДИЛЬНИК
+ВОЗДУШНЫЙ ДОМ
+ТРЕСК
+ПЛАТФОРМА
+ЗАБЫТЫЙ БОГ
+КЛЕТКА
+ГРИБ
+СВЯЩЕННАЯ ГОРА
+НЕОНОВЫЙ ГОРОД
+ЭЛЕКТРОСТАНЦИЯ
+РУБЦОВАЯ ТКАНЬ
+НЕСВАРЕНИЕ
+ХРАМ ЛЯГУШКИ
+ВОЗДУШНЫЙ ЗАМОК
+УВЛЕЧЕНИЯ
+ВЫБОР АРЕНЫ
+Выбери арену для состязаний!
+Ход игрока %d
+<LOG_ACCEPT/> В бой!
+ПРЕДМЕТЫ АРЕНЫ
+Находка уровня
+Усиление
+Орудие
+Снаряжение
+Предмет на спину
+Особые
+<LOG_ACCEPT/> Вкл/выкл все предметы.
+<LOG_ACCEPT/> Вкл/выкл находки уровня.
+<LOG_ACCEPT/> Вкл/выкл усиления.
+<LOG_ACCEPT/> Вкл/выкл оружие.
+<LOG_ACCEPT/> Вкл/выкл снаряжение.
+<LOG_ACCEPT/> Вкл/выкл предметы на спину.
+<LOG_ACCEPT/> Вкл/выкл особые предметы.
+<LOG_ACCEPT/> Вкл/выкл этот предмет.
+<LOG_ACCEPT/> Задай этот предмет в качестве начального или просто включи/выключи его.
+<LOG_SPECIAL/> Пропустить
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
-<LOG_ACCEPT/> OK
-READY!
-PLAYER 1 WINS!
-PLAYER 2 WINS!
-PLAYER 3 WINS!
-PLAYER 4 WINS!
-TEAM 1 WINS!
-TEAM 2 WINS!
-TEAM 3 WINS!
-TEAM 4 WINS!
-DRAW GAME!
-<LOG_ACCEPT/> Next!
+<LOG_ACCEPT/> ОК
+ГОТОВ!
+ПОБЕЖДАЕТ ИГРОК 1!
+ПОБЕЖДАЕТ ИГРОК 2!
+ПОБЕЖДАЕТ ИГРОК 3!
+ПОБЕЖДАЕТ ИГРОК 4!
+ПОБЕЖДАЕТ КОМАНДА 1!
+ПОБЕЖДАЕТ КОМАНДА 2!
+ПОБЕЖДАЕТ КОМАНДА 3!
+ПОБЕЖДАЕТ КОМАНДА 4!
+НИЧЬЯ!
+<LOG_ACCEPT/> Далее!
 ########################################
 ## TEAM SELECTION                     ##
 ########################################
-CHOOSE TEAMS
-<LOG_ACCEPT/> Start
+ВЫБЕРИ КОМАНДЫ
+<LOG_ACCEPT/> Начать
 ########################################
 ## PRE-MATCH HYPE                     ##
 ########################################
-FIRST TO %d
-HOLD THE IDOL FOR %d SECONDS
+ИГРА ДО %d
+УДЕРЖИВАЙ ИДОЛА %d С.
 ########################################
 ## TRANSITION TUNNEL                  ##
 ########################################
-%d-%d COMPLETED!
-This level:
-Total:
-Stats
-Loot
-Press <LOG_JUMP/> to go to the next level
+%d–%d ПРОЙДЕНО!
+Этот уровень:
+Всего:
+Статистика
+Добыча
+Нажми <LOG_ACCEPT/> для перехода на следующий уровень
 ########################################
 ## GAME OVER                          ##
 ########################################
-Quick Restart
-Character Select
-Return to Camp
-Enter New Seed
-Exit to Title
+Быстрый перезапуск
+Выбор персонажа
+Вернуться в лагерь
+Введи новый код
+Выход к разделу
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
-Controller for player %d has been disconnected. Reconnect the controller or connect a new one and press <LOG_ACCEPT/> to continue.
-<LOG_CANCEL/> Return to title screen
-<LOG_CANCEL/> Return to main menu
+Контроллер для игрока %d отключен. Подключи его заново (или подключи новый) и нажми <LOG_ACCEPT/>, чтобы продолжить.
+Контроллер для игрока %d отключен. Подключи его заново (или подключи новый) и нажми <LOG_ACCEPT/>, чтобы продолжить.
+<LOG_CANCEL/> Вернуться к экрану раздела
+<LOG_CANCEL/> Вернуться к главному экрану
 ########################################
 ## JOURNAL MENU                       ##
 ########################################
-Journal
-Places
-People
-Bestiary
-Items
-Traps
-Story
-Entry %d
-Defeated
-Killed
-Killed By
-N/A
-You got the Journal!
-Journal Entry Added
+Журнал
+Места
+Герои
+Бестиарий
+Предметы
+Ловушки
+Сюжет
+Запись %d
+Удалось победить
+Удалось убить
+Тебя убили
+Н/Д
+У тебя появился журнал!
+Добавлена запись в журнал
+<LOG_SELECT/> Закрыть журнал
 ########################################
 ## JOURNAL - PLACES                   ##
 ########################################
-UNDISCOVERED
-This entry is still waiting to be discovered.
-DWELLING
-The air here is warm and dry. It smells of campfire smoke and bat guano.
-JUNGLE
-Despite all odds, this dense, tropical forest appears to be teeming with life.
-VOLCANA
-It's as hot as Hell in this lava-filled world! Who knew the Moon could have such a place inside it?
-OLMEC'S LAIR
-A shrine dedicated to the mighty Olmec. There is a timeless quality to this place of worship.
-TEMPLE OF ANUBIS
-A massive tomb built by powerful pharaohs. On its walls are carved the stories of the past, present, and future.
-TIDE POOL
-The ruins of an ancient empire lay here, at the edge of a vast, underground ocean.
-ICE CAVES
-Life still thrives within the frozen core of this giant meteorite.
-NEO BABYLON
-The capital city of the Olmites, a place of high technology, untold wonders, and endless stimulation.
-SUNKEN CITY
-In the bottom of the Well, the First City sleeps.
-COSMIC OCEAN
-The roiling waters of creation that flow from Hundun's childish weeping. Here one may find the beginning and the end.
-THE CITY OF GOLD
-A legendary place to all treasure hunters! Every brick is made from solid gold.
-DUAT
-A desert of ash and fire, burning beneath an eternal blood moon. The domain of the god Osiris.
-ABZU
-This palatial sanctuary was built over the deepest part of the sea.
-TIAMAT'S THRONE
-Where Queen Tiamat gave birth to the World. Now a seat of power from which she guides her unruly children.
-EGGPLANT WORLD
-Once the palace of a mighty tyrant, now overgrown with peaceful eggplants.
-HUNDUN'S HIDEAWAY
-At the lowest point of the Well is where the Great Dreamer muddles about, always felt but never known.
+НЕ ОТКРЫТО
+Эту запись ещё предстоит открыть.
+ЖИЛИЩЕ
+Воздух здесь влажный и сухой, а всё кругом пропахло дымом костра и помётом летучих мышей.
+ДЖУНГЛИ
+Несмотря ни на что эти непролазные тропические заросли, похоже, кишат жизнью.
+ВОЛКАНА
+В мире, заполненном лавой, горячо как в аду! Кто бы знал, что внутри Луны может быть такое место?
+ЛОГОВО ОЛЬМЕКА
+Святыня, построенная в честь могущественного Ольмека. У этого места поклонения есть что-то эдакое, неподвластное времени.
+ХРАМ АНУБИСА
+Огромная гробница, возведённая могущественными фараонами. На её стенах высечены предания прошлого, настоящего и будущего.
+ЗАВОДЬ
+Здесь, на краю огромного подземного океана, покоятся руины древней империи.
+ЛЕДЯНЫЕ ПЕЩЕРЫ
+В замёрзшем ядре этого гигантского метеорита по-прежнему брезжит жизнь.
+НОВО-ВАВИЛОН
+Столица ольмитов, место высоких технологий, неисчислимых чудес и бесконечных удовольствий.
+ЗАТОНУВШИЙ ГОРОД
+На самом дне Скважины дремлет Первый город.
+КОСМИЧЕСКИЙ ОКЕАН
+Бурлящие воды мироздания, что берут свои истоки от ребяческого плача Хуньдуня. Здесь можно встретить начало и конец.
+ГОРОД ЗОЛОТА
+Легендарное место для всех охотников за сокровищами! Каждый кирпичик тут из чистого золота.
+ДУАТ
+Пустыня пепла и огня, горящая под вечной кровавой луной. Достояние бога Осириса.
+АБЗУ
+Это дворцовое святилище было сооружено над самой глубокой частью моря.
+ТРОН КОРОЛЕВЫ ТИАМАТ
+Именно здесь королева Тиамат родила Мир. Теперь это место силы, откуда она наставляет своих непослушных детей.
+БАКЛАЖАНОВЫЙ МИР
+Бывший дворец могущественного тирана, тихо поросший баклажанами.
+УБЕЖИЩЕ ХУНЬДУНЯ
+На самом дне Скважины копошится Великий мечтатель, никому неведомый, но всеми осязаемый.
 ########################################
 ## JOURNAL - BESTIARY                 ##
 ########################################
-SNAKE
-Be careful! It's liable to throw a hissy fit!
-SPIDER
-Much larger than the household variety. Don't let it get the drop on you!
-HANG SPIDER
-It could chase you if it had to, but it'd rather not leave its web if possible.
-GIANT SPIDER
-A frightening arachnid the size of a car. She squirts sticky webs to ensnare her prey.
-BAT
-A common cave resident that nonetheless thinks very highly of itself due to its cute appearance.
-CAVEMAN
-One of our primitive ancestors. His simple life is somewhat enviable.
-SKELETON
-We all have one inside us... and yet they're still so spooky!
-SCORPION
-Sometimes you break open a pot and a nightmare comes out. This is that nightmare.
-HORNED LIZARD
-It still hasn't figured out how to stop rolling once it starts.
-CAVE MOLE
-Who's got teeth like spades and needs no shades? CAVE MOLE! CAVE MOLE!
-QUILLBACK
-The leader of the cavemen. A big bully who wears the pelt of the last cave porcupine.
-MANTRAP
-Once it tasted human flesh, it never looked back!
-TIKI MAN
-A masked Jungle-dweller who hunts with a large boomerang.
-WITCH DOCTOR
-A Tiki Tribe elder who practices black magic. They use an effigy to attack intruders.
-MOSQUITO
-An annoying pest! Makes me mad just thinking about it.
-MONKEY
-A mischievous forest trickster. It simply can't get enough of its own unfunny pranks!
-MAGMAR
-When an adventurer dies in lava, their spirit can become trapped inside the lava instead of going free.
-ROBOT
-They patrol Volcana aimlessly, awaiting instructions from long-dead masters.
-FIRE BUG
-A deadly insect that protects itself by igniting gas stored inside its body.
-IMP
-When Yama disappeared, these lowly servants emerged from Hell seeking employment.
-LAVAMANDER
-The blood of this lizard-like monster runs so cold that only the immense heat of lava can keep it going.
-VAMPIRE
-A tortured soul who traded their humanity for eternal life.
-VLAD
-The dark lord of all vampires. He relocated to a large castle deep inside Volcana.
-OLMEC
-Once thought to be the cause of a curse that trapped explorers in a cave... but maybe he was just a small part of it?
-CROCMAN
-Their powerful bite and teleportation magic makes them a dangerous foe.
-COBRA
-A hooded serpent with a rather rude habit.
-MUMMY
-This frightening tomb lord emerges from its eternal slumber to protect the Temple from trespassers.
-SORCERESS
-An expert magic user who wields the power of creation.
-CAT MUMMY
-These mummified felines are filled with terrible curses.
-NECROMANCER
-A master of the dark arts who dedicated his life to studying the Book of the Dead.
-ANUBIS
-This legendary jackal-headed god is tasked with guarding the Temple's most hallowed treasures.
-AMMIT
-A terrifying underworld demon who eats the hearts of unclean souls, causing them to die a second death.
-APEP
-A great snake god who slithers tirelessly throughout Duat, with scales of flint and a stomach full of hot ash.
-ANUBIS II
-Having been defeated at the Temple, Anubis returns to the underworld to beg forgiveness of his father, Osiris.
-OSIRIS
-The ruler of Duat and the ultimate judge of souls who make their way to him.
-JIANGSHI
-A reanimated corpse. Its stiff legs force it to hop around.
-JIANGSHI ASSASSIN
-This wily jiang-shi was once an imperial assassin.
-FLYING FISH
-A strange, thrill-seeking fish that will go out of its way to eat "landfood".
-OCTOPY
-It defends itself with a blinding ink attack and a crown of razor sharp barnacles.
-HERMIT CRAB
-An irritable loner who hates being disturbed. Its saliva is very poisonous!
-PANGXIE
-One of Kingu's famous armored guards. His claws can crush wood and stone with ease.
-GREAT HUMPHEAD
-Endlessly he patrols the salty waters of the Great Lake, waiting for the Empress to return and feed him.
-KINGU
-Tiamat's loyal companion and unwavering protector. Her mighty shell once withstood the impact of a comet.
-UFO
-In alien society, being a flying saucer pilot is considered a lowly occupation.
-ALIEN
-Tiamat's firstborn. They harbor a deep jealousy of the Olmites, whom they think she favors.
-YETI
-It loves to toss things and chew gum. But it doesn't know what gum is!
-YETI KING
-The king of the yetis is whichever one is biggest.
-YETI QUEEN
-The queen of the yetis is whichever one can defeat the king in battle.
-LAHAMU
-The eldest daughter of Tiamat. A jealous and vindictive warlord with powerful psychic abilities.
-PROTO SHOPKEEPER
-During the First Wars, Lahamu stole the Original Man to create clones of him with varying degrees of success.
-LAMASSU
-A mighty demigod created by the Olmites to help them guard Neo Babylon.
-OLMITE
-Tiamat's secondborn. An inquisitive race that excels at creation.
-TIAMAT
-The Queen of the World. Though myth and legend have separated her from her descendents, some still hear her call...
-FROG
-Over the aeons, these bloated amphibians have overrun the Sunken City.
-FIRE FROG
-Some of Sunken City frogs have developed an explosive personality.
-GOLIATH FROG
-A frog of legend. It carries its entire family within its mighty belly.
-GRUB
-A lowly creature just trying to make it to the next part of its lifecycle.
-TADPOLE
-A baby frog. It's content to splash in murky waters.
-GIANT FLY
-A fly of titanic proportions. It looks threatening but seems rather uninterested in us...
-HUNDUN
-The muddled dreamer Hundun. The cosmic egg Hundun. The majestic child Hundun. The unstoppable Hundun.
-EGGPLANT MINISTER
-The most loyal servants of the King of Hell, who continued to follow though commands no longer left his lips.
-EGGPLUP
-Once a fierce hound of hell, now a playful puppy.
-BEE
-An important part of the cave ecosystem. However, it's much larger and more aggressive than the common honeybee.
-QUEEN BEE
-The matriarch of the hive. On her abdomen one might find a blob of delicious royal jelly.
-SCARAB
-A jeweled flying beetle revered by the followers of Anubis and sought after by leprechauns and treasure hunters.
-GOLDEN MONKEY
-He struck out on adventure but a sorceress used magic to transform him into an idol.
-LEPRECHAUN
-This greedy sprite seeks out heavy pockets to pilfer for his treasure stash.
-MONTY
-A helpless pug adopted by Tina Flan after her first big adventure. Ana's somewhat faithful companion.
-PERCY
-A helpless cat who snuck aboard Margaret Tunnel's spaceship looking for a warm place to sleep.
-POOCHI
-A helpless hamster who Colin Northward brought to the Moon in the name of science. Unfortunately, she escaped.
-GHIST
-If in life the spirit is small and spiteful, in death its presence is weak and hard to know.
-GHOST
-This angry and relentless spirit chases down explorers for reasons unknown.
-CELESTIAL JELLY
-These mighty titans roam the vast waters of the Cosmic Ocean, leaving behind them great ripples that alter time and space.
-CAVE TURKEY
-A large, meaty bird, best known for its fleshy wattle, also known as a snood.
-ROCK DOG
-The skin of this fire-breathing canine is protected by a rock-hard plates, hence the name.
-AXOLOTL
-The Empress encountered these curious creatures during her travels and brought some back as pets. They quickly escaped!
-QILIN
-A creature of myth, whose arrival is said to coincide with important events in the history of humans and gods.
-MECH RIDER
-A MOYA-class mechanized armor designed by aliens to combat the Olmites during the Second Wars.
+ЗМЕЯ
+Осторожнее! С ней шутки плохи!
+ПАУК
+Намного больше обычного. Не дай ему упасть на тебя!
+ВИСЯЧИЙ ПАУК
+Запросто может догнать свою добычу, но предпочитает не покидать пределы паутины.
+ГИГАНТСКИЙ ПАУК
+Страшная арахнида размером с машину. Пускает липкую паутину, опутывая ею свою жертву.
+ЛЕТУЧАЯ МЫШЬ
+Типичный обитатель пещеры, однако довольно милой наружности, а потому весьма высокого мнения о себе.
+ПЕЩЕРНЫЙ ЖИТЕЛЬ
+Один из наших первобытных предков. Простоте его жизни остается только позавидовать.
+СКЕЛЕТ
+В каждом из нас такой... Какие же все-таки они жуткие!
+СКОРПИОН
+Иногда разбиваешь горшок — и наступает кошмар. Это как раз он и есть.
+РОГАТАЯ ЯЩЕРИЦА
+Как начнёт катиться кубарем — уже не остановится.
+ПЕЩЕРНЫЙ КРОТ
+Живёт в пещере крот слепой и невдомёк ему сонаты, слывёт он мастером работ, его зубища — как лопаты!
+ДИКОБРАЗ
+Предводитель пещерных жителей. Верзила, который носит шкуру последнего пещерного дикобраза.
+ХИЩНЫЙ ЦВЕТОК
+Однажды отведав человечины, он больше никогда не останавливался!
+ЖИТЕЛЬ ТИКИ
+Замаскированный житель джунглей, который охотится большим бумерангом.
+ЗНАХАРЬ
+Старейшина племени тики, практикующий чёрную магию. Использует чучело для нападения на незваных гостей.
+КОМАР
+Такой назойливый! Раздражает, даже если просто подумать о нём.
+ОБЕЗЬЯНА
+Лесной фокусник и озорник. Никак не может насытиться собственными несмешными розыгрышами!
+МАГМАР
+Когда путешественник гибнет в лаве, его дух может застрять в ней, вместо того чтобы отправиться на свободу.
+РОБОТ
+Бесцельно патрулирует Волкану, ожидая указания от давно почивших хозяев.
+ОГНЕЖУК
+Смертоносное насекомое, которое защищается, воспламеняя газ.
+БЕС
+Когда Король Яма исчез, эти ничтожные прислужники выбрались из адских глубин в поисках нового служения.
+ЛАВАМАНДРА
+Это ящероподобное чудище настолько холоднокровное, что лишь изнуряющий жар лавы может растопить его кровь.
+ВАМПИР
+Измученная душа, променявшая свой человеческий облик на вечную жизнь.
+ВЛАД
+Тёмный предводитель всех вампиров. Перебрался в большой замок в глубинах Волканы.
+ОЛЬМЕК
+Когда-то считалось, что именно он наложил проклятие, заточив исследователей в пещере... Но вдруг он был лишь частью этой истории?
+ЧЕЛОВЕК-КРОКОДИЛ
+Невероятно опасен своими укусами и магией телепортации.
+КОБРА
+Змея с капюшоном и грубыми манерами.
+МУМИЯ
+Этот жутковатый властелин гробниц пробуждается от вечного сна, чтобы защитить свой храм от посягательств.
+ЧАРОДЕЙКА
+Вот уж кто поистине овладел магией и могуществом созидания.
+КОШКА-МУМИЯ
+Эти мумифицированные кошки источают страшные проклятия.
+НЕКРОМАНТ
+Мастер тёмных искусств, посвятивший жизнь изучению Книги мёртвых.
+АНУБИС
+Этому легендарному богу с головой шакала поручено охранять самые священные сокровища Храма.
+АММИТ
+Жуткий демон из подземного мира, который пожирает сердца нечистых душ, заставляя их умирать еще раз.
+АПЕП
+Великий змеиный бог, который без устали рыщет по всему Дуату, сверкая чешуйками и извергая горячий пепел.
+АНУБИС II
+Потерпев поражение в Храме, Анубис возвращается в преисподнюю, чтобы попросить прощения у своего отца — Осириса.
+ОСИРИС
+Правитель Дуата и верховный судья душ, которые к нему попадают.
+ЦЗЯНШИ
+Оживший труп с одеревенелыми ногами. Немного подскакивает, когда ходит.
+АССАССИН ЦЗЯНШИ
+Этот пронырливый Цзянши когда-то состоял в рядах императорских асассинов.
+ЛЕТУЧАЯ РЫБА
+Странная рыбёшка, которая ищет острых ощущений. Готова выйти из своей зоны комфорта, чтобы отведать наземного мясца.
+ОСЬМИРОГ
+Защищается ослепляющими чернилами и короной из острых, как бритвы, ракушек.
+РАК-ОТШЕЛЬНИК
+Замкнутый в себе рак, который ненавидит, когда его тревожат. Его слюна крайне ядовита!
+ПАНСЕ
+Один из знаменитых, облаченных в доспехи стражей Кингу. Своими когтями способен с лёгкостью пронизывать и дерево, и камень.
+ГОЛОВОРЫБ
+Бесконечно патрулирует солёные воды Великого озера, ожидая, когда Императрица вернётся и покормит его.
+КИНГУ
+Непоколебимая защитница и верная спутница Тиамат. Её могучий панцирь однажды выдержал удар кометы.
+НЛО
+В инопланетном сообществе быть пилотом летающей тарелки считается непристойным занятием.
+ПРИШЕЛЕЦ
+Перворождённые королевой Тиамат существа. Питают глубокую ревность к ольмитам, считая их её любимчиками.
+ЙЕТИ
+Любит швырять всё подряд и жевать жвачку. Правда, не знает, что такое жвачка!
+КОРОЛЬ ЙЕТИ
+Тот, кто самый большой среди йети, и есть их король.
+КОРОЛЕВА ЙЕТИ
+Тот, кто одолеет короля йети, и есть их королева.
+ЛАХАМУ
+Старшая дочь королевы Тиамат. Ревнивая и мстительная военачальница с могущественными экстрасенсорными способностями.
+ПРОТО-ЛАВОЧНИК
+В эпоху Первых войн Лахаму похитила первородного человека, чтобы создать его клоны. Где-то получилось, где-то — нет.
+ЛАМАССУ
+Могучий полубог, которого создали ольмиты, чтобы он помогал им охранять Ново-Вавилон.
+ОЛЬМИТ
+Второрождённые королевой Тиамат существа. Любознательная раса с выдающимися способностями к созиданию.
+ТИАМАТ
+Королева Мира. Хоть мифы с легендами и отделили её от потомков, некоторые до сих пор слышат её зов...
+ЛЯГУШКА
+Спустя целую вечность эти раздутые амфибии захватили Затонувший город.
+ОГНЕННАЯ ЛЯГУШКА
+У некоторых лягушек из Затонувшего города появился прямо-таки взрывной характер.
+ЛЯГУШКА-ГОЛИАФ
+Лягушка, о которой слагают легенды. Переносит всё семейство на своем могучем животе.
+ЛИЧИНКА
+Кто-то просто пытается добраться до следующей части своего жизненного цикла.
+ГОЛОВАСТИК
+Детеныш лягушки. Не прочь поплескаться в мутной водичке.
+ГИГАНТСКАЯ МУХА
+Муха исполинских размеров. Выглядит угрожающе, но, кажется, ей до нас совсем нет дела...
+Хуньдунь
+Копошащийся мечтатель Хуньдунь. Космическое яйцо Хуньдуня. Величавое дитя Хуньдунь. Неудержимый Хуньдунь.
+БАКЛАЖАНОВЫЙ МИНИСТР
+Самые верные слуги адского царя, продолжавшие исполнять его приказы, больше никогда не покидали его уст.
+БАКЛАЖАНОВЫЙ ЩЕНОК
+Когда-то этот игривый щенок был яростным цербером.
+ПЧЕЛА
+Играет важную роль в пещерной экосистеме. Однако гораздо больше и агрессивнее, чем обычная медоносная пчела.
+КОРОЛЕВА ПЧЕЛ
+Родоначальница всего улья. На ее брюшке можно найти капельку вкуснейшего королевского желе.
+СКАРАБЕЙ
+Драгоценный летающий жук, почитаемый последователями Анубиса... а также лепреконами и охотниками за сокровищами.
+ЗОЛОТАЯ ОБЕЗЬЯНА
+Однажды она пустилась в приключение, но колдунья превратила ее в идола.
+ЛЕПРЕКОН
+Это жадное до сокровищ существо так и норовит опустошить чужие карманы ради своей заначки.
+МОНТИ
+Бедняжка-мопс, которого приютила Тина Флан после своего первого большого приключения. Верный спутник Аны.
+ПЕРСИ
+Беззащитная кошка, прокравшаяся на борт космического корабля Маргарет Таннел в поисках теплого местечка для сна.
+ПУЧИ
+Беззащитный хомяк, которого Колин Нортвард взял с собой на Луну во имя науки. К сожалению, зверёк сбежал.
+ДУХ
+Если при жизни душа была злобной и ничтожной, то после смерти она ослабнет так, что ее будет трудно узнать.
+ПРИЗРАК
+Никто не знает, почему этот злой и неумолимый дух охотится за исследователями.
+БОЖЕСТВЕННОЕ МЕДУЗА
+Эти могучие титаны бороздят бескрайние воды Космического океана, оставляя за собою огромную рябь, которая меняет время и пространство.
+ПЕЩЕРНАЯ ИНДЮШКА
+Большая, мясистая птица, которую легко узнать по красному отростку.
+КАМНЕПЁС
+Шкура этого огнедышащего пса защищена каменными пластинами — название говорит само за себя.
+АКСОЛОТЛЬ
+Императрица заприметила этих любопытных существ во время путешествий и взяла с собой нескольких в качестве домашних питомцев. Они быстро удрали!
+ЦИЛИНЬ
+Мифическое существо, чье появление, как считается, совпало с важнейшими событиями в истории человечества и богов.
+МЕХОВОД
+Механизированная техника класса MOYA, разработанная инопланетянами для борьбы с ольмитами в эпоху Вторых войн.
 ########################################
 ## JOURNAL - PEOPLE                   ##
 ########################################
-ANA SPELUNKY
-She's come to the Moon to find her mom and dad. An easygoing young lady with the heart of a hero.
-MARGARET TUNNEL
-A fascination with the ocean led her away from the family business. Her dream is to buy her own pirate ship.
-COLIN NORTHWARD
-An inquisitive artist and engineer who's obsessed with Olmec and the Curse of the Caves.
-ROFFY D. SLOTH
-He has a lot of deep thoughts, but not a lot that he wants to say out loud.
-ALTO SINGH
-He works in physical education and wants to make sure everyone's taking good care of their health and staying positive.
-LIZ MUTTON
-A tough-as-nails adventurer who is hard to warm up to and needs her solitude, but also cares deeply for her friends.
-NEKKA THE EAGLE
-A ferocious warrior chief who wants to confront the gods and question them about the problems of the universe.
-LISE PROJECT
-A robot designed to explore and enjoy herself. After 1000 years she'll return to her creators with the data she's collected.
-COCO VON DIAMONDS
-The creator of the world-famous Von Diamonds fashion and lifestyle brand. She's on vacation right now.
-MANFRED TUNNEL
-He's decided to finally try his hand at spelunking after many years of building shortcuts.
-LITTLE JAY
-A self-proclaimed "Spelunkyhead" trying to become a famous explorer. Gets a little overly excited around his heroes.
-TINA FLAN
-As a relatively unknown caver she managed to hit King Yama with an eggplant. She tries to downplay her fame!
-VALERIE CRUMP
-An avid fan of music and video games. She's trying to find creative inspiration through travel.
-AU
-A monk with bright golden skin. By challenging his mind and body, he's trying to find peace in a chaotic universe.
-DEMI VON DIAMONDS
-The heiress to the Von Diamonds empire. She's lived a pampered life, but is eager to learn more about the world.
-PILOT
-A strange little spaceman from a far away planet. He can often be found muttering about his UFO, the Campanella.
-PRINCESS AIRYN
-A culinary expert, she travels the world looking for the most exquisite tastes to bring home to her kingdom of Heliotropia.
-DIRK YAMAOKA
-A master ninja always looking to hone his skills. When the Moon called, he answered without hesitation.
-GUY SPELUNKY
-He's spent his life in pursuit of adventure (and treasure). A young man no longer, he's re-evaluating what's most important to him.
-CLASSIC GUY
-A version of Guy Spelunky from a parallel universe made of large, flat blocks of colors.
-TERRA TUNNEL
-She met Manfred many years ago, when she rescued him from a cave-in. Together they've built a thriving shortcut-building business!
-HIRED HAND
-He's been trapped in the caves for a very long time and is eager to be free once again.
-EGGPLANT CHILD
-Separated from their mother, they miss her dearly. The embodiment of curiosity and creative potential.
-SHOPKEEPER
-A card-carrying member of the Shopkeeper's Association. He HATES shoplifting above all else!
-TUN
-A mysterious young woman who keeps a close eye on what's happening in the Caves. Beg's sister.
-YANG
-The youngest of Yang's 12 sons, who are all named Yang. He loves turkeys.
-MADAME TUSK
-The most famous resident of the caves, or at least she'd like to think so!
-WADDLER
-He runs an item storage and transportation business. Customers have complained of getting their items back sticky.
-CAVEMAN SHOPKEEPER
-An enterprising caveman trying to acquire more shiny things to show off to his friends.
-GHIST SHOPKEEPER
-In the darkest corners they peddle their wares, hoping to preserve some small shred of their former life.
-TUSK'S BODYGUARD
-Madame Tusk pays them extremely well.
-VAN HORSING
-A veteran from the first adventure. He seeks revenge on Vlad for reasons unknown.
-SPARROW
-Hailing from a prominent ninja family, she defied her parents and turned to thievery to challenge authority.
-PARSLEY
-The youngest of three sisters. She's cheery but has a quick temper.
-PARSNIP
-The middle child of three sisters. She loves parties and cats.
-PARMESAN
-The eldest of three sisters. She's shy and nurturing.
-BEG
-In his insecurity he was drawn to Hundun and embraced Chaos. Tun's brother.
-EGGPLANT KING
-He was a mighty king... until a brave explorer humbled him. Some might say he's even more powerful now.
+Ана Спеланки
+Прибыла на Луну, чтобы отыскать маму и папу. Легкомысленная девчонка с сердцем героя.
+Маргарет Таннел
+Так увлеклась океаном, что ее унесло от семейных дел. Теперь мечтает купить собственный пиратский корабль.
+Колин Нортвард
+Любознательный художник и инженер, одержимый Ольмеком и проклятиями пещер.
+Роффи Д. Ленивец
+У него много умных мыслей, но не о многих из них он хотел бы поведать.
+Альто Сингх
+Занимается физической подготовкой. Хочет, чтобы каждый заботился о своем здоровье и не вешал нос.
+Лиз Маттон
+Невозмутимая искательница приключений. С ней трудно подружиться, и она нуждается в уединении, зато проявляет бесконечную заботу о своих друзьях.
+Некка Орлица
+Яростная военачальница, которая жаждет противостояния с богами, чтобы задать им неловкие вопросы о проблемах Вселенной.
+Проект «ЛИЗА»
+Робот, созданный, чтобы проводить исследования и развлекаться. Через 1000 лет она вернется к своим создателям с собранными данными.
+Коко Фон Даймондз
+Создатель всемирно известного бренда моды и стиля жизни Von Diamonds. Сейчас она в отпуске.
+Манфред Таннел
+Ему наконец-то захотелось попробовать силы в спелеологии после многих лет прокладывания кратчайших путей.
+Малыш Джей
+Самопровозглашенный лидер пещерного движения, который пытается стать знаменитым исследователем. Чересчур одержим своими героями.
+Тина Флан
+Не самая именитая леди в пещерной среде. Смогла запульнуть в Короля Яму баклажаном. Пытается преуменьшить свою славу.
+Валери Крамп
+Ярая поклонница музыки и видеоигр. Пытается найти творческое вдохновение в путешествиях.
+Аурум
+Монах с ярко-золотой кожей. Испытывая разум и тело, он стремится найти покой в хаотичной вселенной.
+Деми Фон Даймондз
+Наследница империи фон Даймондз. Жила, утопая в роскоши, а теперь искренне хочет постичь тайны мироздания.
+Пилот
+Странноватый маленький космонавт с далекой планеты. Часто можно услышать, как он бормочет о «Кампанелле» — своем ненаглядном НЛО.
+Принцесса Айрин
+Кулинарных дел мастерица. Путешествует по миру в поисках самых изысканных вкусов, чтобы привезти их домой в Гелиотропию.
+Дирк Ямаока
+Мастер-ниндзя, который всегда стремится отточить свои навыки. Когда его позвала Луна, он ответил без колебаний.
+Гай Спеланки
+Провел жизнь в погоне за приключениями (и сокровищами). Но раз уже не молод, то решил пересмотреть жизненные ценности.
+Классический Гай
+Версия Гая Спеланки из параллельной вселенной, составленная из больших, плоских квадратиков.
+ТЕРРА ТАННЕЛ
+Она повстречала Манфреда много лет назад, когда вызволяла его из пещеры. Вместе они построили процветающий бизнес по прокладыванию кратчайших путей!
+НАЁМНИК
+Был надолго заточён в пещерах и жаждет снова стать свободным.
+БАКЛАЖАНОВОЕ ДИТЯ
+Был разлучен со своей матерью и очень скучает по ней. Воплощение любопытства и творческого потенциала.
+ЛАВОЧНИК
+Член Сообщества лавочников. Ненавидит магазинных воров превыше всего!
+ТУНЬ
+Загадочная девушка, которая пристально следит за всем происходящим в пещерах. Бек — ее брат.
+ЯН
+Самый младший из 12 сыновей, каждого из которых зовут Яном. Любит индюшек.
+МАДАМ ТУСК
+Самая известная жительница пещер. По крайней мере, она сама так думает!
+СЛИЗЕНЬ
+Занимается хранением и транспортировкой товаров. Клиенты жалуются, что все их вещи потом липкие.
+ПЕЩЕРНЫЙ ЛАВОЧНИК
+Предприимчивый пещерный человек, пытающийся скупить как можно больше побрякушек, чтобы покрасоваться ими перед друзьями.
+ДУХ ЛАВОЧНИКА
+Сбывает свои товары в самых тёмных закоулках в надежде сохранить крупицы былой жизни.
+ТЕЛОХРАНИТЕЛЬ ТУСК
+Мадам Туск платит своей охране очень щедро.
+ВАН ХОРСИНГ
+Ветеран самого первого приключения. По неизвестным причинам пытается отомстить Владу.
+ВОРОБЕЙ
+Происходит из знатного рода ниндзя. Воспротивилась родителям и встала на преступный путь, чтобы бросить вызов власти.
+ПЕТРУШКА
+Младшая из трёх сестер. Весёлая, но вспыльчивая.
+СЕЛЬДЕРЕЙ
+Средняя из трёх сестер. Любит вечеринки и кошек.
+ПАРМЕЗАН
+Старшая из трёх сестер. Застенчивая и заботливая.
+БЕК
+В силу своей неуверенности поддался Хуньдуню и был поглощен Хаосом. Тунь — его сестра.
+БАКЛАЖАНОВЫЙ КОРОЛЬ
+Был могущественным королём... пока его не посрамил один храбрец. Хотя кто-то может сказать, что теперь он ещё могущественнее.
 ########################################
 ## JOURNAL - ITEMS                    ##
 ########################################
-ROPE PILE
-3 ropes to help you get to those hard-to-reach places.
-BOMB BAG
-A large sack filled with 3 bombs.
-BOMB BOX
-A flame-resistant box of 12 bombs. The gift every adventurer wants to receive!
-PASTE
-Made from spider's web. Lather it on your bombs to make them sticky!
-SPECTACLES
-Improves your vision and also makes you look slightly more intelligent.
-CLIMBING GLOVES
-The grips of these gloves have small bristles all over them. Just lean into walls to cling to them!
-PITCHER'S MITT
-This classic American baseball glove makes you feel like you can throw like a pro.
-SPRING SHOES
-A sturdy pair of boots equipped with alien spring technology.
-SPIKE SHOES
-A sturdy pair of boots with sharp spikes fitted to the bottom.
-COMPASS
-This classic explorer's tool will point you right to the exit. How convenient!
-ALIEN COMPASS
-A special compass designed by aliens to help them return home through the inky darkness of space.
-PARACHUTE
-It will save your life when you least expect it!
-UDJAT EYE
-The udjat eye is a symbol of great power. It represents the gods' watchful gaze.
-KAPALA
-A skull cup bestowed upon Kali's most loyal devotees. Drinking blood from it can improve one's health and enlightenment.
-HEDJET
-A white pharaoh's crown, indicating the wearer's status as an envoy for the gods. It glows brilliantly.
-CROWN
-This royal headgear exudes an aura of unquestionable authority. It's much heavier than it looks!
-THE TRUE CROWN
-Also known as the cap and bells. A fitting crown for the followers of Hundun.
-EGGPLANT CROWN
-The Eggplant King bequeathed his crown to me. I feel at peace with my place in the universe.
-ANKH
-This coveted amulet was created by the gods for followers deemed worthy enough to have their life extended.
-TABLET OF DESTINY
-A clay tablet on which many esoteric prophecies are written.
-SKELETON KEY
-The tool of thieves. It opens any lock without breaking.
-ROYAL JELLY
-A delicacy that's highly sought after for its refined taste and healing properties.
-CAPE
-This dashing fashion accessory can also be used to reduce one's speed while falling.
-VLAD'S CAPE
-The blood-red cape of Vlad the Impaler. It offers impressive mobility.
-JETPACK
-It's expensive, but many explorers swear by it. Just keep an eye on your fuel levels!
-TELEPACK
-Allows you to teleport while freeing up your hands! Requires your feet to be off the ground, however.
-HOVERPACK
-A refinement of Olmite technology. It allows you to hover indefinitely.
-POWERPACK
-Developed for military use, the power pack imbues its wearer with improved weapon handling abilities.
-WEBGUN
-It shoots synthetic webs that are so close to the real thing that even spiders can't tell the difference!
-SHOTGUN
-A basic 12-gauge shotgun. Favored by shopkeepers for self-defense and hunting down shoplifters.
-FREEZE RAY
-They say the mechanism behind its frozen blast was inspired by the sneezes of the now-extinct mammoth.
-CLONE GUN
-A one-of-a-kind prototype! The technology required to build one is beyond any known civilization.
-CROSSBOW
-A ranged weapon favored by hunters. It's capable of firing arrows with incredible accuracy.
-CAMERA
-This fancy camera comes with the most powerful flash on the market right now.
-TELEPORTER
-A handheld teleportation device. It's still in beta after all these years!
-MATTOCK
-A useful digging tool that breaks easily. The Tunnel family prefers shovels.
-BOOMERANG
-A curved wooden weapon that will return to its owner after being thrown.
-MACHETE
-Its long, broad blade is great for defense or chopping vegetables for dinner.
-EXCALIBUR
-The sword of legend. Wielded by kings and queens in times of great calamity.
-BROKEN SWORD
-Although perhaps it no longer contains its full strength, it's still a formidable weapon.
-PLASMA CANNON
-It was built by aliens, but sadly the recoil proved to be too strong for them to use it easily.
-SCEPTER
-A magical tool used by the god Anubis to cleanse souls on their way to judgment.
-HOU YI'S BOW
-With this simple but refined bow, Hou Yi shot down the nine suns that scorched the Earth.
-ARROW OF LIGHT
-A ray of sun reflecting off the Moon's tears.
-WOODEN SHIELD
-A flimsy wooden shield carried by Tikimen for some basic defense against the harsh Jungle environment.
-METAL SHIELD
-A highly durable knight's shield made of tempered steel.
-IDOL
-This valuable golden idol can be brought to the exit or to shops in exchange for gold.
-THE TUSK IDOL
-A walrus idol carved from an extra-large diamond. One of Madame's most precious treasures.
-CURSE POT
-A clay pot filled with a toxic substance rumored to be a mixture of ectoplasm and cursed blood.
-USHABTI
-A funerary figurine created to accompany someone on their journey to the underworld.
-EGGPLANT
-It is fragile yet full of vigor, reminding us to treasure every one of life's moments.
-COOKED TURKEY
-A turkey that has been cooked just right. The meat is tender and flavorful.
-ELIXIR
-A restorative potion said to cure any affliction. Royal jelly is mixed in to reduce the bitterness.
-FOUR-LEAF CLOVER
-A rare clover. It's prized by leprechauns for protection and good fortune.
+ГОРА ВЕРЕВОК
+3 веревки, которые помогут пробраться в самые труднодоступные места.
+МЕШОК БОМБ
+Большой мешок с 3 бомбами.
+КОРОБКА БОМБ
+Огнестойкая коробка из 12 бомб. Желанный подарок для любого искателя приключений!
+ПАСТА
+Изготовлена из паутины. Достаточно нанести её на бомбу, и получится бомба-липучка!
+ОЧКИ
+Не только улучшают зрение, но и добавляют немного интеллигентности.
+АЛЬПИНИСТСКИЕ ПЕРЧАТКИ
+Без дела они явно не лежали. Просто прислонись к стене, чтобы взобраться по ней!
+РУКАВИЦА ПИТЧЕРА
+Надев эту классическую бейсбольную рукавицу, невольно почувствуешь себя профессионалом бросков.
+ПРУЖИННЫЕ БОТИНКИ
+Пара добротных ботинок, оснащённых инопланетными пружинами.
+ШИПОВАННЫЕ БОТИНКИ
+Пара крепких ботинок с острыми шипами на подошве.
+КОМПАС
+Классический исследовательский инструмент, который укажет путь к выходу. Как удобно!
+ИНОПЛАНЕТНЫЙ КОМПАС
+Специальный компас, который инопланетяне разработали для себя, чтобы сквозь тьму космоса отыскать путь домой.
+ПАРАШЮТ
+Спасет жизнь, когда меньше всего этого ожидаешь!
+ГЛАЗ УДЖАТ
+Глаз Уджат символизирует великую силу, олицетворяя недремлющий взор богов.
+КАПАЛА
+Кубок в форме черепа, дарованный верноподданным Кали. Испив из него крови, можно поправить здоровье и получить просветление.
+ХЕДЖЕТ
+Белая фараонская корона, которая подчеркивает статус её обладателя как посланника богов. Светится просто блестяще.
+КОРОНА
+Королевский головной убор, излучающий ауру неоспоримой власти. Намного тяжелее, чем кажется!
+ИСТИННАЯ КОРОНА
+В народе известна как шапка с бубенчиками. Корона под стать последователям Хуньдуня.
+БАКЛАЖАНОВАЯ КОРОНА
+Баклажановый король завещал мне свою корону, и отныне я ощущаю вселенский покой.
+АНХ
+Этот вожделенный амулет был создан богами для последователей, считавшихся достойными продления жизни.
+СКРИЖАЛЬ СУДЬБЫ
+Глиняная скрижаль, на которой высечено множество эзотерических пророчеств.
+КЛЮЧ-СКЕЛЕТ
+Инструмент воров. Открывает любой замок, не взламывая его.
+КОРОЛЕВСКОЕ ЖЕЛЕ
+Деликатес, пользующийся невероятным спросом благодаря своему изысканному вкусу и целебным свойствам.
+НАКИДКА
+Модная вещица. Подходит не только для щеголяния, но и для безопасных падений.
+НАКИДКА ВЛАДА
+Кроваво-красная накидка Влада Дракулы. Окрыляет и дает невероятную свободу перемещения.
+РЕАКТИВНЫЙ РАНЕЦ
+Дорогой, но многие исследователи рекомендуют. Надо лишь следить за уровнем топлива!
+ТЕЛЕПОРТИРУЮЩИЙ РАНЕЦ
+Позволяет телепортироваться, освобождая руки! При этом надо, чтобы ноги были оторваны от земли.
+ПОЛЁТНЫЙ РАНЕЦ
+Усовершенствование технологии ольмитов. Позволяет бесконечно парить.
+СИЛОВОЙ РАНЕЦ
+Разработан для военного использования и наделяет своего владельца улучшенными способностями обращения с оружием.
+ПАУТИННАЯ ПУШКА
+Стреляет синтетической паутиной, которая так похожа на настоящую, что даже пауки не могут отличить ее!
+ДРОБОВИК
+Обычный дробовик 12-го калибра. Лавочники любят использовать такой для самообороны и отстрела магазинных воров.
+ЗАМОРАЖИВАЮЩИЙ ЛУЧ
+Поговаривают, что тот, кто создал механизм этого луча, вдохновился чиханием теперь уже вымершего мамонта.
+КЛОНОМЁТ
+Единственный в своем роде образец! Технология, необходимая для его изготовления, выходит за рамки всех известных цивилизаций.
+АРБАЛЕТ
+Оружие дальнего боя, полюбившееся охотникам. Позволяет метать стрелы с невероятной точностью.
+ФОТОАППАРАТ
+В настоящее время у этой навороченной камеры самая мощная вспышка на рынке.
+ТЕЛЕПОРТ
+Портативное устройство для телепортации. Все еще в бета-версии после стольких лет!
+КИРКА
+Сподручный инструмент для копания, который довольно легко ломается. Семейство Таннелов, однако, больше предпочитает лопаты.
+БУМЕРАНГ
+Изогнутое деревянное оружие, которое после броска возвращается обратно.
+МАЧЕТЕ
+Его длинное широкое лезвие прекрасно подходит как для защиты, так и для приготовления салата на ужин.
+ЭКСКАЛИБУР
+Легендарный меч, которым орудовали короли и королевы во времена великих бедствий.
+СЛОМАННЫЙ МЕЧ
+Возможно, в этом оружии уже и нет былой могучей силы, но оно по-прежнему опасно.
+ПЛАЗМЕННАЯ ПУШКА
+Была изготовлена инопланетянами, однако из-за сильной отдачи пользоваться этим оружием для них оказалось непросто.
+СКИПЕТР
+Волшебное орудие, которым сам бог Анубис очищал души на их пути к суду.
+ЛУК ХОУ И
+Этим простым, но искусно изготовленным луком Хоу И сбил девять солнц, выжегших Землю.
+СТРЕЛА СВЕТА
+Луч солнца, отражающийся в слёзах Луны.
+ДЕРЕВЯННЫЙ ЩИТ
+Хлипкий деревянный щит, который жители тики носят в суровых джунглях. Лучше уж такая защита, чем совсем никакой.
+МЕТАЛЛИЧЕСКИЙ ЩИТ
+Невероятно прочный рыцарский щит, изготовленный из закаленной стали.
+ИДОЛ
+Этого ценного золотого идола можно вынести с уровня или притащить в лавку для обмена на золото.
+ИДОЛ ТУСК
+Идол моржа, вырезанный из огромного бриллианта. Одно из самых драгоценных сокровищ мадам Туск.
+ГОРШОК ПРОКЛЯТЬЯ
+Глиняный горшок, наполненный токсичным веществом, которое, как поговаривают, представляет собой смесь эктоплазмы и проклятой крови.
+УШЕБТИ
+Погребальная фигурка, сопровождающая умершего на пути в подземный мир.
+БАКЛАЖАН
+Хрупкий, но полный энергии. Напоминает о том, что нужно ценить каждый момент жизни.
+ЗАПЕЧЕННАЯ ИНДЕЙКА
+Правильно запеченная индейка. Мясо такое нежное и ароматное... м-м-м.
+ЭЛИКСИР
+Живительное зелье, которым, как считается, можно вылечить любую хандру. А чтобы оно было не таким горьким, в него добавлено королевское желе.
+ЧЕТЫРЁХЛИСТНЫЙ КЛЕВЕР
+Редкий клевер, который защитит и принесет удачу. Подарок лепрекона.
 ########################################
 ## JOURNAL - TRAPS                    ##
 ########################################
-SPIKES
-Ah, spikes! The classic trap. They come in many shapes and sizes, all painful.
-ARROW TRAP
-An ancient trap of unknown origin. It's responsible for the death of many an explorer.
-TOTEM TRAP
-Quillback built these to train his followers, although they mostly serve to put them "to sleep".
-LOG TRAP
-The trunk of a massive tree, carved by Quillback and strung up to protect his treasure.
-SPEAR TRAP
-These wooden spear traps can be hard to spot amidst the Jungle foliage.
-THORNY VINE
-The thorns on these thick vines aren't long enough to impale, but they're sharp enough to deliver a nasty poke.
-POWDER BOX
-A wooden box hastily filled with black powder. It will explode at the slightest provocation.
-FALLING PLATFORM
-A rickety outcropping of rock that won't take very much weight...
-SPIKEBALL
-A large ball-and-chain that was designed for crushing rock.
-LION TRAP
-It's said that the Empress successfully deflected a barbarian horde using only these golden lions.
-GIANT CLAM
-Over the years, the Empress's treasure has made its way to the ocean and into the mouths of these oversized molluscs.
-SLIDING WALL
-A door-like mechanism that is activated by a switch.
-CRUSH TRAP
-A solid block of stone designed by pharaohs to flatten would-be tomb robbers.
-GIANT CRUSH TRAP
-An extra large edition of the crush trap, for discerning pharaohs who want that extra crushing power.
-BOULDER
-A frosty boulder released to smash treasure hunters that make it to the Ice Caves.
-SPRING TRAP
-In alien society, bouncing up and down is a common form of recreation and exercise.
-LANDMINE
-An explosive device triggered by proximity. Disable it before it's too late!
-LASER TRAP
-A fixed laser gun trigged by a motion detector.
-SPARK TRAP
-The enormous amount of excess energy generated by Neo Babylon is channeled into dangerous contraptions such as these.
-FROG TRAP
-The spear is so huge that it's hard to imagine that it was meant to be used against human beings...
-STICKY TRAP
-A strange growth, whose fleshy protuberance is reminiscent of a uvula.
-BONE DROP
-This mass of bones is so large that it's starting to burst out of the ground.
-EGG SAC
-Beneath the thin membrane you can see something writhing around vigorously.
-BEAR TRAP
-The slightest pressure will cause its powerful steel jaws to snap shut, causing massive damage.
+ШИПЫ
+Ай! Классическая ловушка. Бывает самых разных форм и размеров, но всегда одинаково больно.
+ЛОВУШКА СО СТРЕЛАМИ
+Древняя ловушка неизвестного происхождения. Погубила многих исследователей.
+ТОТЕМНАЯ ЛОВУШКА
+Дикобраз соорудил её, чтобы обучать своих последователей, хотя в основном она служит для того, чтобы их «вырубать».
+ЛОВУШКА-БРЕВНО
+Дикобраз вырезал её из ствола могучего дерева и как следует зарядил для защиты своего сокровища.
+ЛОВУШКА С КОПЬЯМИ
+Эти деревянные ловушки с копьями трудно заметить в листве джунглей.
+ТЕРНИСТАЯ ЛОЗА
+Шипы на ее густых виноградных лозах вряд ли кого-то проткнут, но кучу неприятностей точно доставят.
+ЯЩИК С ПОРОШКОМ
+Набитый чёрным порошком деревянный ящик. Взрывается при малейшей тряске.
+ПАДАЮЩАЯ ПЛАТФОРМА
+Шаткий пласт породы, который едва выдерживает собственного веса...
+ШИПАСНЫЙ ШАР
+Тяжелое ядро на длинной цепи, предназначенное для дробления горных пород.
+ЛЬВИНАЯ ЛОВУШКА
+Говорят, Императрица сумела отбиться от полчища варваров лишь золотыми львами.
+ГИГАНТСКИЙ МОЛЛЮСК
+С годами сокровища Императрицы попали в океан и в пасти этих огромных моллюсков.
+ВЫДВИЖНАЯ СТЕНА
+Дверной механизм с переключателем.
+ЛОВУШКА-ТИСКИ
+Этой каменной глыбой фараоны придумали расплющивать тех, кто посягает на их гробницы.
+ГИГАНТСКАЯ ЛОВУШКА-ТИСКИ
+Гигантская версия ловушки-тисков для искушенных фараонов, которым нужны дополнительные методы давления.
+ВАЛУН
+Мерзлый валун, летящий прямиком на охотников за сокровищами, которые держат путь в Ледяные пещеры.
+ПРУЖИННАЯ ЛОВУШКА
+В инопланетном сообществе подпрыгивание — это типичная форма отдыха и упражнений.
+МИНА
+Взрывное устройство, которое реагирует на приближение к нему. Лучше уничтожать такие, пока не поздно!
+ЛАЗЕРНАЯ ЛОВУШКА
+Стационарная лазерная пушка, которая реагирует на движение.
+РАЗРЯДНАЯ ЛОВУШКА
+Огромное количество избыточной энергии, вырабатываемой Ново-Вавилоном, направляется в опасные устройства вроде этих.
+ЛЯГУШАЧЬЯ ЛОВУШКА
+Даже не верится, что такое огромное копье предназначалось для использования против людей...
+ЛИПКАЯ ЛОВУШКА
+Загадочное образование, чей мясистый протуберанец напоминает язычок.
+КОСТЕПАД
+Эта масса костей настолько крупная, что начинает просачиваться из-под земли.
+ОБОЛОЧКА
+Что это там шевелится под тонкой мембраной?!
+МЕДВЕЖИЙ КАПКАН
+Малейшее нажатие — и мощные стальные челюсти схлопываются, причиняя массу страданий.
 ########################################
 ## JOURNAL - TABLET OF DESTINY        ##
 ########################################
 # "Aspirant" definition: a person who has ambitions to achieve something
 ########################################
-A %ls servant of %ls marked by the %ls shall open the door for the Aspirant.
-cracked
-simple
-smiling
-tall
-clay
-gold
-jade
-wood
-onyx
-eye
-ankh
-snake
-vortex
-bat
+%ls %ls прислужник с символом «%ls» откроет искателю дверь.
+Треснувший
+Простой
+Улыбающийся
+Высокий
+глиняный
+золотой
+нефритовый
+деревянный
+ониксовый
+глаз
+анх
+змея
+вихрь
+летучая мышь
 ########################################
 ## JOURNAL - STORY                    ##
 ########################################
-Wow, it's been 15 years since my last entry! So much has happened since I escaped the Cave of Olmec with his treasure.
-Tina and I became parents! We named our daughter Ana. She's a strong kid... and a natural explorer!
-The dreams began when Ana turned five. In the dream, I'd look out the window at the full Moon and see Olmec's face in it. I tried to ignore it.
-I mean, we all saw Olmec sink into that lake of lava...\n\nDidn't we?
-Our curiosity was too much to resist. With Colin's help, Tina and I built a spaceship that could take us to the Moon.
-Ana wants to come, but it feels a little dangerous and I think she should stay and finish out the school year. Besides, we should be back before she knows it! There's probably nothing there anyway...
-It was hard to say goodbye.\n\nPart of me wishes we'd brought Ana with us... she loves space and we keep wanting to show her things in the ship. At least she has Monty to keep her company.
-It's unbelievable! There's a giant Olmec on the surface of the Moon! And a cave! A feeling of deja vu swept over us, and we were drawn toward the entrance like iron filings to a magnet. A voice is calling to us... is it Olmec, or something else?
-We've been in the Moon for what feels like many months already, but it's hard to tell. Just like before, time and death work differently here.\n\nIt feels like we've slipped into another crack in the Universe... like the Cave of Olmec... connected to it, perhaps... but also bigger, much bigger!
-Ana, if you're reading this, then you've probably guessed that Mom and Dad are somewhere down below, trying to find a way out. I'm sorry, we should have brought you with us! But try not to worry. To be honest, we're having fun! Take your time and don't rush. Remember, it's easier to get hurt if you're not careful.
-Just remember what we taught you and you'll be fine. This journal is yours now! Make the most of it and we'll see you soon!
-Happy Spelunky-ing!
+Ого! С моей последней записи минуло 15 лет! Так много всего произошло после того, как мне удалось удрать из пещеры Ольмека с его сокровищем.
+Мы с Тиной стали родителями и назвали дочурку Аной. Она у нас бойкая девчонка... настоящая исследовательница!
+Видения начались, когда Ане исполнилось пять. В одном из них я смотрел из окна на полную Луну и видел там лицо Ольмека. Я пытался гнать их прочь.
+Ведь Ольмек утонул в озере лавы...\n\nМы же все это видели?
+Однако устоять перед таким любопытством было слишком трудно. С помощью Колина мы с Тиной соорудили космический корабль, который мог бы доставить нас на Луну.
+Ана хочет отправиться с нами, но для неё это пока ещё немного опасно. Думаю, ей лучше остаться и доучиться этот год. Да и к тому же мы быстро слетаем туда-обратно — она и заскучать не успеет! Наверняка там всё спокойно...
+Было так трудно прощаться.\n\nЧастичка меня хотела, чтобы мы взяли Ану с собой... Она любит космос и нам так хочется показать ей всё на корабле. Хорошо хоть Монти составил ей компанию.
+Невероятно! На поверхности Луны оказался гигантский Ольмек! И пещера! Где-то мы такое уже видели... Нас притянуло ко входу, как железные опилки к магниту. Чей-то голос звал нас... возможно, голос Ольмека, или чей-то другой?
+Такое чувство, что мы на Луне уже долгие месяцы — сложно сказать на самом деле. Как и раньше, время и смерть воспринимаются здесь по-иному.\n\nМы будто попали в другой разлом вселенной... вроде пещеры Ольмека... соединенной с ним... только больше, гораздо больше!
+Ана, если ты это читаешь, то, наверное, уже догадалась, что мама с папой где-то внизу и пытаются найти выход. Прости нас, мы должны были взять тебя! Но постарайся не волноваться. По правде говоря, мы тут развлекаемся! Только ты не торопись и не спеши. Помни, что легче травмироваться, когда не проявляешь осторожность.
+Просто помни, чему мы тебя учили, и все будет хорошо. Этот дневник теперь твой! Используй знания из него по максимуму, и скоро увидимся!
+Хороших пещероприключений!
 ########################################
 ## GAME OVER - DEATHS                 ##
 ########################################
-Game Over
+Игра окончена
 ### Fall damage
 ########################################
-LONG FALL
-I broke every bone in my body.
+ЗАТЯЖНОЕ ПАДЕНИЕ
+У меня переломались все кости.
 ### Pit
 ########################################
-STILL FALLING
-I haven't reached the bottom yet...
+ВСЁ-ТО ПАДАЮ
+Дна пока не видно...
 ### Bad teleport
 ########################################
-MISSED
-I teleported right into a wall!
+МИМО!
+Меня телепортировало прямо в стену!
 ### Poison
 ########################################
-POISONED
-Ooh, my insides hurt...
+ФУУУ!
+Ой, всё внутри болит...
 ### Alien
 ########################################
-PROBED
-An alien bumped me a little too hard.
+БАЦ!
+Меня сильно ударил инопланетянин.
 ### Alien Queen
 ########################################
-BRAIN WIPED
-The queen of the aliens melted my brain.
+БУЛЬ-БУЛЬ!
+Королева инопланетян расплавила мои мозги.
 ### Ammit
 ########################################
-CHOMPED
-An ammit caused me to die a second time.
+КЛАЦ-КЛАЦ!
+Погибаю уже второй раз из-за аммита.
 ### Anubis
 ########################################
-CLEANSED
-Anubis ripped my soul from its prison of flesh.
+ВЖУХ!
+Анубис вырвал мою душу из тюрьмы плоти.
 ### Anubis 2
 ########################################
-REVENGED
-Anubis took great pleasure in erasing me from the underworld.
+Э-ХЕ-ХЕ!
+Анубис получил огромное удовольствие, очистив от меня подземный мир.
 ### Apep
 ########################################
-EATEN
-The snake god made a snack out of my soul.
+ХВАТЬ!
+Змеиный бог впился мне в бок.
 ### Bat
 ########################################
-BITTEN
-I was nibbled to death by a bat.
+КУСЬ-КУСЬ!
+Летучая мышь закусала меня до смерти.
 ### Bee
 ########################################
-STUNG
-I must be allergic to bees...
+ЖЖЖЖ!
+Какие-то неправильные пчелы...
 ### Cat Mummy
 ########################################
-BAD KITTY!
-A mummy cat decided she didn't like me.
+ПЛОХАЯ КИСА!
+Кошка-мумия решила, что я ей не нравлюсь.
 ### Caveman
 ########################################
-BEATEN UP
-A caveman pummeled me to death.
+ХЛОБЫСЬ-ХЛОБЫСЬ!
+Меня до смерти отметелил пещерный житель.
 ### Caveman boss
 ########################################
-BEATEN UP
-Quillback showed me the full extent of his primitive strength!
+ХЛОБЫСЬ-ХЛОБЫСЬ!
+Дикобраз продемонстрировал мне всю свою первобытную силу!
 ### Cobra
 ########################################
-BITTEN
-I succumbed to a cobra's venom.
+КУСЬ-КУСЬ!
+Меня прикончил яд кобры.
 ### Crab man
 ########################################
-CRABBY
-I couldn't crack a crab man's shell.
+ШКРЯБ-ШКРЯБ!
+У меня не получилось расколоть панцирь крабовщика.
 ### Crocman
 ########################################
-CHOMPED
-A crocman tore a big chunk out of me.
+КЛАЦ-КЛАЦ!
+Человек-крокодил оторвал от меня кусок плоти.
 ### Female Jiang-shi
 ########################################
-STOMPED
-A jiang-shi assassin snapped my neck.
+АТЬ!
+Меня схватил за шею ассассин цзянши.
 ### Firebug
 ########################################
-TORCHED
-A firebug roasted me alive.
+ШКВАРК-ШКВАРК!
+Меня поджарил живьем огнежук.
 ### Fire Frog
 ########################################
-HOPPED ON
-A fire frog turned me into a lily pad.
+ПРЫГ-СКОК!
+Огненная лягушка превратила меня в кувшинку.
 ### Fish
 ########################################
-BAITED
-The fisher became the fished...
+ХРУМ-ХРУМ!
+Рыбак сам стал добычей...
 ### Frog
 ########################################
-HOPPED ON
-A frog turned me into a lily pad.
+ПРЫГ-СКОК!
+Лягушка превратила меня в кувшинку.
 ### Ghost
 ########################################
-HAUNTED
-Where am I? I can't feel my body...
+УУУУ!
+Где я? Я не чувствую тела...
 ### Giant Clam
 ########################################
-BAITED
-I was crushed in the jaws of a giant clam.
+ХРУМ-ХРУМ!
+Меня размололи челюсти гигантского моллюска.
 ### Giant Fish
 ########################################
-EATEN
-The Great Humphead's appetite was temporarily sated.
+ХВАТЬ!
+Головорыб ненадолго утолил свой голод.
 ### Giant Fly
 ########################################
-Ew
-A giant fly grossed me out... to death!
+БУЭ!
+Гигантская муха вывела меня из себя... до смерти!
 ### Giant Frog
 ########################################
-DEATH
-A giant frog found me annoying.
+СМЕРТЬ
+Гигантскую лягушку почему-то раздражают такие, как я.
 ### Giant Spider
 ########################################
-BITTEN
-A giant spider preyed on me.
+КУСЬ-КУСЬ!
+На меня напал гигантский паук.
 ### Grub
 ########################################
-INFESTED
-I can still feel it wriggling all over me! Yuck!
+ШШШШ!
+Всё ещё чувствую, как оно извиваются вокруг меня! Фу!
 ### Hang Spdier
 ########################################
-BITTEN
-A spider bite ended my life.
+КУСЬ-КУСЬ!
+Паук нанёс мне смертельный укус.
 ### Hermit Crab
 ########################################
-DEATH
-That hermit crab was a bit crabby.
+СМЕРТЬ
+Этот краб-отшельник был немного на своей волне.
 ### Horned Lizard
 ########################################
-DEATH
-A horned lizard finished me off.
+СМЕРТЬ
+Меня забодала рогатая ящерица.
 ### Hundun
 ########################################
-ETERNAL CHAOS
-I succumbed to Hundun's dream.
+ВЕЧНЫЙ ХАОС
+Меня охватили мечтания Хуньдуня.
 ### Imp
 ########################################
-DEATH
-An imp finished me off.
+СМЕРТЬ
+Меня попутал бес.
 ### Jiang-shi
 ########################################
-STOMPED
-A jiang-shi hopped on me.
+АТЬ!
+На меня запрыгнул цзянши.
 ### Lamassu
 ########################################
-TRAMPLED
-A lamassu tap danced on me.
+ТЫГДЫК-ТЫГДЫК!
+Ламассу станцевал на мне чечётку.
 ### Lavamander
 ########################################
-COOKED
-A lavamander had me for dinner.
+НЯМ-НЯМ!
+Мною отобедала лавамандра.
 ### Magma man
 ########################################
-TORCHED
-I was melted by a magma man.
+ШКВАРК-ШКВАРК!
+Меня расплавил магма-демон.
 ### Mantrap
 ########################################
-EATEN
-I was devoured by a mantrap.
+ХВАТЬ!
+Меня поглотил хищный цветок.
 ### Mega Jellyfish
 ########################################
-JELLY SANDWICH
-An astral jellyfish transformed me into pure energy.
+ШЛЁП-ШЛЁП!
+Астральная медуза преобразовала меня в чистую энергию.
 ### Merchant
 ########################################
-TUN'S REVENGE
-I shouldn't have angered her!
+МЕСТЬ ТУНЬ
+Не надо было ее злить!
 ### Mole
 ########################################
-DEATH
-A mole chewed a hole right through me.
+СМЕРТЬ
+Во мне прогрыз дыру крот.
 ### Mosquito
 ########################################
-BITTEN
-A mosquito sucked out the last few drops of my blood.
+КУСЬ-КУСЬ!
+Комар допил последние капли моей крови.
 ### Mummy
 ########################################
-DEATH
-A tomb lord took a thousand-year grudge out on me.
+СМЕРТЬ
+Властелин гробниц выместил на мне тысячелетнюю злобу.
 ### Necromancer
 ########################################
-NECROMANCED
-I became another undead pawn for a necromancer.
+ТА-ДАМ!
+Теперь я еще одна пешка нежити для некроманта.
 ### Octopush
 ########################################
-DEATH
-An octopus gave me eight reasons to feel bad about myself.
+СМЕРТЬ
+После осьмирога у меня восемь причин почувствовать себя плохо.
 ### Olmec
 ########################################
-OLMEC'S CURSE
-Olmec proved why he's still the boss.
+ПРОКЛЯТЬЕ ОЛЬМЕКА
+Ольмек доказал, почему он все еще главный.
 ### Olmite
 ########################################
-DEATH
-An olmite made a big brain play and I lost.
+СМЕРТЬ
+Ольмит устроил со мной большую игру разума и оказался умнее меня.
 ### Osiris
 ########################################
-JUDGED
-Osiris found me unworthy of joining him in the afterlife.
+БДЫЩ!
+Осирис считает, что я не могу присоединиться к нему в загробной жизни.
 ### Proto shopkeeper
 ########################################
-GNAWED
-That prototype shopkeeper was still pretty effective at killing me!
+ААА! БАХ-БАХ!
+Этот лавочник всё еще эффективен в расправе надо мной!
 ### Queen Bee
 ########################################
-STUNG
-A queen bee sentenced me to death.
+ЖЖЖЖ!
+Королева пчёл приговорила меня к смерти.
 ### Robot
 ########################################
-DEATH
-A robot ended my life without a hint of emotion.
+СМЕРТЬ
+Робот прикончил меня, и лампочкой не моргнув.
 ### Rockdog
 ########################################
-BITTEN
-A rock dog went straight for my jugular.
+КУСЬ-КУСЬ!
+Камнепёс впился мне прямо в горло.
 ### Scorpion
 ########################################
-STUNG
-A scorpion stung me to death.
+ХДЫЩЩЩ!
+Меня смертельно укусил скорпион.
 ### Shopkeeper
 ########################################
-BEATEN UP
-Maybe I shouldn't have angered that shopkeeper...
+ХЛОБЫСЬ-ХЛОБЫСЬ!
+Может, не надо было злить лавочника...
 ### Skeleton
 ########################################
-CLAWED
-A skeleton ripped me apart.
+ХРЩЩЩ!
+Скелет разорвал меня на части.
 ### Snake
 ########################################
-BITTEN
-A snake bit me.
+КУСЬ-КУСЬ!
+Меня укусила змея.
 ### Sorceress
 ########################################
-ENSORCELLED
-A sorceress ended me with a powerful spell.
+КРИБЛЕ-КРАБЛЕ!
+Колдунья наложила на меня сильное заклятье.
 ### Spider
 ########################################
-BITTEN
-A spider bite ended my life.
+КУСЬ-КУСЬ!
+Паук нанёс мне смертельный укус.
 ### Tadpole
 ########################################
-TADPOLE
-Despite its cute looks, that tadpole took my life!
+ГОЛОВАСТИК
+Этот головастик такой очаровашка... Но это не помешало ему забрать мою жизнь!
 ### Tiamat
 ########################################
-REJECTED
-I failed to meet the expectations of the Mother Goddess.
+ГОЛОВУ С ПЛЕЧ!
+Мне не удалось оправдать ожиданий Матери-богини.
 ### Tikiman
 ########################################
-BEATEN UP
-A tikiman pummeled me to death.
+ХЛОБЫСЬ-ХЛОБЫСЬ!
+Меня до смерти отметелил житель тики.
 ### UFO
 ########################################
-PROBED
-A UFO took my life.
+БАЦ!
+Мою жизнь забрало НЛО.
 ### Vampire
 ########################################
-BITTEN
-I can feel my humanity draining away from the vampire's bite...
+КУСЬ-КУСЬ!
+Я чувствую, как от укуса вампира меня покидают человеческие силы...
 ### Vlad
 ########################################
-BITTEN
-I can feel my humanity draining away from Vlad's bite...
+КУСЬ-КУСЬ!
+Я чувствую, как от укуса Влада меня покидают человеческие силы...
 ### Witch Doctor
 ########################################
-DEATH
-A witch doctor has ended my life.
+СМЕРТЬ
+Знахарь забрал мою жизнь.
 ### Witch Doctor Skull
 ########################################
-DEATH
-I succumbed to a witch doctor's curse.
+СМЕРТЬ
+Меня прикончило заклинание знахаря.
 ### Yeti
 ########################################
-DEATH
-A yeti made me its plaything.
+СМЕРТЬ
+Йети сделали из меня свою игрушку.
 ### Yeti King
 ########################################
-HAIL TO THE KING
-The Yeti King is using me as a cushion now.
+ДА ЗДРАВСТВУЕТ КОРОЛЬ
+Теперь король Йети использует меня в качестве подушки.
 ### Yeti Queen
 ########################################
-HAIL TO THE QUEEN
-The Yeti Queen is wearing me as a scarf now.
+ДА ЗДРАВСТВУЕТ КОРОЛЕВА
+Теперь королева Йети использует меня в качестве шарфа.
 ### Arrow
 ########################################
-PIERCED
-An arrow pierced a vital organ.
+ФТЫНННЬ!
+Стрела пронзила мой жизненно важный орган.
 ### Big spear trap
 ########################################
-IMPALED
-A giant spear punched a hole right through me.
+ФШТЫККК!
+Гигантское копье пробило во мне дыру.
 ### Boulder
 ########################################
-CRUSHED
-Turns out I couldn't outrun a boulder.
+ХРЯСЬ!
+Как жаль, что у меня не получилось обогнать валун.
 ### Crush trap
 ########################################
-CRUSHED
-A crush trap turned me into a pancake.
+ХРЯСЬ!
+Ловушка для сплющивания превратила меня в блинчик.
 ### Drill
 ########################################
-CRUSHED
-I was crushed by the giant drill.
+ХРЯСЬ!
+Меня размазало гигантским буром.
 ### Elevator
 ########################################
-CRUSHED
-I should have stood somewhere a little bit safer!
+ХРЯСЬ!
+Надо было выбрать опору понадежнее!
 ### Explosion
 ########################################
-BLOWN UP
-An explosion sent me flying.
+БА-БАХ!
+Меня унесло взрывом.
 ### Laser trap
 ########################################
-ZAPPED
-A laser trap caught me unaware.
+ПЗЗЗ!
+Меня застала врасплох лазерная ловушка.
 ### Lava
 ########################################
-MELTED
-I was burnt to a crisp by some lava.
+ПЩЩЩ!
+Лава поджарила меня до хрустящей корочки.
 ### Lion trap
 ########################################
-STABBED
-A lion trap perforated me.
+РЯВК!
+Меня продырявила львиная ловушка.
 ### Platform
 ########################################
-CRUSHED
-I was crushed by a falling platform.
+ХРЯСЬ!
+Меня размазало упавшей платформой.
 ### Powderkeg
 ########################################
-BLOWN UP
-A powder keg blew me to smithereens.
+ШАРАХ!
+Меня разнесла пороховая бочка.
 ### Pushblock
 ########################################
-CRUSHED
-I was crushed by a falling push block.
+ХРЯСЬ!
+Меня размазало упавшим блоком.
 ### Sacrifice
 ########################################
-SACRIFICED
-I was sacrificed to Kali.
+ВСПЫХ!
+Меня принесли в жертву Кали.
 ### Skull drop
 ########################################
-BONKED
-Strangely enough, my skull was cracked by another skull.
+ХРУСЬ!
+Бывает же такое: мой череп раскололся об другой череп...
 ### Sliding wall
 ########################################
-CRUSHED
-I should have stood somewhere a little bit safer!
+ХРЯСЬ!
+Надо было выбрать опору понадежнее!
 ### Bear trap
 ########################################
-SNAPPED
-I was caught in the jaws of death.
+КАБЗДЫЩ!
+Меня зажало в челюстях смерти.
 ### Spark trap
 ########################################
-SHOCKED
-I had a hair-raising experience with a shock trap.
+ШОККК!
+У меня волосы дыбом встали от шоковой ловушки.
 ### Spear trap
 ########################################
-STABBED
-A spear trap skewered me.
+ФШИППП!
+Меня пригвоздила ловушка с копьями.
 ### Spikeball
 ########################################
-CRUSHED
-I was crushed by a spikeball trap.
+ХРЯСЬ!
+Меня размазало шипастым шаром.
 ### Spikes
 ########################################
-IMPALED
-I fell on some spikes.
+ШМЯК!
+Так больно падать на шипы...
 ### Thorn vine
 ########################################
-PRICKED
-I bled out against some sharp thorns.
+ГЛЫК-ГЛЫК!
+Моя кровь залила острые колючки.
 ### Totem trap
 ########################################
-POUNDED
-A totem trap punched my lights out.
+ФТЫШШШ
+Тотемная ловушка отправила меня в нокаут.
 ### Wooden Log Trap
 ########################################
-CRUSHED
-I was a victim of my own greed...
+ХРЯСЬ!
+Меня покарала собственная жадность...
 ### Default
 ########################################
-DEATH
-I met my untimely demise.
+СМЕРТЬ
+Вот и настала моя безвременная кончина.
 ### 3rd Run
 ########################################
-HMMM...
-This might be harder than I thought!
+ХМММ...
+А это сложнее, чем мне казалось!
 ### 10th Run
 ########################################
-YET ANOTHER DEATH
-I'm learning a little bit more each time, though!
+ЕЩЕ ОДНА СМЕРТЬ
+Зато я с каждым разом всё опытнее!
 ### 100th Run
 ########################################
-100 DEATHS
-You gotta admire my persistence! I know I'll get it eventually!
+100 СМЕРТЕЙ
+Моей настойчивости остается позавидовать! Рано или поздно у меня получится, я точно знаю!
 ### Furthest Run
 ########################################
-PROGRESS
-This is the furthest I've ever gotten!
+ПРОГРЕСС
+Дальше пройти пока не удавалось!
 ### High Score Run
 ########################################
-HIGH SCORE
-Wow, I got a new high score! That feels great!
+РЕКОРД
+Ух ты! У меня новый рекорд! Как здорово!
 ### Level 1-4 / 2-4 / 4-4
 ########################################
-SO CLOSE
-I was so close to reaching the next area... maybe next time!
+ПОЧТИ
+Следующая зона была так близко... Может, мне еще повезет!
 ### CoG
 ########################################
-GILDED
-It's the most exquisite tomb in the Universe...
+ВАААУ!
+Это самая изысканная гробница во Вселенной...
 ### Eggplant World
 ########################################
-SEEING PURPLE
-As I sank into the eggplants, a feeling of calm washed over me...
+СИРЕНЕВЫЙ ТУМАН
+Утопая в баклажанах, я ощущаю прилив спокойствия...
 ### Co-op 1-1
 ########################################
-HMMM...
-It's okay! We just need more practice!
+ХМММ...
+Ничего-ничего! Еще немного практики!
 ### Co-op 1-4 / 2-4 / 4-4
 ########################################
-SO CLOSE
-We were so close to reaching the next area... maybe next time!
+ПОЧТИ
+Следующая зона была так близко... Может, нам еще повезет!
 ### Co-op Area < 5
 ########################################
-GOOD TEAMWORK
-We're starting to get pretty good at working together.
+ХОРОШАЯ КОМАНДНАЯ РАБОТА
+А мы уже неплохо действуем вместе.
 ### Co-op Area < 6-4
 ########################################
-GREAT TEAMWORK
-We didn't make it, but we should be proud of how far we got together.
+ОТЛИЧНАЯ КОМАНДНАЯ РАБОТА
+Мы не справились, но уже можно гордиться, как далеко мы вместе забрались.
 ### Co-op 6-4
 ########################################
-SO CLOSE
-Tiamat defeated us! But we'll be victorious next time!
+ПОЧТИ
+Тиамат одолела нас! Но в следующий раз победа будет за нами!
 ### Co-op Area < 7-4
 ########################################
-SUPERB TEAMWORK
-We work together as if commanded by a single mind!
+ПОТРЯСАЮЩАЯ КОМАНДНАЯ РАБОТА
+Мы действуем вместе, будто нами управляет единый разум!
 ### Co-op 7-4
 ########################################
-SO CLOSE
-We succumbed to Chaos. But the struggle was worth it!
+ПОЧТИ
+Мы подверглись Хаосу. Но борьба того стоила!
 ### Co-op Area > 7-4
 ########################################
-DREAM TEAM
-We're one with the Cosmos!
+КОМАНДА МЕЧТЫ
+Мы одно целое с Космосом!
 ########################################
 ## GAME OVER - PROFILE                ##
 ########################################
-Player Profile
-Plays
-Wins
-Deaths
-Win %:
-Average Score:
-Top Score:
-Deepest Level:
-Deadliest Level:
-Average Time:
-Best Time:
-Last Game Played
-Player Profile statistics are taken from Adventure Mode and the Daily Challenge during single player play.
+Профиль игрока
+Игры
+Победы
+Смерти
+% побед:
+Средний счет:
+Лучший счет:
+Самый глубокий ур.:
+Самый смертельный ур.:
+Среднее время:
+Лучшее время:
+Последняя игра
+Статистика игрока берется из режима приключения и испытаний дня во время одиночной игры.
 ########################################
 ## GAME OVER - RUN RECAP              ##
 ########################################
-Dear Journal,
-I led a team of %d into the depths.
-I was a pacifist.
-I was vegan.
-I was a vegetarian.
-I was law-abiding.
-I was a petty criminal.
-I was a wanted criminal.
-I was a crime lord.
-I was a king.
-I was a queen.
-I was a fool.
-I was an eggplant.
-I didn't care for money.
-I liked dogs.
-I liked cats.
-I liked hamsters.
-I liked pets.
-I loved dogs.
-I loved cats.
-I loved hamsters.
-I loved pets.
-I took my first damage in level %d-%d (%ls).
-I took my first damage in level %d-%d.
-I survived death once.
-I slayed Kingu, the Queen's Consort.
-I slayed Osiris, the Underworld King.
-Despite all odds, I defeated Tiamat and escaped to the surface.
-Amazingly enough, I defeated Hundun and escaped to the surface.
-My skill, knowledge, and bravery allowed me to become one with the Cosmos.
-I eventually died in level %d-%d (%ls).
-I eventually died in level %d-%d.
-Until Next Time!
-See Ya!
-I Have So Many Questions...
-Cool...
-Stay Positive!
-Hmmm...
-Until My Strength Gives Out,
-Downloading Data...
-Ciao!
-I Miss My Shovel!
-Can't Wait to Try Again!
-Until Next Time!
-Hugs,
-Forever Learning,
-Thanks For Listening!
-Signing Off,
-Cordially,
-Best Regards,
-That's All For Now,
+Дорогой журнал!
+Команда из %d искателей приключений под моим предводительством забралась в самые глубины.
+Считайте меня пацифистом.
+Считайте меня веганом.
+Считайте меня вегетарианцем.
+Мне приходилось соблюдать закон.
+Мне приходилось совершать мелкие преступления.
+Меня разыскивают за преступления.
+Меня уважали все преступники.
+Мне посчастливилось быть королем.
+Мне посчастливилось быть королевой.
+Только дурак мог сделать так, как я.
+Мне посчастливилось быть баклажаном.
+Меня не волновали деньги.
+Мне нравились собаки.
+Мне нравились кошки.
+Мне нравились хомяки.
+Мне нравились питомцы.
+Собаки были любовью всей моей жизни.
+Кошки были любовью всей моей жизни.
+Хомяки были любовью всей моей жизни.
+Питомцы были любовью всей моей жизни.
+Меня впервые ударили на уровне %d-%d (%ls).
+Меня впервые ударили на уровне %d-%d.
+Однажды мне удалось избежать смерти.
+Мне удалось сразить Кингу, королевскую спутницу.
+Мне удалось повергнуть Осириса, короля подземного царства.
+Как ни странно, но мне удалось одолеть Тиамат и выбраться на поверхность.
+Удивительно, но мне удалось одолеть Хуньдуня и выбраться на поверхность.
+Мои навыки, знания и храбрость позволили мне соединиться с Космосом.
+Всё-таки смерть настигла меня на уровне %d-%d (%ls).
+Всё-таки смерть настигла меня на уровне %d-%d.
+До скорого!
+Увидимся!
+У меня столько вопросов...
+Отлично...
+Не вешать нос!
+Х-м-м...
+Пока моя силушка не даст о себе знать,
+Загрузка данных...
+Чао!
+Мне так не хватает лопаты!
+Не терпится попробовать снова!
+До скорого!
+Обнимашки,
+Век живи — век учись,
+Спасибо за прослушивание!
+Мой поклон,
+От всего сердца,
+С наилучшими пожеланиями,
+На этом пока всё,
 ...
 ########################################
 ## Shop                               ##
 ########################################
-%lsを買う
-Hire %ls
+Купить: %ls
+Нанять: %ls
 # Shop item names
-ロープの束
-爆弾袋
-爆弾ボックス
-メガネ
-クライミンググローブ
-ピッチャーミット
-バネブーツ
-スパイクブーツ
-のり
-コンパス
-パラシュート
-ヘジェト
-骨のカギ
-ロイヤルゼリー
-ジェットパック
-マント
-テレパック
-ホバーパック
-パワーパック
-ウェブガン
-ショットガン
-フリーズ光線
-クロスボウ
-カメラ
-テレポーター
-ツルハシ
-ブーメラン
-マチェーテ
-プラズマ砲
-鋼鉄の盾
-ターキー
-ガンセキイヌ
-ウーパールーパー
-モンティー
-パーシー
-プーチ
-プレゼント
-スカル
-石
-壺
-矢
-ターキー
+Гора веревок
+Мешок бомб
+Коробка бомб
+Очки
+Альпинистские перчатки
+Рукавица питчера
+Пружинные ботинки
+Шипованные ботинки
+Паста
+Компас
+Парашют
+Хеджет
+Ключ-скелет
+Королевское желе
+Реактивный ранец
+Накидка
+Телепортирующий ранец
+Полётный ранец
+Силовой ранец
+Паутинная пушка
+Дробовик
+Замораживающий луч
+Арбалет
+Фотоаппарат
+Телепорт
+Кирка
+Бумеранг
+Мачете
+Плазменная пушка
+Металлический щит
+Индюшка
+Камнепёс
+Аксолотль
+Монти
+Перси
+Пучи
+Подарок
+Череп
+Камень
+Горшок
+Стрела
+Индюшка
 ########################################
 ## HUD                                ##
 ########################################
 #### Kali
 ########################################
-Kali accepts your sacrifice!
-You feel invigorated!
-She bestows a gift upon you!
-She seems ecstatic with you.
-She seems happy with you.
-She has forgiven you.
-She seems pleased with you.
-She seems angry with you.
-She seems very angry with you.
-You have angered Kali!
-Yet she still seems ecstatic with you.
-Yet she still seems happy with you.
-Yet she still seems pleased with you.
-Kali admires your warrior spirit.
-She fashions a weapon for you!
-So you desire a companion? Here you go!
-Kali enjoys a good mystery!
+Кали принимает твою жертву!
+У тебя прилив бодрости!
+Она ниспосылает тебе подарок!
+Кажется, она от тебя в восторге.
+Похоже, она счастлива твоим успехам.
+Она позабыла тебя.
+Похоже, она довольна тобой.
+Похоже, она злится на тебя.
+Похоже, она очень злится на тебя.
+Как ты смеешь злить Кали!
+Тем не менее, она все еще в восторге от тебя.
+Тем не менее, она все еще счастлива твоим успехам.
+Тем не менее, она все еще тобой довольна.
+Кали восторгается твоим воинским духом.
+Она придумала для тебя оружие!
+Тебе хотелось компаньона? Получай!
+Кали любит загадочные сюрпризы!
 ########################################
 #### General
 ########################################
-The scepter fits, but nothing is happening!
-突然、キョーレツな悪寒が背筋に走った！
-You feel protected!
-助けてくれてありがとう！
+Скипетр в самый раз, но ничего не происходит!
+По спине прокатился жуткий холод!
+Ты чувствуешь защиту!
+Спасибо за спасение!
 ########################################
 #### Feelings
 ########################################
-Your voice echoes in here...
-You hear the beating of drums...
-Welcome to the Black Market!
-Your blood begins to run cold...
-You hear sounds of metal clanking...
-There is an air of oppression here...
-You feel a burst of excitement inside you!
-It smells like wet fur in here!
-You hear the sounds of revelry!
-You feel strangely at peace.
-You hear an incessant buzzing...
-The dead are restless!
-You can't see a thing!
-You feel forgiven.
+Твой голос эхом разносится вокруг...
+Ты слышишь стук барабанов...
+Добро пожаловать на Черный рынок!
+У тебя стынет кровь...
+Ты слышишь звук лязгающего металла...
+Какие-то подавленные здесь настроения...
+Тебе переполняет восторг!
+Здесь пахнет прелым мехом!
+Доносятся звуки буйного веселья!
+Ты ощущаешь спокойствие. Это даже странно.
+Ты слышишь безостановочное жужжание...
+Мертвые не находят себе места!
+Ты ничего не видишь!
+Ты чувствуешь, что тебя простили.
 ########################################
 #### Shopkeeper
 ########################################
-%lsの%lsへようこそ！
-Welcome, Your Highness! Do you see anything of interest?
+%ls приветствует тебя! %ls ломится от товаров!
+Добро пожаловать, Ваше Высочество! Вам что-нибудь понравилось?
 # The following line is meant to be slightly mocking:
-Oh, hello, Your Majesty! See anything you like, heh heh?
-I'm completely sold out!
-なんでもショップ
-装備品ショップ
-武器ショップ
-スペシャルショップ
-下僕紹介所
-ペットショップ
-サイコロカジノ
-Play Dice
-The Dice House is closed! I'm out of items!
-You bet $%d! Now roll the dice!
-You rolled a %d!
-You lose.
-You win!
-You win a prize!
-Stop, thief!
-Vandal!
-Wow, big spender! I'll remember you!
+Ой, Ваше Величество! Приглянулось ли вам чего, хе-хе?
+У меня всё распродано!
+Обычный магазин
+Лавка одеяний
+Оружейная лавка
+Изысканная лавка
+Лавка наемников
+Лавка питомцев
+Игральный дом
+Брось кубик
+Игральный дом закрыт! У меня кончились предметы!
+Ты ставишь $%d! Теперь бросай!
+У тебя выпало %d!
+Не повезло.
+Победа!
+Тебе достался приз!
+Стоять, ворьё!
+Вандал!
+Мошенник!
+Вот это щедрость! Я тебя запомню!
 # Buying an idol from the player:
-I'm happy to take that off your hands!
+С радостью заберу это у тебя.
 ########################################
 #### Merchant
 ########################################
-Welcome, Reborn. I have wares for sale.
-Ah, one of my brother's foolish followers!
-May you hold out against Chaos a little longer.
-Welcome to the Moon Challenge, Reborn.
-Welcome to the Star Challenge, Reborn.
-A warning, Reborn... the Sun Challenge may cost you your life.
-Begin Challenge
-Enter the door to begin the Challenge.
+Добро пожаловать, перерожденец. У меня есть кое-что на продажу.
+А, прихлестываешь за кем-то из моих братьев!
+Пусть тебе хватит сил противостоять Хаосу подольше.
+Добро пожаловать в Лунное испытание, перерожденец.
+Добро пожаловать в Звездное испытание, перерожденец.
+Предупреждаю, перерожденец... Солнечное испытание может стоить тебе жизни.
+Начать испытание
+Войди в дверь, чтобы начать испытание.
 %d...
-The challenge begins!
-Let there be light!
-Survive!
-5 seconds remaining!
-You've won!
-Time's up! You lose...
-It was a worthy attempt, Reborn. See you next time.
-Challenge completed! Please return to the entrance.
-Congratulations on completing the Challenge!
-Perhaps you'll find victory in the next life.
-You've made a regretful choice!
-You must be a servant of Hundun!
-I humbly accept this in trade.
-Reborn, you've done well to reach this place.
+Испытание начинается!
+Да будет свет!
+Спасайся!
+Еще 5 секунд!
+Победа!
+Время вышло! Тебе не удалось...
+Это была стоящая попытка, перерожденец. Увидимся.
+Испытание пройдено! Возвращайся ко входу.
+Поздравляю с прохождением испытания!
+Возможно, победишь в следующей жизни.
+Ты еще пожалеешь о своем выборе!
+Ты, должно быть, слуга Хуньдуня!
+Покорно беру это в торговлю.
+Лихо у тебя получилось добраться сюда, перерожденец.
 ########################################
 #### Caveman Shopkeeper
 ########################################
-Ugh! Ugh!
-UGH! UGH! UGH!
-OOHA! HA!
-Ooga! Ooga!
-AH! AH!
-Ooooooga... OOH! OOH!
+Уф! Уф!
+УФ! УФ! УФ!
+О-О-О! А-А!
+Ох ты-ы-ы!
+А-А! А-А!
+Ого... ВОТ ЭТО ДА!
 ########################################
 #### Yang
 ########################################
-おいら、ターキーを探してるんだ。手伝ってくれないかい？
-Thank you!
-Wow, thanks! Please help yourself to my treasure.
-I will avenge my feathered friends!
-Stop, thief!
-You villain!
-Welcome to Yang's Pet Shop!
-I'm so happy right now!
-Come back with my turkey, you fiend!
-You monster!
-Ah yes, I'll buy that idol from you!
-Careful friend... that's a one-way door!
-I'm just doing a little shopping!
-I didn't realize they'd be serving turkey here...
+Я ищу индюшек... не хочешь помочь?
+Спасибо!
+Ух ты, спасибо! Пожалуйста, ни в чем себе не отказывай.
+Я отомщу за моих пернатых друзей!
+Стоять, ворюга!
+Ты негодяй!
+Добро пожаловать в лавку питомцев Яна!
+Меня так переполняет счастье!
+Вернись с моей индюшкой, негодяй!
+Ты чудовище!
+Ах да, я куплю у тебя этот идол!
+Осторожнее, дружок... обратного пути не будет!
+Я тут просто отовариваюсь!
+Кто бы знал, что здесь подают индюшек...
 ########################################
 #### Madame Tusk
 ########################################
-Hello, my darling! Are you feeling lucky tonight?
-Sorry, my darling... you've completely cleaned us out!
-Thank you for the $%d! Let's see what the dice have in store for you!
-Ah, a roll of %d!
-Better luck next time, my darling.
-Fortune is smiling on you!
-You won a prize, my darling!
-High roller, eh! Come see me at my Palace of Pleasure...
-Oh, it's you! Please rest and enjoy my food!
-Oh my, you arrived in such a condition?!
-There's nothing I hate more than a THIEF!
-Why, you're a nasty piece of work!
-This will be a lovely addition to my collection!
+Милости прошу! Удача улыбается сегодня?
+Прости, конечно, дорогуша... но так нас еще никто не обчищал!
+Спасибо, $%d как раз кстати! Посмотрим, что там для тебя в магазине!
+Ой, выпало %d!
+Ничего страшного, еще повезет.
+Удача улыбается тебе!
+Тебе достался приз!
+А ты любишь азарт! Забегай ко мне во Дворец удовольствий...
+А, это ты! Располагайся и отведай яств!
+Ой, что же с тобой приключилось?!
+Я всё стерплю, но ВОРОВСТВО — никогда!
+Это что еще за пакости!
+Это будет прекрасным дополнением к моей коллекции!
 ########################################
 #### Bodyguard
 ########################################
-Come right in. Madame is expecting you.
-Sorry, you're not on the list.
-Stay out!
-Someone's trying to rob Madame!
+Проходите. Мадам ожидает.
+К сожалению, вас нет в списке.
+Давай-ка отсюда!
+Кто-то пытается ограбить Мадам!
 ########################################
 #### Storage Guy
 ########################################
-I'm Waddler. I can carry your items deeper into the caves for you.
-What do you think you're doing, buster!
-This is as far as I go. I hope I helped you on your journey.
+Я Слизень. Я могу помочь тебе и перетащить предметы поглубже в пещеры.
+Ты что это творишь?!
+Дальше без меня. Надеюсь, моя помощь оказалась кстати.
 ########################################
 #### Sisters
 ########################################
-Thanks! I can't believe I got stuck in here.
-Here's a little something to help you out!
-I don't have a good feeling about that door.
-Brrr! I wish I brought a jacket!
-Great party, huh?
+Спасибо! Угораздило же меня тут застрять.
+Держи, пригодится тебе!
+Не нравится мне эта дверь.
+Б-р-р! Надо было купить одёжку с застёжками!
+Отвал башки, да?
 ########################################
 #### Old Hunter
 ########################################
-Tusk won't be happy about this, but thank you.
-I've been hunting this fiend a long time!
-It's not looking good for me. Take this.
-Ha! A pair of unfortunate souls. Take this!
-At least she removed my curse...
-I sense danger beyond that door.
+Мадам Туск этому не обрадуется, но спасибо.
+Я уже давно охочусь на этого гада!
+Не к добру всё это. Получай.
+Ха! Парочка несчастных душ. Получайте!
+Ну хоть сняла мое проклятье...
+Я чую опасность за этой дверью.
 ########################################
 #### Thief
 ########################################
-You're good... but are you good enough to steal from Madame Tusk?
-Too bad. I got here first.
-I'm impressed! Meet me at the Palace of Pleasure if you really want to get rich...
-If you get past the lasers, I'll split the treasure with you.
-Hey, that's my share!
-Good work! We make a great team!
+Неплохо... но хватит ли у тебя духу обокрасть мадам Туск?
+Большой брат! Кто бы мог подумать, что я поймаю тебя на воровстве...
+Как жаль, до меня здесь никого не было.
+Впечатляет! Ищи меня во Дворце удовольствий, если действительно хочешь обрести богатство...
+Если проберешься через эти лазеры, поделюсь с тобой сокровищем.
+Эй, это моя доля!
+Супер! У нас отличная команда!
 ########################################
 #### Servant of Hundun
 ########################################
-You seem to enjoy Chaos!
-Ah, so you truly love Chaos! Just like me!
+А тебе, кажется, нравится Хаос!
+О, да ты и впрямь любишь Хаос! Как и я!
 ########################################
 #### Terra
 ########################################
-Hey there! I'm Mama Tunnel. You can also call me Terra.
-Hey, sweetheart! Hope your adventure is going great!
-Hi, handsome! Find anything good?
-Hiya! How's the adventure going?
-I'm working on a new shortcut, but I ran out of supplies.
-Mind donating $2,000 so that I can restock?
-This shortcut's looking good, but I ran into a room full of traps.
-It'd probably be best if I just blew it up. Do you have a bomb?
-I was so close to finishing the shortcut, and then my mattock broke!
-Can you spare $10,000? I'll need a high-quality replacement.
-I started a new shortcut, but there's a giant slab of rock in the way.
-I'll need a rope to climb over it.
-You wouldn't believe how many monsters I'm running into.
-Can you bring me a weapon next time you're here?
-Oh, you have a machete! May I have it?
-Oh, you have a crossbow! May I have it?
-Oh, you have a boomerang! May I have it?
-Oh, you have a bow! May I have it?
-Oh, you have a gun! May I have it?
-Second shortcut almost finished! But walking back and forth is getting tiring.
-If I had something to ride this would go much faster.
-Oh, what a cute %ls! Can I please have her?
-I started the third shortcut! This is going to be a long one.
-I know it's a lot, but I'll need $50,000 to get this done.
-Whew, I could use some help with this last shortcut.
-If I had a Hired Hand it would go a lot faster...
-Hey, your friend looks pretty strong! Can they help me out?
-Almost there! The only thing in the way is a large door with a lock shaped like a scarab.
-I heard there's a gold key somewhere near the entrance. Maybe that will fit?
-That key you're holding looks like it will fit perfectly!
-Sure!
-Not right now...
-Thanks! I can't wait to finish this shortcut.
-Sigh... alright. I could probably use a break, anyway.
-Aw, it doesn't look like you've got enough!
+Приветики! Я Мама Таннел. Но можно просто звать меня Террой.
+Привет, милая! Надеюсь, твое приключение идет по плану!
+Привет, красавчик! Нашёл что-нибудь хорошее?
+Привет! Как приключение?
+Тружусь над новым кратчайшим путем, но у меня кончились ресурсы.
+Не пожертвуешь мне $2000 на пополнение запасов.
+Этот кратчайший путь выглядит неплохо, но мне на нем попадалась полная пещера ловушек.
+Наверное, будет лучше, если я его просто взорву. Есть бомба?
+Мне почти удалось прокопать свой кратчайший путь, но кирка сломалась!
+Можешь потратить $10 000? Мне нужен более качественный инструмент.
+Я начала новый кратчайший путь, но наткнулась на гигантский кусок породы.
+Мне понадобится веревка, чтобы забраться.
+Не поверишь, сколько монстров попадается мне на пути.
+Прихватишь мне оружие в следующий раз?
+Ух ты, у тебя мачете! А можно мне его взять?
+Ух ты, у тебя арбалет! А можно мне его взять?
+Ух ты, у тебя бумеранг! А можно мне его взять?
+Ух ты, у тебя лук! А можно мне его взять?
+Ух ты, у тебя пушка! А можно мне ее взять?
+Второй кратчайший путь почти завершен! Но ходить туда-сюда уже порядком утомляет.
+Вот было бы на чем кататься, дела пошли бы намного быстрее.
+Ой, %ls! А можно мне эту вещицу?
+Начинаю третий короткий путь! Этот будет длинным.
+Мне надо $50 000. Многовато, конечно, но именно столько мне требуется, чтобы всё доделать.
+Фух, мне бы не помешала помощь с этим последним кратчайшим путем.
+Были бы у меня свободные руки, дела бы пошли гораздо быстрее...
+А у тебя сильный друг! Не поможет мне?
+Почти готово! Единственная преграда — это большая дверь с замком в форме скарабея.
+Поговаривают, где-то у входа лежит золотой ключ. Может, он подойдет?
+Кажется, ключ, который у тебя, в самый раз!
+Разумеется!
+Не сейчас...
+Спасибо! Мне уже не терпится проложить этот кратчайший путь.
+Эх... ладно. Перерыв мне всё равно не помешает.
+Хм, не похоже, чтобы у тебя хватало этого добра!
 ########################################
 #### Tiamat
 ########################################
-You didn't disappoint me... until next time...
+Тебе удалось оправдать мои ожидания... до скорого...
 ########################################
 #### Yama
 ########################################
-Every king or queen will someday lose their crown...
-Eat your vegetables!
-Here lies the Empress. May she finally find peace.
+Каждый король и королева однажды остается без короны...
+Вот и ешь свои овощи!
+А, ты здесь, чтобы закончить начатое!
+Здесь лежит Императрица. Луна ей пухом.
 ########################################
 ## BASE CAMP SHORTCUTS                ##
 ########################################
-Shortcut Station: Coming Soon! -Mama Tunnel
-Shortcut to Area 1-4
-Shortcut to Area 3
-Shortcut to Area 5
-New shortcut coming soon! -Mama Tunnel
+Скоро появится станция кратчайших путей! -Мама Таннел
+Кратчайший путь к зоне 1−4
+Кратчайший путь к зоне 3
+Кратчайший путь к зоне 5
+Скоро появится новый кратчайший путь! -Мама Таннел
 ########################################
 ## BASE CAMP DIALOGS                  ##
 ########################################
-They're sleeping soundly.
-Congratulations!
-I heard you made progress on your last run!
+Они крепко спят.
+Поздравляшки!
+Говорят, твой последний забег оказался удачным!
 ########################################
 #### Complaints
 ########################################
-Hey!
-WHOA!
-Yikes!
+Эй!
+ВОУ-ВОУ!
+Ты чего это?!
 ########################################
 #### Ana basic dialogue
 ########################################
-I'm taking a break to catch up on my Summer reading list.
-Monty's such a goober!
-Don't you sometimes want to just scream? AHHHHHH!
+Я ухожу на каникулы, чтобы успеть прочитать все книги, которые мне задали на лето.
+Монти такой малыш!
+А тебе не хочется иногда поорать? А-А-А-А-А-А!
 ########################################
 #### Margaret basic dialogue
 ########################################
-My mom always tells me to slow down so I don't miss things.
-It's nice we have a swimming pool... but I miss the ocean!
-I should check in on Ana and see how she's doing!
+Мама всегда мне говорит не спешить — не то упущу что-нибудь важное.
+Как здорово, что у нас есть бассейн... Но я скучаю по океану!
+Мне надо глянуть, как там дела у Аны!
 ########################################
 #### Colin basic dialogue
 ########################################
-We call the time loop Olmec's Curse, but its true origin may be something else...
-I guess you could say that Olmec brought us all together!
-You might want to stay back. I think I'm coming down with something.
+Мы называем временную петлю проклятьем Ольмека, но она может происходить и от чего-то другого...
+Наверняка ты считаешь, что мы тут все из-за этого Ольмека!
+Не отойдешь? Я спущусь с грузом.
 ########################################
 #### Roffy basic dialogue
 ########################################
-I'm doin' good... how, um, are you?
-(Yawn) Sorry, I only got 10 hours of sleep last night...
-Cool, yeah... nice.
+У меня всё хорошо... а у тебя?
+(Зевает) Прости, я вздремнул всего на 10 часиков...
+Круто! Круто!
 ########################################
 #### Alto basic dialogue
 ########################################
-The key to my success? Staying hydrated.
-Practice makes progress!
-No matter what, I always get 10 hours of sleep a night.
+Ключ моего успеха? Соблюдаю водный баланс.
+Главное — побольше практики!
+Ольмеки Ольмеками, а 10 часов сна по расписанию!
 ########################################
 #### Liz basic dialogue
 ########################################
-Oh, hey there. How's it going.
-Just taking a little breather.
-Sorry, I'm a bit busy right now...
+О, приветики. Ну как оно?
+Мне нужная небольшая передышка.
+Прости, сейчас немножко некогда...
 ########################################
 #### Nekka basic dialogue
 ########################################
-Deathmatch is a good way to settle an argument.
-%ls. I admire your courage.
-Every day I promise myself to make it a little farther than the day before.
+Смертельная схватка — отличный способ уладить спор.
+%ls. Я восхищаюсь твоим мужеством.
+Каждый день я обещаю себе продвигаться дальше, чем обычно.
 ########################################
 #### LISE basic dialogue
 ########################################
-Something is preventing my sensors from working properly.
-Every run I do improves my neural network!
-Calculating the chance of victory on your next run... it's %ls%%!
+Что-то мешает работе моих датчиков.
+Каждый забег улучшает мою нейронную сеть!
+Вычисляю шанс преуспеть в следующем забеге... Он составит %ls%%!
 ########################################
 #### Coco basic dialogue
 ########################################
-I love anything that sparkles!
-Oh, don't worry, Pearl doesn't bite... very often.
-I spoiled Demi too as a little girl, but she's turned out just fine!
+Люблю всё, что искрится!
+Ой, не волнуйся, Жемчужинка не кусается... обычно.
+Деми в детстве тоже была мною испорчена, но оказалась в полном порядке!
 ########################################
 #### Manfred basic dialogue
 ########################################
-I miss my shovel... but at least I know she's in good hands!
-People say dig yourself into a hole like it's a bad thing!
-Margaret prefers the open sea to caves, but she couldn't resist this adventure.
+Где же моя лопата... Хотя бы знаю, что она в хороших руках!
+Загнать себя в яму — это разве плохо?
+Маргарет предпочитает открытое море, нежели пещеры, но она не смогла отказать себе в этом путешествии.
 ########################################
 #### Jay basic dialogue
 ########################################
-Maybe some day they'll make a video game about me!
-I don't know if I'll ever get used to falling on spikes...
-Wanna see my item tier list?
+Возможно, когда-нибудь про меня сделают видеоигру!
+Не знаю, привыкну ли я когда-нибудь падать на шипы...
+Хочешь взглянуть на мой список предметов?
 ########################################
 #### Tina basics
 ########################################
-Being here makes me feel young again!
-I could use a nice cup of tea right about now.
-Guy says he's scared to fight me in Deathmatch!
+Здесь я чувствую себя вновь как в юности!
+Вот бы чашечку бодрящего чая сейчас.
+Гай говорит, что боится смертельной схватки со мной!
 ########################################
 #### Valerie basics
 ########################################
-I'm listening to the latest album by Phlogiston!
-What kind of music do you like?
-(She seems lost in her own little world.)
+Я слушаю последний альбом Флогистона!
+А какая музыка тебе нравится?
+(Кажется, она заблудилась в своем мирке.)
 ########################################
 #### Au basic dialogue
 ########################################
-Life has meaning in the things that mean something to us.
-I can see you've learned a lot since you began this journey.
-Good friendships are like stars... their light shines on us even from afar.
+Жизнь имеет смысл в тех вещах, которые что-то значат для нас.
+Я вижу, у тебя большой прогресс с начала путешествия.
+Хорошие друзья — как звезды... их свет сияет на нас даже издалека.
 ########################################
 #### Demi basic dialogue
 ########################################
-I wasn't always a fan of adventuring... it grew on me!
-I'm getting a bit tired of camp food, to be honest.
-Everyone's so supportive down here! It's great!
+Я не всегда была поклонницей приключений... они мною овладели!
+Поднадоела уже эта еда в лагере, честно сказать.
+Здесь все так друг друга поддерживают! И это здорово!
 ########################################
 #### Pilot basic dialogue
 ########################################
-Isabell would enjoy this place. Lots of treasure.
-I wonder how my dear Campanella is doing.
-The gravity on Zoldath is much stronger.
+Изабель бы понравилось это место. Много сокровищ.
+Как там, интересно, поживает моя Кампанелла.
+Гравитация на Золдасе гораздо сильнее.
 ########################################
 #### Airyn basic dialogue
 ########################################
-Those axolotls are so cute, aren't they?
-I'm used to running around in a dress!
-I can't wait to eat some more royal jelly!
+Скажи же, эти аксолотли такие милашки?
+Я привыкла бегать в платье!
+Так хочется съесть еще королевского желе!
 ########################################
 #### Dirk basic dialogue
 ########################################
-My sister is the black sheep of our family... but I still care about her.
-I'm having trouble sleeping, so I'm doing exercise.
-A ninja must be able to adapt to any situation.
+Моя сестра — белая ворона в нашей семье... но я все еще забочусь о ней.
+У меня проблемы со сном, поэтому я делаю упражнения.
+Ниндзя должен уметь приспосабливаться к любой ситуации.
 ########################################
 #### Guy basic dialogue
 ########################################
-Whew, I'm not as nimble as I used to be.
-To think that there's more than one Olmec in the universe!
-Maybe this will be my last adventure... but maybe not!
+Мда, у меня уже не та ловкость, что прежде.
+Подумать только, во вселенной больше одного Ольмека!
+Может, это будет моим последним путешествием... а может и нет!
 ########################################
 #### Spelunky (Classic) basic dialogue
 ########################################
@@ -1995,140 +2102,140 @@ Maybe this will be my last adventure... but maybe not!
 ########################################
 #### Mama Tunnel basic dialogue
 ########################################
-I hope the shortcuts are useful, %ls!
-Shoot, I think my shovel's edges are starting to get dull...
-Keep an eye on Margaret for me, won't you?
+Надеюсь, кратчайшие пути выручают, %ls!
+Чёрт! У моей лопаты, похоже, края затупились...
+Ты же присмотришь за Маргарет ради меня?
 ########################################
 #### Ana to others
 ########################################
-Dad... you look pretty tired, bro.
-Love you, Mom!
-Margaret, I'm soooooo glad you're here with me.
-Ooh, Colin... I got another idea on how to improve my space ship!
-Can I visit you in Heliotropolis after this, Airyn?
+Папа... ты выглядишь таким уставшим.
+Люблю тебя, мам!
+Маргарет, как здо-о-о-орово, что ты рядом со мной.
+Ой, Колин... У меня появилась еще одна идея, как улучшить мой космический корабль!
+Айрин, можно потом я загляну к тебе в Гелиотрополисе?
 ########################################
 #### Margaret to others
 ########################################
-I can't believe we're actually here!
-Hey, Pops! Love ya!
-You're so chill, Roffy!
-Oh my gosh, Pearl is so cute. Can I pet her?
-Ah, you're so SHINY!!!
+Даже не верится, что мы здесь!
+Приветики! Люблю тебя!
+Ты такой невозмутимый, Роффи!
+Ути-пути, Жемчужинка такая милашка. А можно потискать ее?
+О, да ты просто СИЯЕШЬ!!!
 ########################################
 #### Colin to others
 ########################################
-キミの宇宙船、なかなかいい仕上がりじゃないか！
-I'm glad you and Ana are finally reunited!
-Ana's a real natural at this stuff... you should be proud!
-Pilot, you must tell me more about how your UFO works.
-Who did you say built you, LISE? Your technology is very advanced!
+Хорошая работа с этим космолётом!
+Я рад, что вы с Аной наконец-то встретились!
+Для Аны это так естественно... Родители должны гордиться ею!
+Пилот, а ну-ка расскажи мне, как устроено твое НЛО.
+Так и кто там тебя построил, говоришь? Твоя технология очень усовершенствованная, ЛИЗА!
 ########################################
 #### Roffy to others
 ########################################
-Do you prefer Liz or Elizabeth? I keep forgetting...
-I wish... I could grow a beard like yours, Colin.
-Hey, Val! I've been listening to Jane Papaya again. Such a great album.
-You're a pirate, huh? That's... really cool.
+Лиз или Элизабет? Всё забываю...
+Жаль... у меня нет такой бороды, как у тебя, Колин.
+Эй, Валери! Я снова слушаю Джейн Папайю. Какой же у нее крутой альбом.
+О, так ты пиратка? Это... прикольно.
 ########################################
 #### Alto to others
 ########################################
-Ana, I spent a lot of time spelunking with your parents. You've got your own style... keep it up!
-Heya, Roff! What's your secret for staying so relaxed? Do you meditate?
-You got spirit, Jay. You're already a star in my book!
-You gotta teach me some ninja skills, Dirk!
-Liz! What muscle groups are you targeting these days?.
+Ана, мы с твоими родителями провели много времени в пещерах. У тебя свой стиль... продолжай совершенствовать его!
+Привет, Рофф! Вот в чем секрет твоего расслабона? Медитируешь?
+А ты с характером, Джей. По-моему, ты просто звезда!
+Научишь меня своим ниндзя-штучкам, Дирк?
+Лиз! Ты сейчас на какие группы мышц работаешь?
 ########################################
 #### Liz to others
 ########################################
-Margaret, you're a good swimmer. Can you give me some lessons at the pool?
-You've updated your look, Colin. I like it!
-Oh, you want my autograph? I'll... think about it.
-Hi, Alto. Do you know a good stretch for sore legs?
+А ты хорошо плаваешь, Маргарет. Не дашь пару-тройку уроков в бассейне?
+У тебя новый прикид, Колин? Красавец-мужчина!
+Ой, хотите мой автограф? Я... подумаю.
+Привет, Альто. Не знаешь хорошие упражнения на растяжку для забитых ног?
 ########################################
 #### Nekka to others
 ########################################
-In all your travels, have you ever come across a place such as this?
-Your clothes look rather... cumbersome!
-Dirk... you also come from a warrior clan, yes?
+Доводилось ли тебе бывать в подобных местах за все твои путешествия?
+Твоя одежда выглядит довольно... громоздкой!
+Дирк... а ты же еще и из клана воинов?
 ########################################
 #### LISE to others
 ########################################
-Colin, can you calibrate my sensors when you have a chance?
-Valerie, can we listen to music together? I'd love to add more albums to my database.
-Airyn, I'd love to learn more about sweets! My favorite food is lollipops...
+Колин, откалибруй, мои датчики, пожалуйста, как сможешь.
+Валери, послушаем музыку вместе? Так хочу добавить новые альбомы в свою базу данных.
+Айрин, я хочу побольше узнать о сладостях! Моя любимая еда — это чупа-чупсы...
 ########################################
 #### Coco to others
 ########################################
-How are you, darling!
-Roffy, I think you'd be the perfect model for my new line of menswear!
-We could use a brilliant mind like yours at Von Diamonds Incorporated!
-Princess, I'd love to design some dresses for you after this is all over!
-Your skin positively glows, Au! You should be on the cover of a magazine!
+Как ты, дорогая!
+Роффи, я думаю, ты будешь идеальной моделью для моей новой линии мужской одежды!
+Нам бы не помешали такие блестящие умы, как у вас, в Von Diamonds Incorporated!
+Принцесса, с радостью смоделирую наряды для вас, когда всё это закончится!
+Твоя кожа так светится, Аурум! Тебе бы на обложку журнала!
 ########################################
 #### Manfred to others
 ########################################
-Hey, M! How have your runs been going?
-Couldn't let you have all the fun, old man! Ha!
-Hey, it's A Plus! You and Margaret make a great team.
-Never thought our next family get together would be on the MOON! HAHA!
+Привет, Эм! Как твои забеги?
+Всё никак не наразвлекаешься, старина! Ха-ха!
+Эй, это же плюс! Вы с Маргарет отлично ладите.
+Никогда бы не подумал, что наша следующая семейная встреча будет на ЛУНЕ! ХА-ХА!
 ########################################
 #### Au to others
 ########################################
-LISE, I wish you well on your journey of discovery.
-Manfred, my old friend. It shows a lot of courage to try something new.
-Alto, my old friend. Your exuberance keeps everyone's spirits high.
+ЛИЗА, желаю тебе удачи в постижении нового.
+Манфред, мой старый друг. Чтобы пробовать что-то новое, нужно много мужества.
+Альто, мой старый друг. Твой энтузиазм держит всех на высоте.
 ########################################
 #### Jay to others
 ########################################
-I read all about your mom and dad's adventures!
-THE Tina Flan?! Did you really throw an eggplant at King Yama?!
-Whoa, Guy Spelunky?! You know I'm your biggest fan, right!
-Oh! You look like the games my dad used to play.
-Hi, Valerie! Gotten any highscores lately?
+Я прочитал всё о приключениях твоих родителей!
+Та САМАЯ Тина Флан?! Вы правда швырнули баклажан в Короля Яму?!
+Ух ты, Гай Спеланки?! А я ваш главный поклонник!
+О! Ты как из тех игр, в которые раньше играл мой папа.
+Привет, Валери! Хорошие оценки принесла?
 ########################################
 #### Tina to others
 ########################################
-Hey, sweetie! Do you need a snack?
-I can't help but worry about Ana being here...
-You're actually kinda cute!
-Margaret, your mom has told me so much about your adventures!
+Эй, милая! Перекусить не хочешь?
+Я не могу не беспокоиться о том, что Анна здесь...
+Ты такой милаш!
+Маргарет, твоя мама так много рассказывала мне о твоих приключениях!
 ########################################
 #### Airyn to others
 ########################################
-I've never met a real ninja before! How exciting!
-Val! We should throw a party, don't you think?
+А-а-а! Настоящий ниндзя! Как круто!
+Валери! Может, устроим вечеринку?
 ########################################
 #### Dirk to others
 ########################################
-Your Majesty! Let me know if I can be of service to you.
-Your warrior spirit is very inspiring. Can we train together some time?
+Ваше Величество! Могу ли я чем-то помочь?
+Твой боевой дух очень вдохновляет. Можем как-нибудь потренироваться вместе?
 ########################################
 #### Valerie to others
 ########################################
-Ana, can I hang out with you and Margaret some time?
-Some day I'd like to try making my own video game!
-Oh, uh... hi, Demi! Um, you're so cool!
+Ана, можно провести время с тобой и Маргарет?
+Иногда мне так хочется создать собственную видеоигру!
+Оу... привет, Деми! М... ты такая классная!
 ########################################
 #### Demi to others
 ########################################
-I can't believe you brought Pearl here, Mom...
-Have you talked to Yang lately? If only he could see me now!
-Dirk, you're so mysterious! I'd love to get to know you better...
-You're so strong, Nekka! Let's co-op some time?
+Даже не верится, что ты взяла Жемчужинку сюда, мам...
+Тебе уже довелось пообщаться с Яном? Вот бы увидел он меня сейчас!
+Дирк, ты такой таинственный! Я не против узнать тебя поближе...
+Ты такая сильная, Некка! Давай сразимся как-нибудь?
 ########################################
 #### Pilot to others
 ########################################
-You remind me of my sister Isabell.
-LISE, I'd be interested in seeing any data you've collected about Zoldath.
-I've never met a golden man before.
+Ты напоминаешь мне мою сестру Изабель.
+ЛИЗА, мне было бы интересно взглянуть на твои данные о Золдасе.
+Я еще не встречал золотого человека.
 ########################################
 #### Guy to others
 ########################################
-I'm so proud of you, kiddo!
-Now that is just weird!
-Hard to believe we're all here together, Manny.
-Hi, sweetheart! Life is crazy, huh?
-Thanks for helping Ana get to the Moon safely. We owe you one!
+Я так горжусь тобой!
+Вот так странности!
+Сложно поверить, что мы все здесь, Мэнни.
+Привет, милая! Жизнь безумна, да?
+Ана добралась до Луны в целости и сохранности. Мы все так благодарны тебе!
 ########################################
 #### Spelunky (Classic) to others
 ########################################
@@ -2136,97 +2243,270 @@ Thanks for helping Ana get to the Moon safely. We owe you one!
 ########################################
 #### Mama Tunnel to others
 ########################################
-Manny, you look like you wish you had a shovel in your hand haha!
-If you need help, just let Mama know, okay?!
+Мэнни, у тебя такой вид, как будто лопаты не хватает, ха-ха!
+Если понадобится помощь, просто скажи маме, хорошо?!
 ########################################
 #### Enthusiastic personality generic dialogue
 ########################################
-How are your runs going, %ls?
-I did some co-op runs with %ls... it was a lot of fun!
-Yay, I think my practice is finally paying off!
-Which items are underrated? Personally, I like finding %ls.
-I hate when a promising run gets ended by %ls!
-Argh, %ls got me again! I need to take a break.
-I found %ls in a crate, but then %ls killed me!
-Ugh, I can't believe I got %ls last run...
-%ls died to %ls, too. So I'm not alone!
-I'm glad we get to hang out so much, %ls!
+Как твои забеги, %ls?
+%ls и я устроили несколько забегов... Это было так весело!
+Ура! Наконец-то долгие попытки дают свои плоды!
+Какие предметы, по-твоему, недооценены? Лично мне нравятся такие, как %ls.
+Ненавижу, когда %ls срывает многообещающий забег!
+А-а-а! Опять %ls! Мне нужен перерыв.
+Смотрю, а в ящике — %ls! А потом меня что-то убило. Кажется, %ls.
+Всё было бы хорошо в моем последнем забеге, но %ls... Поверить не могу...
+%ls говорит, тоже не получилось — %ls всему виной! Так что мы не одни такие!
+Здорово, что мы так много времени провели вместе, %ls!
 ########################################
 #### Direct personality generic dialogue
 ########################################
-I hope you're taking care of yourself, %ls.
-I've been training in the Arena. Maybe I'll see you there some time?
-My last run showed improvement.
-When I get %ls, I know I'm going to have a good run.
-My last run was going well until %ls killed me.
-I died to %ls again. I think I'm in a slump.
-%ls, when you see %ls at a shop, do you buy it?
-I keep getting %ls. Need to be more careful.
-%ls has been making good progress. I should ask them for tips.
-Nice to have you here, %ls.
+Береги себя, %ls.
+У меня была тренировка на арене. Может, как-нибудь увидимся там?
+Мои забеги всё лучше и лучше.
+Когда у меня в забеге %ls, я знаю, что это будет хороший забег.
+Мой последний забег был бы лучшим, если бы не %ls.
+Опять %ls в последнем забеге. Кажется, у меня упадок сил.
+%ls, когда тебе в лавке попадается такой товар, как %ls, ты покупаешь?
+Ах, снова %ls. Надо быть осторожнее.
+%ls неплохо справляется. Надо спросить совета.
+Здорово, что ты здесь, %ls.
 ########################################
 #### Generic dialogue - deaths
 ########################################
-the ghost
-a bat
-a snake
-a spider
-a scorpion
-a skeleton
-bees
-a shopkeeper
-a bomb
-a long fall
-spikes
-lava
-a trap
+призрак
+летучая мышь
+змея
+паук
+скорпион
+скелет
+пчелы
+лавочник
+бомба
+затяжное падение
+шипы
+лава
+ловушка
 ########################################
 #### Generic dialogue - items
 ########################################
-spring shoes
-spike shoes
-a bomb box
-a crossbow
-a freeze ray
-a teleporter
-a telepack
-a hoverpack
-a powerpack
+пружинные ботинки
+шипованные ботинки
+коробка бомб
+арбалет
+замораживающий луч
+телепорт
+телепортирующий ранец
+полетный ранец
+силовой ранец
 ########################################
 #### Generic dialogue - effects
 ########################################
-poisoned
-cursed
-punished by Kali
-crushed
-stuck
+отравление
+заклятье
+наказание от Кали
+расплющивание
+застревание
 ########################################
 #### Tutorial Speedrun
 ########################################
-Want to try racing the tutorial? Just talk to me again.
-Alright! I'll start timing you when you pass me!
-GO!
-Hey, where are you going?
-I need a break...
-FINISH! Your time is %ls! Good attempt.
-FINISH! Your time is %ls! A new record!
-My best time is 30 seconds. Can you beat it? - Alto
-Fastest Time: %ls
+Если вдруг захочешь пройти обучение, просто сообщи мне.
+Ладно! Начну засекать время, когда ты меня обойдешь!
+ПОЕХАЛИ!
+Эй, ты куда это?
+Мне нужен перерыв...
+ФИНИШ! Твое время %ls! Неплохо.
+ФИНИШ! Твое время %ls! Новый рекорд!
+Мой рекорд 30 секунд. Сможешь быстрее? - Альто
+Самое быстрое время: %ls
 ########################################
 #### Online
 ########################################
-<SYS_ACCEPT/> Report
-Describe the inappropiate content or offensive behaviour.
-Feedback
-Describe the bug or suggestion you have encountered while playing Spelunky 2
-Data to ensure integrity and authenticity of the run will be made public, contact privacy@blitworks.com for removal requests.
-The game you have been invited to is Cross-Play enabled, are you sure you want to proceed? Cross-Play will be provisionally enabled if you proceed.
-A network error occurred
-Starting in %d
-This leaderboard is currently unavailable, please come back later.
+Пожаловаться
+Расскажи нам о недопустимом контенте или агрессивном поведении.
+Показать карту игрока
+Обратная связь
+Расскажи о своих предложениях или напиши об ошибках, которые попались тебе в игре Spelunky 2
+Данные, которые обеспечивают целостность и достоверность забега, будут публиковаться. По вопросам удаления данных обращайся по адресу privacy@blitworks.com.
+Игра, в которую тебя пригласили, кросс-платформенная. Точно хочешь продолжить? Если продолжишь, кросс-платформенность будет временно включена.
+Возникла сетевая ошибка
+Начало через %d
+Этот список лидеров пока что недоступен. Возвращайся позже.
 ########################################
 #### Ending
 ########################################
-Final Score:
-Total Time:
-The demo has ended.\nThanks for playing!
+Финальный счет:
+Общее время:
+########################################
+#### Characters short name
+########################################
+Ана
+Маргарет
+Колин
+Роффи
+Альто
+Лиз
+Некка
+ЛИЗА
+Коко
+Манфред
+Джей
+Тина
+Валери
+Аурум
+Деми
+Пилот
+Айрин
+Дирк
+Гай
+Классический Гай
+########################################
+#### Shopkeepers' names
+########################################
+Али
+Боб
+Космо
+Дарвин
+Эрлище
+Эрл
+Фрэнк
+Гарт
+Хаким
+Игги
+Иван
+Джимбо
+Кинни
+Лу
+Мики
+Начо
+Омар
+Панчо
+Куинси
+Рон
+Спарки
+Тарн
+Ульф
+Верн
+Ван
+Уилли
+Зандер
+Ёши
+Зигги
+########################################
+#### Hired hands' names
+########################################
+Атлас
+Барка
+Кловис
+Дандер
+Эйрик
+Финк
+Гром
+Хэм
+Иван
+Джави
+Кевин
+Ларч
+Манфред
+Нёрдл
+Оникс
+Хряк
+Куинси
+Растер
+Стив
+Тандар
+Уг
+Вохель
+Волк
+Хорн
+Ёр
+Зоргот
+########################################
+#### Feats
+########################################
+Подвиги
+Скрыто
+Это был настоящий подвиг!
+Пещерных дел мастер
+Золотой ключик
+Отличное начало
+Улучшение навыков
+Настойчивый
+Искатель приключений
+Железный человек
+Скоростной забег
+Нищеброд
+Пилигрим
+Мастер
+Пробужденный
+Экскаватор
+Факелоносец
+Выживший
+Миллионер
+Повидавший многое
+Повидавший всё
+Мамин маленький помощник
+Мамин большой помощник
+Звезда забега
+Чемпион арены
+Заклинатель индюшек
+Поддержим местных производителей!
+VIP
+Тайный покупатель
+Легенда
+Её любимчик
+Божественное право
+Второй шанс
+Избранный
+Родительские чувства
+Получить все остальные призы.
+Открыть вход.
+Пройти 1-4 в обычном забеге.
+Пробраться через Логово Ольмека в обычном забеге.
+Добраться до Ледяных пещер в обычном забеге.
+Пройти всю игру в обычном забеге.
+Пройти всю игру без использования кратчайших путей в обычном забеге одиночного режима.
+Пройти игру за 10 минут или меньше без использования кратчайших путей в обычном забеге одиночного режима.
+Пройти всю игру без сбора сокровищ и без использования кратчайших путей в обычном забеге одиночного режима.
+Добраться до Затонувшего города в обычном забеге одиночного режима.
+Пройти игру, одолев Хуньдуня в обычном забеге одиночного режима.
+Добраться до Космического океана в обычном забеге одиночного режима.
+Пройти Лунное испытание в обычном забеге.
+Пройти Звездное испытание в обычном забеге.
+Пройти Солнечное испытание в обычном забеге.
+Завершить обычный забег одиночного режима с 1 000 000 $ и более.
+Заполнить 50% журнала и более.
+Заполнить весь журнал.
+Открыть первый кратчайший путь.
+Открыть все три кратчайших пути.
+Пройти обучающий забег быстрее 30 секунд.
+Выиграть смертельную схватку до пяти против трех ботов, используя набор правил по умолчанию.
+Принести две индюшки Яну в обычном забеге.
+Скупить лавку питомцев Яна в обычном забеге.
+Попасть во Дворец удовольствий мадам Туск в качестве гостя (в обычном забеге).
+Добраться до Черного рынка в обычном забеге.
+Добраться до Города золота в обычном забеге одиночного режима.
+Заполучить капалу в обычном забеге.
+Заполучить королевский головной убор в обычном забеге.
+Заполучить анх в обычном забеге.
+Заполучить скрижаль судьбы в обычном забеге.
+Разбудить баклажановое дитя в обычном забеге.
+########################################
+#### Constellations
+########################################
+Solanum
+Animus
+Canis
+Cattus
+Phodopus
+Felix
+Asinus
+Celeritas
+Major
+Fidelis
+Criminalus
+Minor
+########################################
+#### Others
+########################################
+Демо-версия окончена.\nСпасибо за игру!

@@ -3,6 +3,7 @@ Sì
 No
 <SYS_ACCEPT/>
 <SYS_BACK/>
+<LOG_BOMB/>
 <SYS_SPECIAL/>
 <SYS_SPECIAL2/>
 <SYS_SPECIAL3/>
@@ -13,6 +14,8 @@ No
 Continua
 Annulla
 Resetta
+Attivo
+Disattivo
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -59,12 +62,14 @@ PAUSA
 Riprendi
 Riavvia il tutorial
 Termina l'avventura
+Termina match
 Riavvio immediato
 Opzioni
 Menu principale
 Abbandona
 Vuoi davvero riavviare il tutorial?
 Vuoi davvero terminare l'avventura? Tutti i progressi non salvati andranno persi.
+Vuoi davvero terminare il match?
 Vuoi davvero riavviare? Tutti i progressi non salvati andranno persi.
 Vuoi davvero tornare al menu principale? Tutti i progressi non salvati andranno persi.
 Vuoi davvero abbandonare la partita? Tutti i progressi non salvati andranno persi.
@@ -98,10 +103,10 @@ Affronta gli amici o i bot nell'Arena.
 ########################################
 ## ONLINE OPTIONS                     ##
 ########################################
-Invita
+Invito
 <SYS_ACCEPT/> Pronti!
 <SYS_SPECIAL3/> Codice
-<SYS_SPECIAL2/> Invita                <SYS_SPECIAL3/> Codice
+<SYS_SPECIAL2/> Invito                <SYS_SPECIAL3/> Codice
 <SYS_SPECIAL/> Cerca
 Inserisci il codice
 Il tuo codice:
@@ -113,6 +118,7 @@ Comandi
 Gioco
 Interfaccia e testi
 Lingua
+Progressi crociati
 Gestione dati
 Riconoscimenti
 #### Shared values
@@ -158,6 +164,7 @@ Imposta il volume generale.
 ########################################
 Configurazione tastiera
 Configurazione controller
+Configurazione controller
 Giocatore attuale
 Il giocatore di cui stiamo configurando i comandi.
 Giocatore %d
@@ -178,11 +185,20 @@ Cammina
 Corri
 Levetta destra
 Usa la levetta destra per spostarti.
+Stick destro
+Usa lo stick destro per spostarti.
+Vibrazione
+Imposta la modalità di vibrazione del controller.
 Vibrazione
 Imposta la modalità di vibrazione del controller.
 <SYS_ACCEPT/> Cambia tasto
 <SYS_ACCEPT/> Cambia tasto
+<SYS_ACCEPT/> Cambia tasto
+<SYS_ACCEPT/> Cambia pulsante
+<SYS_ACCEPT/> Cambia pulsante
 Premi il tasto da usare per: %ls
+Premi il tasto da usare per: %ls
+Premi il pulsante da usare per: %ls
 Tasto già utilizzato! Se procedi, verrà reimpostato per il giocatore %d.
 Reimposta tasto per il giocatore %d
 Alcune azioni del giocatore %d non sono impostate. Vuoi davvero uscire?
@@ -197,6 +213,21 @@ Ritardo output
 Ritarda la visualizzazione della azioni degli altri giocatori per ridurre i difetti visivi.
 Uso di pseudonimi
 I giocatori di fonti esterne utilizzano degli pseudonimi.
+#### Cross-Progress
+########################################
+Progressi crociati
+Attiva la condivisione di progressi con altre piattaforme
+Sincronizzazione Automatica
+Sincronizza automaticamente i progressi con altri dispositivi.
+Richiedi codice di sincronizzazione
+Richiedi un codice per condividere i progressi con un'altra piattaforma.
+Inserisci codice di sincronizzazione
+Inserisci il codice di un'altra piattaforma per condividere progressi
+Sincronizza progressi
+Scarica, incorpora e carica i tuoi progressi.
+Sincronizza codice:
+Richiedendo codice
+Sincronizzazione in corso
 #### Gameplay
 ########################################
 Tipo di mascotte
@@ -238,8 +269,14 @@ Icona Negoziante furioso
 Attiva/disattiva la visualizzazione di un'icona quando i negozianti sono furiosi.
 Indicazioni tasti
 Consente di visualizzare o no le indicazioni dei tasti.
+Indicazioni tasti
+Consente di visualizzare o no le indicazioni dei tasti.
+Indicazioni pulsanti
+Consente di visualizzare o meno le indicazioni dei pulsanti.
 Icone dei pulsanti
 Forzare bottoni di una piattaforma specifica
+Notifiche gesta
+Indica se vuoi che compaiano o meno le notificazioni di gesta.
 DIALOGHI
 Dimensioni testo
 Imposta le dimensione dei testi dei dialoghi.
@@ -307,6 +344,9 @@ Amici
 Cross-play
 Numero di giocatori
 <SYS_SPECIAL2/> Io
+Vedi replay
+<SYS_ACCEPT/> Vedi replay
+<SYS_ACCEPT/> Menú contestuale
 ########################################
 ## ENTER SEED SCREEN                  ##
 ########################################
@@ -321,8 +361,18 @@ SCEGLI IL TUO PERSONAGGIO
 Giocatore %d
 <SYS_ACCEPT/> Avvia
 Indietro <SYS_BACK/>
-<LOG_ACTION/> Inizia coi bot
-<SYS_SPECIAL/> Inizia coi bot
+<LOG_ACTION/> Aggiungi bot
+<SYS_SPECIAL/> Aggiungi bot
+<LOG_BOMB/> Elimina bot
+<SYS_BACK/> Elimina bot
+<LOG_SPECIAL/> Cambia IA
+<SYS_SPECIAL3/> Cambia IA
+Calma
+Normale
+Adirata
+Tartaruga
+Tattica
+Casuale
 SCELTA RAPIDA
 <LOG_ROPE/> Scelta rapida
 <SYS_SPECIAL2/> Scelta rapida
@@ -383,6 +433,7 @@ Il round finisce
 Nebbia letale
 Raggio alieno
 Pioggia di bombe
+Fantasma
 Casuale
 Vittorie
 Imposta il numero di vittore necessarie per decretare il vincitore.
@@ -427,6 +478,22 @@ Imposta il danno provocato dalla frusta
 5
 10
 99
+Fantasma finale
+Imposta che il fantasma del giocatore appaia o meno non appena abbia perso l'ultima vita.
+No
+Sì
+Recupero soffio
+Imposta il tempo di recupero per l'attacco soffio o disattiva l'attacco.
+No
+0.25
+0.5
+0.75
+1.0
+1.25
+1.5
+1.75
+2.0
+Soffio disattivo
 Cavalcatura
 Scegli se i giocatori iniziano ogni round in sella.
 No
@@ -434,6 +501,10 @@ Tacchino
 Cane roccioso
 Assolotto
 Casuale
+Palla punitiva
+Imposta che i giocatori appaiano con una palla punitiva o meno.
+No
+Sì
 Scelta Arena
 Scegli la modalità in cui vengono scelte le arene fra un round e l'altro.
 Si sceglie a turno
@@ -453,6 +524,7 @@ Mai
 Bassa
 Media
 Alta
+Molto alta
 Oggetti
 Scegli quali oggetti saranno disponibili nelle casse e quelli che avrai con te all'inizio.
 <SYS_ACCEPT_SECONDARY/>
@@ -531,15 +603,16 @@ Oggetto in possessione
 Equipaggiamento
 Zaino
 Speciale
-<SYS_ACCEPT/> Attiva/disattiva tutti gli oggetti.
-<SYS_ACCEPT/> Attiva/disattiva gli oggetti di livello.
-<SYS_ACCEPT/> Attiva/disattiva i potenziamenti.
-<SYS_ACCEPT/> Attiva/disattiva le armi.
-<SYS_ACCEPT/> Attiva/disattiva l'equipaggiamento.
-<SYS_ACCEPT/> Attiva/disattiva lo zaino.
-<SYS_ACCEPT/> Attiva/disattiva tutti gli oggetti speciali.
-<SYS_ACCEPT/> Attiva/disattiva questo oggetto.
-<SYS_ACCEPT/> Attiva questo oggetto come oggetto iniziale o semplicemente lo attiva/disattiva.
+<LOG_ACCEPT/> Attiva/disattiva tutti gli oggetti.
+<LOG_ACCEPT/> Attiva/disattiva gli oggetti di livello.
+<LOG_ACCEPT/> Attiva/disattiva i potenziamenti.
+<LOG_ACCEPT/> Attiva/disattiva le armi.
+<LOG_ACCEPT/> Attiva/disattiva l'equipaggiamento.
+<LOG_ACCEPT/> Attiva/disattiva lo zaino.
+<LOG_ACCEPT/> Attiva/disattiva tutti gli oggetti speciali.
+<LOG_ACCEPT/> Attiva/disattiva questo oggetto.
+<LOG_ACCEPT/> Attiva questo oggetto come oggetto iniziale o semplicemente lo attiva/disattiva.
+<LOG_SPECIAL/> Salta
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
@@ -573,7 +646,7 @@ Questo livello:
 Totale:
 Statistiche
 Bottino
-Premi <LOG_JUMP/> per affrontare il livello successivo
+Premi <LOG_ACCEPT/> per affrontare il livello successivo
 ########################################
 ## GAME OVER                          ##
 ########################################
@@ -585,6 +658,7 @@ Torna alla schermata iniziale
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
+Il controller del giocatore %d è stato scollegato. Per proseguire, ricollegalo o collegane uno nuovo e premi <LOG_ACCEPT/>.
 Il controller del giocatore %d è stato scollegato. Per proseguire, ricollegalo o collegane uno nuovo e premi <LOG_ACCEPT/>.
 <LOG_CANCEL/> Torna alla schermata iniziale
 <LOG_CANCEL/> Torna al menu principale
@@ -805,45 +879,45 @@ Un'armatura corazzata di classe MOYA, progettata dagli alieni per combattere con
 ########################################
 ## JOURNAL - PEOPLE                   ##
 ########################################
-ANNA SPELUNKY
+Ana Spelunky
 È venuta sulla Luna per cercare i genitori. È una giovane spensierata e ha il cuore di una vera eroina.
-MARGARET TUNNEL
+Margaret Tunnel
 Si è allontanata dagli affari di famiglia perché è rimasta affascinata dall'oceano. Il suo sogno è comprare una nave pirata.
-COLIN NORTHWARD
+Colin Northward
 Un artista e ingegnere curioso, ossessionato da Olmec e dalla Maledizione delle Grotte.
-ROFFY D. SLOTH
+Roffy D. Sloth
 Ha pensieri molto profondi, ma preferisce tenerli per sé.
-ALTO SINGH
+Alto Singh
 Insegna educazione fisica. Vuole assicurarsi che tutti abbiano cura della propria salute e siano sempre ottimisti.
-LIZ MUTTON
+Liz Mutton
 Un'avventuriera tostissima. Ama la solitudine e si emoziona raramente, ma ha molto a cuore i suoi amici.
-NEKKA L'AQUILA
+Nekka The Eagle
 Una capo guerriero feroce, che vuole affrontare gli dei per interrogarli sui problemi dell'universo.
-PROGETTO LISE
+LISE Project
 Un robot progettato per esplorare e divertirsi. Dopo 1.000 anni, tornerà dai suoi creatori coi dati che ha raccolto.
-COCO VON DIAMONDS
+Coco Von Diamonds
 La fondatrice del famoso marchio di moda e lifestyle Von Diamonds. Al momento è in vacanza.
-MANFRED TUNNEL
+Manfred Tunnel
 Dopo tanti anni passati a costruire scorciatoie, finalmente ha deciso di mettersi alla prova con la speleologia.
-LITTLE JAY
+Little Jay
 Si definisce un "Spelunker" e vuole diventare un esploratore famoso. Quando si trova vicino ai suoi eroi, tende a emozionarsi troppo.
-TINA FLAN
+Tina Flan
 Quando era relativamente sconosciuta, è riuscita a picchiare al re Yama con una melanzana. Non le piace vantarsi!
-VALERIE CRUMP
+Valerie Crump
 Appassionata di musica e videogiochi. Cerca l'ispirazione viaggiando.
-AU
+Au
 Un monaco dalla pelle luminosa e dorata. Mettendo alla prova corpo e mente, cerca di trovare la pace in un universo dominato dal caos.
-DEMI VON DIAMONDS
+Demi Von Diamonds
 L'erede dell'impero Von Diamonds. Ha avuto una vita agiata, ma vuole scoprirne di più sul mondo.
-PILOTA
+Pilot
 Uno strano ometto spaziale, proveniente da un pianeta lontano. Spesso borbotta qualcosa sulla Campanella, il suo UFO.
-PRINCIPESSA AIRYN
+Princess Airyn
 Esperta di cucina, gira il mondo in cerca di squisitezze da portare nel regno di Heliotropia.
-DIRK YAMAOKA
+Dirk Yamaoka
 Un maestro ninja, sempre desideroso di affinare la propria abilità. Quando la luna ha chiamato, ha risposto senza esitazioni.
-GUY SPELUNKY
+Guy Spelunky
 Ha vissuto cercando l'avventura (e i tesori). Non è più un giovanotto, quindi sta rivalutando le priorità.
-CLASSIC GUY
+Classic Guy
 Una versione di Guy Spelunky appartenente a un universo alternativo fatto di blocchi colorati piatti e larghi.
 TERRA TUNNEL
 Ha incontrato Manfred molti anni or sono, quando l'ha salvato da un crollo. Insieme hanno fondato un impero di costruzioni di scorciatoie.
@@ -2248,8 +2322,9 @@ Miglior tempo: %ls
 ########################################
 #### Online
 ########################################
-<SYS_ACCEPT/> Segnala
+Segnala
 Descrivi i contenuti inappropriati o il comportamento offensivo.
+Mostra scheda giocatore
 Feedback
 Descrivi i tuoi suggerimenti o il bug che hai riscontrato mentre giocavi a Spelunky 2.
 I dati per garantire l'integrità e l'autenticità della partita saranno resi pubblici. Per eventuali richieste di rimozione, contattare privacy@blitworks.com.
@@ -2262,6 +2337,29 @@ Al momento, la classifica non è disponibile. Riprova più tardi.
 ########################################
 Punteggio finale:
 Tempo totale:
+########################################
+#### Characters short name
+########################################
+Ana
+Margaret
+Colin
+Roffy
+Alto
+Liz
+Nekka
+LISE
+Coco
+Manfred
+Jay
+Tina
+Valerie
+Au
+Demi
+Pilot
+Airyn
+Dirk
+Guy
+Classic Guy
 ########################################
 #### Shopkeepers' names
 ########################################
@@ -2323,6 +2421,91 @@ Wolf
 Xorn
 Yor
 Zorgoth
+########################################
+#### Feats
+########################################
+Gesta
+Occulto
+Hai realizzato una gesta!
+The Full Spelunky
+Nessun problema
+Una bella sensazione
+Miglioramento
+Perseveranza
+Fino alla fine
+Uomo di ferro
+Sprintlunky
+Punteggio basso
+Pellegrinaggio
+Master
+Risvegliato
+Escavatore
+Avanguardia
+Sopravvivente
+Milionario
+Visto molto
+Visto tutto
+Il piccolo aiutante di mamma
+Il grande aiutante di mamma
+Stella della corsa
+Trionfo nell'Arena
+Uno psicologo da tacchini
+Aiuta le imprese locali
+VIP
+Acquisti tra le ombre
+Leggenda
+Il suo preferito
+Diritto divino
+Una seconda occasione
+Il prescelto
+Genitorialità
+Ottieni tutti gli altri trofei.
+Sblocca l'entrata.
+Supera 1-4 in una discesa senza seme.
+Supera l'Antro di Olmec in una discesa senza seme.
+Raggiungi le Grotte Ghiacciate in una discesa senza seme.
+Completa il gioco in una discesa senza seme.
+Completa il gioco senza usare scorciatoie in una discesa senza seme in giocatore singolo.
+Completa il gioco in 10 minuti o meno senza usare scorciatoie in una discesa senza seme in giocatore singolo.
+Completa il gioco senza raccogliere nessun tesoro e senza usare nessuna scorciatoia in una partita giocatore singolo senza seme.
+Raggiungi la Città Sprofondata in una discesa senza seme in giocatore singolo.
+Completa il gioco sconfiggendo Hundun in una discesa senza seme in giocatore singolo.
+Raggiungi l'Oceano Cosmico in una discesa senza seme in giocatore singolo.
+Supera la Sfida Lunare in una discesa senza seme.
+Supera la Sfida Stellare in una discesa senza seme.
+Supera la Sfida Solare in una discesa senza seme.
+Concludi una discesa con almeno 1.000.000 $ in una discesa senza seme in giocatore singolo.
+Completa almeno il 50% del diario.
+Completa il diario.
+Sblocca la prima scorciatoia.
+Sblocca tutte e tre le scorciatoie.
+Completa la corsa del tutorial in meno di 30 secondi.
+Vinci un Deathmatch al migliore di nove contro tre bot usando il set di regole predefinito.
+Porta due tacchini a Yang in una discesa senza seme.
+Compra tutto dal Negozio di Animali di Yang in una discesa senza seme.
+Entra nel Palazzo dei Piaceri di Madame Tusk come ospite in una discesa senza seme.
+Raggiungi il mercato nero in una discesa senza seme.
+Raggiungi la Città d'Oro in una discesa senza seme in giocatore singolo.
+Ottieni il Kapala in una discesa senza seme.
+Ottieni un copricapo regale in una discesa senza seme.
+Ottieni l'Ankh in una discesa senza seme.
+Ottieni la Tavoletta del Destino in una discesa senza seme.
+Risveglia la Piccola Melanzana in una discesa senza seme.
+########################################
+#### Constellations
+########################################
+Solanum
+Animus
+Canis
+Cattus
+Phodopus
+Felix
+Asinus
+Celeritas
+Major
+Fidelis
+Criminalus
+Minor
 ########################################
 #### Others
 ########################################

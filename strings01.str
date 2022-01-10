@@ -3,6 +3,7 @@ Oui
 Non
 <SYS_ACCEPT/>
 <SYS_BACK/>
+<LOG_BOMB/>
 <SYS_SPECIAL/>
 <SYS_SPECIAL2/>
 <SYS_SPECIAL3/>
@@ -13,6 +14,8 @@ Non
 Continuer
 Annuler
 Réinitialiser
+Désactivé
+Activé
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -59,12 +62,14 @@ PAUSE
 Reprendre la partie
 Recommencer le didacticiel
 Terminer l'aventure
+Fin du match
 Redémarrage instantané
 Options
 Menu principal
 Quitter le jeu
 Voulez-vous vraiment recommencer le didacticiel ?
 Voulez-vous vraiment mettre un terme à l'aventure ? Toute progression non sauvegardée sera perdue.
+Voulez-vous vraiment mettre un terme au match ?
 Voulez-vous vraiment recommencer ? Toute progression non sauvegardée sera perdue.
 Voulez-vous vraiment retourner au menu principal ? Toute progression non sauvegardée sera perdue.
 Voulez-vous vraiment quitter le jeu ? Toute progression non sauvegardée sera perdue.
@@ -113,6 +118,7 @@ Commandes
 Jouabilité
 A.T.H. et texte
 Langue
+Progression partagée
 Gestion des données
 Crédits
 #### Shared values
@@ -158,6 +164,7 @@ Définit le volume principal.
 ########################################
 Configuration du clavier
 Configuration de la manette
+Configuration de la manette
 Joueur actuel
 Joueur dont vous configurez les commandes.
 Joueur %d
@@ -178,10 +185,19 @@ Marche
 Course
 Joystick droit
 Utilisez le joystick droit pour vous déplacer.
+Stick droit
+Utilisez le stick droit pour vous déplacer.
 Vibration
 Définit le mode de vibration de la manette.
+Vibrations
+Définit le mode des vibrations de la manette.
 <SYS_ACCEPT/> Changer la touche
+<SYS_ACCEPT/> Changer le bouton
 <SYS_ACCEPT/> Changer la touche
+<SYS_ACCEPT/> Changer le bouton
+<SYS_ACCEPT/> Changer le bouton
+Appuyez sur le bouton souhaité pour %ls
+Appuyez sur la touche souhaité pour %ls
 Appuyez sur le bouton souhaité pour %ls
 Cette touche est déjà utilisée ! Si vous continuez, elle sera dissociée pour le joueur %d.
 Dissocier la touche pour le joueur %d
@@ -197,6 +213,21 @@ Délai de sortie
 Retarde l'affichage des actions des autres joueurs pour réduire les bugs graphiques.
 Pseudonymisation
 Utilise des pseudonymes pour les joueurs provenant de sources tierces.
+#### Cross-Progress
+########################################
+Progression partagée
+Activez le partage de la progression avec d'autres plateformes.
+Synchronisation automatique
+Synchronisation automatique de votre progression avec d'autres plateformes.
+Obtenir un code de synchronisation
+Obtenez un code de synchronisation pour partager votre progression avec une autre plateforme.
+Saisir un code de synchronisation
+Saisissez le code de synchronisation d'une autre plateforme pour partager votre progression.
+Synchronisation de la progression
+Téléchargez, fusionnez et envoyez votre progression.
+Code de synchronisation :
+Demande de code
+Synchronisation
 #### Gameplay
 ########################################
 Type d'animal
@@ -238,8 +269,14 @@ Icône de marchand en colère
 Active/désactive l'affichage d'une icône indiquant qu'un marchand est en colère.
 Aide contextuelle
 Définit l'affichage ou non de l'aide contextuelle.
+Aide contextuelle
+Définit l'affichage ou non de l'aide contextuelle.
+Aide contextuelle
+Définit l'affichage ou non de l'aide contextuelle.
 Icônes des boutons
 Employer les icônes des boutons d'une plate-forme particulière.
+Pop-up d'exploit
+Active/désactive l'affichage des pop-up d'exploit.
 DIALOGUES
 Taille du texte
 Définit les dimensions du texte des dialogues.
@@ -307,6 +344,9 @@ Amis
 Cross-Play
 Total de joueurs
 <SYS_SPECIAL2/> Moi
+Voir répétition
+<SYS_ACCEPT/> Voir répétition
+<SYS_ACCEPT> Menu contextuel
 ########################################
 ## ENTER SEED SCREEN                  ##
 ########################################
@@ -321,8 +361,18 @@ CHOISISSEZ UN AVENTURIER
 Joueur %d
 <SYS_ACCEPT/> Commencer
 Retour <SYS_BACK/>
-<LOG_ACTION/> Commencer avec des bots
-<SYS_SPECIAL/> Commencer avec des bots
+<LOG_ACTION/> Ajouter un bot
+<SYS_SPECIAL/> Ajouter un bot
+<LOG_BOMB/> Retirer un bot
+<SYS_BACK/> Retirer un bot
+<LOG_SPECIAL/> Modifier l'IA
+<SYS_SPECIAL3/> Modifier l'IA
+Tranquille
+Normal
+Agressif
+Défensif
+Tactique
+Aléatoire
 SÉLECTION RAPIDE
 <LOG_ROPE/> Sélection rapide
 <SYS_SPECIAL2/> Sélection rapide
@@ -383,6 +433,7 @@ Fin du tour
 Brume mortelle
 Explosion extraterrestre
 Bombes en folie
+Fantôme
 Aléatoire
 Victoires
 Définit le nombre de victoires nécessaires pour désigner le vainqueur.
@@ -427,6 +478,22 @@ Régler les dégâts infligés par le fouet.
 5
 10
 99
+Fantôme final
+Activez ou non le fantôme d'un joueur une fois sa dernière vie perdue.
+Désactivé
+Activé
+Rechargement du souffle
+Définissez le rechargement de l'attaque du fantôme ou désactivez-la.
+Aucun
+0.25
+0.5
+0.75
+1.0
+1.25
+1.5
+1.75
+2.0
+Souffle désactivé
 Monture
 Définit si les joueurs commencent sur des montures.
 Aucun
@@ -434,6 +501,10 @@ Dinde
 Rochet
 Axolotl
 Aléatoire
+Boulet
+Activez ou désactivez l'utilisation du boulet à l'apparition des joueurs.
+Désactivé
+Activé
 Choix de l'arène
 Définit le mode de sélection de l'arène entre deux tours.
 À tour de rôle
@@ -453,6 +524,7 @@ Jamais
 Bas
 Moyen
 Haut
+Très élevé
 Objets
 Définit quels objets se trouvent dans les caisses et ceux avec lesquels vous pouvez débuter la partie.
 <SYS_ACCEPT_SECONDARY/>
@@ -531,15 +603,16 @@ Objet porté
 Équipement
 Dos
 Spécial
-<SYS_ACCEPT/> Active/désactive tous les objets.
-<SYS_ACCEPT/> Active/désactive les objets de niveau.
-<SYS_ACCEPT/> Active/désactive les power-ups.
-<SYS_ACCEPT/> Active/désactive les armes.
-<SYS_ACCEPT/> Active/désactive l'équipement.
-<SYS_ACCEPT/> Active/désactive l'équipement de dos.
-<SYS_ACCEPT/> Active/désactive les objets spéciaux.
-<SYS_ACCEPT/> Active/désactive cet objet.
-<SYS_ACCEPT/> Définit cet objet comme objet de départ ou l'active/le désactive.
+<LOG_ACCEPT/> Active/désactive tous les objets.
+<LOG_ACCEPT/> Active/désactive les objets de niveau.
+<LOG_ACCEPT/> Active/désactive les power-ups.
+<LOG_ACCEPT/> Active/désactive les armes.
+<LOG_ACCEPT/> Active/désactive l'équipement.
+<LOG_ACCEPT/> Active/désactive l'équipement de dos.
+<LOG_ACCEPT/> Active/désactive les objets spéciaux.
+<LOG_ACCEPT/> Active/désactive cet objet.
+<LOG_ACCEPT/> Définit cet objet comme objet de départ ou l'active/le désactive.
+<LOG_SPECIAL/> Passer
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
@@ -573,7 +646,7 @@ Ce niveau :
 Total :
 Stats :
 Butin
-Appuyez sur <LOG_JUMP/> pour passer au niveau suivant
+Appuyez sur <LOG_ACCEPT/> pour passer au niveau suivant
 ########################################
 ## GAME OVER                          ##
 ########################################
@@ -585,6 +658,7 @@ Quitter vers l'écran titre
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
+La manette du joueur %d est déconnectée. Reconnectez-la ou connectez-en une nouvelle et appuyez sur <LOG_ACCEPT/> pour continuer.
 La manette du joueur %d est déconnectée. Reconnectez-la ou connectez-en une nouvelle et appuyez sur <LOG_ACCEPT/> pour continuer.
 <LOG_CANCEL/> Retour à l'écran titre
 <LOG_CANCEL/> Retour au menu principal
@@ -805,51 +879,51 @@ Armure mécanisée de classe MOYA, conçue par les extraterrestres pour combattr
 ########################################
 ## JOURNAL - PEOPLE                   ##
 ########################################
-ANA SPELUNKY
+Ana Spelunky
 Elle est venue sur la Lune pour trouver ses parents. C'est une jeune femme sympathique avec un coeur d'héroïne.
-MARGARET TUNNEL
+Margaret Tunnel
 Sa fascination pour l'océan l'a éloignée de l'entreprise familiale. Son rêve est d'acheter son propre vaisseau pirate.
-COLIN NORTHWARD
+Colin Northward
 Artiste et ingénieur curieux obsédé par Olmec et la malédiction des cavernes.
-ROFFY D. SLOTH
+Roffy D. Sloth
 Il entretient de nombreuses réflexions profondes, mais il en garde la majeure partie pour lui.
-ALTO SINGH
+Alto Singh
 Il travaille dans l'éducation physique et veut s'assurer que chacun prend soin de sa santé et reste positif.
-LIZ MUTTON
+Liz Mutton
 Aventurière coriace très réservée et solitaire, mais ses amis savent qu'ils peuvent compter sur elle.
-NEKKA L'AIGLE
+Nekka The Eagle
 Ce chef est une guerrière féroce qui souhaite se confronter aux dieux et les interroger quant aux problèmes de l'univers.
-PROJET LISE
+LISE Project
 Robot conçu pour explorer et s'amuser. Une fois 1 000 ans révolus, elle retournera auprès de ses créateurs avec les données qu'elle aura recueillies.
-COCO VON DIAMONDS
+Coco Von Diamonds
 Créatrice de Von Diamonds, marque de mode et style de vie de renommée mondiale. Elle est actuellement en vacances.
-MANFRED TUNNEL
+Manfred Tunnel
 Il s'est enfin décidé à se lancer dans la spéléologie, après de nombreuses années passées à construire des raccourcis.
-LITTLE JAY
+Little Jay
 Ce "Spelunker" autoproclamé tente de devenir un célèbre explorateur. Il tend à être survolté près de ses idoles.
-TINA FLAN
+Tina Flan
 Jadis spéléologue relativement méconnue, elle parvint à frapper le roi Yama avec une aubergine. Elle essaie maintenant de rester modeste !
-VALERIE CRUMP
+Valerie Crump
 Grande amatrice de musique et de jeux vidéo. Elle voyage pour trouver l'inspiration.
-AU
+Au
 Un moine à la peau vivement dorée. Il met son corps et son esprit à l'épreuve pour tenter de trouver la paix dans cet univers chaotique.
-DEMI VON DIAMONDS
+Demi Von Diamonds
 Héritière de l'empire Von Diamonds. Elle a été choyée toute sa vie, mais aspire ardemment à découvrir le monde.
-PILOTE
+Pilot
 Drôle de petit homme de l'espace, venu d'une planète lointaine. Il passe son temps à rouspéter dans son ovni, le Campanella.
-PRINCESSE AIRYN
+Princess Airyn
 Experte culinaire qui sillonne le monde en quête des saveurs les plus exquises, afin de les ramener à Héliotropie, son royaume.
-DIRK YAMAOKA
+Dirk Yamaoka
 Maître ninja toujours prêt à parfaire son art. Quand la Lune l'appela, il répondit sans hésitation.
-GUY SPELUNKY
+Guy Spelunky
 Il a passé sa vie en quête d'aventure (et de trésors). L'âge avançant, il tente de déterminer ce qui est vraiment le plus important pour lui.
-CLASSIC GUY
+Classic Guy
 Version de Guy Spelunky venue d'un univers parallèle fait de grands aplats de couleur.
 TERRA TUNNEL
 Elle a rencontré Manfred il y a de nombreuses années, quand elle l'a secouru de l'effondrement d'une caverne. Ensemble, ils ont bâti une affaire florissante de construction de raccourcis !
 OUVRIER
 Il est prisonnier des cavernes depuis très longtemps et ne souhaite que retrouver la liberté.
-AUBERGINELLE
+ENFANT AUBERGINE
 Séparée de sa mère, elle lui manque énormément. Elle est l'incarnation même de la curiosité et de la pulsion créatrice.
 MARCHAND
 Membre officiel de l'association des marchands. Par-dessus tout, il DÉTESTE le vol à l'étalage !
@@ -2248,8 +2322,9 @@ Meilleur temps : %ls
 ########################################
 #### Online
 ########################################
-<SYS_ACCEPT/> Signaler
+Signaler
 Décrire le contenu inapproprié ou le comportement déplacé.
+Afficher la carte du joueur
 Remarque
 Décrire le bug ou la suggestion vis-à-vis de Spelunky 2 ?
 Les données permettant de garantir l'intégrité et l'authenticité de la partie seront rendues publiques, contactez privacy@blitworks.com pour les demandes de retrait.
@@ -2262,6 +2337,29 @@ Ce classement n'est pas disponible actuellement, veuillez revenir plus tard.
 ########################################
 Score final :
 Temps total :
+########################################
+#### Characters short name
+########################################
+Ana
+Margaret
+Colin
+Roffy
+Alto
+Liz
+Nekka
+LISE
+Coco
+Manfred
+Jay
+Tina
+Valerie
+Au
+Demi
+Pilot
+Airyn
+Dirk
+Guy
+Classic Guy
 ########################################
 #### Shopkeepers' names
 ########################################
@@ -2323,6 +2421,91 @@ Wolf
 Xorn
 Yor
 Zorgoth
+########################################
+#### Feats
+########################################
+Exploits
+Caché
+Vous avez accompli un exploit !
+The Full Spelunky
+Tu cartonnes
+Ça fait plaisir
+Perfectionnement
+Persévérance
+Voyageur
+Homme de fer
+Rapidolunky
+Petit joueur
+Pèlerin
+Maître
+Éveillé
+Excavateur
+Porte-flambeau
+Survivant
+Millionnaire
+Plein les mirettes
+Tout fait, tout vu
+Petit assistant de Mama
+Grand assistant de Mama
+Athlète
+Champion de l'arène
+L'homme qui parlait aux dindons
+Client de commerce local
+VIP
+Marchand des ombres
+Légendaire
+Son favori
+Droit divin
+Deuxième chance
+L'Élu
+Parentalité
+Obtenez tous les autres trophées.
+Déverrouillez l'entrée.
+Franchissez le niveau 1-4 lors d'une partie sans graine.
+Franchissez l'antre d'Olmec lors d'une partie sans graine.
+Franchissez les cavernes de glace lors d'une partie sans graine.
+Terminez le jeu lors d'une partie sans graine.
+Terminez le jeu sans passer par les raccourcis, lors d'une partie sans graine et en solo.
+Terminez le jeu en 10 minutes ou moins, sans passer par les raccourcis, lors d'une partie sans graine et en solo.
+Terminez le jeu sans ramasser aucun trésor et sans passer par les raccourcis, lors d'une descente sans graine et en solo.
+Atteignez la Cité engloutie, lors d'une partie sans graine et en solo.
+Terminez le jeu en vainquant Hundun, lors d'une partie sans graine et en solo.
+Atteignez l'Océan cosmique, lors d'une partie sans graine et en solo.
+Réussissez le défi lunaire lors d'une partie sans graine.
+Réussissez le défi stellaire lors d'une partie sans graine.
+Réussissez le défi solaire lors d'une partie sans graine.
+Terminez une descente avec 1 000 000 $ ou plus, lors d'une partie sans graine et en solo.
+Remplissez au moins 50 % du journal.
+Remplissez la totalité du journal.
+Déverrouillez le premier raccourci.
+Déverrouillez les trois raccourcis.
+Terminez la course du didacticiel en moins de 30 secondes.
+Gagnez un match à mort en 5 victoires contre trois bots, avec l'ensemble de règles par défaut.
+Apportez deux dindes à Yang lors d'une partie sans graine.
+Achetez tout ce que vend Yang dans son animalerie lors d'une partie sans graine.
+Entrez comme invité dans le Palais des plaisirs de Madame Tusk (lors d'une partie sans graine).
+Atteignez le marché noir lors d'une partie sans graine.
+Atteignez la Cité d'or, lors d'une partie sans graine et en solo.
+Obtenez le Kapala lors d'une partie sans graine.
+Obtenez une coiffe royale lors d'une partie sans graine.
+Obtenez l'ankh lors d'une partie sans graine.
+Obtenez la tablette de la destinée lors d'une partie sans graine.
+Réveillez l'enfant aubergine lors d'une partie sans graine.
+########################################
+#### Constellations
+########################################
+Solanum
+Animus
+Canis
+Cattus
+Phodopus
+Felix
+Asinus
+Celeritas
+Major
+Fidelis
+Criminalus
+Minor
 ########################################
 #### Others
 ########################################

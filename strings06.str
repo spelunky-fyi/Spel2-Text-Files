@@ -3,6 +3,7 @@ Sí
 No
 <SYS_ACCEPT/>
 <SYS_BACK/>
+<LOG_BOMB/>
 <SYS_SPECIAL/>
 <SYS_SPECIAL2/>
 <SYS_SPECIAL3/>
@@ -13,6 +14,8 @@ No
 Continua
 Cancel·la
 Reiniciar
+Desactivat
+Activat
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -59,12 +62,14 @@ EN PAUSA
 Continuar partida
 Reiniciar tutorial
 Acabar aventura
+Acabar combat
 Reinici instantani
 Opcions
 Menú principal
 Surt del joc
 Segur que vols reiniciar el tutorial?
 Segur que vols acabar l'aventura? Tot el progrés que no s'hi hagi desat, es perdrà.
+Segur que vols acabar el combat?
 Segur que vols reiniciar? Tot el progrés que no s'hi hagi desat, es perdrà.
 Segur que vols tornar al menú principal? Tot el progrés que no s'hi hagi desat, es perdrà.
 Segur que vols sortir del joc? Tot el progrés que no s'hi hagi desat, es perdrà.
@@ -113,6 +118,7 @@ Controls
 Jugabilitat
 Indicador en pantalla i text
 Idioma
+Progrés compartit
 Gestió de dades
 Crèdits
 #### Shared values
@@ -158,6 +164,7 @@ Ajusta el volum general.
 ########################################
 Configuració del teclat
 Configuració del comandament
+Configuració del comandament
 Jugador actual
 El jugador actual per a qui estem configurant els controls.
 Jugador %d
@@ -178,10 +185,19 @@ Caminar
 Córrer
 Palanca de control dreta
 Utilitza l'stick dret per moure't.
+Palanca de control dreta
+Utilitza l'stick dret per moure't.
+Vibració
+Configura el mode de vibració del comandament.
 Vibració
 Configura el mode de vibració del comandament.
 <SYS_ACCEPT/> Canvia la tecla
 <SYS_ACCEPT/> Canvia el botó
+<SYS_ACCEPT/> Canvia el botó
+<SYS_ACCEPT/> Canvia el botó
+<SYS_ACCEPT/> Canvia el botó
+Prem el botó que vols fer servir per %ls
+Prem el botó que vols fer servir per %ls
 Prem el botó que vols fer servir per %ls
 Aquesta tecla ja està en ús! Si continues, aquesta tecla es desconfigurarà per al jugador %d.
 Tecla desconfigurada per al jugador %d
@@ -197,6 +213,21 @@ Retard d'eixida
 Demora la visualització d'altres jugadors per a reduir els problemes visuals.
 Seudonimització
 Utilitza pseudònims per als jugadors de fonts externes
+#### Cross-Progress
+########################################
+Progrés compartit
+Activa el progrés compartit amb altres plataformes.
+Sincronització automàtica
+Sincronitza automàticament el progrés amb altres dispositius
+Demanar codi de sincronització
+Demana un codi per a poder compartir el progrés amb una altra plataforma.
+Introduir codi de sincronització
+Introdueix un codi d'una altra plataforma per compartir el progrés.
+Sincronitzar progrés
+Descarrega, fusiona i envia el teu progrés.
+Codi de sincronització:
+Demanant codi
+Sincronitzant
 #### Gameplay
 ########################################
 Tipus de mascota
@@ -238,8 +269,14 @@ Icona de venedor enfadat
 Ajusta si apareix una icona en pantalla quan els venedors estan enfadats.
 Indicadors de botons
 Configura si els indicadors de botons es mostren o no.
+Indicadors de botons
+Configura si els indicadors de botons es mostren o no.
+Indicadors de botons
+Configura si els indicadors de botons es mostren o no.
 Icones de botons
 Força les icones dels botons d'una plataforma específica.
+Notificació de gestes
+Mostra o oculta la notificació de les gestes.
 DIÀLEGS
 Mida del text
 Ajusta la mida del text dels diàlegs.
@@ -307,6 +344,9 @@ Amics
 Cross-Play
 Nombre de jugadors
 <SYS_SPECIAL2/> Jo
+Veure repetició
+<SYS_ACCEPT/> Veure repetició
+<SYS_ACCEPT/> Menú contextual
 ########################################
 ## ENTER SEED SCREEN                  ##
 ########################################
@@ -321,8 +361,18 @@ TRIA L'AVENTURER
 Jugador %d
 <SYS_ACCEPT/> Començar
 Enrere <SYS_BACK/>
-<LOG_ACTION/> Començar amb bots
-<SYS_SPECIAL/> Començar amb bots
+<LOG_ACTION/> Afegir bot
+<SYS_SPECIAL/> Afegir bot
+<LOG_BOMB/> Eliminar bot
+<SYS_BACK/> Eliminar bot
+<LOG_SPECIAL/> Canviar IA
+<SYS_SPECIAL3/> Canviar IA
+Relaxada
+Normal
+Agressiva
+Tortuga
+Tàctica
+Aleatori
 SELECCIÓ RÀPIDA
 <LOG_ROPE/> Selecció ràpida
 <SYS_SPECIAL2/> Selecció ràpida
@@ -383,6 +433,7 @@ La ronda acaba
 Boira mortal
 Atac alienígena
 Bombes perdudes
+Fantasma
 Aleatori
 Victòries
 Configura quantes victòries calen per decidir el guanyador.
@@ -418,7 +469,7 @@ x1.50
 x1.75
 x2.00
 Dany del fuet
-Estableix la quantitat de dany que fa el fuet.
+Configura la quantitat de dany que fa el fuet.
 0
 1
 2
@@ -427,6 +478,22 @@ Estableix la quantitat de dany que fa el fuet.
 5
 10
 99
+Fantasma final
+Tria si apareix el fantasma del jugador quan perd la darrera vida.
+No
+Sí
+Alè fantasmal
+Ajusta el temps de reutilització o desactiva l'alè fantasmal.
+Cap
+0.25
+0.5
+0.75
+1.0
+1.25
+1.5
+1.75
+2.0
+Sense alè
 Muntura
 Tria si els jugadors comencen cada ronda muntats.
 Cap
@@ -434,6 +501,10 @@ Gall dindi
 Gos de pedra
 Axolot
 Aleatori
+Bola de càstig
+Tria si els jugadors apareixen amb una bola de càstig.
+No
+Sí
 Sel. Arena
 Tria com se seleccionen les arenes entre rondes.
 Per torns
@@ -453,6 +524,7 @@ Cap
 Baixa
 Mitja
 Alta
+Molt alt
 Objectes
 Tria quins objectes hi ha disponibles a les caixes i amb quins comences a l'abast.
 <SYS_ACCEPT_SECONDARY/>
@@ -531,15 +603,16 @@ Objecte agafat
 Equipament
 A l'esquena
 Especial
-<SYS_ACCEPT/> Activa/desactiva tots els objectes.
-<SYS_ACCEPT/> Activa/desactiva els objectes de nivell.
-<SYS_ACCEPT/> Activa/desactiva els potenciadors.
-<SYS_ACCEPT/> Activa/desactiva les armes.
-<SYS_ACCEPT/> Activa/desactiva l'equipament.
-<SYS_ACCEPT/> Activa/desactiva a l'esquena.
-<SYS_ACCEPT/> Activa/desactiva els objectes especials.
-<SYS_ACCEPT/> Activa/desactiva aquest objecte.
-<SYS_ACCEPT/> Activa/desactiva aquest objecte com a objecte d'inici o completament.
+<LOG_ACCEPT/> Activa/desactiva tots els objectes.
+<LOG_ACCEPT/> Activa/desactiva els objectes de nivell.
+<LOG_ACCEPT/> Activa/desactiva els potenciadors.
+<LOG_ACCEPT/> Activa/desactiva les armes.
+<LOG_ACCEPT/> Activa/desactiva l'equipament.
+<LOG_ACCEPT/> Activa/desactiva a l'esquena.
+<LOG_ACCEPT/> Activa/desactiva els objectes especials.
+<LOG_ACCEPT/> Activa/desactiva aquest objecte.
+<LOG_ACCEPT/> Activa/desactiva aquest objecte com a objecte d'inici o completament.
+<LOG_SPECIAL/> Ometre
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
@@ -573,7 +646,7 @@ Aquest nivell:
 Total:
 Estadístiques
 Botí
-Prem <LOG_JUMP/> per anar al nivell següent
+Prem <LOG_ACCEPT/> per anar al nivell següent
 ########################################
 ## GAME OVER                          ##
 ########################################
@@ -585,6 +658,7 @@ Torna a l'inici
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
+El comandament del jugador %d s'ha desconnectat. Torna a connectar el comandament o connecta'n un de nou i prem <LOG_ACCEPT/> per continuar.
 El comandament del jugador %d s'ha desconnectat. Torna a connectar el comandament o connecta'n un de nou i prem <LOG_ACCEPT/> per continuar.
 <LOG_CANCEL/> Torna a la pantalla principal
 <LOG_CANCEL/> Torna al menú principal
@@ -805,45 +879,45 @@ Una armadura mecanitzada de classe MOYA dissenyada per alienígenes per combatre
 ########################################
 ## JOURNAL - PEOPLE                   ##
 ########################################
-ANA SPELUNKY
+Ana Spelunky
 Ha vingut a la lluna per trobar el seu pare i la seva mare. Una joveneta agradable amb cor d'heroïna.
-MARGARET TUNNEL
+Margaret Tunnel
 La fascinació per l'oceà la va allunyar del negoci familiar. El seu somni és comprar el seu propi vaixell pirata.
-COLIN NORTHWARD
+Colin Northward
 Un artista i enginyer inquisitiu obsessionat amb Olmec i la maledicció de les coves.
-ROFFY D. SLOTH
+Roffy D. Sloth
 Té molts pensaments profunds, però no molts que vulgui dir en veu alta.
-ALTO SINGH
+Alto Singh
 Treballa en educació física i vol assegurar-se que tothom cuidi la seva salut i mantingui un esperit positiu.
-LIZ MUTTON
+Liz Mutton
 Un aventurera dura com la que més amb qui és difícil connectar i que necessita la seva solitud, però qui també es preocupa molt pels seus amics.
-NEKKA L'ÀLIGA
+Nekka The Eagle
 Una cap guerrera ferotge que vol enfrontar-se als déus i interrogar-los sobre els problemes de l'univers.
-PROJECTE LISE
+LISE Project
 Un robot dissenyat per explorar i per divertir-se. Quan passin 1.000 anys, tornarà amb els seus creadors amb les dades que hagi acumulat.
-COCO VON DIAMONDS
+Coco Von Diamonds
 La creadora de la marca de moda i accessoris Von Diamonds famosa arreu del món. Ara mateix està de vacances.
-MANFRED TUNNEL
+Manfred Tunnel
 Està decidit a provar l'espeleologia després de molts anys de buscar dreceres.
-PETIT JAY
+Little Jay
 Un "Spelunker" autoproclamat que intenta convertir-se en un explorador famós. S'emociona un gra massa quan està amb els seus herois.
-TINA FLAN
+Tina Flan
 Una espeleòloga poc coneguda que va aconseguir colpejar el rei Yama amb una albergínia. Intenta treure importància a la seva fama!
-VALERIE CRUMP
+Valerie Crump
 Una seguidora àvida de la música i els videojocs. Intenta trobar inspiració creativa mentre viatja.
-AU
+Au
 Un monjo amb pell daurada i lluent. Posa a prova la seva ment i el seu cos per trobar pau en un univers caòtic.
-DEMI VON DIAMONDS
+Demi Von Diamonds
 L'hereva de l'imperi Von Diamonds. Ha viscut una vida de capricis, però està desitjant aprendre més coses sobre el món.
-PILOT
+Pilot
 Un petit astronauta estrany d'un planeta llunyà. És habitual trobar-lo murmurant sobre el seu OVNI, el Campanella.
-PRINCESA AIRYN
+Princess Airyn
 Una experta culinària, recorre el món buscant els sabors més exquisida per portar-los al seu regne d'Heliotròpia.
-DIRK YAMAOKA
+Dirk Yamaoka
 Un mestre ninja que sempre intenta millorar les seves habilitats. Quan la lluna el va cridar, va respondre sense dubtar-ho.
-GUY SPELUNKY
+Guy Spelunky
 S'ha passat la vida buscant aventures (i tresors). Ja no és jove i està reavaluant què és el més important per a ell.
-CLASSIC GUY
+Classic Guy
 Una versió de Guy Spelunky d'un univers paral·lel creat amb peces de colors grans i planes.
 TERRA TUNNEL
 Va conèixer en Manfred fa molts anys, quan el va rescatar d'un esfondrament. Junts han creat un negoci de construcció de dreceres d'èxit!
@@ -2248,8 +2322,9 @@ Millor temps: %ls
 ########################################
 #### Online
 ########################################
-<SYS_ACCEPT/> Denúncia
+Denúncia
 Descriu el contingut inapropiat o el comportament ofensiu.
+Mostra targeta de jugador
 Comentaris
 Descriu el problema o el suggeriment que voldries fer sobre Spelunky 2.
 Les dades per garantir la integritat i l'autenticitat de la partida seran públiques, escriu a privacy@blitworks.com per demanar-ne l'eliminació.
@@ -2262,6 +2337,29 @@ Aquest tauler de classificació no està disponible en aquests moments, torna m�
 ########################################
 Puntuació final:
 Temps total:
+########################################
+#### Characters short name
+########################################
+Ana
+Margaret
+Colin
+Roffy
+Alto
+Liz
+Nekka
+LISE
+Coco
+Manfred
+Jay
+Tina
+Valerie
+Au
+Demi
+Pilot
+Airyn
+Dirk
+Guy
+Classic Guy
 ########################################
 #### Shopkeepers' names
 ########################################
@@ -2323,6 +2421,91 @@ Wolf
 Xorn
 Yor
 Zorgoth
+########################################
+#### Feats
+########################################
+Gestes
+Oculta
+Has realitzat una gesta!
+L'Spelunky al complet
+Ja ho tens
+És un gust
+Millora d'habilitats
+Persistent
+Viatger
+Home de ferro
+Rapidilunky
+Baixa puntuació
+Pelegrí
+Mestre
+Despert
+Excavador
+Portador de torxa
+Supervivent
+Milionari
+He vist massa coses
+Ho he vist tot
+Petit ajudant de la mare
+Gran ajudant de la mare
+Estrella de la pista
+Campió de l'arena
+L'encantador de galls dindi
+Recolza un negoci local
+VIP
+Comprador a l'ombra
+Llegendari
+El seu favorit
+Dret diví
+Una segona oportunitat
+L'elegit
+Paternitat
+Aconsegueix tota la resta de trofeus.
+Desbloqueja l'entrada.
+Supera el nivell 1-4 en una partida sense llavor.
+Supera el Cau d'Olmec en una partida sense llavor.
+Arriba a les Coves de Gel en una partida sense llavor.
+Completa el joc en una partida sense llavor.
+Completa el joc sense fer servir dreceres en una partida d'un sol jugador sense llavor.
+Completa el joc en 10 minuts o menys sense dreceres en una partida d'un sol jugador sense llavor.
+Completa el joc sense recollir tresors i sense dreceres en una partida d'un sol jugador sense llavor.
+Arriba a la Ciutat Enfonsada en una partida d'un sol jugador sense llavor.
+Completa el joc derrotant Hundun en una partida d'un sol jugador sense llavor.
+Arriba a l'Oceà Còsmic en una partida d'un sol jugador sense llavor.
+Completa el Repte de la Lluna en una partida sense llavor.
+Completa el Repte dels Estels en una partida sense llavor.
+Completa el Repte del Sol en una partida sense llavor.
+Completa la carrera amb 1.000.000 $ o més en una partida d'un sol jugador sense llavor.
+Completa el 50% del diari o més.
+Completa el diari.
+Desbloqueja la primera drecera.
+Desbloqueja les tres dreceres.
+Acaba la cursa del tutorial en menys de 30 segons.
+Guanya un combat a mort al millor de cinc contra tres bots amb el conjunt de normes per defecte.
+Porta-li dos galls dindi al Yang en una partida sense llavor.
+Compra-ho tot a la botiga d'animals de Yang en una partida sense llavor.
+Entra al Palau del plaer de Madame Tusk com a convidat (en una partida sense llavor).
+Arriba al Mercat Negre en una partida sense llavor.
+Arriba a la Ciutat d'Or en una partida d'un sol jugador sense llavor.
+Aconsegueix el Kapala en una partida sense llavor.
+Aconsegueix alguna corona reial en una partida sense llavor.
+Aconsegueix l'Ankh en una partida sense llavor.
+Aconsegueix la Tauleta del Destí en una partida sense llavor.
+Desperta el Nen Albergínia en una partida sense llavor.
+########################################
+#### Constellations
+########################################
+Solanum
+Animus
+Canis
+Cattus
+Phodopus
+Felix
+Asinus
+Celeritas
+Major
+Fidelis
+Criminalus
+Minor
 ########################################
 #### Others
 ########################################

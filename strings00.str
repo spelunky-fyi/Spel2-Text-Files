@@ -3,6 +3,7 @@ Yes
 No
 <SYS_ACCEPT/>
 <SYS_BACK/>
+<LOG_BOMB/>
 <SYS_SPECIAL/>
 <SYS_SPECIAL2/>
 <SYS_SPECIAL3/>
@@ -13,6 +14,8 @@ No
 Continue
 Cancel
 Reset
+Disabled
+Enabled
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -59,12 +62,14 @@ PAUSED
 Resume Game
 Restart Tutorial
 End Adventure
+End Match
 Instant Restart
 Options
 Main Menu
 Exit Game
 Are you sure you want to restart the tutorial?
 Are you sure you want to end the adventure? All unsaved progress will be lost.
+Are you sure you want to end the match?
 Are you sure you want to restart? All unsaved progress will be lost.
 Are you sure you want to exit to the Main Menu? All unsaved progress will be lost.
 Are you sure you want to exit the game? All unsaved progress will be lost.
@@ -113,6 +118,7 @@ Controls
 Gameplay
 HUD and Text
 Language
+Cross-Progress
 Data Management
 Credits
 #### Shared values
@@ -158,6 +164,7 @@ Set the master volume.
 ########################################
 Keyboard Config
 Controller Config
+Controller Config
 Current Player
 The current player whose controls we're configuring.
 Player %d
@@ -178,10 +185,19 @@ Walk
 Run
 Right Stick
 Toggle the right stick for movement.
+Right Stick
+Toggle the right stick for movement.
 Vibration
 Set the controller vibration mode.
+Rumble
+Set the controller rumble mode.
 <SYS_ACCEPT/> Change Key
 <SYS_ACCEPT/> Change Button
+<SYS_ACCEPT/> Change Button
+<SYS_ACCEPT/> Change Button
+<SYS_ACCEPT/> Change Button
+Press the button you'd like to use for %ls
+Press the button you'd like to use for %ls
 Press the button you'd like to use for %ls
 This key is already in use! If you continue, this key will be unset for player %d.
 Unset key for player %d
@@ -197,6 +213,21 @@ Output Delay
 Delays displaying other players' actions to reduce visual glitches.
 Pseudonymization
 Use pseudonyms for players from third-party sources.
+#### Cross-Progress
+########################################
+Cross-Progress
+Enable sharing progress with other platforms.
+Auto-Sync
+Auto-sync progress with other devices.
+Request Sync Code
+Request a code to share progress with another platform.
+Enter Sync Code
+Enter a code from another platform to share progress.
+Sync Progress
+Download, merge and upload your progress.
+Sync Code:
+Requesting Code
+Syncing
 #### Gameplay
 ########################################
 Pet Style
@@ -238,8 +269,14 @@ Angry Shopkeeper Icon
 Toggle whether an icon is displayed when shopkeepers are angry.
 Button Prompts
 Choose whether or not to display button prompts.
+Button Prompts
+Choose whether or not to display button prompts.
+Button Prompts
+Choose whether or not to display button prompts.
 Button Icons
 Force button icons to a particular platform.
+Feat Pop-Ups
+Toggle if Feat pop-ups are displayed.
 TEXT BOXES
 Text Box Size
 Set the size of text boxes.
@@ -307,6 +344,9 @@ Friends
 Cross-Play
 Total Players
 <SYS_SPECIAL2/> Me
+Watch replay
+<SYS_ACCEPT/> Watch replay
+<SYS_ACCEPT/> Contextual menu
 ########################################
 ## ENTER SEED SCREEN                  ##
 ########################################
@@ -321,8 +361,18 @@ CHOOSE ADVENTURER
 Player %d
 <SYS_ACCEPT/> Start
 Back <SYS_BACK/>
-<LOG_ACTION/> Start with Bots
-<SYS_SPECIAL/> Start with Bots
+<LOG_ACTION/> Add Bot
+<SYS_SPECIAL/> Add Bot
+<LOG_BOMB/> Remove Bot
+<SYS_BACK/> Remove Bot
+<LOG_SPECIAL/> Change Bot AI
+<SYS_SPECIAL3/> Change Bot AI
+Chill
+Normal
+Aggro
+Turtle
+Tactical
+Random
 QUICK SELECT
 <LOG_ROPE/> Quick Select
 <SYS_SPECIAL2/> Quick Select
@@ -383,6 +433,7 @@ Round Ends
 Death Mist
 Alien Blast
 Loose Bombs
+Ghost
 Random
 Wins
 Set how many wins are required to decide the victor.
@@ -427,6 +478,22 @@ Set how much damage the whip does.
 5
 10
 99
+Final Ghost
+Set whether a player ghost is created after the final life is lost.
+Off
+On
+Breath Cooldown
+Set a cooldown for the ghost breath attack or toggle it off.
+None
+0.25
+0.5
+0.75
+1.0
+1.25
+1.5
+1.75
+2.0
+Breath Off
 Mount
 Choose whether players begin each round mounted.
 None
@@ -434,6 +501,10 @@ Turkey
 Rock Dog
 Axolotl
 Random
+Punish Ball
+Set whether players spawn with a punish ball.
+Off
+On
 Arena Select
 Choose how arenas are selected between rounds.
 Take Turns
@@ -453,6 +524,7 @@ None
 Low
 Medium
 High
+Very High
 Items
 Choose which items are available in crates and which you start holding.
 <SYS_ACCEPT_SECONDARY/>
@@ -531,15 +603,16 @@ Held Item
 Equipment
 Backwear
 Special
-<SYS_ACCEPT/> Toggle all items on/off.
-<SYS_ACCEPT/> Toggle level features on/off.
-<SYS_ACCEPT/> Toggle power-ups on/off.
-<SYS_ACCEPT/> Toggle weapons on/off.
-<SYS_ACCEPT/> Toggle equipment on/off.
-<SYS_ACCEPT/> Toggle backwear on/off.
-<SYS_ACCEPT/> Toggle special items on/off.
-<SYS_ACCEPT/> Toggle this item on/off.
-<SYS_ACCEPT/> Enable this item as a starting item or simply toggle it on/off.
+<LOG_ACCEPT/> Toggle all items on/off.
+<LOG_ACCEPT/> Toggle level features on/off.
+<LOG_ACCEPT/> Toggle power-ups on/off.
+<LOG_ACCEPT/> Toggle weapons on/off.
+<LOG_ACCEPT/> Toggle equipment on/off.
+<LOG_ACCEPT/> Toggle backwear on/off.
+<LOG_ACCEPT/> Toggle special items on/off.
+<LOG_ACCEPT/> Toggle this item on/off.
+<LOG_ACCEPT/> Enable this item as a starting item or simply toggle it on/off.
+<LOG_SPECIAL/> Skip
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
@@ -573,7 +646,7 @@ This level:
 Total:
 Stats
 Loot
-Press <LOG_JUMP/> to go to the next level
+Press <LOG_ACCEPT/> to go to the next level
 ########################################
 ## GAME OVER                          ##
 ########################################
@@ -585,6 +658,7 @@ Exit to Title
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
+Controller for player %d has been disconnected. Reconnect the controller or connect a new one and press <LOG_ACCEPT/> to continue.
 Controller for player %d has been disconnected. Reconnect the controller or connect a new one and press <LOG_ACCEPT/> to continue.
 <LOG_CANCEL/> Return to title screen
 <LOG_CANCEL/> Return to main menu
@@ -805,45 +879,45 @@ A MOYA-class mechanized armor designed by aliens to combat the Olmites during th
 ########################################
 ## JOURNAL - PEOPLE                   ##
 ########################################
-ANA SPELUNKY
+Ana Spelunky
 She's come to the Moon to find her mom and dad. An easygoing young lady with the heart of a hero.
-MARGARET TUNNEL
+Margaret Tunnel
 A fascination with the ocean led her away from the family business. Her dream is to buy her own pirate ship.
-COLIN NORTHWARD
+Colin Northward
 An inquisitive artist and engineer who's obsessed with Olmec and the Curse of the Caves.
-ROFFY D. SLOTH
+Roffy D. Sloth
 He has a lot of deep thoughts, but not a lot that he wants to say out loud.
-ALTO SINGH
+Alto Singh
 He works in physical education and wants to make sure everyone's taking good care of their health and staying positive.
-LIZ MUTTON
+Liz Mutton
 A tough-as-nails adventurer who is hard to warm up to and needs her solitude, but also cares deeply for her friends.
-NEKKA THE EAGLE
+Nekka The Eagle
 A ferocious warrior chief who wants to confront the gods and question them about the problems of the universe.
-LISE PROJECT
+LISE Project
 A robot designed to explore and enjoy herself. After 1000 years she'll return to her creators with the data she's collected.
-COCO VON DIAMONDS
+Coco Von Diamonds
 The creator of the world-famous Von Diamonds fashion and lifestyle brand. She's on vacation right now.
-MANFRED TUNNEL
+Manfred Tunnel
 He's decided to finally try his hand at spelunking after many years of building shortcuts.
-LITTLE JAY
+Little Jay
 A self-proclaimed "Spelunkyhead" trying to become a famous explorer. Gets a little overly excited around his heroes.
-TINA FLAN
+Tina Flan
 As a relatively unknown caver she managed to hit King Yama with an eggplant. She tries to downplay her fame!
-VALERIE CRUMP
+Valerie Crump
 An avid fan of music and video games. She's trying to find creative inspiration through travel.
-AU
+Au
 A monk with bright golden skin. By challenging his mind and body, he's trying to find peace in a chaotic universe.
-DEMI VON DIAMONDS
+Demi Von Diamonds
 The heiress to the Von Diamonds empire. She's lived a pampered life, but is eager to learn more about the world.
-PILOT
+Pilot
 A strange little spaceman from a far away planet. He can often be found muttering about his UFO, the Campanella.
-PRINCESS AIRYN
+Princess Airyn
 A culinary expert, she travels the world looking for the most exquisite tastes to bring home to her kingdom of Heliotropia.
-DIRK YAMAOKA
+Dirk Yamaoka
 A master ninja always looking to hone his skills. When the Moon called, he answered without hesitation.
-GUY SPELUNKY
+Guy Spelunky
 He's spent his life in pursuit of adventure (and treasure). A young man no longer, he's re-evaluating what's most important to him.
-CLASSIC GUY
+Classic Guy
 A version of Guy Spelunky from a parallel universe made of large, flat blocks of colors.
 TERRA TUNNEL
 She met Manfred many years ago, when she rescued him from a cave-in. Together they've built a thriving shortcut-building business!
@@ -1030,7 +1104,7 @@ In alien society, bouncing up and down is a common form of recreation and exerci
 LANDMINE
 An explosive device triggered by proximity. Disable it before it's too late!
 LASER TRAP
-A fixed laser gun trigged by a motion detector.
+A fixed laser gun triggered by a motion detector.
 SPARK TRAP
 The enormous amount of excess energy generated by Neo Babylon is channeled into dangerous contraptions such as these.
 FROG TRAP
@@ -2248,8 +2322,9 @@ Fastest Time: %ls
 ########################################
 #### Online
 ########################################
-<SYS_ACCEPT/> Report
+Report
 Describe the inappropiate content or offensive behaviour.
+Show Gamercard
 Feedback
 Describe the bug or suggestion you have encountered while playing Spelunky 2
 Data to ensure integrity and authenticity of the run will be made public, contact privacy@blitworks.com for removal requests.
@@ -2262,6 +2337,29 @@ This leaderboard is currently unavailable, please come back later.
 ########################################
 Final Score:
 Total Time:
+########################################
+#### Characters short name
+########################################
+Ana
+Margaret
+Colin
+Roffy
+Alto
+Liz
+Nekka
+LISE
+Coco
+Manfred
+Jay
+Tina
+Valerie
+Au
+Demi
+Pilot
+Airyn
+Dirk
+Guy
+Classic Guy
 ########################################
 #### Shopkeepers' names
 ########################################
@@ -2323,6 +2421,91 @@ Wolf
 Xorn
 Yor
 Zorgoth
+########################################
+#### Feats
+########################################
+Feats
+Hidden
+You Performed a Feat!
+The Full Spelunky
+You Got This
+Feels Good
+Skills Improving
+Persistent
+Journeyman
+Ironman
+Speedlunky
+Low Scorer
+Pilgrim
+Master
+Awakened
+Excavator
+Torchbearer
+Survivor
+Millionaire
+Seen a Lot
+Seen It All
+Mama's Little Helper
+Mama's Big Helper
+Track Star
+Arena Champion
+Turkey Whisperer
+Support a Local Business
+VIP
+Shadow Shopper
+Legendary
+Her Favorite
+Divine Right
+A Second Chance
+Chosen One
+Parenthood
+Obtain all other trophies.
+Unlock the entrance.
+Make it past 1-4 in a non-seeded run.
+Make it past Olmec's Lair in a non-seeded run.
+Reach the Ice Caves in a non-seeded run.
+Complete the game in a non-seeded run.
+Complete the game without using shortcuts in a non-seeded, single-player run.
+Complete the game in 10 minutes or less without shortcuts in a non-seeded, single-player run.
+Complete the game without collecting any treasure and without using shortcuts in a non-seeded, single-player run.
+Reach the Sunken City in a non-seeded, single-player run.
+Complete the game by defeating Hundun in a non-seeded, single-player run.
+Reach the Cosmic Ocean in a non-seeded, single-player run.
+Complete the Moon Challenge in a non-seeded run.
+Complete the Star Challenge in a non-seeded run.
+Complete the Sun Challenge in a non-seeded run.
+End a run with $1,000,000 or more in a non-seeded, single-player run.
+Complete 50% of the Journal or more.
+Complete the Journal.
+Unlock the first shortcut.
+Unlock all three shortcuts.
+Finish the Tutorial Speedrun in under 30 seconds.
+Win a First-to-Five Deathmatch against three bots using the Default ruleset.
+Bring two turkeys to Yang in a non-seeded run.
+Buy out Yang's Pet Shop in a non-seeded run.
+Enter Madame Tusk's Palace of Pleasure as a guest (in a non-seeded run).
+Reach the Black Market in a non-seeded run.
+Reach the City of Gold in a non-seeded, single-player run.
+Obtain the Kapala in a non-seeded run.
+Obtain some royal headwear in a non-seeded run.
+Obtain the Ankh in a non-seeded run.
+Obtain the Tablet of Destiny in a non-seeded run.
+Wake the Eggplant Child in a non-seeded run.
+########################################
+#### Constellations
+########################################
+Solanum
+Animus
+Canis
+Cattus
+Phodopus
+Felix
+Asinus
+Celeritas
+Major
+Fidelis
+Criminalus
+Minor
 ########################################
 #### Others
 ########################################

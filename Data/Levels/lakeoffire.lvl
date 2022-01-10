@@ -14,13 +14,14 @@
 \?pagoda_floor%50			-
 \?climbing_pole				V
 \?growable_climbing_pole	B
-\?coarse_water				w
-\?stagnant_lava				a
 \?timed_powder_keg			o
 \?idol_floor				i	// Idol block
 \?slidingwall_switch		c
 \?slidingwall_ceiling		A
 \?fountain_head				F
+
+\?coarse_water				w
+\?coarse_lava				a
 
 // ------------------------------
 //  TEMPLATES

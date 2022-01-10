@@ -3,6 +3,7 @@ Sí
 No
 <SYS_ACCEPT/>
 <SYS_BACK/>
+<LOG_BOMB/>
 <SYS_SPECIAL/>
 <SYS_SPECIAL2/>
 <SYS_SPECIAL3/>
@@ -13,6 +14,8 @@ No
 Continuar
 Cancelar
 Resetear
+Desactivado
+Activado
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -59,12 +62,14 @@ PAUSA
 Reanudar partida
 Reiniciar tutorial
 Finalizar la aventura
+Finalizar el combate
 Reinicio instantáneo
 Opciones
 Menú principal
 Salir del juego
 ¿Seguro que quieres reiniciar el tutorial?
 ¿Seguro que quieres finalizar la aventura? Se perderá todo el progreso no guardado.
+¿Seguro que quieres finalizar el combate?
 ¿Seguro que quieres reiniciar la partida? Se perderá todo el progreso no guardado.
 ¿Seguro que quieres salir al menú principal? Se perderá todo el progreso no guardado.
 ¿Seguro que quieres salir del juego? Se perderá todo el progreso no guardado.
@@ -113,6 +118,7 @@ Controles
 Juego
 Interfaz y texto
 Idioma
+Progreso compartido
 Gestión de datos
 Créditos
 #### Shared values
@@ -158,6 +164,7 @@ Ajusta el volumen general.
 ########################################
 Configuración del teclado
 Configuración del mando
+Configuración del mando
 Jugador actual
 Este es el jugador actual cuyos controles estamos configurando.
 Jugador %d
@@ -178,10 +185,19 @@ Andar
 Correr
 Joystick derecho
 Usa el joystick derecho para moverte.
+Palanca derecha
+Usa la palanca derecha para moverte.
+Vibración
+Ajusta el modo de vibración del mando.
 Vibración
 Ajusta el modo de vibración del mando.
 <SYS_ACCEPT/> Cambiar de tecla
 <SYS_ACCEPT/> Cambiar de botón
+<SYS_ACCEPT/> Cambiar de botón
+<SYS_ACCEPT/> Cambiar de botón
+<SYS_ACCEPT/> Cambiar de botón
+Pulsa el botón que quieras usar para %ls.
+Pulsa el botón que quieras usar para %ls.
 Pulsa el botón que quieras usar para %ls.
 ¡Esta tecla ya está asignada! Si continúas, se anulará su asignación para el jugador %d.
 Tecla desasignada para el jugador %d
@@ -197,6 +213,21 @@ Retraso de salida
 Demora la visualización de otros jugadores para mitigar fallos visuales.
 Seudonimización
 Utiliza pseudónimos para jugadores de fuentes externas.
+#### Cross-Progress
+########################################
+Progreso compartido
+Activa el progreso compartido con otras plataformas.
+Sincronización automática
+Sincroniza automáticamente tu progreso con otros dispositivos.
+Pedir código de sincronización
+Pide un código para poder compartir el progreso con otra plataforma.
+Introducir código de sincronización
+Introduce un código de otra plataforma para compartir el progreso.
+Sincronizar progreso
+Descarga, fusiona y envía tu progreso.
+Código de sincronización:
+Pidiendo código
+Sincronizando
 #### Gameplay
 ########################################
 Tipo de mascota
@@ -238,8 +269,14 @@ Icono de tendero enfadado
 Indica si quieres que aparezca un icono cuando los tenderos están enfadados.
 Indicadores de botones
 Elige entre mostrar o no los indicadores de botones.
+Indicadores de botones
+Elige entre mostrar o no los indicadores de botones.
+Indicadores de botones
+Elige entre mostrar o no los indicadores de botones.
 Iconos de botones
 Fuerza los iconos de los botones de una plataforma específica.
+Notificación de hazañas
+Indica si quieres que aparezca o no la notificación de las hazañas.
 DIÁLOGOS
 Tamaño del texto
 Ajusta el tamaño de los textos de los diálogos.
@@ -307,6 +344,9 @@ Amigos
 Cross-Play
 Número de jugadores
 <SYS_SPECIAL2/> Yo
+Ver repetición
+<SYS_ACCEPT/> Ver repetición
+<SYS_ACCEPT/> Menú contextual
 ########################################
 ## ENTER SEED SCREEN                  ##
 ########################################
@@ -321,8 +361,18 @@ ESCOGE AVENTURERO
 Jugador %d
 <SYS_ACCEPT/> Comenzar
 Volver <SYS_BACK/>
-<LOG_ACTION/> Comenzar con bots
-<SYS_SPECIAL/> Comenzar con bots
+<LOG_ACTION/> Añadir bot
+<SYS_SPECIAL/> Añadir bot
+<LOG_BOMB/> Eliminar bot
+<SYS_BACK/> Eliminar bot
+<LOG_SPECIAL/> Cambiar IA
+<SYS_SPECIAL3/> Cambiar IA
+Relajada
+Normal
+Agresiva
+Tortuga
+Táctica
+Aleatorio
 SELECCIÓN RÁPIDA
 <LOG_ROPE/> Selección rápida
 <SYS_SPECIAL2/> Selección rápida
@@ -383,6 +433,7 @@ Se acaba la ronda
 Neblina mortal
 Ataque alienígena
 Bombas sueltas
+Fantasma
 Aleatorio
 Victorias
 Ajusta el número de victorias necesario para declarar un vencedor.
@@ -418,7 +469,7 @@ x1.50
 x1.75
 x2.00
 Daño del látigo
-Establece cuánto daño hace el látigo.
+Ajusta cuánto daño hace el látigo.
 0
 1
 2
@@ -427,6 +478,22 @@ Establece cuánto daño hace el látigo.
 5
 10
 99
+Fantasma final
+Indica si aparece el fantasma del jugador cuando pierde su última vida.
+No
+Sí
+Aliento fantasmal
+Ajusta el tiempo de reutilización o desactiva el aliento fantasmal.
+No
+0.25
+0.5
+0.75
+1.0
+1.25
+1.5
+1.75
+2.0
+Sin aliento
 Montura
 Indica si quieres que los jugadores empiecen cada ronda con una montura o no.
 No
@@ -434,6 +501,10 @@ Pavo
 Perro de piedra
 Ajolote
 Aleatorio
+Bola de castigo
+Indica si el jugador aparece con una bola de castigo.
+No
+Sí
 Sel. Arena
 Indica cómo se seleccionarán las arenas entre ronda y ronda.
 Por turnos
@@ -453,6 +524,7 @@ Nunca
 Baja
 Normal
 Alta
+Muy alta
 Objetos
 Escoge qué objetos estarán disponibles en las cajas y con cuáles empezarás la partida.
 <SYS_ACCEPT_SECONDARY/>
@@ -531,15 +603,16 @@ Objeto sostenido
 Equipo
 Mochila
 Especial
-<SYS_ACCEPT/> Activar/desactivar todos los objetos.
-<SYS_ACCEPT/> Activar/desactivar los objetos de nivel.
-<SYS_ACCEPT/> Activar/desactivar los potenciadores.
-<SYS_ACCEPT/> Activar/desactivar las armas.
-<SYS_ACCEPT/> Activar/desactivar el equipo.
-<SYS_ACCEPT/> Activar/desactivar las mochilas.
-<SYS_ACCEPT/> Activar/desactivar los objetos especiales.
-<SYS_ACCEPT/> Activar/desactivar este objeto.
-<SYS_ACCEPT/> Habilitar este objeto desde el inicio o simplemente activarlo/desactivarlo.
+<LOG_ACCEPT/> Activar/desactivar todos los objetos.
+<LOG_ACCEPT/> Activar/desactivar los objetos de nivel.
+<LOG_ACCEPT/> Activar/desactivar los potenciadores.
+<LOG_ACCEPT/> Activar/desactivar las armas.
+<LOG_ACCEPT/> Activar/desactivar el equipo.
+<LOG_ACCEPT/> Activar/desactivar las mochilas.
+<LOG_ACCEPT/> Activar/desactivar los objetos especiales.
+<LOG_ACCEPT/> Activar/desactivar este objeto.
+<LOG_ACCEPT/> Habilitar este objeto desde el inicio o simplemente activarlo/desactivarlo.
+<LOG_SPECIAL/> Saltar
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
@@ -573,7 +646,7 @@ Este nivel:
 Total:
 Estadísticas
 Botín
-Pulsa <LOG_JUMP/> para avanzar al siguiente nivel.
+Pulsa <LOG_ACCEPT/> para avanzar al siguiente nivel.
 ########################################
 ## GAME OVER                          ##
 ########################################
@@ -585,6 +658,7 @@ Salir al título
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
+El mando del jugador %d se ha desconectado. Vuelve a conectarlo o conecta uno nuevo y pulsa <LOG_ACCEPT/> para continuar.
 El mando del jugador %d se ha desconectado. Vuelve a conectarlo o conecta uno nuevo y pulsa <LOG_ACCEPT/> para continuar.
 <LOG_CANCEL/> Volver a la pantalla de inicio
 <LOG_CANCEL/> Volver al menú principal
@@ -805,45 +879,45 @@ Un vehículo acorazado de clase MOYA diseñado por los alienígenas para combati
 ########################################
 ## JOURNAL - PEOPLE                   ##
 ########################################
-ANA SPELUNKY
+Ana Spelunky
 Ha venido a la Luna a buscar a sus padres. Es una joven afable con corazón de heroína.
-MARGARET TUNNEL
+Margaret Tunnel
 Su fascinación por el mar la apartó del negocio familiar. Su sueño es comprarse un barco pirata.
-COLIN NORTHWARD
+Colin Northward
 Un artista e ingeniero lleno de curiosidad que está obsesionado con Olmec y la maldición de las cuevas.
-ROFFY D. SLOTH
+Roffy D. Sloth
 Tiene ideas muy profundas, pero en general se las calla.
-ALTO SINGH
+Alto Singh
 Es instructor de educación física, y siempre procura que todo el mundo se cuide la salud y mantenga una actitud positiva.
-LIZ MUTTON
+Liz Mutton
 Una aventurera muy dura de pelar. Le gusta la soledad y cuesta hacer migas con ella, pero al mismo tiempo aprecia mucho a sus amigos.
-NEKKA EL ÁGUILA
+Nekka The Eagle
 Una feroz jefa guerrera que quiere plantarse ante los dioses y hacerles preguntas sobre los problemas del universo.
-PROYECTO LISE
+LISE Project
 Una robot diseñada para explorar y pasárselo bien. Cuando hayan pasado 1000 años, volverá con sus creadores para entregarles los datos que ha ido recogiendo.
-COCO VON DIAMONDS
+Coco Von Diamonds
 La creadora de la mundialmente famosa marca de moda y estilo Von Diamonds. Ahora mismo está de vacaciones.
-MANFRED TUNNEL
+Manfred Tunnel
 Tras muchos años de construir atajos, por fin ha decidido probar su suerte con la espeleología.
-PEQUEÑO JAY
+Little Jay
 Un autoproclamado "Spelunker" que quiere llegar a ser un explorador famoso. A veces se emociona demasiado en presencia de sus héroes.
-TINA FLAN
+Tina Flan
 Cuando apenas se la conocía como espeleóloga, se las arregló para propinarle un berenjenazo al rey Yama. ¡Ahora intenta que la fama no se le suba a la cabeza!
-VALERIE CRUMP
+Valerie Crump
 Una ávida consumidora de música y videojuegos. Se dedica a viajar para buscar inspiración.
-AU
+Au
 Un monje de piel dorada y brillante. Pone a prueba su cuerpo y su mente para ver si así encuentra la paz en un universo caótico.
-DEMI VON DIAMONDS
+Demi Von Diamonds
 La heredera del imperio Von Diamonds. Ha tenido una vida privilegiada, pero tiene muchas ganas de aprender más cosas sobre el mundo.
-PILOTO
+Pilot
 Un extraño hombrecillo espacial procedente de un planeta lejano. A menudo se le puede ver lamentándose por su ovni, que se llama Campanella.
-PRINCESA AIRYN
+Princess Airyn
 Una experta culinaria que recorre el mundo en busca de los sabores más exquisitos para llevárselos a su hogar en el reino de Heliotropia.
-DIRK YAMAOKA
+Dirk Yamaoka
 Un maestro ninja que siempre se afana en perfeccionar sus habilidades. Respondió a la llamada de la Luna sin dudarlo ni un momento.
-GUY SPELUNKY
+Guy Spelunky
 Lleva toda la vida buscando aventuras (y tesoros). Ya no es tan joven, así que ha empezado a reconsiderar sus prioridades.
-CLASSIC GUY
+Classic Guy
 Una versión de Guy Spelunky procedente de un universo paralelo. Está hecho de grandes bloques planos de colores.
 TERRA TUNNEL
 Conoció a Manfred hace muchos años, cuando estaba atrapado en una cueva y ella lo rescató. ¡Juntos han establecido un boyante negocio de construcción de atajos!
@@ -1050,7 +1124,7 @@ Con la mínima presión, sus potentes mandíbulas de acero se cierran de sopetó
 ########################################
 Un sirviente %ls de %ls marcado con %ls abrirá la puerta para el aspirante.
 agrietado
-humilde
+sencillo
 alegre
 alto
 arcilla
@@ -2248,8 +2322,9 @@ Mejor tiempo: %ls
 ########################################
 #### Online
 ########################################
-<SYS_ACCEPT/> Denunciar
+Denunciar
 Describe contenidos inapropiados o conductas ofensivas.
+Ver tarjeta de jugador
 Comentarios
 Describe los errores que encuentres al jugar a Spelunky 2 o cualquier sugerencia.
 Para garantizar la integridad y autenticidad de la partida, se van a publicar datos. Si deseas solicitar su supresión, ponte en contacto con privacy@blitworks.com.
@@ -2262,6 +2337,29 @@ Esta clasificación no está disponible en estos momentos. Vuelve más tarde.
 ########################################
 Puntuación final:
 Tiempo total:
+########################################
+#### Characters short name
+########################################
+Ana
+Margaret
+Colin
+Roffy
+Alto
+Liz
+Nekka
+LISE
+Coco
+Manfred
+Jay
+Tina
+Valerie
+Au
+Demi
+Pilot
+Airyn
+Dirk
+Guy
+Classic Guy
 ########################################
 #### Shopkeepers' names
 ########################################
@@ -2323,6 +2421,91 @@ Wolf
 Xorn
 Yor
 Zorgoth
+########################################
+#### Feats
+########################################
+Hazañas
+Oculta
+¡Has realizado una hazaña!
+Spelunky al completo
+Ya lo tienes
+Qué bien sienta
+Mejorando habilidades
+Persistente
+Viajero
+Hombre de hierro
+Rapidilunky
+Baja puntuación
+Peregrino
+Maestro
+Despierto
+Excavador
+Antorchero
+Superviviente
+Millonario
+He visto demasiado
+Lo he visto todo
+Pequeño ayudante de mamá
+Gran ayudante de mamá
+Atleta de élite
+Campeón de la arena
+El encantador de pavos
+Apoya a un negocio del barrio
+VIP
+Comprador en las sombras
+Legendario
+Su favorito
+Derecho divino
+Una segunda oportunidad
+El elegido
+Paternidad
+Consigue los demás trofeos.
+Desbloquea la entrada.
+Supera el nivel 1-4 en una partida sin semilla.
+Supera la Guarida de Olmec en una partida sin semilla.
+Llega a las Cuevas de Hielo en una partida sin semilla.
+Completa el juego en una partida sin semilla.
+Completa el juego sin usar atajos en una partida sin semilla de un jugador.
+Completa el juego en 10 minutos o menos y sin usar atajos en una partida sin semilla de un jugador.
+Completa el juego sin recoger tesoros y sin usar atajos en una partida sin semilla de un jugador.
+Llega a la Ciudad Hundida en una partida sin semilla de un jugador.
+Completa el juego derrotando a Hundun en una partida sin semilla de un jugador.
+Llega al Océano Cósmico en una partida sin semilla de un jugador.
+Completa el Desafío Lunar en una partida sin semilla.
+Completa el Desafío Estelar en una partida sin semilla.
+Completa el Desafío Solar en una partida sin semilla.
+Termina una partida de un jugador sin semillas con 1.000.000 $ o más.
+Completa el 50% del diario o más.
+Completa el diario.
+Desbloquea el primer atajo.
+Desbloquea los tres atajos.
+Termina la carrera del tutorial en menos de 30 segundos.
+Gana una partida a muerte al mejor de cinco contra tres bots usando el conjunto de reglas predefinido.
+Llévale dos pavos a Yang en una partida sin semilla.
+Cómpralo todo en la Tienda de Mascotas de Yang en una partida sin semilla.
+Entra en el Palacio del Placer de Madame Tusk con invitación (en una partida sin semilla).
+Llega al Mercado Negro en una partida sin semilla.
+Llega a la Ciudad de Oro en una partida sin semilla de un jugador.
+Consigue el Kapala en una partida sin semilla.
+Consigue alguna corona real en una partida sin semilla.
+Consigue el Anj en una partida sin semilla.
+Consigue la Tablilla del Destino en una partida sin semilla.
+Despierta al Niño Berenjena en una partida sin semilla.
+########################################
+#### Constellations
+########################################
+Solanum
+Animus
+Canis
+Cattus
+Phodopus
+Felix
+Asinus
+Celeritas
+Major
+Fidelis
+Criminalus
+Minor
 ########################################
 #### Others
 ########################################

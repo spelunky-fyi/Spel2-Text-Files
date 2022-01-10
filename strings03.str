@@ -3,6 +3,7 @@ Ja
 Nein
 <SYS_ACCEPT/>
 <SYS_BACK/>
+<LOG_BOMB/>
 <SYS_SPECIAL/>
 <SYS_SPECIAL2/>
 <SYS_SPECIAL3/>
@@ -13,6 +14,8 @@ Nein
 Fortfahren
 Abbrechen
 Zurücksetzen
+Deaktiviert
+Aktiviert
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -59,12 +62,14 @@ ANGEHALTEN
 Spiel fortsetzen
 Tutorial neu starten
 Abenteuer beenden
+Match beenden
 Sofortiger Neustart
 Optionen
 Hauptmenü
 Spiel verlassen
 Möchtest du das Tutorial wirklich neu starten?
 Möchtest du das Abenteuer wirklich beenden? Jeglicher nicht gespeicherter Fortschritt geht verloren.
+Möchtest du das Match beenden?
 Möchtest du wirklich neu starten? Jeglicher nicht gespeicherter Fortschritt geht verloren.
 Möchtest du wirklich ins Hauptmenü zurückkehren? Jeglicher nicht gespeicherter Fortschritt geht verloren.
 Möchtest du das Spiel wirklich verlassen? Jeglicher nicht gespeicherter Fortschritt geht verloren.
@@ -113,6 +118,7 @@ Steuerung
 Gameplay
 HUD und Text
 Sprache
+Übergreifende Fortschritte
 Datenverwaltung
 Mitwirkende
 #### Shared values
@@ -158,6 +164,7 @@ Lege die Gesamtlautstärke fest.
 ########################################
 Tastaturbelegung
 Controllerbelegung
+Controllerbelegung
 Aktueller Spieler
 Der aktuelle Spieler, dessen Steuerung wir gerade konfigurieren.
 Spieler %d
@@ -178,11 +185,20 @@ Gehen
 Laufen
 Rechter Stick
 Zum Bewegen den rechten Stick bewegen.
+Rechter Stick
+Zum Bewegen den rechten Stick bewegen.
 Vibration
 Lege den Controllervibrationsmodus fest.
+Vibrationsfunktion
+Lege den Modus für die Controllervibrationsfunktion fest.
 <SYS_ACCEPT/> Taste ändern
+<SYS_ACCEPT/> Taste ändern
+<SYS_ACCEPT/> Taste ändern
+<SYS_ACCEPT/> Knopf ändern
 <SYS_ACCEPT/> Taste ändern
 Drücke die Taste, die du für %ls verwenden möchtest
+Drücke die Taste, die du für %ls verwenden möchtest
+Drücke die Knopf, die du für %ls verwenden möchtest
 Diese Taste wird bereits verwendet! Wenn du fortfährst, wird die Tastenbelegung für %d aufgehoben.
 Tastenbelegung für Spieler %d aufheben
 Spieler %d hat einige nicht festgelegte Aktionen. Wirklich verlassen?
@@ -197,6 +213,21 @@ Ausgabeverzögerung
 Verzögert Aktionen anderer Spieler, um visuelle Störungen zu reduzieren.
 Pseudonymisierung
 Verwendet Pseudonyme für Spieler von Drittanbieter-Quellen.
+#### Cross-Progress
+########################################
+Übergreifende Fortschritte
+Aktiviere das Teilen von Fortschritten mit anderen Plattformen.
+Autom. Synchronisierung
+Synchronisiere die Fortschritte automatisch mit anderen Geräten.
+Synchronisierungs-Code beantragen
+Beantrage einen Code, um Fortschritte mit einer anderen Plattform zu teilen.
+Synchronisierungs-Code eingeben
+Gib einen Code einer anderen Plattform ein, um Fortschritte zu teilen.
+Fortschritte synchronisieren
+Lade deine Fortschritte herunter, führe sie zusammen und lade sie hoch.
+Synchronisierungs-Code:
+Code wird beantragt
+Wird synchronisiert
 #### Gameplay
 ########################################
 Haustier-Stil
@@ -238,8 +269,14 @@ Wütender-Ladenbesitzer-Symbol
 Schalte um, ob ein Symbol angezeigt wird oder nicht, wenn Ladenbesitzer wütend sind.
 Tasten-Aufforderungen
 Wähle, ob Tasten-Aufforderungen eingeblendet werden.
+Tasten-Aufforderungen
+Wähle, ob Tasten-Aufforderungen eingeblendet werden.
+Tasten-Aufforderungen
+Wähle, ob Tasten-Aufforderungen eingeblendet werden.
 Tastensymbole
 Lege Tastensymbole für eine bestimmte Plattform fest.
+Kunststück-Hinweise
+Die Anzeige von Hinweisen für Kunststücke einschalten.
 DIALOGFENSTER
 Dialogfenstergröße
 Lege die Größe von Dialogfenstern fest.
@@ -307,6 +344,9 @@ Freunde
 Crossplay
 Spieler insgesamt
 <SYS_SPECIAL2/> Ich
+Wiedergabe anschauen
+<SYS_ACCEPT/> Wiedergabe anschauen
+<SYS_ACCEPT> Kontextmenü
 ########################################
 ## ENTER SEED SCREEN                  ##
 ########################################
@@ -321,8 +361,18 @@ ABENTEURER AUSWÄHLEN
 Spieler %d
 <SYS_ACCEPT/> Starten
 Zurück <SYS_BACK/>
-<LOG_ACTION/> Mit Bots starten
-<SYS_SPECIAL/> Mit Bots starten
+<LOG_ACTION/> Bot hinzufügen
+<SYS_SPECIAL/> Bot hinzufügen
+<LOG_BOMB/> Bot entfernen
+<SYS_BACK/> Bot entfernen
+<LOG_SPECIAL/> Bot-KI ändern
+<SYS_SPECIAL3/> Bot-KI ändern
+Chillig
+Normal
+Aggro
+Schildkröte
+Taktisch
+Zufällig
 SCHNELLAUSWAHL
 <LOG_ROPE/> Schnellauswahl
 <SYS_SPECIAL2/> Schnellauswahl
@@ -383,6 +433,7 @@ Runden-Ende
 Todesnebel
 Alien-Explosion
 Bomben verlieren
+Geist
 Zufällig
 Siege
 Lege fest, wie viele Siege notwendig sind, um den Sieger zu bestimmen.
@@ -427,6 +478,22 @@ Lege fest, wie viel Schaden die Peitsche anrichtet.
 5
 10
 99
+Abschluss-Geist
+Lege fest, ob nach dem Verlust des letzten Lebens ein Spielergeist erstellt werden soll.
+Aus
+Ein
+Atem-Abklingzeit
+Lege eine Abklingzeit für den Geisteratem-Angriff fest oder deaktiviere ihn.
+Keine
+0.25
+0.5
+0.75
+1.0
+1.25
+1.5
+1.75
+2.0
+Atem aus
 Reittier
 Wähle aus, ob Spieler jede Runde auf einem Reittier beginnen.
 Keine
@@ -434,6 +501,10 @@ Truthahn
 Felshund
 Axolotl
 Zufällig
+Strafball
+Lege fest, ob Spieler mit einem Strafball einsteigen sollen.
+Aus
+Ein
 Arena-Auswahl
 Wähle aus, wie Arenen zwischen den Runden ausgewählt werden.
 Abwechselnd
@@ -453,6 +524,7 @@ Keine
 Wenig
 Mittel
 Hoch
+Sehr hoch
 Gegenstände
 Lege fest, welche Gegenstände in Kisten verfügbar sind und welche du am Anfang hältst.
 <SYS_ACCEPT_SECONDARY/>
@@ -531,15 +603,16 @@ Gehaltener Gegenstand
 Ausrüstung
 Rückenausrüstung
 Spezial
-<SYS_ACCEPT/> Schalte alle Gegenstände ein/aus.
-<SYS_ACCEPT/> Level-Ziele ein-/ausschalten.
-<SYS_ACCEPT/> Schalte Power-ups ein/aus.
-<SYS_ACCEPT/> Schalte Waffen ein/aus.
-<SYS_ACCEPT/> Schalte Ausrüstung ein/aus.
-<SYS_ACCEPT/> Schalte große Rückenausrüstung ein/aus.
-<SYS_ACCEPT/> Schalte alle Spezialgegenstände ein/aus.
-<SYS_ACCEPT/> Schalte diesen Gegenstand ein/aus.
-<SYS_ACCEPT/> Aktiviere diesen Gegenstand als Startgegenstand oder schalte ihn ein/aus.
+<LOG_ACCEPT/> Schalte alle Gegenstände ein/aus.
+<LOG_ACCEPT/> Level-Ziele ein-/ausschalten.
+<LOG_ACCEPT/> Schalte Power-ups ein/aus.
+<LOG_ACCEPT/> Schalte Waffen ein/aus.
+<LOG_ACCEPT/> Schalte Ausrüstung ein/aus.
+<LOG_ACCEPT/> Schalte große Rückenausrüstung ein/aus.
+<LOG_ACCEPT/> Schalte alle Spezialgegenstände ein/aus.
+<LOG_ACCEPT/> Schalte diesen Gegenstand ein/aus.
+<LOG_ACCEPT/> Aktiviere diesen Gegenstand als Startgegenstand oder schalte ihn ein/aus.
+<LOG_SPECIAL/> Überspringen
 ########################################
 ## DM RESULTS SCREEN                  ##
 ########################################
@@ -573,7 +646,7 @@ Dieses Level:
 Insgesamt:
 Statistiken
 Beute
-Drücke <LOG_JUMP/>, um zum nächsten Level zu gehen
+Drücke <LOG_ACCEPT/>, um zum nächsten Level zu gehen
 ########################################
 ## GAME OVER                          ##
 ########################################
@@ -585,6 +658,7 @@ Beenden und zu Titelbildschirm
 ########################################
 ## CONTROLLER DISCONNECTION           ##
 ########################################
+Controller für Spieler %d wurde getrennt. Verbinde den Controller erneut oder verbinde einen neuen und drücke <LOG_ACCEPT/> zum Fortfahren.
 Controller für Spieler %d wurde getrennt. Verbinde den Controller erneut oder verbinde einen neuen und drücke <LOG_ACCEPT/> zum Fortfahren.
 <LOG_CANCEL/> Zum Titelbildschirm zurückkehren
 <LOG_CANCEL/> Zum Hauptmenü zurückkehren
@@ -805,45 +879,45 @@ Eine mechanische Rüstung der MOYA-Klasse, die von den Aliens entworfen wurde, u
 ########################################
 ## JOURNAL - PEOPLE                   ##
 ########################################
-ANA SPELUNKY
+Ana Spelunky
 Sie ist zum Mond gekommen, um ihre Mama und ihren Papa zu finden. Eine unbekümmerte junge Dame mit dem Herzen einer Heldin.
-MARGARET TUNNEL
+Margaret Tunnel
 Eine Faszination für den Ozean führte sie vom Familiengeschäft weg. Ihr Traum ist es, ihr eigenes Piratenschiff zu kaufen.
-COLIN NORTHWARD
+Colin Northward
 Ein neugieriger Künstler und Ingenieur, der von Olmek und dem Fluch der Höhlen besessen ist.
-ROFFY D. SLOTH
+Roffy D. Sloth
 Er hat eine Menge tiefsinnige Gedanken, aber nicht viel, was er dazu sagen will.
-ALTO SINGH
+Alto Singh
 Er arbeitet in der Leibeserziehung und will sichergehen, dass sich alle gut um ihre Gesundheit kümmern und eine positive Einstellung haben.
-LIZ MUTTON
+Liz Mutton
 Eine eisenharte Abenteurerin, mit der man sich schwer anfreunden kann und die die Einsamkeit braucht, aber der auch viel an ihren Freunden liegt.
-NEKKA DER ADLER
+Nekka The Eagle
 Eine wilde Kriegeranführerin, die die Götter konfrontieren und sie nach den Problemen des Universums fragen will.
-LISE-PROJEKT
+LISE Project
 Eine Roboterdame, die entworfen wurde, um zu erkunden und Spaß zu haben. Nach 1.000 Jahren wird sie zu ihren Erschaffern zurückkehren mit den Daten, die sie gesammelt hat.
-COCO VON DIAMONDS
+Coco Von Diamonds
 Die Schöpferin der weltbekannten Mode- und Lifestylemarke "Von Diamonds". Sie befindet sich derzeit im Urlaub.
-MANFRED TUNNEL
+Manfred Tunnel
 Er hat sich entschlossen, nach vielen Jahren, in denen er Abkürzungen gebaut hat, die Höhlenerforschung zu probieren.
-KLEINER JAY
+Little Jay
 Ein selbsternannter Höhlenforscher-Fan, der ein berühmter Forscher werden will. Wird ein wenig zu aufgeregt, wenn seine Helden in der Nähe sind.
-TINA FLAN
+Tina Flan
 Sie ist eine relativ unbekannte Höhlenforscherin, die es schaffte, König Yama mit einer Aubergine zu treffen. Sie versucht, ihre Berühmtheit herunterzuspielen!
-VALERIE CRUMP
+Valerie Crump
 Ein begeisterter Musik- und Videospielfan. Sie versucht, durch Reisen kreative Inspiration zu finden.
-AU
+Au
 Ein Mönch mit einer hellgoldenen Haut. Indem er seinen Geist und seinen Körper herausfordert, versucht er, Frieden in einem chaotischen Universum zu finden.
-DEMI VON DIAMONDS
+Demi Von Diamonds
 Die Erbin des Von-Diamonds-Imperiums. Sie hat ein verhätscheltes Leben geführt, aber ist begierig, mehr über die Welt zu erfahren.
-PILOT
+Pilot
 Ein seltsamer kleiner Raumfahrer von einem weit entfernten Planeten. Häufig ist zu hören, wie er etwas über sein Raumschiff murmelt, der Campanella.
-PRINZESSIN AIRYN
+Princess Airyn
 Sie reist als kulinarische Expertin durch die Welt und sucht die erlesensten Geschmackserlebnisse, die sie mit nach Hause in ihr Königreich Heliotropia nehmen kann.
-DIRK YAMAOKA
+Dirk Yamaoka
 Ein Ninja-Meister, der ständig seine Fertigkeiten verfeinern will. Als der Mond rief, antwortete er ohne zu zögern.
-GUY SPELUNKY
+Guy Spelunky
 Er hat sein Leben mit der Jagd nach Abenteuern (und Schätzen) verbracht. Er ist kein junger Mann mehr und denkt daher neu darüber nach, was ihm wichtig ist im Leben.
-CLASSIC GUY
+Classic Guy
 Eine Version von Guy Spelunky in einem Paralleluniversum aus großen, flachen Farbblöcken.
 TERRA TUNNEL
 Sie traf vor vielen Jahren Manfred, als sie ihn vor einem Höhleneinsturz rettete. Gemeinsam bauten sie ein blühendes Abkürzungsbaugeschäft auf!
@@ -2248,8 +2322,9 @@ Schnellste Zeit: %ls
 ########################################
 #### Online
 ########################################
-<SYS_ACCEPT/> Melden
+Melden
 Beschreibe den unangemessenen Inhalt oder das beleidigende Verhalten.
+Spielerkarte anzeigen
 Feedback
 Beschreibe den Fehler, der beim Spielen von Spelunky 2 aufgetreten ist, oder mache einen Vorschlag.
 Daten zur Sicherstellung der Integrität und Authentizität des Laufs werden öffentlich gemacht, kontaktiere privacy@blitworks.com für Löschungsanfragen.
@@ -2262,6 +2337,29 @@ Die Bestenliste ist derzeit nicht aktiviert, bitte schaue später noch einmal vo
 ########################################
 Finale Punktzahl:
 Gesamtzeit:
+########################################
+#### Characters short name
+########################################
+Ana
+Margaret
+Colin
+Roffy
+Alto
+Liz
+Nekka
+LISE
+Coco
+Manfred
+Jay
+Tina
+Valerie
+Au
+Demi
+Pilot
+Airyn
+Dirk
+Guy
+Classic Guy
 ########################################
 #### Shopkeepers' names
 ########################################
@@ -2323,6 +2421,91 @@ Wolf
 Xorn
 Yor
 Zorgoth
+########################################
+#### Feats
+########################################
+Kunststücke
+Verborgen
+Du hast ein Kunststück durchgeführt!
+Höhlenforschung total
+Das hast du drauf
+Fühlt sich gut an
+Fertigkeitenverbesserung
+Hartnäckig
+Geselle
+Ironman
+Tempomacher
+Keine Schätze
+Pilger
+Meister
+Erweckt
+Ausgräber
+Fackelträger
+Überlebender
+Millionär
+Alter Hase
+Veteran
+Mamas kleiner Helfer
+Mamas großer Helfer
+Bahnstar
+Arena-Champion
+Truthahn-Flüsterer
+Unterstütze ein Geschäft vor Ort
+VIP
+Schatten-Einkäufer
+Legendär
+Ihr Favorit
+Göttliches Recht
+Eine zweite Chance
+Auserwählter
+Elternschaft
+Erwirb alle anderen Trophäen.
+Schalte den Eingang frei.
+Schaffe es über 1-4 hinaus in einem Nicht-Setzplatz-Durchgang.
+Schaffe es über Olmeks Höhle hinaus in einem Nicht-Setzplatz-Durchgang.
+Erreiche die Eishöhlen in einem Nicht-Setzplatz-Durchgang.
+Schließe das Spiel in einem Nicht-Setzplatz-Durchgang ab.
+Schließe das Spiel in einem Nicht-Setzplatz-Einzelspieler-Durchgang ab, ohne Abkürzungen zu verwenden.
+Schließe das Spiel ohne Abkürzungen in 10 Minuten oder weniger in einem Nicht-Setzplatz-Einzelspieler-Durchgang ab.
+Schließe das Spiel in einem Nicht-Setzplatz-Einzelspieler-Durchgang ab, ohne Abkürzungen zu verwenden oder einen Schatz einzusammeln.
+Erreiche die Versunkene Stadt in einem Nicht-Setzplatz-Einzelspieler-Durchgang.
+Schließe das Spiel ab, indem du in einem Nicht-Setzplatz-Einzelspieler-Durchgang Hundun besiegst.
+Erreiche den Kosmischen Ozean in einem Nicht-Setzplatz-Einzelspieler-Durchgang.
+Schließe die Mondherausforderung in einem Nicht-Setzplatz-Durchgang ab.
+Schließe die Sternherausforderung in einem Nicht-Setzplatz-Durchgang ab.
+Schließe die Sonnenherausforderung in einem Nicht-Setzplatz-Durchgang ab.
+Beende einen Durchgang mit 1.000.000 $ in einem Nicht-Setzplatz-Einzelspieler-Durchgang.
+Schließe 50 % des Tagebuchs oder mehr ab.
+Schließe das Tagebuch ab.
+Schalte die erste Abkürzung frei.
+Schalte alle drei Abkürzungen frei.
+Beende den Tutorial-Tempodurchgang in weniger als 30 Sekunden.
+Gewinne einen Fünf-gewinnt-Todeskampf gegen drei Bots mit dem Standard-Regelsatz.
+Bringe zwei Truthähne zu Yang in einem Nicht-Setzplatz-Durchgang.
+Kaufe Yangs Zooladen in einem Nicht-Setzplatz-Durchgang leer.
+Betritt Madame Tusks Palast de Plaisir als Gast (in einem Nicht-Setzplatz-Durchgang).
+Erreiche den Schwarzmarkt in einem Nicht-Setzplatz-Durchgang.
+Erreiche die Stadt aus Gold in einem Nicht-Setzplatz-Einzelspieler-Durchgang.
+Erhalte die Kapala in einem Nicht-Setzplatz-Durchgang.
+Erhalte königlichen Kopfschmuck in einem Nicht-Setzplatz-Durchgang.
+Erhalte das Anch in einem Nicht-Setzplatz-Durchgang.
+Erhalte die Tafel des Schicksals in einem Nicht-Setzplatz-Durchgang.
+Erhalte das Auberginenkind in einem Nicht-Setzplatz-Durchgang.
+########################################
+#### Constellations
+########################################
+Solanum
+Animus
+Canis
+Cattus
+Phodopus
+Felix
+Asinus
+Celeritas
+Major
+Fidelis
+Criminalus
+Minor
 ########################################
 #### Others
 ########################################

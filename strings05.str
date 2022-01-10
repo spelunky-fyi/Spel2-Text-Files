@@ -123,6 +123,8 @@ Grande
 GRÁFICOS
 Resolución
 Establece la resolución.
+Escalado de resolución
+Cambia la resolución interna del juego.
 Modo de Pantalla
 Establece el modo de pantalla.
 Pantalla Completa
@@ -226,6 +228,8 @@ Selecciona si se muestra el número del nivel.
 Selecciona si aparece o no un icono cuando los tenderos se enojan.
 Indicaciones de botones
 Selecciona si se muestran o no las indicaciones de botones.
+Iconos de botones
+Fuerza los iconos de los botones de una plataforma específica.
 DIÁLOGOS
 Tamaño del texto
 Establece el tamaño del texto de los diálogos.
@@ -258,6 +262,7 @@ Establece el idioma.
 #### LEADERBOARDS
 ########################################
 Mejores Partidas
+Profundidad
 Tiempos más Rápidos
 Normal
 Difícil
@@ -286,9 +291,9 @@ SELECCIONA AVENTURERO
 Jugador %d
 <SYS_ACCEPT/> Comenzar
 Regresar <SYS_BACK/>
-<LOG_ACTION/> Comenzar con bots
+<SYS_SPECIAL/> Comenzar con bots
 SELECCIÓN RÁPIDA
-<LOG_ROPE/> Selección Rápida
+<SYS_SPECIAL2/> Selección Rápida
 Presiona <LOG_START/> para ingresar al Menú de Opciones y cambiar tu esquema de control.
 Las paredes están cambiando...
 ########################################

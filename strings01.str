@@ -123,6 +123,8 @@ Grand
 GRAPHISMES
 Résolution
 Définit la résolution.
+Mise à l'échelle de la résolution
+Modifie la résolution native du jeu.
 Mode d'affichage
 Définit le mode d'affichage.
 Plein écran
@@ -226,6 +228,8 @@ Icône de marchand en colère
 Active/désactive l'affichage d'une icône indiquant qu'un marchand est en colère.
 Aide contextuelle
 Définit l'affichage ou non de l'aide contextuelle.
+Icônes des boutons
+Employer les icônes des boutons d'une plate-forme particulière.
 DIALOGUES
 Taille du texte
 Définit les dimensions du texte des dialogues
@@ -258,6 +262,7 @@ Définit la langue.
 #### LEADERBOARDS
 ########################################
 Meilleures parties
+Profondeur
 Meilleurs temps
 Normal
 Difficile
@@ -286,9 +291,9 @@ CHOISISSEZ UN AVENTURIER
 Joueur %d
 <SYS_ACCEPT/> Commencer
 Retour <SYS_BACK/>
-<LOG_ACTION/> Commencer avec des bots
+<SYS_SPECIAL/> Commencer avec des bots
 SÉLECTION RAPIDE
-<LOG_ROPE/> Sélection rapide
+<SYS_SPECIAL2/> Sélection rapide
 Appuyer sur <LOG_START/> pour accéder aux options et modifier la configuration des commandes.
 Les murs se déplacent...
 ########################################

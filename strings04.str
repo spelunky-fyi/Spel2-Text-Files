@@ -123,6 +123,8 @@ Grande
 GRÁFICOS
 Resolución
 Ajusta la resolución.
+Escalado de resolución
+Cambia la resolución interna del juego.
 Modo de pantalla
 Ajusta el modo de pantalla.
 Pantalla completa
@@ -226,6 +228,8 @@ Icono de tendero enfadado
 Indica si quieres que aparezca un icono cuando los tenderos están enfadados.
 Indicadores de botones
 Elige entre mostrar o no los indicadores de botones.
+Iconos de botones
+Fuerza los iconos de los botones de una plataforma específica.
 DIÁLOGOS
 Tamaño del texto
 Ajusta el tamaño de los textos de los diálogos.
@@ -258,6 +262,7 @@ Indica el idioma.
 #### LEADERBOARDS
 ########################################
 Mejores partidas
+Profundidad
 Mejores tiempos
 Normal
 Difícil
@@ -286,9 +291,9 @@ ESCOGE AVENTURERO
 Jugador %d
 <SYS_ACCEPT/> Comenzar
 Volver <SYS_BACK/>
-<LOG_ACTION/> Comenzar con bots
+<SYS_SPECIAL/> Comenzar con bots
 SELECCIÓN RÁPIDA
-<LOG_ROPE/> Selección rápida
+<SYS_SPECIAL2/> Selección rápida
 Pulsa <LOG_START/> para acceder al menú Opciones y cambiar los controles.
 Las paredes se mueven...
 ########################################

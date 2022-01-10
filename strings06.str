@@ -123,6 +123,8 @@ Gran
 GRÀFICS
 Resolució
 Ajusta la resolució.
+Escalat de resolució
+Canvia la resolució interna del joc.
 Mode de pantalla
 Ajusta el mode de pantalla.
 Pantalla completa
@@ -226,6 +228,8 @@ Icona de venedor enfadat
 Ajusta si apareix una icona en pantalla quan els venedors estan enfadats.
 Indicadors de botons
 Configura si els indicadors de botons es mostren o no.
+Icones de botons
+Força les icones dels botons d'una plataforma específica.
 DIÀLEGS
 Mida del text
 Ajusta la mida del text dels diàlegs.
@@ -258,6 +262,7 @@ Configura l'idioma.
 #### LEADERBOARDS
 ########################################
 Millors partides
+Profunditat
 Millors temps
 Normal
 Difícil
@@ -286,9 +291,9 @@ TRIA L'AVENTURER
 Jugador %d
 <SYS_ACCEPT/> Començar
 Enrere <SYS_BACK/>
-<LOG_ACTION/> Començar amb bots
+<SYS_SPECIAL/> Començar amb bots
 SELECCIÓ RÀPIDA
-<LOG_ROPE/> Selecció ràpida
+<SYS_SPECIAL2/> Selecció ràpida
 Prem <LOG_START/> per accedir al menú Opcions i canviar la configuració dels controls.
 Les parets estan canviant...
 ########################################

@@ -123,6 +123,8 @@ Groß
 GRAFIK
 Auflösung
 Lege die Auflösung fest.
+Auflösungs-Scaling
+Ändere die interne Auflösung des Spiels.
 Anzeigemodus
 Lege den Anzeigemodus fest.
 Vollmodus
@@ -226,6 +228,8 @@ Wütender-Ladenbesitzer-Symbol
 Schalte um, ob ein Symbol angezeigt wird oder nicht, wenn Ladenbesitzer wütend sind.
 Tasten-Aufforderungen
 Wähle, ob Tasten-Aufforderungen eingeblendet werden.
+Tastensymbole
+Lege Tastensymbole für eine bestimmte Plattform fest.
 DIALOGFENSTER
 Dialogfenstergröße
 Lege die Größe von Dialogfenstern fest.
@@ -258,6 +262,7 @@ Lege die Sprache fest.
 #### LEADERBOARDS
 ########################################
 Spitzendurchgänge
+Tiefe
 Schnellste Zeiten
 Normal
 Schwer
@@ -286,9 +291,9 @@ ABENTEURER AUSWÄHLEN
 Spieler %d
 <SYS_ACCEPT/> Starten
 Zurück <SYS_BACK/>
-<LOG_ACTION/> Mit Bots starten
+<SYS_SPECIAL/> Mit Bots starten
 SCHNELLAUSWAHL
-<LOG_ROPE/> Schnellauswahl
+<SYS_SPECIAL2/> Schnellauswahl
 <LOG_START/> drücken, um das Optionsmenü aufzurufen und dein Steuerungsschema zu ändern.
 Die Wände bewegen sich ...
 ########################################

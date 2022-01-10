@@ -123,6 +123,8 @@ Grande
 GRÁFICOS
 Resolução
 Defina a resolução.
+Dimensionamento de resolução
+Modifique a resolução interna do jogo
 Modo de exibição
 Defina o modo de exibição.
 Tela cheia
@@ -226,6 +228,8 @@ Alterne para exibição do número do nível.
 Alterne para exibir um ícone quando os comerciantes estão bravos.
 Prompts de botão
 Escolha se mostrar ou não prompts de botão.
+Ícones de botões
+Força os ícones dos botões para uma plataforma específica.
 DIÁLOGOS
 Tamanho do diálogo
 Defina o tamanho dos diálogos.
@@ -258,6 +262,7 @@ Defina o idioma.
 #### LEADERBOARDS
 ########################################
 Melhores partidas
+Profundidade
 Melhores tempos
 Normal
 Difícil
@@ -286,9 +291,9 @@ ESCOLHER AVENTUREIRO
 Jogador %d
 <SYS_ACCEPT/> Iniciar
 Voltar <SYS_BACK/>
-<LOG_ACTION/> Iniciar com bots
+<SYS_SPECIAL/> Iniciar com bots
 SELEÇÃO RÁPIDA
-<LOG_ROPE/> Seleção rápida
+<SYS_SPECIAL2/> Seleção rápida
 Pressione <LOG_START/> para acessar o Menu de Opções e altere seu esquema de controles.
 As paredes estão se movendo...
 ########################################

@@ -123,6 +123,8 @@ Large
 GRAPHICS
 Resolution
 Set the resolution.
+Resolution scale
+Change the internal resolution of the game.
 Display Mode
 Set the display mode.
 Fullscreen
@@ -226,6 +228,8 @@ Angry Shopkeeper icon
 Toggle whether an icon is displayed when shopkeepers are angry.
 Button Prompts
 Choose whether or not to display button prompts.
+Button icons
+Force button icons to a particular platform.
 TEXT BOXES
 Text Box Size
 Set the size of text boxes.
@@ -258,6 +262,7 @@ Set the language.
 #### LEADERBOARDS
 ########################################
 Top Runs
+Depth
 Fastest Times
 Normal
 Hard
@@ -286,9 +291,9 @@ CHOOSE ADVENTURER
 Player %d
 <SYS_ACCEPT/> Start
 Back <SYS_BACK/>
-<LOG_ACTION/> Start with bots
+<SYS_SPECIAL/> Start with bots
 QUICK SELECT
-<LOG_ROPE/> Quick Select
+<SYS_SPECIAL2/> Quick Select
 Press <LOG_START/> to access the Options Menu and change your control scheme.
 The walls are shifting...
 ########################################

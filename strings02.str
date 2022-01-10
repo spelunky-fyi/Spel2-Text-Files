@@ -123,6 +123,8 @@ Grande
 VIDEO
 Risoluzione
 Imposta la risoluzione.
+Ridimensionamento risoluzione
+Cambia la risoluzione interna del gioco.
 Modalità schermo
 Imposta la modalità dello schermo.
 Schermo intero
@@ -226,6 +228,8 @@ Icona Negoziante furioso
 Attiva/disattiva la visualizzazione di un'icona quando i negozianti sono furiosi.
 Indicazioni tasti
 Consente di visualizzare o no le indicazioni dei tasti.
+Icone dei pulsanti
+Forzare bottoni di una piattaforma specifica
 DIALOGHI
 Dimensioni testo
 Imposta le dimensione dei testi dei dialoghi.
@@ -258,6 +262,7 @@ Imposta la lingua.
 #### LEADERBOARDS
 ########################################
 Migliori partite
+Profonditá
 Tempi migliori
 Normale
 Difficile
@@ -286,9 +291,9 @@ SCEGLI IL TUO PERSONAGGIO
 Giocatore %d
 <SYS_ACCEPT/> Avvia
 Indietro <SYS_BACK/>
-<LOG_ACTION/> Inizia coi bot
+<SYS_SPECIAL/> Inizia coi bot
 SCELTA RAPIDA
-<LOG_ROPE/> Scelta rapida
+<SYS_SPECIAL2/> Scelta rapida
 Premi <LOG_START/> per accedere al menu Opzioni e modificare lo schema dei controlli.
 Le pareti si muovono...
 ########################################

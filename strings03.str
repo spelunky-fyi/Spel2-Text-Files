@@ -958,7 +958,7 @@ STACHELN
 Ah, Stacheln! Die klassische Falle. Sie haben viele Formen und Größen, und alle tun sie weh.
 PFEILFALLE
 Eine alte Falle unbekannten Ursprungs. Sie ist Schuld am Tod vieler Forscher.
-BÄRENFALLE
+TOTEMFALLE
 Stachlerrücken baute sie, um seine Anhänger zu trainieren, aber zumeist dienen die Fallen dazu, sie "einschlafen" zu lassen.
 BAUMSTAMMFALLE
 Der Stamm eines gewaltigen Baumes, von Stachlerrücken geschnitzt und aufgehängt, um seinen Schatz zu beschützen.
@@ -1000,7 +1000,7 @@ KNOCHENFALL
 Diese Knochenmasse ist so groß, dass sie anfängt, aus dem Borden zu bersten.
 EISACK
 Hinter der dünnen Membran siehst du, wie sich etwas wild windet.
-SCHNAPPFALLE
+BÄRENFALLE
 Der geringste Druck sorgt dafür, dass sich die starken Stahlkiefer schließen und enormen Schaden anrichten.
 ########################################
 ## JOURNAL - TABLET OF DESTINY        ##
@@ -1385,7 +1385,7 @@ Kurioserweise spaltete ein Schädel meinen Schädel.
 ########################################
 ZERMALMT
 Ich hätte mich an eine etwas sicherere Stelle stellen sollen!
-### Snap trap
+### Bear trap
 ########################################
 ERLEDIGT
 Die Kiefer des Todes fingen mich.

@@ -958,7 +958,7 @@ PINCHOS
 ¡Ay, pinchos! La más clásica de las trampas. Los hay de todas las formas y tamaños, y todos duelen.
 TRAMPA DE FLECHAS
 Una antigua trampa de origen desconocido. Tiene en su haber la muerte de muchos exploradores.
-TRAMPA DEL OSO
+TRAMPA DE TÓTEM
 Pincholomo fabricó estas trampas para adiestrar a sus seguidores, aunque normalmente solo consigue dejarlos "dormidos".
 TRAMPA DE TRONCO
 El tronco de un árbol descomunal. Pincholomo lo cortó y lo colgó para proteger su tesoro.
@@ -1000,7 +1000,7 @@ FOSA DE HUESOS
 Este montón de huesos es tan grande que ha empezado a asomar desde debajo del suelo.
 SACO DE HUEVAS
 Bajo la fina membrana hay algo que se mueve vigorosamente.
-CEPO
+TRAMPA PARA OSOS
 Con la mínima presión, sus potentes mandíbulas de acero se cierran de sopetón causando muchísimo daño.
 ########################################
 ## JOURNAL - TABLET OF DESTINY        ##
@@ -1385,7 +1385,7 @@ Es muy extraño, pero un cráneo me ha partido el cráneo.
 ########################################
 APLASTADO
 ¡Debería haberme puesto en un lugar menos peligroso!
-### Snap trap
+### Bear trap
 ########################################
 PARTIDO
 Me han atrapado las mandíbulas de la muerte.

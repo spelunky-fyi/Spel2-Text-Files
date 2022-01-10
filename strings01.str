@@ -958,7 +958,7 @@ PIQUES
 Ah ! Les piques ! Le piège classique. Il y en a de toutes les tailles et toutes les formes, mais toutes font mal.
 PIÈGE À FLÈCHE
 Piège ancien d'origine inconnue. Il a causé la mort de nombreux explorateurs.
-PIÈGE À OURS
+PIÈGE À TOTEM
 Porte-Épics les a fabriqués pour entraîner ses fidèles, mais ils servent surtout à les faire « dormir ».
 PIÈGE À BUCHE
 Le tronc d'un très gros arbre a été taillé par Porte-Épics et mis en place pour protéger son trésor.
@@ -1000,7 +1000,7 @@ OSSUAIRE
 Cette masse d'os est si imposante qu'elle commence à sortir du sol.
 OOTHÈQUE
 Sous la fine membrane, on peut apercevoir quelque chose se tortiller vigoureusement.
-PIÈGE À MÂCHOIRES
+PIÈGE POUR OURS
 La moindre pression libère les puissantes mâchoires d'acier qui se referment en causant d'énormes dégâts.
 ########################################
 ## JOURNAL - TABLET OF DESTINY        ##
@@ -1385,7 +1385,7 @@ Curieusement, mon crâne a été fendu par l'un de ses congénères.
 ########################################
 ÉCRASÉE
 J'aurais dû faire attention où je mettais la tête !
-### Snap trap
+### Bear trap
 ########################################
 HAPPÉE
 J'ai été piégée dans la gueule de la mort.

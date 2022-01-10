@@ -958,7 +958,7 @@ CHIODI
 Ah, i chiodi! La trappola più classica. Sono di varie forme e dimensioni, tutte dolorosissime.
 TRAPPOLA CON FRECCE
 Un'antica trappola di origine ignota. Ha causato la morte di molti esploratori.
-TRAPPOLA A FORMA DI ORSO
+TRAPPOLA TOTEM
 Carpiode le ha costruite per addestrare i suoi seguaci, anche se servono soprattutto per "metterli a nanna".
 TRAPPOLA CON TRONCO
 Il tronco di un albero enorme, intagliato da Carpiode e usato per proteggere il suo tesoro.
@@ -1000,7 +1000,7 @@ VALANGA D'OSSA
 Questa massa d'ossa è talmente grande che sta iniziando a venir fuori dal terreno.
 SACCA DI UOVA
 Dietro la sottile membrana è possibile intravedere qualcosa che si contorce freneticamente.
-TRAPPOLA A PRESSIONE
+TAGLIOLA
 Alla minima pressione, le sue potenti fauci d'acciaio si serrano di scatto, infliggendo danni enormi.
 ########################################
 ## JOURNAL - TABLET OF DESTINY        ##
@@ -1385,7 +1385,7 @@ Che strano... il mio cranio è stato spaccato da un altro cranio.
 ########################################
 SCHIACCIATO
 Avrei dovuto scegliere un punto un po' più sicuro!
-### Snap trap
+### Bear trap
 ########################################
 AZZANNATO
 La mia vita è finita fra le fauci della morte.

@@ -958,7 +958,7 @@ ESTACAS
 Ah, estacas! A armadilha clássica. Têm muitos formatos e tamanhos, e todas machucam.
 ARMADILHA DE FLECHA
 Uma armadilha antiga de origem desconhecida. Responsável pela morte de muitos exploradores.
-ARMADILHA DE URSO
+ARMADILHA DE TOTEM
 Quillback construiu algumas para treinar seus seguidores, mas na realidade elas servem mesmo para colocá-los "para dormir".
 ARMADILHA DE TORAS
 O tronco de uma árvore enorme esculpida por Quillback e amarrada para proteger seu tesouro.
@@ -1000,7 +1000,7 @@ QUEDA DE OSSOS
 Essa massa de ossos é tão grande que está começando a explodir do chão.
 SACO DE OVOS
 Por baixo da fina membrana é possível ver algo se contorcendo vigorosamente.
-ARMADILHA DE PRESSÃO
+ARMADILHA PARA URSOS
 A menor pressão fará essas poderosas mandíbulas de aço se fecharem e causarem um dano enorme.
 ########################################
 ## JOURNAL - TABLET OF DESTINY        ##
@@ -1385,7 +1385,7 @@ BATIDO
 ########################################
 ESMAGADO
 Eu deveria ter ficado num lugar um pouco mais seguro!
-### Snap trap
+### Bear trap
 ########################################
 QUEBRADO
 Fui pega nas mandíbulas da morte.

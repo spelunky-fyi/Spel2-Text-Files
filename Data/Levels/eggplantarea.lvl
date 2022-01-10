@@ -39,6 +39,7 @@
 \?coffin					g	// Character coffin (NPC/Player)
 
 \?jumpdog					j
+\?minister					m
 \?vine						v
 \?growable_vine				V
 \?yama						Y
@@ -353,7 +354,7 @@ wwwwww0000
 0000====00
 0000111000
 00001V1000
-00j0000000
+m0j0000000
 ====000000
 ====001111
 

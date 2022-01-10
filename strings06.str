@@ -958,7 +958,7 @@ PUNXES
 Ah, punxes! La trampa clàssica. N'hi ha de moltes formes i mides, totes fan mal.
 TRAMPA DE FLETXES
 Una trampa antiga d'origen desconegut. És responsable de la mort de molts exploradors.
-TRAMPA OS
+TRAMPA DE TÒTEM
 Esquenaploma les va construir per entrenar els seus seguidors, encara que sobretot serveixen per "posar-los a dormir".
 TRAMPA DE TRONCS
 El tronc d'un arbre gegantí, tallat per Esquenaploma i muntat per protegir el seu tresor.
@@ -1000,7 +1000,7 @@ CAIGUDA D'ÓSSOS
 Aquesta massa d'óssos és tan gran que ha començat a sortir del terra.
 SAC D'OUS
 Sota la membrana fina pots veure alguna cosa que es mou amb força.
-TRAMPA DE PRESSIÓ
+TRAMPA PER ÓSSOS
 La pressió més lleugera causarà que les seves potents mandíbules d'acer es tanquin amb força, causant danys importants.
 ########################################
 ## JOURNAL - TABLET OF DESTINY        ##
@@ -1385,7 +1385,7 @@ Per estrany que soni, un altre crani em va trencar el meu.
 ########################################
 AIXAFAT
 M'hauria d'haver quedat en un lloc una mica més segur!
-### Snap trap
+### Bear trap
 ########################################
 QUEBRAT
 Vaig quedar atrapat a la gola de la mort.

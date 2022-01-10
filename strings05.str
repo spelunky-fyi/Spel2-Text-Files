@@ -958,7 +958,7 @@ PICOS
 ¡Ah, picos! La clásica trampa. Vienen en muchas formas y tamaños, todos dolorosos.
 TRAMPA DE FLECHAS
 Una antigua trampa de origen desconocido. Es responsable de la muerte de muchos exploradores.
-TRAMPA DEL OSO
+TRAMPA DE TÓTEM
 Lomo de Púas la construyó para entrenar a sus seguidores, aunque más bien servían para ponerlos "a dormir".
 TRAMPA DE TRONCO
 El tronco de un enorme árbol tallado por Lomo de Púas y colgado para proteger su tesoro.
@@ -1000,7 +1000,7 @@ TRAMPA DE HUESOS
 Esta masa de huesos es tan grande que comienza a salirse del suelo.
 SACO DE HUEVOS
 Detrás de la delgada membrana, puedes ver algo que se retuerce de forma vigorosa.
-TRAMPA QUEBRADORA
+TRAMPA PARA OSOS
 La menor presión hará que sus poderosas mandíbulas de acero se cierren y causen un gran daño.
 ########################################
 ## JOURNAL - TABLET OF DESTINY        ##
@@ -1385,7 +1385,7 @@ Parece bastante extraño, pero mi cráneo fue destrozado por otro cráneo.
 ########################################
 APLASTADO
 ¡Debería haberme parado en algún lugar un poco más seguro!
-### Snap trap
+### Bear trap
 ########################################
 PARTIDO
 Quedé atrapado en las quijadas de la muerte.

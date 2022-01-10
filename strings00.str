@@ -958,7 +958,7 @@ SPIKES
 Ah, spikes! The classic trap. They come in many shapes and sizes, all painful.
 ARROW TRAP
 An ancient trap of unknown origin. It's responsible for the death of many an explorer.
-BEAR TRAP
+TOTEM TRAP
 Quillback built these to train his followers, although they mostly serve to put them "to sleep".
 LOG TRAP
 The trunk of a massive tree, carved by Quillback and strung up to protect his treasure.
@@ -997,10 +997,10 @@ The spear is so huge that it's hard to imagine that it was meant to be used agai
 STICKY TRAP
 A strange growth, whose fleshy protuberance is reminiscent of a uvula.
 BONE DROP
-This mass of bones so large that it's starting to burst out of the ground.
+This mass of bones is so large that it's starting to burst out of the ground.
 EGG SAC
 Beneath the thin membrane you can see something writhing around vigorously.
-SNAP TRAP
+BEAR TRAP
 The slightest pressure will cause its powerful steel jaws to snap shut, causing massive damage.
 ########################################
 ## JOURNAL - TABLET OF DESTINY        ##
@@ -1385,7 +1385,7 @@ Strangely enough, my skull was cracked by another skull.
 ########################################
 CRUSHED
 I should have stood somewhere a little bit safer!
-### Snap trap
+### Bear trap
 ########################################
 SNAPPED
 I was caught in the jaws of death.

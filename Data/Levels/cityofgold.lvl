@@ -469,8 +469,8 @@ A=000000=A
 ====00p000
 0=0000=000
 0000000000
-==========
-==========
+====00====
+====00====
 
 ////////////////////////////////////////////////////////////////////////////////
 \.coffin_unlockable		// Coffin room for unlockable characters (facing right, will flip for other side)

@@ -16,6 +16,8 @@
 重設
 已停用
 已啟用
+確定
+Retry
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -158,6 +160,7 @@ HUD和文字
 正常
 低
 過掃描
+Resize the display area to fit your screen.
 音訊
 音效音量
 設定音效的音量。
@@ -192,10 +195,15 @@ HUD和文字
 撥動右操作桿進行移動。
 R操控搖桿
 撥動R操控搖桿進行移動。
+右搖桿
+撥動右搖桿進行移動。
 震動
 設定控制器的震動模式。
 HD震動
 設定控制器的HD震動模式。
+震動
+設定控制器的震動模式。
+震動
 <SYS_ACCEPT/>變更按鍵
 <SYS_ACCEPT/>變更按鈕
 <SYS_ACCEPT/>變更按鈕
@@ -233,6 +241,9 @@ HD震動
 同步代碼：
 要求代碼
 同步中
+There was an error synchronizing progress with linked storage.
+There was an error fetching linked storage code.
+There was an error linking progress storage.
 #### Gameplay
 ########################################
 寵物風格
@@ -2337,6 +2348,10 @@ BOSS房間
 發生網路錯誤
 開始倒計時：%d
 此排行榜目前不可用，請稍後再來。
+Unable to start the daily challenge, please try again later.
+Warning
+This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
+Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
 ########################################
 #### Ending
 ########################################
@@ -2515,3 +2530,5 @@ Minor
 #### Others
 ########################################
 演示已結束。\n謝謝賞玩！
+Insufficient space to save data. Continue without saving?
+There was an error initializing save data. The game will continue with save games disabled.

@@ -16,6 +16,8 @@
 リセット
 無効
 有効
+OK
+Retry
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -158,6 +160,7 @@ OFF
 通常
 低
 オーバースキャン
+Resize the display area to fit your screen.
 サウンド設定
 効果音 音量
 効果音の音量を設定
@@ -192,10 +195,15 @@ BGMの音量を設定
 右スティックでの\n移動を設定
 Rスティック
 Rスティックでの\n移動を設定
+右スティック
+右スティックでの\n移動を設定
 振動
 コントローラーの\n振動を設定
 HD振動
 コントローラーの\nHD振動を設定
+振動
+コントローラーの\n振動を設定
+振動
 <SYS_ACCEPT/> キー変更
 <SYS_ACCEPT/> ボタン変更
 <SYS_ACCEPT/> ボタン変更
@@ -233,6 +241,9 @@ HD振動
 同期コード
 コードをリクエスト中
 同期中
+There was an error synchronizing progress with linked storage.
+There was an error fetching linked storage code.
+There was an error linking progress storage.
 #### Gameplay
 ########################################
 ペットスタイル
@@ -2337,6 +2348,10 @@ LISE、ゾルダス星についてデータをボクに見せてくれないか�
 ネットワークエラーが発生しました
 %d後に開始
 ランキングは現在使用できません。\n後ほどもう一度お試しください。
+Unable to start the daily challenge, please try again later.
+Warning
+This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
+Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
 ########################################
 #### Ending
 ########################################
@@ -2515,3 +2530,5 @@ VIP
 #### Others
 ########################################
 体験版はこれで終了です。\nプレイしていただきありがとうございました！
+Insufficient space to save data. Continue without saving?
+There was an error initializing save data. The game will continue with save games disabled.

@@ -16,6 +16,8 @@
 重置
 已禁用
 已启用
+确定
+Retry
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -158,6 +160,7 @@
 普通
 低
 过扫描
+Resize the display area to fit your screen.
 音频
 音效音量
 设置音效音量。
@@ -192,10 +195,15 @@
 使用右操作杆进行移动。
 R摇杆
 使用R摇杆进行移动。
+右摇杆
+使用右摇杆进行移动。
 震動
 设置控制器震動模式。
 HD振动
 设置手柄HD振动模式。
+振动
+设置控制器振动模式。
+震动
 <SYS_ACCEPT/>更改按键
 <SYS_ACCEPT/>更改按钮
 <SYS_ACCEPT/>更改按钮
@@ -233,6 +241,9 @@ HD振动
 同步码：
 正在申请代码
 正在同步
+There was an error synchronizing progress with linked storage.
+There was an error fetching linked storage code.
+There was an error linking progress storage.
 #### Gameplay
 ########################################
 宠物风格
@@ -2337,6 +2348,10 @@ x2.00
 网络错误。
 即将开始%d
 此排行榜当前不可用，请稍后再来。
+Unable to start the daily challenge, please try again later.
+Warning
+This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
+Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
 ########################################
 #### Ending
 ########################################
@@ -2515,3 +2530,5 @@ Minor
 #### Others
 ########################################
 体验版已完结。\n感谢游玩！
+Insufficient space to save data. Continue without saving?
+There was an error initializing save data. The game will continue with save games disabled.

@@ -16,6 +16,8 @@
 Сброс
 Выкл.
 Вкл.
+ОК
+Retry
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -158,6 +160,7 @@
 Нормальные
 Низкие
 развернуть
+Resize the display area to fit your screen.
 ЗВУК
 Громкость звуковых эффектов
 Задай громкость звуковых эффектов.
@@ -192,10 +195,15 @@
 Для перемещения переключай правый джойстик.
 Правый мини-джойстик
 Для перемещения переключай правый мини-джойстик.
+Правый мини- джойстик
+Для перемещения переключай правый мини- джойстик.
 Вибрация
 Задай режим вибрации контроллер.
 Вибрация
 Задай режим вибрации контроллера.
+Вибрация
+Задай режим вибрации геймпад.
+Вибрация
 <SYS_ACCEPT/> Сменить клавишу
 <SYS_ACCEPT/> Сменить кнопку
 <SYS_ACCEPT/> Сменить кнопку
@@ -233,6 +241,9 @@
 Код синхронизации:
 Запрос кода
 Синхронизация
+There was an error synchronizing progress with linked storage.
+There was an error fetching linked storage code.
+There was an error linking progress storage.
 #### Gameplay
 ########################################
 Стиль питомца
@@ -2337,6 +2348,10 @@ x2,00
 Возникла сетевая ошибка
 Начало через %d
 Этот список лидеров пока что недоступен. Возвращайся позже.
+Unable to start the daily challenge, please try again later.
+Warning
+This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
+Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
 ########################################
 #### Ending
 ########################################
@@ -2515,3 +2530,5 @@ Minor
 #### Others
 ########################################
 Демо-версия окончена.\nСпасибо за игру!
+Insufficient space to save data. Continue without saving?
+There was an error initializing save data. The game will continue with save games disabled.

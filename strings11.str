@@ -16,6 +16,8 @@
 초기화
 끔
 켬
+확인
+Retry
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -158,6 +160,7 @@ HUD 및 텍스트
 보통
 낮음
 오버 스캔
+Resize the display area to fit your screen.
 오디오
 효과음 볼륨
 효과음 크기를 설정합니다.
@@ -192,10 +195,15 @@ HUD 및 텍스트
 오른쪽 스틱으로 이동 여부를 설정합니다.
 R 스틱
 오른쪽 스틱으로 이동 여부를 설정합니다.
+오른쪽 스틱
+오른쪽 스틱으로 이동 여부를 설정합니다.
 진동
 컨트롤러 진동 모드를 설정합니다.
 HD 진동
 컨트롤러 HD 진동 모드를 설정합니다.
+진동
+컨트롤러 진동 모드를 설정합니다.
+진동
 <SYS_ACCEPT/> 키 변경
 <SYS_ACCEPT/> 버튼 변경
 <SYS_ACCEPT/> 버튼 변경
@@ -233,6 +241,9 @@ HD 진동
 동기화 코드:
 코드 요청
 동기화 중
+There was an error synchronizing progress with linked storage.
+There was an error fetching linked storage code.
+There was an error linking progress storage.
 #### Gameplay
 ########################################
 펫 스타일
@@ -2337,6 +2348,10 @@ Spelunky 2 플레이 중에 발견한 버그나 제안 사항을 설명해주세
 네트워크 오류가 발생했습니다.
 %d 후 시작
 지금은 순위표를 사용할 수 없습니다. 나중에 다시 오세요.
+Unable to start the daily challenge, please try again later.
+Warning
+This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
+Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
 ########################################
 #### Ending
 ########################################
@@ -2515,3 +2530,5 @@ Minor
 #### Others
 ########################################
 데모가 끝났습니다.\n즐겨주셔서 감사합니다!
+Insufficient space to save data. Continue without saving?
+There was an error initializing save data. The game will continue with save games disabled.

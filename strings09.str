@@ -17,7 +17,7 @@
 已禁用
 已启用
 确定
-Retry
+重试
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -160,7 +160,7 @@ Retry
 普通
 低
 过扫描
-Resize the display area to fit your screen.
+调整显示区域的大小以适应你的屏幕。
 音频
 音效音量
 设置音效音量。
@@ -241,9 +241,9 @@ HD振动
 同步码：
 正在申请代码
 正在同步
-There was an error synchronizing progress with linked storage.
-There was an error fetching linked storage code.
-There was an error linking progress storage.
+与链接存储同步进度时出现错误。 
+获取链接存储代码时出现错误。 
+链接进度存储时出现错误。 
 #### Gameplay
 ########################################
 宠物风格
@@ -412,7 +412,7 @@ There was an error linking progress storage.
 比赛
 格斗
 疯狂
-自定义<SYS_ACCEPT_SECONDARY/>
+自定义<LOG_ACCEPT/>
 收藏
 休闲：包含轻松闯关道具的规则设定。
 比赛：快节奏、无道具的规则设定。
@@ -543,7 +543,7 @@ x2.00
 很高
 道具
 选择哪些道具会在宝箱中出现，哪些是开始就拥有的配置。
-<SYS_ACCEPT_SECONDARY/>
+<LOG_ACCEPT/>
 <SYS_START/>下一项
 关闭
 全部
@@ -2338,9 +2338,11 @@ x2.00
 ########################################
 #### Online
 ########################################
+<SYS_ACCEPT/> 举报
 举报
 出现不恰当的内容或冒犯行为。
 <SYS_ACCEPT/> 显示玩家卡片
+显示玩家卡片
 反馈
 说说玩《洞穴探险2》时遇到的错误或建议
 确保运行完整性和真实性的数据将公开，若有删除需求请与privacy@blitworks.com联系。
@@ -2348,10 +2350,10 @@ x2.00
 网络错误。
 即将开始%d
 此排行榜当前不可用，请稍后再来。
-Unable to start the daily challenge, please try again later.
-Warning
-This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
-Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
+无法启动每日挑战，请稍后再试。 
+警告
+此大厅支持交叉游戏。\n来自其他平台的玩家可以加入或已经在大厅里。\n还要继续吗？
+你想让这个大厅启用交叉游戏功能吗？\n警告：这将允许其他平台的玩家加入这个大厅。
 ########################################
 #### Ending
 ########################################
@@ -2480,6 +2482,7 @@ Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow pla
 万里挑一
 亲子关系
 获得所有其他奖杯。
+获得其他所有成就。
 解锁入口。
 在非种子跑局中通过1-4。
 在非种子跑局中通过奥尔梅克圣地。
@@ -2530,5 +2533,5 @@ Minor
 #### Others
 ########################################
 体验版已完结。\n感谢游玩！
-Insufficient space to save data. Continue without saving?
-There was an error initializing save data. The game will continue with save games disabled.
+没有足够的空间来保存数据。不保存就继续？
+初始化保存数据时出错。游戏将在禁用保存游戏的情况下继续进行。

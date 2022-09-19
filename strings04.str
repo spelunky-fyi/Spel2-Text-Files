@@ -17,7 +17,7 @@ Resetear
 Desactivado
 Activado
 Aceptar
-Retry
+Reintentar
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -160,7 +160,7 @@ Alto
 Normal
 Bajo
 Overscan
-Resize the display area to fit your screen.
+Cambia el tamaño del área de visualización para que se ajuste a las dimensiones de tu pantalla.
 SONIDO
 Volumen de los efectos
 Ajusta el volumen de los efectos de sonido.
@@ -241,9 +241,9 @@ Descarga, fusiona y envía tu progreso.
 Código de sincronización:
 Pidiendo código
 Sincronizando
-There was an error synchronizing progress with linked storage.
-There was an error fetching linked storage code.
-There was an error linking progress storage.
+Se produjo un error al sincronizar el progreso con el almacenamiento enlazado.
+Ha ocurrido un error al obtener el código de almacenamiento vinculado.
+Se produjo un error vinculando el almacenamiento.
 #### Gameplay
 ########################################
 Tipo de mascota
@@ -412,7 +412,7 @@ Sencillo
 Torneo
 Justa
 Frenético
-Personalizado <SYS_ACCEPT_SECONDARY/>
+Personalizado <LOG_ACCEPT/>
 Preferido
 Sencillo: un conjunto de reglas sencillo con objetos.
 Torneo: trepidante, sin objetos.
@@ -543,7 +543,7 @@ Alta
 Muy alta
 Objetos
 Escoge qué objetos estarán disponibles en las cajas y con cuáles empezarás la partida.
-<SYS_ACCEPT_SECONDARY/>
+<LOG_ACCEPT/>
 <SYS_START/> Siguiente
 Des.
 TODO
@@ -2338,9 +2338,11 @@ Mejor tiempo: %ls
 ########################################
 #### Online
 ########################################
+<SYS_ACCEPT/> Denunciar
 Denunciar
 Describe contenidos inapropiados o conductas ofensivas.
 <SYS_ACCEPT/> Ver tarjeta de jugador
+Ver tarjeta de jugador
 Comentarios
 Describe los errores que encuentres al jugar a Spelunky 2 o cualquier sugerencia.
 Para garantizar la integridad y autenticidad de la partida, se van a publicar datos. Si deseas solicitar su supresión, ponte en contacto con privacy@blitworks.com.
@@ -2348,10 +2350,10 @@ La partida a la que te han invitado tiene activado Cross-Play. ¿Seguro que quie
 Se ha producido un error de red.
 Comenzamos en %d
 Esta clasificación no está disponible en estos momentos. Vuelve más tarde.
-Unable to start the daily challenge, please try again later.
-Warning
-This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
-Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
+No se ha podido iniciar el desafío diario. Vuelve a intentarlo más tarde.
+Atención
+Esta sala está habilitada para Cross-Play.\nLos jugadores de otras plataformas pueden unirse o ya estar en la sala.\n¿Quieres continuar?
+¿Quieres activar el Cross-Play en esta sala?\nAviso: esto permitirá que jugadores de otras plataformas se unan.
 ########################################
 #### Ending
 ########################################
@@ -2480,6 +2482,7 @@ Una segunda oportunidad
 El elegido
 Paternidad
 Consigue los demás trofeos.
+Consigue los demás logros.
 Desbloquea la entrada.
 Supera el nivel 1-4 en una partida sin semilla.
 Supera la Guarida de Olmec en una partida sin semilla.
@@ -2500,7 +2503,7 @@ Completa el diario.
 Desbloquea el primer atajo.
 Desbloquea los tres atajos.
 Termina la carrera del tutorial en menos de 30 segundos.
-Gana una partida a muerte al mejor de cinco contra tres bots usando el conjunto de reglas predefinido.
+Gana una partida a muerte al mejor de 5 contra 3 bots con el conjunto de reglas predefinido.
 Llévale dos pavos a Yang en una partida sin semilla.
 Cómpralo todo en la Tienda de Mascotas de Yang en una partida sin semilla.
 Entra en el Palacio del Placer de Madame Tusk con invitación (en una partida sin semilla).
@@ -2530,5 +2533,5 @@ Minor
 #### Others
 ########################################
 The demo has ended.\nThanks for playing!
-Insufficient space to save data. Continue without saving?
-There was an error initializing save data. The game will continue with save games disabled.
+Espacio insuficiente para guardar datos. ¿Continuar sin guardar?
+Hubo un error al inicializar los datos guardados. El juego continuará con la función de guardar partidas deshabilitada.

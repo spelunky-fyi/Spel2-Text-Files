@@ -17,7 +17,7 @@ Zurücksetzen
 Deaktiviert
 Aktiviert
 OK
-Retry
+Nochmal versuchen
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -160,7 +160,7 @@ Hoch
 Normal
 Wenig
 Overscan
-Resize the display area to fit your screen.
+Verändere die Größe der Anzeige, um sie deinem Bildschirm anzupassen.
 AUDIO
 SFX-Lautstärke
 Lege die Lautstärke der Soundeffekte fest.
@@ -241,9 +241,9 @@ Lade deine Fortschritte herunter, führe sie zusammen und lade sie hoch.
 Synchronisierungs-Code:
 Code wird beantragt
 Wird synchronisiert
-There was an error synchronizing progress with linked storage.There was an error synchronizing progress with linked storage.
-There was an error fetching linked storage code.
-There was an error linking progress storage.
+Bei der Synchronisierung des Fortschritts mit dem verknüpften Speicher ist ein Fehler aufgetreten.
+Beim Abrufen des verknüpften Speichercodes ist ein Fehler aufgetreten.
+Bei der Verknüpfung des Fortschrittsspeichers ist ein Fehler aufgetreten.
 #### Gameplay
 ########################################
 Haustier-Stil
@@ -412,7 +412,7 @@ Zwanglos
 Turnier
 Tjost
 Rasend
-Benutzerdefiniert <SYS_ACCEPT_SECONDARY/>
+Benutzerdefiniert <LOG_ACCEPT/>
 Favorit
 Zwanglos: Ein lockerer Regelsatz mit Gegenständen.
 Turnier: Temporeiche Regeln ohne Gegenstände.
@@ -543,7 +543,7 @@ Hoch
 Sehr hoch
 Gegenstände
 Lege fest, welche Gegenstände in Kisten verfügbar sind und welche du am Anfang hältst.
-<SYS_ACCEPT_SECONDARY/>
+<LOG_ACCEPT/>
 <SYS_START/> Weiter
 Aus
 ALLE
@@ -2338,9 +2338,11 @@ Schnellste Zeit: %ls
 ########################################
 #### Online
 ########################################
+<SYS_ACCEPT/> Melden
 Melden
 Beschreibe den unangemessenen Inhalt oder das beleidigende Verhalten.
 <SYS_ACCEPT/> Spielerkarte anzeigen
+Spielerkarte anzeigen
 Feedback
 Beschreibe den Fehler, der beim Spielen von Spelunky 2 aufgetreten ist, oder mache einen Vorschlag.
 Daten zur Sicherstellung der Integrität und Authentizität des Laufs werden öffentlich gemacht, kontaktiere privacy@blitworks.com für Löschungsanfragen.
@@ -2348,10 +2350,10 @@ Bei dem Spiel, zu dem du eingeladen wurdest, ist Crossplay aktiviert. Fortfahren
 Ein Netzwerkfehler ist aufgetreten.
 Startet in %d
 Die Bestenliste ist derzeit nicht aktiviert, bitte schaue später noch einmal vorbei.
-Unable to start the daily challenge, please try again later.
-Warning
-This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
-Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
+Die tägliche Herausforderung kann nicht gestartet werden. Versuche es später noch einmal.
+Warnung
+In dieser Lobby ist Crossplay aktiviert.\nSpieler von anderen Plattformen können der Lobby beitreten oder sind bereits in der Lobby.\nMöchtest du fortfahren?
+Möchtest du Crossplay für diese Lobby aktivieren?\nWarnung: Das wird Spielern von anderen Plattformen erlauben, dieser Lobby beizutreten. 
 ########################################
 #### Ending
 ########################################
@@ -2480,26 +2482,27 @@ Eine zweite Chance
 Auserwählter
 Elternschaft
 Erwirb alle anderen Trophäen.
+Erlange alle anderen Errungenschaften.
 Schalte den Eingang frei.
 Schaffe es über 1-4 hinaus in einem Nicht-Setzplatz-Durchgang.
 Schaffe es über Olmeks Höhle hinaus in einem Nicht-Setzplatz-Durchgang.
 Erreiche die Eishöhlen in einem Nicht-Setzplatz-Durchgang.
 Schließe das Spiel in einem Nicht-Setzplatz-Durchgang ab.
-Schließe das Spiel in einem Nicht-Setzplatz-Einzelspieler-Durchgang ab, ohne Abkürzungen zu verwenden.
-Schließe das Spiel ohne Abkürzungen in 10 Minuten oder weniger in einem Nicht-Setzplatz-Einzelspieler-Durchgang ab.
-Schließe das Spiel in einem Nicht-Setzplatz-Einzelspieler-Durchgang ab, ohne Abkürzungen zu verwenden oder einen Schatz einzusammeln.
-Erreiche die Versunkene Stadt in einem Nicht-Setzplatz-Einzelspieler-Durchgang.
+Beende das Spiel in einem Nicht-Setzplatz-Einzelspieler-Durchgang, ohne Abkürzungen zu verwenden.
+Beende das Spiel ohne Abkürzungen in max. 10 Min. in einem Nicht-Setzplatz-Einzelspieler-Durchgang.
+Spiel in einem Nicht-Setzplatz-Einzelspieler-Durchgang ohne Abkürzung oder Schatz abgeschlossen.
+Beende das Spiel im Nicht-Setzplatz-Einzelspieler-Durchgang, ohne Abkürzungen und ohne Schatz.
 Schließe das Spiel ab, indem du in einem Nicht-Setzplatz-Einzelspieler-Durchgang Hundun besiegst.
 Erreiche den Kosmischen Ozean in einem Nicht-Setzplatz-Einzelspieler-Durchgang.
 Schließe die Mondherausforderung in einem Nicht-Setzplatz-Durchgang ab.
 Schließe die Sternherausforderung in einem Nicht-Setzplatz-Durchgang ab.
 Schließe die Sonnenherausforderung in einem Nicht-Setzplatz-Durchgang ab.
-Beende einen Durchgang mit 1.000.000 $ in einem Nicht-Setzplatz-Einzelspieler-Durchgang.
-Schließe 50 % des Tagebuchs oder mehr ab.
+Beende einen Durchgang mit 1.000.000 $ in einem Nicht-Setzplatz-Einzelspieler-Durchgang.
+Schließe 50 % des Tagebuchs oder mehr ab.
 Schließe das Tagebuch ab.
 Schalte die erste Abkürzung frei.
 Schalte alle drei Abkürzungen frei.
-Beende den Tutorial-Tempodurchgang in weniger als 30 Sekunden.
+Beende den Tutorial-Tempodurchgang in weniger als 30 Sekunden.
 Gewinne einen Fünf-gewinnt-Todeskampf gegen drei Bots mit dem Standard-Regelsatz.
 Bringe zwei Truthähne zu Yang in einem Nicht-Setzplatz-Durchgang.
 Kaufe Yangs Zooladen in einem Nicht-Setzplatz-Durchgang leer.
@@ -2530,5 +2533,5 @@ Minor
 #### Others
 ########################################
 The demo has ended.\nThanks for playing!
-Insufficient space to save data. Continue without saving?
-There was an error initializing save data. The game will continue with save games disabled.
+Nicht genügend Speicherplatz vorhanden. Ohne Speichern fortfahren?
+Bei der Initialisierung der Speicherdaten ist ein Fehler aufgetreten. Das Spiel geht weiter, während die Speicherfunktion deaktiviert ist.

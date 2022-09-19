@@ -412,7 +412,7 @@ Casual
 Tournament
 Joust
 Frantic
-Custom <SYS_ACCEPT_SECONDARY/>
+Custom <LOG_ACCEPT/>
 Favorite
 Casual: An easy-going ruleset with items.
 Tournament: Fast-paced, itemless rules.
@@ -543,7 +543,7 @@ High
 Very High
 Items
 Choose which items are available in crates and which you start holding.
-<SYS_ACCEPT_SECONDARY/>
+<LOG_ACCEPT/>
 <SYS_START/> Next
 Off
 ALL
@@ -2338,9 +2338,11 @@ Fastest Time: %ls
 ########################################
 #### Online
 ########################################
+<SYS_ACCEPT/> Report
 Report
 Describe the inappropiate content or offensive behaviour.
 <SYS_ACCEPT/> Show Gamercard
+Show Gamercard
 Feedback
 Describe the bug or suggestion you have encountered while playing Spelunky 2
 Data to ensure integrity and authenticity of the run will be made public, contact privacy@blitworks.com for removal requests.
@@ -2480,6 +2482,7 @@ A Second Chance
 Chosen One
 Parenthood
 Obtain all other trophies.
+Obtain all other achievements.
 Unlock the entrance.
 Make it past 1-4 in a non-seeded run.
 Make it past Olmec's Lair in a non-seeded run.
@@ -2487,7 +2490,7 @@ Reach the Ice Caves in a non-seeded run.
 Complete the game in a non-seeded run.
 Complete the game without using shortcuts in a non-seeded, single-player run.
 Complete the game in 10 minutes or less without shortcuts in a non-seeded, single-player run.
-Complete the game without collecting any treasure and without using shortcuts in a non-seeded, single-player run.
+Beat the game without collecting any treasure avoiding shortcuts in a non-seeded single-player run.
 Reach the Sunken City in a non-seeded, single-player run.
 Complete the game by defeating Hundun in a non-seeded, single-player run.
 Reach the Cosmic Ocean in a non-seeded, single-player run.

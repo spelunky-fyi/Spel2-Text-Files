@@ -17,7 +17,7 @@ Reiniciar
 Desativado
 Ativado
 OK
-Retry
+Tentar novamente
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -160,7 +160,7 @@ Alto
 Normal
 Baixo
 Overscan
-Resize the display area to fit your screen.
+Redimensione a área de visualização para caber na tela.
 ÁUDIO
 Volume - SFX
 Defina o volume dos efeitos sonoros.
@@ -241,9 +241,9 @@ Faça o download, upload ou inclua o seu progresso.
 Código de sincronização:
 Solicitando código
 Sincronizando
-There was an error synchronizing progress with linked storage.
-There was an error fetching linked storage code.
-There was an error linking progress storage.
+Ocorreu um erro ao sincronizar o andamento com o armazenamento vinculado.
+Ocorreu um erro ao obter um código do armazenamento vinculado.
+Ocorreu um erro ao vincular o armazenamento.
 #### Gameplay
 ########################################
 Estilo do Animal de Estimação
@@ -412,7 +412,7 @@ Casual
 Torneio
 Duelo
 Frenético
-Personalizado <SYS_ACCEPT_SECONDARY/>
+Personalizado <LOG_ACCEPT/>
 Favorito
 Casual: Um conjunto de regras simples com itens.
 Torneio: Regras dinâmicas e sem itens.
@@ -543,7 +543,7 @@ Alto
 Muito Alto
 Itens
 Escolha quais itens estarão disponíveis em caixas e quais você terá no início.
-<SYS_ACCEPT_SECONDARY/>
+<LOG_ACCEPT/>
 <SYS_START/> Próximo
 Des.
 TUDO
@@ -2338,9 +2338,11 @@ Tempo mais rápido: %ls
 ########################################
 #### Online
 ########################################
+<SYS_ACCEPT/> Reportar
 Reportar
 Descreva o conteúdo inapropriado ou comportamento ofensivo.
 <SYS_ACCEPT/> Ver cartão de jogador
+Ver cartão de jogador
 Feedback
 Descreva o bug ou sugestão que você encontrou enquanto jogava Spelunky 2
 Dados que garantem a integridade e a autenticidade da partida serão públicos, entre em contato com privacy@blitworks.com para solicitações de remoção.
@@ -2348,10 +2350,10 @@ Você recebeu um convite para um jogo que possui Cross-Play habilitado, tem cert
 Ocorreu um erro de rede
 Começando em %d
 Este placar de líderes não está disponível no momento, tente novamente mais tarde.
-Unable to start the daily challenge, please try again later.
-Warning
-This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
-Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
+Incapaz de iniciar o desafio diário. Por favor, tente novamente mais tarde.
+Atenção
+Esta sala é compatível com Cross-Play.\nJogadores de outras plataformas podem entrar ou já estão na sala.\nDeseja continuar?
+Você deseja habilitar o Cross-Play nesta sala?\nAtenção: Isso permitirá que jogadores de outras plataformas entrem.
 ########################################
 #### Ending
 ########################################
@@ -2480,23 +2482,24 @@ Uma Segunda Chance
 O Escolhido
 Paternidade
 Obtenha todos os outros troféus.
-Desbloqueie a entrada
+Obtenha todas as outras conquistas.
+Desbloqueie a entrada.
 Passe de 1-4 em uma partida sem semente.
 Passe pela Toca de Olmec em uma partida sem semente.
 Alcance as Cavernas de Gelo em uma partida sem semente.
 Conclua o jogo numa partida sem semente.
 Conclua o jogo sem usar atalhos em uma partida sem semente e de único jogador.
-Conclua o jogo em 10 minutos ou menos sem usar atalhos em uma partida sem semente e de único jogador.
-Conclua o jogo sem coletar nenhum tesouro e sem usar atalhos em uma partida sem semente e de único jogador.
+Conclua o jogo em 10 minutos ou menos sem usar atalhos em uma partida sem semente e de um jogador.
+Conclua o jogo sem coletar tesouros e sem usar atalhos em uma partida sem semente de um jogador.
 Chegue à Cidade Submersa em uma partida sem semente e de único jogador.
 Conclua o jogo derrotando Hundun em uma partida sem semente e de único jogador.
 Chegue ao Oceano Cósmico em uma partida sem semente e de único jogador.
 Conclua o Desafio da Lua em uma partida sem semente.
 Conclua o Desafio da Estrela em uma partida sem semente.
 Conclua o Desafio do Sol nem uma partida sem semente.
-Termine uma partida com $1.000.000 ou mais em uma partida sem semente e de único jogador.
-Conclua 50% ou mais do Diário.
-Conclua o Diário.
+Termine uma partida com $1.000.000 ou mais sem semente e de único jogador.
+Complete 50% ou mais do Diário.
+Complete o Diário.
 Desbloqueie o primeiro atalho.
 Desbloqueie todos os três atalhos.
 Termine o Speedrun do Tutorial em menos de 30 segundos.
@@ -2530,5 +2533,5 @@ Minor
 #### Others
 ########################################
 The demo has ended.\nThanks for playing!
-Insufficient space to save data. Continue without saving?
-There was an error initializing save data. The game will continue with save games disabled.
+Não há espaço suficiente para salvar o jogo. Você quer continuar sem salvar?
+Ocorreu um erro ao inicializar os dados salvos. O jogo continuará com os jogos salvos desativados.

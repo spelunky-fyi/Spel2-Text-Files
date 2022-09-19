@@ -17,7 +17,7 @@ Réinitialiser
 Désactivé
 Activé
 OK
-Retry
+Réessayer
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -160,7 +160,7 @@ Haut
 Normal
 Bas
 Surbalayage
-Resize the display area to fit your screen.
+Redimensionner l'affichage à la taille de votre écran.
 AUDIO
 Volume des effets
 Définit le volume des effets sonores.
@@ -241,9 +241,9 @@ Téléchargez, fusionnez et envoyez votre progression.
 Code de synchronisation :
 Demande de code
 Synchronisation
-There was an error synchronizing progress with linked storage.
-There was an error fetching linked storage code.
-There was an error linking progress storage.
+Une erreur s'est produite pendant la synchronisation du progrès avec le dispositif de stockage.
+Une erreur s'est produite pendant la récupération du code du dispositif de stockage.
+Une erreur s'est produite pendant le lien avec le stockage de progrès.
 #### Gameplay
 ########################################
 Type d'animal
@@ -412,7 +412,7 @@ Normal
 Tournoi
 Joute
 Frénésie
-Personnalisé <SYS_ACCEPT_SECONDARY/>
+Personnalisé <LOG_ACCEPT/>
 Préféré
 Normal : un ensemble de règles souples avec des objets.
 Tournoi : un ensemble de règles frénétiques sans objets.
@@ -543,7 +543,7 @@ Haut
 Très élevé
 Objets
 Définit quels objets se trouvent dans les caisses et ceux avec lesquels vous pouvez débuter la partie.
-<SYS_ACCEPT_SECONDARY/>
+<LOG_ACCEPT/>
 <SYS_START/> Suivant
 Dés.
 TOUT
@@ -2338,9 +2338,11 @@ Meilleur temps : %ls
 ########################################
 #### Online
 ########################################
+<SYS_ACCEPT/> Signaler
 Signaler
 Décrire le contenu inapproprié ou le comportement déplacé.
 <SYS_ACCEPT/> Afficher la carte du joueur
+Afficher la carte du joueur
 Remarque
 Décrire le bug ou la suggestion vis-à-vis de Spelunky 2 ?
 Les données permettant de garantir l'intégrité et l'authenticité de la partie seront rendues publiques, contactez privacy@blitworks.com pour les demandes de retrait.
@@ -2348,10 +2350,10 @@ Vous avez été invité(e) à une partie avec option Cross-Play. Voulez-vous vra
 Une erreur réseau est survenue
 Début dans %d
 Ce classement n'est pas disponible actuellement, veuillez revenir plus tard.
-Unable to start the daily challenge, please try again later.
-Warning
-This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
-Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
+Impossible de commencer le défi quotidien, veuillez réessayer plus tard.
+Attention
+Ce salon permet le Cross-Play.\nDes personnes jouant sur les autres plateformes peuvent le rejoindre ou déjà s'y trouver.\nVoulez-vous continuer?
+Voulez-vous autoriser le Cross-Play dans ce salon?\nAttention: cela permettra à des personnes jouant sur d'autres plateformes de le rejoindre.
 ########################################
 #### Ending
 ########################################
@@ -2480,27 +2482,28 @@ Deuxième chance
 L'Élu
 Parentalité
 Obtenez tous les autres trophées.
+Obtenez tous les autres succès.
 Déverrouillez l'entrée.
 Franchissez le niveau 1-4 lors d'une partie sans graine.
 Franchissez l'antre d'Olmec lors d'une partie sans graine.
 Franchissez les cavernes de glace lors d'une partie sans graine.
 Terminez le jeu lors d'une partie sans graine.
 Terminez le jeu sans passer par les raccourcis, lors d'une partie sans graine et en solo.
-Terminez le jeu en 10 minutes ou moins, sans passer par les raccourcis, lors d'une partie sans graine et en solo.
-Terminez le jeu sans ramasser aucun trésor et sans passer par les raccourcis, lors d'une descente sans graine et en solo.
+Terminez le jeu en 10 minutes ou moins, sans raccourci, lors d'une partie sans graine et en solo.
+Terminez le jeu sans ramasser de trésor, sans raccourcis, lors d'une descente sans graine, en solo.
 Atteignez la Cité engloutie, lors d'une partie sans graine et en solo.
 Terminez le jeu en vainquant Hundun, lors d'une partie sans graine et en solo.
 Atteignez l'Océan cosmique, lors d'une partie sans graine et en solo.
 Réussissez le défi lunaire lors d'une partie sans graine.
 Réussissez le défi stellaire lors d'une partie sans graine.
 Réussissez le défi solaire lors d'une partie sans graine.
-Terminez une descente avec 1 000 000 $ ou plus, lors d'une partie sans graine et en solo.
-Remplissez au moins 50 % du journal.
+Terminez une descente avec 1 000 000 $ ou plus, lors d'une partie sans graine et en solo.
+Remplissez au moins 50 % du journal.
 Remplissez la totalité du journal.
 Déverrouillez le premier raccourci.
 Déverrouillez les trois raccourcis.
-Terminez la course du didacticiel en moins de 30 secondes.
-Gagnez un match à mort en 5 victoires contre trois bots, avec l'ensemble de règles par défaut.
+Terminez la course du didacticiel en moins de 30 secondes.
+Gagnez un match à mort en 5 victoires contre trois bots, avec l'ensemble de règles par défaut.
 Apportez deux dindes à Yang lors d'une partie sans graine.
 Achetez tout ce que vend Yang dans son animalerie lors d'une partie sans graine.
 Entrez comme invité dans le Palais des plaisirs de Madame Tusk (lors d'une partie sans graine).
@@ -2530,5 +2533,5 @@ Minor
 #### Others
 ########################################
 The demo has ended.\nThanks for playing!
-Insufficient space to save data. Continue without saving?
-There was an error initializing save data. The game will continue with save games disabled.
+Pas assez d'espace suffisant pour sauvegarder les données. Continuer sans sauvegarder?
+Une erreur s'est produite pendant l'initialisation de la sauvegarde des données. Le jeu va continuer, mais les sauvegardes seront désactivées.

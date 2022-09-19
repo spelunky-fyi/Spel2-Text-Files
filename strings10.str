@@ -17,7 +17,7 @@
 已停用
 已啟用
 確定
-Retry
+重試
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -160,7 +160,7 @@ HUD和文字
 正常
 低
 過掃描
-Resize the display area to fit your screen.
+調整顯示區域的大小以適合你的螢幕。
 音訊
 音效音量
 設定音效的音量。
@@ -241,9 +241,9 @@ HD震動
 同步代碼：
 要求代碼
 同步中
-There was an error synchronizing progress with linked storage.
-There was an error fetching linked storage code.
-There was an error linking progress storage.
+與連結的儲存同步進度時發生錯誤。 
+擷取連結的儲存代碼時發生錯誤。
+連結進度儲存時發生錯誤。 
 #### Gameplay
 ########################################
 寵物風格
@@ -412,7 +412,7 @@ HUD大小
 比賽
 騎劍
 瘋狂
-自訂<SYS_ACCEPT_SECONDARY/>
+自訂<LOG_ACCEPT/>
 我的最愛
 休閒：使用道具的輕鬆遊戲規則集。
 比賽：快節奏，無道具規則。
@@ -543,7 +543,7 @@ x2.00
 非常頻繁
 道具
 選擇寶箱中存放的道具以及你開始時擁有的道具。
-<SYS_ACCEPT_SECONDARY/>
+<LOG_ACCEPT/>
 <SYS_START/>下一個
 關
 全部
@@ -2338,9 +2338,11 @@ BOSS房間
 ########################################
 #### Online
 ########################################
+<SYS_ACCEPT/> 報告
 報告
 說明不恰當的內容或攻擊性行為。
 <SYS_ACCEPT/> 顯示玩家卡
+顯示玩家卡
 意見回饋
 說明您在玩《洞穴探索2》時遇到的錯誤或提出您的寶貴建議
 用於保證遊戲完整性和真實性的資料將會對外公開，若需刪除，請聯絡privacy@blitworks.com。
@@ -2348,10 +2350,10 @@ BOSS房間
 發生網路錯誤
 開始倒計時：%d
 此排行榜目前不可用，請稍後再來。
-Unable to start the daily challenge, please try again later.
-Warning
-This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
-Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
+無法開始每日挑戰，請稍後再試一次。 
+警告
+該大廳已啟用跨平台遊戲。\n來自其他平台的玩家可能會加入或已進入大廳。\n你想繼續嗎？
+你要啟用此大廳的跨平台遊戲嗎？\n警告：這將會允許來自其他平台的玩家加入此大廳。
 ########################################
 #### Ending
 ########################################
@@ -2480,6 +2482,7 @@ Zorgoth
 天選之人
 養兒育女
 獲得其他所有獎盃。
+獲得其他所有成就。
 解鎖入口。
 以非種子跑方式通過1-4關。
 以非種子跑方式通過奧爾梅克之穴。
@@ -2530,5 +2533,5 @@ Minor
 #### Others
 ########################################
 演示已結束。\n謝謝賞玩！
-Insufficient space to save data. Continue without saving?
-There was an error initializing save data. The game will continue with save games disabled.
+沒有足夠的空間可以存檔。是否在不存檔的情況下繼續？
+初始化存檔時出錯。遊戲將在停用存檔的情況下繼續。

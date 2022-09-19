@@ -17,7 +17,7 @@
 無効
 有効
 OK
-Retry
+リトライ
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -160,7 +160,7 @@ OFF
 通常
 低
 オーバースキャン
-Resize the display area to fit your screen.
+画面に合わせて\n表示サイズを変更
 サウンド設定
 効果音 音量
 効果音の音量を設定
@@ -241,9 +241,9 @@ HD振動
 同期コード
 コードをリクエスト中
 同期中
-There was an error synchronizing progress with linked storage.
-There was an error fetching linked storage code.
-There was an error linking progress storage.
+連携しているストレージとの進捗同期に\nエラーが発生しました。
+連携しているストレージのコード取得に\nエラーが発生しました。
+進捗の同期先となるストレージとの連携に\nエラーが発生しました。
 #### Gameplay
 ########################################
 ペットスタイル
@@ -412,7 +412,7 @@ OFF
 トーナメント
 決闘
 ハチャメチャ
-カスタム <SYS_ACCEPT_SECONDARY/>
+カスタム <LOG_ACCEPT/>
 お気に入り
 カジュアル：アイテムありのスタンダードなルールセット
 トーナメント：アイテムなしのスピード感あるルールセット
@@ -543,7 +543,7 @@ ON
 とても多い
 アイテム
 木箱から出てくるアイテムと、\nスタート時に持っているアイテムを選択
-<SYS_ACCEPT_SECONDARY/>
+<LOG_ACCEPT/>
 <SYS_START/> 次
 OFF
 すべて
@@ -2338,9 +2338,11 @@ LISE、ゾルダス星についてデータをボクに見せてくれないか�
 ########################################
 #### Online
 ########################################
+<SYS_ACCEPT/> 報告する
 報告する
 不適切な内容や言動について、\nご記入ください。
 <SYS_ACCEPT/> ゲーマーカードを表示
+ゲーマーカードを表示
 フィードバック
 『Spelunky 2』のプレイ中に見つけた\n不具合や、ゲームに関するご提案が\nありましたらご記入ください。
 不正がないことを示し、信ぴょう性を\n保証するためのデータが公開されます。\n削除の要請はこちらにご連絡ください：\nprivacy@blitworks.com
@@ -2348,10 +2350,10 @@ LISE、ゾルダス星についてデータをボクに見せてくれないか�
 ネットワークエラーが発生しました
 %d後に開始
 ランキングは現在使用できません。\n後ほどもう一度お試しください。
-Unable to start the daily challenge, please try again later.
-Warning
-This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
-Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
+デイリーチャレンジを開始できません。\n後ほどもう一度お試しください。
+注意
+このロビーではクロスプレイが有効に\nなっています。他のプラットフォームの\nプレイヤーがロビーにいる/参加する\n可能性があります。このまま続行しますか？
+このロビーでのクロスプレイを\n有効にしますか？\n注意：他のプラットフォームのプレイヤーが\nロビーに参加できるようになります。
 ########################################
 #### Ending
 ########################################
@@ -2480,6 +2482,7 @@ VIP
 選ばれし者
 親子の関係
 すべてのトロフィーを獲得する。
+他のすべての実績を獲得する。
 洞窟への入り口を開ける。
 シードなしで1-4をクリアする。
 シードなしでオルメカの祭壇をクリアする。
@@ -2530,5 +2533,5 @@ VIP
 #### Others
 ########################################
 体験版はこれで終了です。\nプレイしていただきありがとうございました！
-Insufficient space to save data. Continue without saving?
-There was an error initializing save data. The game will continue with save games disabled.
+データをセーブするのに十分な空きが\nありません。セーブせずに続けますか？
+セーブデータの初期化にエラーが\n発生しました。セーブ機能が無効のまま\nゲームを続行します。

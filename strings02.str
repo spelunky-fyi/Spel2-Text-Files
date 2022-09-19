@@ -17,7 +17,7 @@ Resetta
 Attivo
 Disattivo
 OK
-Retry
+Riprova
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -160,7 +160,7 @@ Alto
 Normale
 Basso
 Overscan
-Resize the display area to fit your screen.
+Modifica l'area di visualizzazione per adattarla al tuo schermo.
 AUDIO
 Volume effetti
 Imposta il volume degli effetti audio.
@@ -241,9 +241,9 @@ Scarica, incorpora e carica i tuoi progressi.
 Sincronizza codice:
 Richiedendo codice
 Sincronizzazione in corso
-There was an error synchronizing progress with linked storage.
-There was an error fetching linked storage code.
-There was an error linking progress storage.
+Si è verificato un errore nella sincronizzazione dei progressi con l'unità di immagazzinamento selezionata.
+Si è verificato un errore ottenendo il codice dell'unità di immagazzinamento selezionata.
+Si è verificato un errore vincolando l'unità di immagazzinamento.
 #### Gameplay
 ########################################
 Tipo di mascotte
@@ -412,7 +412,7 @@ Casuale
 Torneo
 Giostra
 Frenetico
-Personalizzato <SYS_ACCEPT_SECONDARY/>
+Personalizzato <LOG_ACCEPT/>
 Preferito
 Casuale: un semplice set di regole con oggetti.
 Torneo: frenetico e senza oggetti.
@@ -543,7 +543,7 @@ Alta
 Molto alta
 Oggetti
 Scegli quali oggetti saranno disponibili nelle casse e quelli che avrai con te all'inizio.
-<SYS_ACCEPT_SECONDARY/>
+<LOG_ACCEPT/>
 <SYS_START/> Avanti
 No
 TUTTI
@@ -821,7 +821,7 @@ Una delle famose guardie corazzate di Kingu. I suoi artigli possono squarciare f
 GRAN NAPOLEONE
 Pattuglia incessantemente le acque salmastre del Gran Lago, in attesa che l'imperatrice torni per sfamarlo.
 KINGU
-Fedele compagno e protettore di Tiamat. Una volta, la sua corazza ha resistito all'impatto di una cometa.
+Fedele compagna e protettrice di Tiamat. Una volta, la sua corazza ha resistito all'impatto di una cometa.
 UFO
 Nella società aliena, pilotare dischi volanti è considerato un lavoro umile.
 ALIENO
@@ -1775,7 +1775,7 @@ La tua voce echeggia qui dentro...
 Senti il suono dei tamburi...
 Ti do il benvenuto al mercato nero!
 Il tuo sangue inizia a gelare...
-Senti dei suoi metallici...
+Senti dei suoni metallici...
 Qui c'è un'aria di oppressione...
 Senti una grande emozione esplodere dentro di te!
 Qui c'è odore di pelo bagnato!
@@ -2338,9 +2338,11 @@ Miglior tempo: %ls
 ########################################
 #### Online
 ########################################
+<SYS_ACCEPT/> Segnala
 Segnala
 Descrivi i contenuti inappropriati o il comportamento offensivo.
 <SYS_ACCEPT/> Mostra scheda giocatore
+Mostra scheda giocatore
 Feedback
 Descrivi i tuoi suggerimenti o il bug che hai riscontrato mentre giocavi a Spelunky 2.
 I dati per garantire l'integrità e l'autenticità della partita saranno resi pubblici. Per eventuali richieste di rimozione, contattare privacy@blitworks.com.
@@ -2348,10 +2350,10 @@ La partita per cui hai ricevuto un invito è abilitata al Cross-play. Confermi d
 Si è verificato un errore di rete.
 Avvio tra %d
 Al momento, la classifica non è disponibile. Riprova più tardi.
-Unable to start the daily challenge, please try again later.
-Warning
-This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
-Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
+Impossibile iniziare la sfida giornaliera, ritenta più tardi.
+Attenzione
+Questa sala ha il Cross-Play attivo.\nGiocatori di altre piattaforme possono unirsi o essere già nella lobby.\nContinuare?
+Vuoi attivare il Cross-Play in questa lobby?\nAttenzione: Ciò permetterà ai giocatori di altre piattaforme di unirsi a questa lobby.
 ########################################
 #### Ending
 ########################################
@@ -2480,16 +2482,17 @@ Una seconda occasione
 Il prescelto
 Genitorialità
 Ottieni tutti gli altri trofei.
+Ottieni tutti gli obbiettivi.
 Sblocca l'entrata.
 Supera 1-4 in una discesa senza seme.
-Supera l'Antro di Olmec in una discesa senza seme.
+Supera il covo di Olmec in una discesa senza seme.
 Raggiungi le Grotte Ghiacciate in una discesa senza seme.
 Completa il gioco in una discesa senza seme.
 Completa il gioco senza usare scorciatoie in una discesa senza seme in giocatore singolo.
-Completa il gioco in 10 minuti o meno senza usare scorciatoie in una discesa senza seme in giocatore singolo.
-Completa il gioco senza raccogliere nessun tesoro e senza usare nessuna scorciatoia in una partita giocatore singolo senza seme.
-Raggiungi la Città Sprofondata in una discesa senza seme in giocatore singolo.
-Completa il gioco sconfiggendo Hundun in una discesa senza seme in giocatore singolo.
+Completa il gioco senza scorciatoie entro 10 minuti in una discesa senza seme in singolo.
+Completa il gioco senza tesori né scorciatoie in una partita senza seme in singolo.
+Raggiungi la Cittá Affondata in una partita giocatore singolo senza seme.
+Completa il gioco battendo Hundun in una partita giocatore singolo senza seme.
 Raggiungi l'Oceano Cosmico in una discesa senza seme in giocatore singolo.
 Supera la Sfida Lunare in una discesa senza seme.
 Supera la Sfida Stellare in una discesa senza seme.
@@ -2530,5 +2533,5 @@ Minor
 #### Others
 ########################################
 The demo has ended.\nThanks for playing!
-Insufficient space to save data. Continue without saving?
-There was an error initializing save data. The game will continue with save games disabled.
+Spazio insufficiente per il salvataggio. Continuare senza salvare?
+Si è verificato un errore nell'inizializzazione dei dati di partita. Il gioco continuerá con le partite salvate disattive.

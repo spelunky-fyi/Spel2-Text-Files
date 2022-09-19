@@ -17,7 +17,7 @@ Reiniciar
 Desactivat
 Activat
 Acceptar
-Retry
+Reintentar
 ########################################
 ## INTRO POEM                         ##
 ##   Three lines chosen randomly...   ##
@@ -160,7 +160,7 @@ Alt
 Normal
 Baix
 Overscan
-Resize the display area to fit your screen.
+Canvia la mida de l'àrea de visualització per adaptar-la a la teva pantalla.
 ÀUDIO
 Volum dels efectes
 Ajusta el volum dels efectes de so.
@@ -241,9 +241,9 @@ Descarrega, fusiona i envia el teu progrés.
 Codi de sincronització:
 Demanant codi
 Sincronitzant
-There was an error synchronizing progress with linked storage.
-There was an error fetching linked storage code.
-There was an error linking progress storage.
+S'ha produït un error en sincronitzar el progrés amb l'emmagatzematge enllaçat.
+S'ha produït un error en obtenir un codi d'emmagatzematge enllaçat.
+S'ha produït un error vinculant l'emmagatzematge.
 #### Gameplay
 ########################################
 Tipus de mascota
@@ -412,7 +412,7 @@ Informal
 Torneig
 Justa
 Frenètic
-Personalitzat <SYS_ACCEPT_SECONDARY/>
+Personalitzat <LOG_ACCEPT/>
 Favorit
 Informal: Un conjunt de normes senzill amb objectes.
 Torneig: Ràpid, normes sense objectes.
@@ -543,7 +543,7 @@ Alta
 Molt alt
 Objectes
 Tria quins objectes hi ha disponibles a les caixes i amb quins comences a l'abast.
-<SYS_ACCEPT_SECONDARY/>
+<LOG_ACCEPT/>
 <SYS_START/> Següent
 Des.
 TOT
@@ -2338,9 +2338,11 @@ Millor temps: %ls
 ########################################
 #### Online
 ########################################
+<SYS_ACCEPT/> Denúncia
 Denúncia
 Descriu el contingut inapropiat o el comportament ofensiu.
 <SYS_ACCEPT/> Mostra targeta de jugador
+Mostra targeta de jugador
 Comentaris
 Descriu el problema o el suggeriment que voldries fer sobre Spelunky 2.
 Les dades per garantir la integritat i l'autenticitat de la partida seran públiques, escriu a privacy@blitworks.com per demanar-ne l'eliminació.
@@ -2348,10 +2350,10 @@ T'han convidat a una partida amb el Cross-Play activat, segur que vols continuar
 S'ha produït un error de xarxa.
 Comença en %d
 Aquest tauler de classificació no està disponible en aquests moments, torna més endavant.
-Unable to start the daily challenge, please try again later.
-Warning
-This lobby is Cross-Play enabled.\nPlayers from other platforms may join or already be in the lobby.\nDo you want to continue?
-Do you want to make this lobby Cross-Play enabled?\nWarning: This will allow players from other platforms to join this lobby.
+No s'ha pogut iniciar el repte diari, torna-ho a provar més tard.
+Atenció
+Aquest vestíbul està activat per Cross-Play.\nEls jugadors d'altres plataformes poden unir-se o ja estar al vestíbul.\nVols continuar?
+Vols activar el Coss-Play per aquest vestíbul?\nAvís: això permetrà que jugadors d'altres plataformes s'hi uneixin. 
 ########################################
 #### Ending
 ########################################
@@ -2480,21 +2482,22 @@ Una segona oportunitat
 L'elegit
 Paternitat
 Aconsegueix tota la resta de trofeus.
+Aconsegueix tota la resta de recompenses.
 Desbloqueja l'entrada.
 Supera el nivell 1-4 en una partida sense llavor.
 Supera el Cau d'Olmec en una partida sense llavor.
 Arriba a les Coves de Gel en una partida sense llavor.
 Completa el joc en una partida sense llavor.
-Completa el joc sense fer servir dreceres en una partida d'un sol jugador sense llavor.
-Completa el joc en 10 minuts o menys sense dreceres en una partida d'un sol jugador sense llavor.
-Completa el joc sense recollir tresors i sense dreceres en una partida d'un sol jugador sense llavor.
-Arriba a la Ciutat Enfonsada en una partida d'un sol jugador sense llavor.
-Completa el joc derrotant Hundun en una partida d'un sol jugador sense llavor.
-Arriba a l'Oceà Còsmic en una partida d'un sol jugador sense llavor.
+Completa el joc sense fer servir dreceres en una partida d'un jugador sense llavor.
+Completa el joc en 10 minuts o menys sense dreceres en una partida d'un jugador sense llavor.
+Completa el joc sense recollir tresors i sense dreceres en partida d'un jugador sense llavor.
+Arriba a la Ciutat Enfonsada en una partida d'un jugador sense llavor.
+Completa el joc derrotant Hundun en una partida d'un jugador sense llavor.
+Arriba a l'Oceà Còsmic en una partida d'un jugador sense llavor.
 Completa el Repte de la Lluna en una partida sense llavor.
 Completa el Repte dels Estels en una partida sense llavor.
 Completa el Repte del Sol en una partida sense llavor.
-Completa la carrera amb 1.000.000 $ o més en una partida d'un sol jugador sense llavor.
+Completa la carrera amb 1.000.000 $ o més en una partida d'un jugador sense llavor.
 Completa el 50% del diari o més.
 Completa el diari.
 Desbloqueja la primera drecera.
@@ -2505,7 +2508,7 @@ Porta-li dos galls dindi al Yang en una partida sense llavor.
 Compra-ho tot a la botiga d'animals de Yang en una partida sense llavor.
 Entra al Palau del plaer de Madame Tusk com a convidat (en una partida sense llavor).
 Arriba al Mercat Negre en una partida sense llavor.
-Arriba a la Ciutat d'Or en una partida d'un sol jugador sense llavor.
+Arriba a la Ciutat d'Or en una partida d'un jugador sense llavor.
 Aconsegueix el Kapala en una partida sense llavor.
 Aconsegueix alguna corona reial en una partida sense llavor.
 Aconsegueix l'Ankh en una partida sense llavor.
@@ -2530,5 +2533,5 @@ Minor
 #### Others
 ########################################
 The demo has ended.\nThanks for playing!
-Insufficient space to save data. Continue without saving?
-There was an error initializing save data. The game will continue with save games disabled.
+No hi ha prou espai per guardar la partida. Continuar sense guardar?
+Hi ha hagut un error en inicialitzar les dades guardades. El joc continuarà sense guardar la partida.
